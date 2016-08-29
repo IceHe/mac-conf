@@ -5,58 +5,58 @@
         <!--<appendix>todo</appendix>-->
         <identifier vk_config="true">icehe.layout_for_fn</identifier>
 
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_1, ConsumerKeyCode::BRIGHTNESS_DOWN</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_2, ConsumerKeyCode::BRIGHTNESS_UP</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::MISSION_CONTROL</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_4, KeyCode::LAUNCHPAD</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_5, ConsumerKeyCode::KEYBOARDLIGHT_LOW</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_6, ConsumerKeyCode::KEYBOARDLIGHT_HIGH</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_7, ConsumerKeyCode::MUSIC_PREV</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_8, ConsumerKeyCode::MUSIC_PLAY</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_9, ConsumerKeyCode::MUSIC_NEXT</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_0, ConsumerKeyCode::VOLUME_MUTE</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::MINUS, ConsumerKeyCode::VOLUME_DOWN</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::EQUAL, ConsumerKeyCode::VOLUME_UP</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_3, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_4, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_5, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_6, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_7, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_8, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_9, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_0, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::EQUAL, ModifierFlag::FN, KeyCode::</autogen>-->
 
-        <!--<autogen>__KeyToKey__ KeyCode::Q, KeyCode::VK_OPEN_URL_APP_Firefox</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::W, KeyCode::VK_OPEN_URL_APP_iTerm</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::E, KeyCode::VK_OPEN_URL_APP_Evernote</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::R, KeyCode::VK_OPEN_URL_APP_Wunderlist</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::T, KeyCode::VK_OPEN_URL_APP_EuDic_Free</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::Y, KeyCode::VK_OPEN_URL_APP_Typora</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::W, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::E, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::R, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::T, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::Y, ModifierFlag::FN, KeyCode::</autogen>-->
 
-        <!--<autogen>__KeyToKey__ KeyCode::U, KeyCode::DELETE</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::I, KeyCode::RETURN</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::U, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::I, ModifierFlag::FN, KeyCode::</autogen>-->
 
-        <!--<autogen>__KeyToKey__ KeyCode::O, KeyCode::MINUS</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::P, KeyCode::EQUAL</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::O, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::P, ModifierFlag::FN, KeyCode::</autogen>-->
 
-        <!--<autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::FN, KeyCode::</autogen>-->
 
-        <!--<autogen>__KeyToKey__ KeyCode::A, KeyCode::KEY_1</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::S, KeyCode::KEY_2</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::D, KeyCode::KEY_3</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::A, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::S, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::D, ModifierFlag::FN, KeyCode::</autogen>-->
         <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::FN, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
-        <!--<autogen>__KeyToKey__ KeyCode::G, KeyCode::KEY_5</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::H, KeyCode::KEY_6</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::J, KeyCode::KEY_7</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::K, KeyCode::KEY_8</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::L, KeyCode::KEY_9</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEY_0</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::BACKQUOTE</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::G, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::H, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::J, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::K, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::L, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::FN, KeyCode::</autogen>-->
 
-        <!--<autogen>__KeyToKey__ KeyCode::Z, KeyCode::Z, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::X, KeyCode::VK_OPEN_URL_APP_Postman</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::C, KeyCode::VK_OPEN_URL_APP_Charles</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::V, KeyCode::V, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::B, KeyCode::VK_OPEN_URL_APP_Sublime_Text</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::X, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::C, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::V, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::B, ModifierFlag::FN, KeyCode::</autogen>-->
 
-        <!--<autogen>__KeyToKey__ KeyCode::N, KeyCode::</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::M, KeyCode::</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::DOT, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::BACKSLASH</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::N, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::M, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::FN, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::SLASH, ModifierFlag::FN, KeyCode::</autogen>-->
     </item>
 </root>
