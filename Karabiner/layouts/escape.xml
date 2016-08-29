@@ -7,7 +7,7 @@
 
         <autogen>__KeyToKey__ KeyCode::KEY_1, KeyCode::VK_OPEN_URL_WEB_Amazon</autogen>
         <!--<autogen>__KeyToKey__ KeyCode::KEY_2, KeyCode::F2</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::F3</autogen>-->
+        <autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::VK_OPEN_URL_WEB_Sina_ERP</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_4, KeyCode::VK_OPEN_URL_WEB_local_4000</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_5, KeyCode::VK_OPEN_URL_WEB_Tmall</autogen>
         <!--<autogen>__KeyToKey__ KeyCode::KEY_6, KeyCode::F6</autogen>-->
