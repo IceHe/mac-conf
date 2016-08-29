@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<!-- App Files -->
+<root>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Acrobat_Reader</name>
+        <url type="file">/Applications/Adobe Acrobat Reader DC.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Activity_Monitor</name>
+        <url type="file">/Applications/Utilities/Activity Monitor.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_App_Store</name>
+        <url type="file">/Applications/App Store.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Atom</name>
+        <url type="file">/Applications/Atom.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Calculator</name>
+        <url type="file">/Applications/Calculator.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Calendar</name>
+        <url type="file">/Applications/Calendar.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Charles</name>
+        <url type="file">/Applications/Charles.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Chrome</name>
+        <url type="file">/Applications/Google Chrome.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_CLion</name>
+        <url type="file">/Applications/CLion.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Dash</name>
+        <url type="file">/Applications/Dash.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Dictionary</name>
+        <url type="file">/Applications/Dictionary.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Disk_Utility</name>
+        <url type="file">/Applications/Utilities/Disk Utility.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_EuDic_Free</name>
+        <url type="file">/Applications/Eudb_en_free.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Evernote</name>
+        <url type="file">/Applications/Evernote.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Finder</name>
+        <url type="file">/System/Library/CoreServices/Finder.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Firefox</name>
+        <url type="file">/Applications/Firefox.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Flux</name>
+        <url type="file">/Users/IceHe/Applications/Flux.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Font_Book</name>
+        <url type="file">/Applications/Font Book.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_IntelliJ_IDEA_15</name>
+        <url type="file">/Applications/IntelliJ IDEA 15.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_iTerm</name>
+        <url type="file">/Applications/iTerm.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_iTunes</name>
+        <url type="file">/Applications/iTunes.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Karabiner</name>
+        <url type="file">/Applications/Karabiner.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Keychian_Access</name>
+        <url type="file">/Applications/Utilities/Keychain Access.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Key_Codes</name>
+        <url type="file">/Applications/Key Codes.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Language_Switcher</name>
+        <url type="file">/Applications/Language Switcher.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_MacID</name>
+        <url type="file">/Applications/MacID.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Mail</name>
+        <url type="file">/Applications/Mail.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Manico</name>
+        <url type="file">/Applications/Manico.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Microsoft_Excel</name>
+        <url type="file">/Applications/Microsoft Excel.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Microsoft_Word</name>
+        <url type="file">/Applications/Microsoft Word.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Microsoft_PowerPoint</name>
+        <url type="file">/Applications/Microsoft PowerPoint.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_NeteaseMusic</name>
+        <url type="file">/Applications/NeteaseMusic.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Noizio</name>
+        <url type="file">/Applications/Noizio.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Numi</name>
+        <url type="file">/Users/IceHe/Applications/Numi.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_OpenEmu</name>
+        <url type="file">/Applications/OpenEmu.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Parallels_Desktop</name>
+        <url type="file">/Applications/Parallels Desktop.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Photos</name>
+        <url type="file">/Applications/Photos.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_PhpStorm</name>
+        <url type="file">/Applications/PhpStorm.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Postman</name>
+        <url type="file">/Users/IceHe/Applications/Chrome Apps.localized/Default fhbjgbiflinjbdggehcddcbncdddomop.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_PyCharm</name>
+        <url type="file">/Applications/PyCharm.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_QQ</name>
+        <url type="file">/Applications/QQ.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_QQMusic</name>
+        <url type="file">/Applications/QQMusic.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Qt_Creater</name>
+        <url type="file">/Users/IceHe/Qt5.7.0/Qt Creator.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Safari</name>
+        <url type="file">/Applications/Safari.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Script_Editor</name>
+        <url type="file">/Applications/Utilities/Script Editor.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Seil</name>
+        <url type="file">/Applications/Seil.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Sequel_Pro</name>
+        <url type="file">/Applications/Sequel Pro.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_ShadowsocksX</name>
+        <url type="file">/Applications/ShadowsocksX.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Sublime_Text</name>
+        <url type="file">/Applications/Sublime Text.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_System_Information</name>
+        <url type="file">/Applications/Utilities/System Information.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_System_Preferences</name>
+        <url type="file">/Applications/System Preferences.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Thunder</name>
+        <url type="file">/Applications/Thunder.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Time_Machine</name>
+        <url type="file">/Applications/Time Machine.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Transmit</name>
+        <url type="file">/Applications/Transmit.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Typora</name>
+        <url type="file">/Applications/Typora.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Visual_Studio_Code</name>
+        <url type="file">/Applications/Visual Studio Code.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_WeChat</name>
+        <url type="file">/Applications/WeChat.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Wunderlist</name>
+        <url type="file">/Applications/Wunderlist.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Daily_Task</name>
+        <url type="file">/Applications/Daily_Task</url>
+    </vkopenurldef>
+
+</root>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Layout for Control Option_L Shortcuts</name>
+        <!--<appendix>todo</appendix>-->
+        <identifier vk_config="true">icehe.layout_for_ctrl_option_left</identifier>
+
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::KEY_1, ModifierFlag::CONTROL_L, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_2, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_System_Information</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_3, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Disk_Utility</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_4, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Font_Book</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_5, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Transmit</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::KEY_6, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::KEY_7, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_8, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Key_Codes</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::KEY_9, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::KEY_0, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::MINUS, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::EQUAL, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::Q, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::W, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::E, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::R, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::T, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+
+        <autogen>__KeyDownUpToKey__ KeyCode::Y, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Visual_Studio_Code</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::U, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_QQMusic</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::I, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_iTunes</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::O, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_ShadowsocksX</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::P, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_App_Store</autogen>
+
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, , KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, , KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::BACKSLASH, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, , KeyCode::VK_OPEN_URL_APP_</autogen>-->
+
+        <autogen>__KeyDownUpToKey__ KeyCode::A, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Activity_Monitor</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::S, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Safari</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::D, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_MacID</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::F, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Flux</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::G, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_OpenEmu</autogen>
+
+        <autogen>__KeyDownUpToKey__ KeyCode::H, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Time_Machine</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::J, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_IntelliJ_IDEA_15</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::K, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Calculator</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::L, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_CLion</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::SEMICOLON, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Parallels_Desktop</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::QUOTE, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::Z, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::X, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::C, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::V, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, </autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::B, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+
+        <autogen>__KeyDownUpToKey__ KeyCode::N, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Noizio</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::M, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Sequel_Pro</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::COMMA, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::DOT, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::SLASH, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+    </item>
+</root>

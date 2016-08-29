@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- Generic URLs -->
+<root>
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Admin_MAPI</name>
+        <url>http://admin.weibo.cn/operation/page/list</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Admin_TopWeibo</name>
+        <url>http://admin.top.weibo.cn/?act=setting.versions</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Amazon</name>
+        <url>https://amazon.cn</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Baidu</name>
+        <url>https://baidu.com</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_GitHub_IceHe</name>
+        <url>https://github.com/IceHe</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_GitLab_zhiyuan16</name>
+        <url>https://gitlab.weibo.cn/u/zhiyuan16</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_JD</name>
+        <url>https://jd.com</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Google</name>
+        <url>https://google.com</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_icehe_me</name>
+        <url>http://icehe.me</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_local_4000</name>
+        <url>http://127.0.0.1:4000</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Taobao</name>
+        <url>https://taobao.com</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Tmall</name>
+        <url>https://tmall.com</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Weibo</name>
+        <url>http://weibo.com</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Zhihu</name>
+        <url>https://zhihu.com</url>
+    </vkopenurldef>
+
+</root>

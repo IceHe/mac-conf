@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Test -->
+<root>
+    <item>
+        <name>Custom</name>
+        <identifier>Custom</identifier>
+        <not>iTerm2</not>
+
+        <!--<autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::A, ModifierFlag::CONTROL_L, KeyCode::K, ModifierFlag::CONTROL_L</autogen>-->
+    </item>
+
+    <item>
+        <name>Test</name>
+        <identifier>test</identifier>
+
+        <!--<autogen>__KeyOverlaidModifier__ KeyCode::ESCAPE, KeyCode::W, KeyCode::VK_OPEN_URL_SHELL_date_pbcopy</autogen>-->
+
+        <!--<autogen>__KeyOverlaidModifier__ KeyCode::CONTROL_L, KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_icehe_layout_d, KeyCode::CONTROL_L</autogen>-->
+
+        <!--<autogen>__KeyToKey__ KeyCode::H, ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::CURSOR_DOWN</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::K, ModifierFlag::CONTROL_L, KeyCode::CURSOR_UP</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::L, ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT</autogen>-->
+    </item>
+</root>
