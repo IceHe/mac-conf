@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Layout for Option_L Shortcuts</name>
+        <!--<appendix>todo</appendix>-->
+        <identifier vk_config="true">icehe.layout_for_option_left</identifier>
+
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_1, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Script_Editor</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_2, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_System_Preferences</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_3, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Dash</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_4, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Daily_Task</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_5, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Transmit</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::KEY_6, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::KEY_7, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_8, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Keychian_Access</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::KEY_9, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Language_Switcher</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::KEY_0, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::MINUS, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::EQUAL, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+
+        <autogen>__KeyDownUpToKey__ KeyCode::Q, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_QQ</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::W, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_WeChat</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::E, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Mail</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::R, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Preview</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::T, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Thunder</autogen>
+
+        <autogen>__KeyDownUpToKey__ KeyCode::Y, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Typora</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::U, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_EuDic_Free</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::I, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Microsoft_Excel</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::O, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Microsoft_Word</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::P, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Microsoft_PowerPoint</autogen>
+
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::OPTION_L, , KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::OPTION_L, , KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::BACKSLASH, ModifierFlag::OPTION_L, , KeyCode::VK_OPEN_URL_APP_</autogen>-->
+
+        <autogen>__KeyDownUpToKey__ KeyCode::A, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_PyCharm</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::S, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_PhpStorm</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::D, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Dictionary</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::F, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Finder</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::G, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Acrobat_Reader</autogen>
+
+        <autogen>__KeyDownUpToKey__ KeyCode::H, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Photos</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::J, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <autogen>__KeyDownUpToKey__ KeyCode::K, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Karabiner</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::L, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Seil</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::SEMICOLON, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::QUOTE, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+
+        <autogen>__KeyDownUpToKey__ KeyCode::Z, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Chrome</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::X, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Postman</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::C, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Calendar</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::V, ModifierFlag::OPTION_L, </autogen>-->
+        <autogen>__KeyDownUpToKey__ KeyCode::B, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Sublime_Text</autogen>
+
+        <autogen>__KeyDownUpToKey__ KeyCode::N, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_NeteaseMusic</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::M, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Manico</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::COMMA, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Numi</autogen>
+        <autogen>__KeyDownUpToKey__ KeyCode::DOT, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Calendar</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::SLASH, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_</autogen>-->
+    </item>
+</root>

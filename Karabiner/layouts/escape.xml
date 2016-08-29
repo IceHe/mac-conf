@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Layout for Escape</name>
+        <!--<appendix>e.g.: abcdefghkl;op  →  !@#$%^&amp;*()_+</appendix>-->
+        <identifier vk_config="true">icehe.layout_for_escape</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::KEY_1, KeyCode::VK_OPEN_URL_WEB_Amazon</autogen>
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_2, KeyCode::F2</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::F3</autogen>-->
+        <autogen>__KeyToKey__ KeyCode::KEY_4, KeyCode::VK_OPEN_URL_WEB_local_4000</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_5, KeyCode::VK_OPEN_URL_WEB_Tmall</autogen>
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_6, KeyCode::F6</autogen>-->
+        <autogen>__KeyToKey__ KeyCode::KEY_7, KeyCode::VK_OPEN_URL_WEB_JD</autogen>
+        <!--<autogen>__KeyToKey__ KeyCode::KEY_8, KeyCode::F8</autogen>-->
+        <autogen>__KeyToKey__ KeyCode::KEY_9, KeyCode::VK_OPEN_URL_WEB_GitLab_zhiyuan16</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_0, KeyCode::VK_OPEN_URL_WEB_Admin_TopWeibo</autogen>
+        <!--<autogen>__KeyToKey__ KeyCode::MINUS, KeyCode::F11</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::F12</autogen>-->
+
+        <autogen>__KeyToKey__ KeyCode::Q, KeyCode::VK_OPEN_URL_WEB_Admin_MAPI</autogen>
+        <autogen>__KeyToKey__ KeyCode::W, KeyCode::VK_OPEN_URL_WEB_Weibo</autogen>
+        <autogen>__KeyToKey__ KeyCode::E, KeyCode::VK_OPEN_URL_WEB_Google</autogen>
+        <autogen>__KeyToKey__ KeyCode::R, KeyCode::VK_OPEN_URL_WEB_Baidu</autogen>
+        <autogen>__KeyToKey__ KeyCode::T, KeyCode::VK_OPEN_URL_WEB_Taobao</autogen>
+        <!--<autogen>__KeyToKey__ KeyCode::Y, KeyCode::A, ModifierFlag::CONTROL_L, KeyCode::K, ModifierFlag::CONTROL_L</autogen>-->
+
+        <autogen>__KeyToKey__ KeyCode::U, KeyCode::VK_OPEN_URL_WEB_GitHub_IceHe</autogen>
+        <autogen>__KeyToKey__ KeyCode::I, KeyCode::VK_OPEN_URL_WEB_icehe_me</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::O, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::P, KeyCode::EQUAL, ModifierFlag::SHIFT_L</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::A, KeyCode::KEY_1, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::S, KeyCode::KEY_2, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::D, KeyCode::KEY_3, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::F, KeyCode::KEY_4, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::G, KeyCode::KEY_5, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::H, KeyCode::KEY_6, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::J, KeyCode::KEY_7, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::K, KeyCode::KEY_8, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::L, KeyCode::KEY_9, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEY_0, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::Z, KeyCode::VK_OPEN_URL_WEB_Zhihu</autogen>
+        <!--<autogen>__KeyToKey__ KeyCode::X, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::C, KeyCode::</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::V, KeyCode::</autogen>-->
+        <autogen>__KeyToKey__ KeyCode::B, KeyCode::VK_OPEN_URL_WEB_Baidu</autogen>
+
+        <!--<autogen>__KeyToKey__ KeyCode::N, KeyCode::</autogen>-->
+        <autogen>__KeyToKey__ KeyCode::M, KeyCode::F1</autogen>
+        <autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::DOT, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
+    </item>
+</root>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Layout for Left Hand</name>
+        <!--<appendix>todo</appendix>-->
+        <identifier vk_config="true">icehe.layout_for_left_hand</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::DELETE</autogen>
+        <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::RETURN</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::1, KeyCode::0</autogen>
+        <autogen>__KeyToKey__ KeyCode::2, KeyCode::9</autogen>
+        <autogen>__KeyToKey__ KeyCode::3, KeyCode::8</autogen>
+        <autogen>__KeyToKey__ KeyCode::4, KeyCode::7</autogen>
+        <autogen>__KeyToKey__ KeyCode::5, KeyCode::6</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::A, KeyCode::SEMICOLON</autogen>
+        <autogen>__KeyToKey__ KeyCode::S, KeyCode::L</autogen>
+        <autogen>__KeyToKey__ KeyCode::D, KeyCode::K</autogen>
+        <autogen>__KeyToKey__ KeyCode::F, KeyCode::J</autogen>
+        <autogen>__KeyToKey__ KeyCode::G, KeyCode::H</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::Q, KeyCode::P</autogen>
+        <autogen>__KeyToKey__ KeyCode::W, KeyCode::O</autogen>
+        <autogen>__KeyToKey__ KeyCode::E, KeyCode::I</autogen>
+        <autogen>__KeyToKey__ KeyCode::R, KeyCode::U</autogen>
+        <autogen>__KeyToKey__ KeyCode::T, KeyCode::Y</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::Z, KeyCode::BACKSLASH</autogen>
+        <autogen>__KeyToKey__ KeyCode::X, KeyCode::DOT</autogen>
+        <autogen>__KeyToKey__ KeyCode::C, KeyCode::COMMA</autogen>
+        <autogen>__KeyToKey__ KeyCode::V, KeyCode::M</autogen>
+        <autogen>__KeyToKey__ KeyCode::B, KeyCode::N</autogen>
+    </item>
+</root>
+
