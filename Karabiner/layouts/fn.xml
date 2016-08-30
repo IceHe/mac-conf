@@ -38,7 +38,7 @@
         <!--<autogen>__KeyToKey__ KeyCode::A, ModifierFlag::FN, KeyCode::</autogen>-->
         <!--<autogen>__KeyToKey__ KeyCode::S, ModifierFlag::FN, KeyCode::</autogen>-->
         <!--<autogen>__KeyToKey__ KeyCode::D, ModifierFlag::FN, KeyCode::</autogen>-->
-        <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::FN, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
+        <!--<autogen>__KeyToKey__ KeyCode::F, ModifierFlag::FN, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>-->
         <!--<autogen>__KeyToKey__ KeyCode::G, ModifierFlag::FN, KeyCode::</autogen>-->
         <!--<autogen>__KeyToKey__ KeyCode::H, ModifierFlag::FN, KeyCode::</autogen>-->
         <!--<autogen>__KeyToKey__ KeyCode::J, ModifierFlag::FN, KeyCode::</autogen>-->
