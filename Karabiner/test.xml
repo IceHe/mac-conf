@@ -2,16 +2,13 @@
 <!-- Test -->
 <root>
     <item>
-        <name>Custom</name>
-        <identifier>Custom</identifier>
-        <not>iTerm2</not>
-
-        <!--<autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::A, ModifierFlag::CONTROL_L, KeyCode::K, ModifierFlag::CONTROL_L</autogen>-->
-    </item>
-
-    <item>
         <name>Test</name>
         <identifier>test</identifier>
+
+        <!--<autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::A, ModifierFlag::CONTROL_L, KeyCode::K, ModifierFlag::CONTROL_L</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::FN, KeyCode::OPTION_L</autogen>-->
+        <!--<autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::FN</autogen>-->
+        <!--<not>iTerm2</not>-->
 
         <!--<autogen>__KeyOverlaidModifier__ KeyCode::ESCAPE, KeyCode::W, KeyCode::VK_OPEN_URL_SHELL_date_pbcopy</autogen>-->
 
