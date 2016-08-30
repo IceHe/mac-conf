@@ -23,6 +23,7 @@
         <!-- Layouts -->
         <include path="layouts/escape.xml" />
         <include path="layouts/fn.xml" />
+        <include path="layouts/fn_x.xml" />
         <include path="layouts/space.xml" />
         <include path="layouts/left_hand.xml" />
         <!--<include path="layouts/option_left.xml" />-->
@@ -37,7 +38,8 @@
         <!-- Others -->
         <include path="app_defs.xml" />
 
-        <!-- Test -->
+        <!-- Custom -->
+        <include path="custom.xml" />
         <include path="test.xml" />
     </item>
 </root>

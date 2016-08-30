@@ -158,6 +158,11 @@
     </vkopenurldef>
 
     <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_MPlayerX</name>
+        <url type="file">/Applications/MPlayerX.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
         <name>KeyCode::VK_OPEN_URL_APP_NeteaseMusic</name>
         <url type="file">/Applications/NeteaseMusic.app</url>
     </vkopenurldef>
@@ -215,6 +220,11 @@
     <vkopenurldef>
         <name>KeyCode::VK_OPEN_URL_APP_Qt_Creater</name>
         <url type="file">/Users/IceHe/Qt5.7.0/Qt Creator.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_RubyMine</name>
+        <url type="file">/Applications/RubyMine.app</url>
     </vkopenurldef>
 
     <vkopenurldef>

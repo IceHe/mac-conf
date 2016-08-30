@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Custom -->
+<root>
+    <item>
+        <name>Custom</name>
+        <appendix>Ctrl_L → Switch Input Methods</appendix>
+        <appendix>Ctrl + u → Ctrl + a, Ctrl + k</appendix>
+        <identifier>custom</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::A, ModifierFlag::CONTROL_L, KeyCode::K, ModifierFlag::CONTROL_L</autogen>
+    </item>
+</root>
