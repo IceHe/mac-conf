@@ -2,12 +2,19 @@
 <!-- Custom -->
 <root>
     <item>
-        <name>Custom</name>
-        <appendix>Ctrl_L → Switch Input Methods</appendix>
-        <appendix>Ctrl + u → Ctrl + a, Ctrl + k</appendix>
-        <identifier>custom</identifier>
+        <name>Option_L</name>
+        <appendix>Option_L → Switch Input Methods</appendix>
+        <identifier>option_l</identifier>
 
         <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
+    </item>
+
+    <item>
+        <name>Ctrl + u</name>
+        <appendix>Ctrl + u → Ctrl + a, Ctrl + k</appendix>
+        <identifier>ctrl_u</identifier>
+        <not>iTerm2</not>
+
         <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::A, ModifierFlag::CONTROL_L, KeyCode::K, ModifierFlag::CONTROL_L</autogen>
     </item>
 </root>
