@@ -5,6 +5,7 @@
         <!--<appendix>e.g.: abcdefghkl;op  →  !@#$%^&amp;*()_+</appendix>-->
         <identifier vk_config="true">icehe.layout_for_escape</identifier>
 
+        <!--<autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::</autogen>-->
         <autogen>__KeyToKey__ KeyCode::KEY_1, KeyCode::VK_OPEN_URL_WEB_Amazon</autogen>
         <!--<autogen>__KeyToKey__ KeyCode::KEY_2, KeyCode::F2</autogen>-->
         <autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::VK_OPEN_URL_WEB_Sina_ERP</autogen>
