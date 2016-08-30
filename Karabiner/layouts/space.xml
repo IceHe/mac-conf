@@ -11,6 +11,7 @@
         <!-- Make it easier to switch input methods -->
         <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
 
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::BACKQUOTE, ModifierFlag::CONTROL_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_1, ConsumerKeyCode::BRIGHTNESS_DOWN</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_2, ConsumerKeyCode::BRIGHTNESS_UP</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::MISSION_CONTROL</autogen>
