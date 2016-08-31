@@ -166,6 +166,9 @@ vmap <leader>P "+P
 map <S-H> gT
 map <S-L> gt
 
+"Y 复制到行尾（不包括换行符）
+map <S-Y> v$hy
+
 "关闭标签页
 "map <c-w> :q<CR>
 "保存文件
