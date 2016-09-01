@@ -48,11 +48,11 @@
         <autogen>__KeyDownUpToKey__ KeyCode::SEMICOLON, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_Parallels_Desktop</autogen>
         <autogen>__KeyDownUpToKey__ KeyCode::QUOTE, ModifierFlag::FN, KeyCode::QUOTE, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
 
-        <autogen>__KeyDownUpToKey__ KeyCode::Z, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_Atom</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::Z, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_Atom</autogen>-->
         <autogen>__KeyDownUpToKey__ KeyCode::X, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_Postman</autogen>
         <autogen>__KeyDownUpToKey__ KeyCode::C, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_Chrome</autogen>
         <autogen>__KeyDownUpToKey__ KeyCode::V, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_RubyMine</autogen>
-        <!--<autogen>__KeyDownUpToKey__ KeyCode::B, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_Sublime_Text</autogen>-->
+        <autogen>__KeyDownUpToKey__ KeyCode::B, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_Atom</autogen>
 
         <autogen>__KeyDownUpToKey__ KeyCode::N, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_NeteaseMusic</autogen>
         <autogen>__KeyDownUpToKey__ KeyCode::M, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_Manico</autogen>
