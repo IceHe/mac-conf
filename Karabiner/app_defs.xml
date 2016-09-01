@@ -5,4 +5,29 @@
         <appname>iTerm2</appname>
         <equal>com.googlecode.iterm2</equal>
     </appdef>
+
+    <appdef>
+        <appname>CLion</appname>
+        <equal>com.jetbrains.CLion</equal>
+    </appdef>
+
+    <appdef>
+        <appname>IntelliJ IDEA</appname>
+        <equal>com.jetbrains.intellij</equal>
+    </appdef>
+
+    <appdef>
+        <appname>PhpStorm</appname>
+        <equal>com.jetbrains.PhpStorm</equal>
+    </appdef>
+
+    <appdef>
+        <appname>PyCharm</appname>
+        <equal>com.jetbrains.pycharm</equal>
+    </appdef>
+
+    <appdef>
+        <appname>RubyMine</appname>
+        <equal>com.jetbrains.rubymine</equal>
+    </appdef>
 </root>
