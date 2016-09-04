@@ -63,11 +63,13 @@ map <C-S> :w<CR>
 imap <C-G> <Esc><C-G>
 map <C-G> ZZ<CR>
 
+" Line Number
+"map :set nu<CR> " Set
+map <leader>n :set nu!<CR> " Toggle
+
 " Relative Line Number
-"set number
-"set rnu
-"set rnu! "取消方法
-"set nonu "无行号
+"set rnu " Set
+map <leader>r :set rnu!<CR> " Toggle
 
 " Mimic Emacs Line Editing in Insert Mode Only
 inoremap <C-A> <Home>
@@ -78,3 +80,5 @@ inoremap <C-U> <Esc>d0xi
 " Fix Redo
 "map <C-R> :redo<CR>
 map <C-W> :redo<CR> "Fuck! Why I can't use the default <C-R>!?
+
+
