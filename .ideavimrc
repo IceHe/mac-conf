@@ -1,7 +1,7 @@
-" 修改leader键为逗号
+" Change Leader Key
 let mapleader=","
 
-" 系统剪切
+" Copy to | Paste from System Clipboard
 nmap <leader>y "+y
 vmap <leader>y "+y
 nmap <leader>p "+p
@@ -12,18 +12,21 @@ vmap <leader>Y "+Y
 nmap <leader>P "+P
 vmap <leader>P "+P
 
-" 使用大写H和L切换标签页
+" Copy to EOL without the line break
+map <S-Y> v$hy
+
+" Switch Tab
 map <S-H> gT
 map <S-L> gt
 
-" Y 复制到行尾（不包括换行符）
-map <S-Y> v$hy
-
-" 关闭标签页
+" Close Tab
 "map <c-w> :q<CR>
 
-" 保存文件
+" Save
 map <c-s> :w<CR>
 
-" 显示寄存器
+" Redo
+map <c-r> :redo<CR>
+
+" Show Registers
 map <c-,> :reg<CR>
