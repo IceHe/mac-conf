@@ -21,11 +21,11 @@
         <include path="key_remaps.xml" />
 
         <!-- Layouts -->
-        <include path="layouts/escape.xml" />
-        <include path="layouts/fn.xml" />
-        <include path="layouts/fn_x.xml" />
         <include path="layouts/space.xml" />
-        <include path="layouts/left_hand.xml" />
+        <include path="layouts/escape.xml" />
+        <!--<include path="layouts/fn.xml" />-->
+        <!--<include path="layouts/fn_x.xml" />-->
+        <!--<include path="layouts/left_hand.xml" />-->
         <!--<include path="layouts/option_left.xml" />-->
         <!--<include path="layouts/option_right.xml" />-->
         <!--<include path="layouts/ctrl_opt_left.xml" />-->

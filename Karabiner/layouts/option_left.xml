@@ -35,7 +35,8 @@
         <!--<autogen>__KeyDownUpToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::OPTION_L, , KeyCode::VK_OPEN_URL_APP_</autogen>-->
         <!--<autogen>__KeyDownUpToKey__ KeyCode::BACKSLASH, ModifierFlag::OPTION_L, , KeyCode::VK_OPEN_URL_APP_</autogen>-->
 
-        <autogen>__KeyDownUpToKey__ KeyCode::A, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_PyCharm</autogen>
+        <!--<autogen>__KeyDownUpToKey__ KeyCode::A, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_PyCharm</autogen>-->
+        <autogen>__KeyDownUpToKey__ KeyCode::A, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Activity_Monitor</autogen>
         <autogen>__KeyDownUpToKey__ KeyCode::S, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_PhpStorm</autogen>
         <autogen>__KeyDownUpToKey__ KeyCode::D, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Dictionary</autogen>
         <autogen>__KeyDownUpToKey__ KeyCode::F, ModifierFlag::OPTION_L, KeyCode::VK_OPEN_URL_APP_Finder</autogen>
