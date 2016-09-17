@@ -2,14 +2,14 @@
 <!-- Custom -->
 <root>
     <item>
-        <name>Option_L</name>
-        <appendix>Option_L → Switch Input Methods</appendix>
-        <identifier>option_l</identifier>
+        <name>Option_R = Switch Input Methods</name>
+        <appendix></appendix>
+        <identifier>option_r</identifier>
 
         <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
     </item>
 
-    <item>
+    <!-- <item>
         <name>Ctrl + u</name>
         <appendix>Ctrl + u → Ctrl + a, Ctrl + k</appendix>
         <identifier>ctrl_u</identifier>
@@ -21,5 +21,32 @@
         <not>RubyMine</not>
 
         <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::A, ModifierFlag::CONTROL_L, KeyCode::K, ModifierFlag::CONTROL_L</autogen>
+    </item> -->
+
+    <item>
+        <name>Disable ⌫</name>
+        <appendix></appendix>
+        <identifier>disable_delete</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::DELETE, KeyCode::DELETE, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
     </item>
+
+    <item>
+        <name>Disable ↩</name>
+        <appendix></appendix>
+        <identifier>disable_return</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::RETURN, KeyCode::RETURN, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <!-- <item>
+        <name>Disable ←↓↑→</name>
+        <appendix></appendix>
+        <identifier>disable_direction_keys</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT, KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::CURSOR_DOWN, KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::CURSOR_UP, KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+    </item> -->
 </root>
