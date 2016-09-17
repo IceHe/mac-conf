@@ -7,11 +7,6 @@
     </vkopenurldef>
 
     <vkopenurldef>
-        <name>KeyCode::VK_OPEN_URL_WEB_Admin_TopWeibo</name>
-        <url>http://admin.top.weibo.cn/?act=setting.versions</url>
-    </vkopenurldef>
-
-    <vkopenurldef>
         <name>KeyCode::VK_OPEN_URL_WEB_Amazon</name>
         <url>https://amazon.cn</url>
     </vkopenurldef>
@@ -52,8 +47,23 @@
     </vkopenurldef>
 
     <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_QrCode</name>
+        <url>http://tool.oschina.net/qr</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
         <name>KeyCode::VK_OPEN_URL_WEB_Sina_ERP</name>
         <url>http://my.erp.sina.com.cn/welcome.php</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Sina_Open_Platform</name>
+        <url>http://wiki.intra.weibo.com/%E5%BE%AE%E5%8D%9AV4%E5%86%85%E9%83%A8%E6%8E%A5%E5%8F%A3WIKI</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_Sina_Redmine</name>
+        <url>http://redmine.admin.t.sina.cn/issues?utf8=%E2%9C%93&set_filter=1&f%5B%5D=status_id&op%5Bstatus_id%5D=o&f%5B%5D=assigned_to_id&op%5Bassigned_to_id%5D=%3D&v%5Bassigned_to_id%5D%5B%5D=me&f%5B%5D=updated_on&op%5Bupdated_on%5D=%3E%3D&v%5Bupdated_on%5D%5B%5D=2016-07-01&f%5B%5D=&c%5B%5D=project&c%5B%5D=tracker&c%5B%5D=status&c%5B%5D=priority&c%5B%5D=subject&c%5B%5D=author&c%5B%5D=assigned_to&c%5B%5D=updated_on&c%5B%5D=start_date&c%5B%5D=due_date&group_by=</url>
     </vkopenurldef>
 
     <vkopenurldef>
@@ -69,6 +79,11 @@
     <vkopenurldef>
         <name>KeyCode::VK_OPEN_URL_WEB_Weibo</name>
         <url>http://weibo.com</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_WEB_URL_Encoding</name>
+        <url>http://www.bejson.com/enc/urlencode/</url>
     </vkopenurldef>
 
     <vkopenurldef>
