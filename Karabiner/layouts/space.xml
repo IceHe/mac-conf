@@ -56,7 +56,7 @@
         <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEY_0</autogen>
         <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::BACKQUOTE</autogen>
 
-        <autogen>__KeyToKey__ KeyCode::Z, KeyCode::Z, <!--ModifierFlag::CONTROL_L |--> ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::Z, KeyCode::Z, <!--ModifierFlag::CONTROL_L |--> ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::X, KeyCode::X, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::C, KeyCode::C, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::V, KeyCode::V, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
