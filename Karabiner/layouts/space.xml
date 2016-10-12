@@ -2,16 +2,11 @@
 <root>
     <item>
         <name>Layout for Space</name>
-        <!--<appendix>Usual</appendix>-->
+        <appendix></appendix>
         <identifier vk_config="true">icehe.layout_for_space</identifier>
 
         <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::TAB, ModifierFlag::OPTION_L</autogen>
-        <!--<autogen>__KeyToKey__ KeyCode::TAB, KeyCode::DELETE</autogen>-->
-        <!--<autogen>__KeyToKey__ KeyCode::TAB, KeyCode::ESCAPE</autogen>-->
         <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::RETURN</autogen>
-
-        <!-- Make it easier to switch input methods -->
-        <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
 
         <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::BACKQUOTE, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_1, KeyCode::KEY_1, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
@@ -27,18 +22,20 @@
         <autogen>__KeyToKey__ KeyCode::MINUS, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::EQUAL, ModifierFlag::SHIFT_L</autogen>
 
-        <autogen>__KeyToKey__ KeyCode::Q, KeyCode::Q, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::W, KeyCode::W, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::E, KeyCode::E, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::R, KeyCode::R, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::T, KeyCode::T, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::Y, KeyCode::Y, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::DELETE, KeyCode::DELETE, ModifierFlag::COMMAND_L</autogen>
 
-        <autogen>__KeyToKey__ KeyCode::U, KeyCode::DELETE</autogen>
-        <autogen>__KeyToKey__ KeyCode::I, KeyCode::RETURN</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::Q, KeyCode::Q, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::W, KeyCode::W, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::E, KeyCode::E, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::R, KeyCode::R, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::T, KeyCode::T, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::Y, KeyCode::Y, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
 
-        <autogen>__KeyToKey__ KeyCode::O, KeyCode::O, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::P, KeyCode::P, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::U, KeyCode::DELETE</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::I, KeyCode::RETURN</autogen> -->
+
+        <!-- <autogen>__KeyToKey__ KeyCode::O, KeyCode::O, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::P, KeyCode::P, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
 
         <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L</autogen>
@@ -55,14 +52,15 @@
         <autogen>__KeyToKey__ KeyCode::L, KeyCode::KEY_9</autogen>
         <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEY_0</autogen>
         <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::BACKQUOTE</autogen>
+        <autogen>__KeyToKey__ KeyCode::RETURN, KeyCode::RETURN, ModifierFlag::COMMAND_L</autogen>
 
-        <autogen>__KeyToKey__ KeyCode::Z, KeyCode::Z, <!--ModifierFlag::CONTROL_L |--> ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::X, KeyCode::X, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::C, KeyCode::C, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::V, KeyCode::V, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::B, KeyCode::B, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::N, KeyCode::N, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::M, KeyCode::M, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::Z, KeyCode::Z, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::X, KeyCode::X, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::C, KeyCode::C, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::V, KeyCode::V, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::B, KeyCode::B, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::N, KeyCode::N, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::M, KeyCode::M, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
 
         <!--<autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen>-->
         <!--<autogen>__KeyToKey__ KeyCode::DOT, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>-->
