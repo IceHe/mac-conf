@@ -5,7 +5,7 @@
         <!--<appendix>e.g.: abcdefghkl;op  →  !@#$%^&amp;*()_+</appendix>-->
         <identifier vk_config="true">icehe.layout_for_escape</identifier>
 
-        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::VK_OPEN_URL_WEB_Admin_MAPI</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::VK_OPEN_URL_WEB_Admin_MAPI</autogen> -->
         <autogen>__KeyToKey__ KeyCode::KEY_1, ConsumerKeyCode::BRIGHTNESS_DOWN</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_2, ConsumerKeyCode::BRIGHTNESS_UP</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::MISSION_CONTROL</autogen>
@@ -19,23 +19,35 @@
         <autogen>__KeyToKey__ KeyCode::MINUS, ConsumerKeyCode::VOLUME_DOWN</autogen>
         <autogen>__KeyToKey__ KeyCode::EQUAL, ConsumerKeyCode::VOLUME_UP</autogen>
 
-        <autogen>__KeyToKey__ KeyCode::Q, KeyCode::VK_OPEN_URL_WEB_QrCode</autogen>
+        <autogen>__KeyToKey__ KeyCode::Q, KeyCode::VK_OPEN_URL_WEB_Qiniu</autogen>
         <autogen>__KeyToKey__ KeyCode::W, KeyCode::VK_OPEN_URL_WEB_Weibo</autogen>
         <autogen>__KeyToKey__ KeyCode::E, KeyCode::VK_OPEN_URL_WEB_Sina_ERP</autogen>
         <autogen>__KeyToKey__ KeyCode::R, KeyCode::VK_OPEN_URL_WEB_Sina_Redmine</autogen>
-        <autogen>__KeyToKey__ KeyCode::T, KeyCode::VK_OPEN_URL_WEB_GitHub_IceHe</autogen>
+        <autogen>__KeyToKey__ KeyCode::T, KeyCode::VK_OPEN_URL_WEB_Taobao</autogen>
 
-        <!-- <autogen>__KeyToKey__ KeyCode::Y, KeyCode::</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::Y, KeyCode::VK_OPEN_URL_WEB_GitLab_zhiyuan16</autogen> -->
         <autogen>__KeyToKey__ KeyCode::U, KeyCode::VK_OPEN_URL_WEB_URL_Encoding</autogen>
         <autogen>__KeyToKey__ KeyCode::I, KeyCode::VK_OPEN_URL_WEB_icehe_me</autogen>
         <autogen>__KeyToKey__ KeyCode::O, KeyCode::VK_OPEN_URL_WEB_Sina_Open_Platform</autogen>
-        <autogen>__KeyToKey__ KeyCode::P, KeyCode::VK_OPEN_URL_WEB_Admin_MAPI</autogen>
+        <autogen>__KeyToKey__ KeyCode::P, KeyCode::VK_OPEN_URL_WEB_AppleStore</autogen>
 
         <!-- <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::</autogen> -->
         <!-- <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::</autogen> -->
         <!-- <autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::</autogen> -->
 
-        <autogen>__KeyToKey__ KeyCode::A, KeyCode::KEY_1, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_WEB_AppleScript</autogen>
+        <autogen>__KeyToKey__ KeyCode::S, KeyCode::VK_OPEN_URL_WEB_Sspai</autogen>
+        <autogen>__KeyToKey__ KeyCode::D, KeyCode::VK_OPEN_URL_WEB_Duoshuo</autogen>
+        <autogen>__KeyToKey__ KeyCode::F, KeyCode::VK_OPEN_URL_WEB_Fangjs</autogen>
+        <autogen>__KeyToKey__ KeyCode::G, KeyCode::VK_OPEN_URL_WEB_GitHub_IceHe</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::H, KeyCode::KEY_6, ModifierFlag::SHIFT_L</autogen> -->
+        <autogen>__KeyToKey__ KeyCode::J, KeyCode::VK_OPEN_URL_WEB_JD</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::K, KeyCode::KEY_8, ModifierFlag::SHIFT_L</autogen> -->
+        <autogen>__KeyToKey__ KeyCode::L, KeyCode::VK_OPEN_URL_WEB_local_4000</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEY_0, ModifierFlag::SHIFT_L</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen> -->
+
+        <!-- <autogen>__KeyToKey__ KeyCode::A, KeyCode::KEY_1, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::S, KeyCode::KEY_2, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::D, KeyCode::KEY_3, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::F, KeyCode::KEY_4, ModifierFlag::SHIFT_L</autogen>
@@ -44,17 +56,16 @@
         <autogen>__KeyToKey__ KeyCode::J, KeyCode::KEY_7, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::K, KeyCode::KEY_8, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::L, KeyCode::KEY_9, ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEY_0, ModifierFlag::SHIFT_L</autogen>
-        <!-- <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen> -->
+        <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEY_0, ModifierFlag::SHIFT_L</autogen> -->
 
         <autogen>__KeyToKey__ KeyCode::Z, KeyCode::VK_OPEN_URL_WEB_Zhihu</autogen>
         <!--<autogen>__KeyToKey__ KeyCode::X, KeyCode::</autogen>-->
-        <autogen>__KeyToKey__ KeyCode::C, KeyCode::VK_OPEN_URL_WEB_local_4000</autogen>
+        <autogen>__KeyToKey__ KeyCode::C, KeyCode::VK_OPEN_URL_WEB_QrCode</autogen>
         <!--<autogen>__KeyToKey__ KeyCode::V, KeyCode::</autogen>-->
         <autogen>__KeyToKey__ KeyCode::B, KeyCode::VK_OPEN_URL_WEB_GitLab_zhiyuan16</autogen>
 
-        <autogen>__KeyToKey__ KeyCode::N, KeyCode::LAUNCHPAD</autogen>
-        <autogen>__KeyToKey__ KeyCode::M, KeyCode::F1</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::N, KeyCode::LAUNCHPAD</autogen> -->
+        <autogen>__KeyToKey__ KeyCode::M, KeyCode::VK_OPEN_URL_WEB_Admin_MAPI</autogen> <!-- Mgt -->
         <!-- <autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen> -->
         <autogen>__KeyToKey__ KeyCode::DOT, KeyCode::MINUS, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
         <!-- <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::SLASH, KeyCode::SLASH</autogen> -->
