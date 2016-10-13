@@ -10,6 +10,14 @@
     </item>
 
     <item>
+        <name>^ + h -> ⌫</name>
+        <appendix></appendix>
+        <identifier>control_h_to_delete</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::H, ModifierFlag::CONTROL_L, KeyCode::DELETE</autogen>
+    </item>
+
+    <item>
         <name>Fn + u -> ⌫</name>
         <appendix></appendix>
         <identifier>near_delete</identifier>
@@ -23,5 +31,13 @@
         <identifier>near_enter</identifier>
 
         <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::FN, KeyCode::RETURN</autogen>
+    </item>
+
+    <item>
+        <name>Fn + o -> 凵</name>
+        <appendix></appendix>
+        <identifier>repeat_space</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::O, ModifierFlag::FN, KeyCode::SPACE</autogen>
     </item>
 </root>
