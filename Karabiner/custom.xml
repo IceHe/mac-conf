@@ -8,4 +8,20 @@
 
         <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::SPACE, ModifierFlag::OPTION_L</autogen>
     </item>
+
+    <item>
+        <name>Fn + u -> ⌫</name>
+        <appendix></appendix>
+        <identifier>near_delete</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::FN, KeyCode::DELETE</autogen>
+    </item>
+
+    <item>
+        <name>Fn + i -> ↩</name>
+        <appendix></appendix>
+        <identifier>near_enter</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::FN, KeyCode::RETURN</autogen>
+    </item>
 </root>
