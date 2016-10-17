@@ -6581,6 +6581,13 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0x6a-0x40000</key>
+		<dict>
+			<key>Action</key>
+			<integer>24</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
 		<key>0x9-0x40000</key>
 		<dict>
 			<key>Action</key>
@@ -6763,11 +6770,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>955 278 796 473 0 0 2560 1417 </string>
+	<string>343 189 937 465 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>411 -607 592 584 331 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1282 22 1274 1395 0 0 2560 1417 </string>
+	<string>4 12 1274 765 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_E34A7019-2220-417C-8F95-C1E91D91A2A9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_FBBFE345-B561-4684-B1C8-1F9CDB6C5B71</key>
@@ -9632,7 +9639,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-09-19T06:40:03Z</date>
+	<date>2016-10-15T04:09:58Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Secure Input</key>
