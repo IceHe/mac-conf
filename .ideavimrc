@@ -23,7 +23,7 @@ map <S-L> gt
 "map <c-w> :q<CR>
 
 " Save
-map <c-s> :w<CR>
+"map <c-s> :w<CR>
 
 " Redo
 map <c-r> :redo<CR>
