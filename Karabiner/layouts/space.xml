@@ -5,7 +5,7 @@
         <appendix></appendix>
         <identifier vk_config="true">icehe.layout_for_space</identifier>
 
-        <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::TAB, ModifierFlag::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::TAB, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::RETURN</autogen>
 
         <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::BACKQUOTE, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
