@@ -44,8 +44,8 @@
         <autogen>__KeyToKey__ KeyCode::J, KeyCode::VK_OPEN_URL_WEB_JD</autogen>
         <!-- <autogen>__KeyToKey__ KeyCode::K, KeyCode::KEY_8, ModifierFlag::SHIFT_L</autogen> -->
         <autogen>__KeyToKey__ KeyCode::L, KeyCode::VK_OPEN_URL_WEB_local_4000</autogen>
-        <!-- <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEY_0, ModifierFlag::SHIFT_L</autogen> -->
-        <!-- <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen> -->
+        <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::SEMICOLON, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::BACKQUOTE</autogen>
 
         <!-- <autogen>__KeyToKey__ KeyCode::A, KeyCode::KEY_1, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::S, KeyCode::KEY_2, ModifierFlag::SHIFT_L</autogen>
@@ -66,8 +66,8 @@
 
         <!-- <autogen>__KeyToKey__ KeyCode::N, KeyCode::LAUNCHPAD</autogen> -->
         <autogen>__KeyToKey__ KeyCode::M, KeyCode::VK_OPEN_URL_WEB_Admin_MAPI</autogen> <!-- Mgt -->
-        <!-- <autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen> -->
+        <autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::EQUAL, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::DOT, KeyCode::MINUS, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
-        <!-- <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::SLASH, KeyCode::SLASH</autogen> -->
+        <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen>
     </item>
 </root>
