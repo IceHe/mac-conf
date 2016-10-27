@@ -6770,11 +6770,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>343 189 937 465 0 0 1280 777 </string>
+	<string>343 189 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>411 -607 592 584 331 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>4 12 1274 765 0 0 1280 777 </string>
+	<string>4 21 1274 756 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_E34A7019-2220-417C-8F95-C1E91D91A2A9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_FBBFE345-B561-4684-B1C8-1F9CDB6C5B71</key>
@@ -6981,6 +6981,10 @@
 				<key>Red Component</key>
 				<real>0.36080405116081238</real>
 			</dict>
+			<key>Bound Hosts</key>
+			<array>
+				<string></string>
+			</array>
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
@@ -7191,14 +7195,6 @@
 					<string>normal</string>
 					<key>regex</key>
 					<string>([[:letter:][:number:]._]+\.)+[[:letter:][:number:]._]+</string>
-				</dict>
-				<dict>
-					<key>notes</key>
-					<string>mailto URL</string>
-					<key>precision</key>
-					<string>normal</string>
-					<key>regex</key>
-					<string>\bmailto:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
 				</dict>
 				<dict>
 					<key>notes</key>
@@ -9639,7 +9635,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-10-15T04:09:58Z</date>
+	<date>2016-10-26T03:09:02Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Secure Input</key>
@@ -9702,7 +9698,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.10</string>
+	<string>3.0.11</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

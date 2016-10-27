@@ -22,8 +22,6 @@
         <autogen>__KeyToKey__ KeyCode::MINUS, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::EQUAL, ModifierFlag::SHIFT_L</autogen>
 
-        <autogen>__KeyToKey__ KeyCode::DELETE, KeyCode::DELETE, ModifierFlag::COMMAND_L</autogen>
-
         <!-- <autogen>__KeyToKey__ KeyCode::Q, KeyCode::Q, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
         <!-- <autogen>__KeyToKey__ KeyCode::W, KeyCode::W, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
         <!-- <autogen>__KeyToKey__ KeyCode::E, KeyCode::E, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen> -->
