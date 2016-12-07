@@ -54,7 +54,7 @@ map <leader>r :set rnu!<CR> " Toggle
 
 " Save & Quit
 imap <C-S> <Esc><C-S>a
-map <C-S> :w<CR>
+map <C-S> :w!<CR>
 imap <C-G> <Esc><C-G>
 map <C-G> ZZ<CR>
 
@@ -70,6 +70,7 @@ map <S-Y> v$hy
 " Line Comment
 map <leader>c ^i//<Esc>
 map <leader><S-C> ^xx<Esc>
+
 " HTML Comment
 map <leader>h ^i<!-- <Esc>$a --><Esc>
 map <leader><S-H> ^xxxxx$xxxx
