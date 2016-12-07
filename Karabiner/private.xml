@@ -13,33 +13,17 @@
             https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/KeyCode.data
             https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/ModifierFlag.data
     -->
-
     <item>
         <name>Ice He</name>
-
         <!-- Main -->
         <include path="key_remaps.xml" />
-
+        <include path="custom.xml" />
         <!-- Layouts -->
         <include path="layouts/space.xml" />
         <include path="layouts/escape.xml" />
-        <!--<include path="layouts/fn.xml" />-->
-        <!--<include path="layouts/fn_x.xml" />-->
-        <!--<include path="layouts/left_hand.xml" />-->
-        <!--<include path="layouts/option_left.xml" />-->
-        <!--<include path="layouts/option_right.xml" />-->
-        <!--<include path="layouts/ctrl_opt_left.xml" />-->
-
         <!-- URLs -->
         <include path="urls/app_files.xml" />
         <include path="urls/generic.xml" />
         <include path="urls/shell_cmds.xml" />
-
-        <!-- Others -->
-        <include path="app_defs.xml" />
-
-        <!-- Custom -->
-        <include path="custom.xml" />
-        <include path="test.xml" />
     </item>
 </root>

@@ -17,7 +17,7 @@
     </vkopenurldef>
 
     <vkopenurldef>
-        <name>KeyCode::VK_OPEN_URL_WEB_AppleStore</name>
+        <name>KeyCode::VK_OPEN_URL_WEB_Apple</name>
         <url>http://www.apple.com/cn/</url>
     </vkopenurldef>
 
@@ -79,11 +79,6 @@
     <vkopenurldef>
         <name>KeyCode::VK_OPEN_URL_WEB_Sina_ERP</name>
         <url>http://my.erp.sina.com.cn/welcome.php</url>
-    </vkopenurldef>
-
-    <vkopenurldef>
-        <name>KeyCode::VK_OPEN_URL_WEB_Sina_Open_Platform</name>
-        <url>http://wiki.intra.weibo.com/%E5%BE%AE%E5%8D%9AV4%E5%86%85%E9%83%A8%E6%8E%A5%E5%8F%A3WIKI</url>
     </vkopenurldef>
 
     <vkopenurldef>

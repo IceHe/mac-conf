@@ -4,7 +4,6 @@
      <item>
          <name>Hold Space + Layout for Space</name>
          <identifier>remap.space_plus</identifier>
-
          <autogen>
              __KeyOverlaidModifier__
              KeyCode::SPACE,
@@ -16,7 +15,6 @@
      <item>
          <name>Hold Escape + Layout for Escape</name>
          <identifier>remap.escape_plus</identifier>
-
          <autogen>
              __KeyOverlaidModifier__
              KeyCode::ESCAPE,
@@ -24,16 +22,4 @@
              KeyCode::ESCAPE
          </autogen>
      </item>
-
-     <!--<item>-->
-         <!--<name>Hold Fn + Layout for Fn</name>-->
-         <!--<identifier>remap.fn_plus</identifier>-->
-         <!--<autogen>-->
-             <!--__KeyOverlaidModifier__-->
-             <!--KeyCode::FN,-->
-             <!--KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_icehe_layout_for_left_hand,-->
-             <!--KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_icehe_layout_for_fn,-->
-             <!--KeyCode::FN-->
-         <!--</autogen>-->
-     <!--</item>-->
 </root>
