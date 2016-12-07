@@ -22,8 +22,6 @@
         <include path="layouts/space.xml" />
         <include path="layouts/escape.xml" />
         <!-- URLs -->
-        <include path="urls/app_files.xml" />
         <include path="urls/generic.xml" />
-        <include path="urls/shell_cmds.xml" />
     </item>
 </root>
