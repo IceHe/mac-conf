@@ -21,12 +21,18 @@
         <autogen>__KeyToKey__ KeyCode::W, KeyCode::VK_OPEN_URL_WEB_Weibo</autogen>
         <autogen>__KeyToKey__ KeyCode::E, KeyCode::VK_OPEN_URL_WEB_Sina_ERP</autogen>
         <autogen>__KeyToKey__ KeyCode::R, KeyCode::VK_OPEN_URL_WEB_Sina_Redmine</autogen>
-        <autogen>__KeyToKey__ KeyCode::Z, KeyCode::VK_OPEN_URL_WEB_GitLab_zhiyuan16</autogen>
-        <autogen>__KeyToKey__ KeyCode::I, KeyCode::VK_OPEN_URL_WEB_icehe_me</autogen>
 
-        <autogen>__KeyToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_WEB_AppleStore</autogen>
+        <autogen>__KeyToKey__ KeyCode::I, KeyCode::VK_OPEN_URL_WEB_icehe_me</autogen>
+        <autogen>__KeyToKey__ KeyCode::P, KeyCode::VK_OPEN_URL_WEB_Apple</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_WEB_Amazon</autogen>
+        <autogen>__KeyToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_WEB_Sspai</autogen>
         <autogen>__KeyToKey__ KeyCode::G, KeyCode::VK_OPEN_URL_WEB_GitHub_IceHe</autogen>
+
         <autogen>__KeyToKey__ KeyCode::J, KeyCode::VK_OPEN_URL_WEB_JD</autogen>
         <autogen>__KeyToKey__ KeyCode::L, KeyCode::VK_OPEN_URL_WEB_local_4000</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::Z, KeyCode::VK_OPEN_URL_WEB_GitLab_zhiyuan16</autogen>
+        <autogen>__KeyToKey__ KeyCode::M, KeyCode::VK_OPEN_URL_WEB_Tmall</autogen>
     </item>
 </root>
