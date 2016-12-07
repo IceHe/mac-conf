@@ -10,6 +10,14 @@
     </item>
 
     <item>
+        <name>Command_R = Switch Input Methods</name>
+        <appendix></appendix>
+        <identifier>command_r</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::SPACE, ModifierFlag::OPTION_L</autogen>
+    </item>
+
+    <item>
         <name>^ + h -> ⌫</name>
         <appendix></appendix>
         <identifier>control_h_to_delete</identifier>
