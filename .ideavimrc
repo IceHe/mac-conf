@@ -1,37 +1,37 @@
-" Change Leader Key
-let mapleader=","
-
-" Copy to | Paste from System Clipboard
-nmap <leader>y "+y
-vmap <leader>y "+y
-nmap <leader>p "+p
-vmap <leader>p "+p
-
-nmap <leader>c "+c
-vmap <leader>c "+c
-nmap <leader>d "+d
-vmap <leader>d "+d
-
-nmap <leader>Y "+Y
-vmap <leader>Y "+Y
-nmap <leader>P "+P
-vmap <leader>P "+P
-
-" Copy to EOL without the line break
+" Copy to EOL
+" (without the line break)
 map <S-Y> v$hy
 
 " Switch Tab
 map <S-H> gT
 map <S-L> gt
 
-" Close Tab
-"map <c-w> :q<CR>
-
-" Save
-"map <c-s> :w<CR>
-
 " Redo
 map <c-r> :redo<CR>
 
+" Clipboard
+set clipboard=unnamed
+
+" TODO: maybe to rm oneday!?
+
+" Change Leader Key
+"let mapleader=","
+
+" Copy to | Paste from System Clipboard
+"nmap <leader>y "+y
+"vmap <leader>y "+y
+"nmap <leader>p "+p
+"vmap <leader>p "+p
+"
+"nmap <leader>c "+c
+"vmap <leader>c "+c
+"nmap <leader>d "+d
+"vmap <leader>d "+d
+"
+"nmap <leader>Y "+Y
+"vmap <leader>Y "+Y
+"nmap <leader>P "+P
+"vmap <leader>P "+P
+
 " Show Registers
-map <c-,> :reg<CR>
+"map <c-,> :reg<CR>
