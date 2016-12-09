@@ -58,5 +58,9 @@
             __KeyToKey__ KeyCode::F, ModifierFlag::FN,
             KeyCode::F, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
+        <autogen>
+            __KeyToKey__ KeyCode::G, ModifierFlag::FN,
+            KeyCode::G, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
     </item>
 </root>
