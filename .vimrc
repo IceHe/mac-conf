@@ -54,7 +54,7 @@ map <leader>r :set rnu!<CR> " Toggle
 
 " Save & Quit
 imap <C-S> <Esc><C-S>a
-map <C-S> :w!<CR>
+map <C-S> :w<CR>
 imap <C-G> <Esc><C-G>
 map <C-G> ZZ<CR>
 
