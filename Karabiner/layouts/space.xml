@@ -5,7 +5,10 @@
         <appendix></appendix>
         <identifier vk_config="true">icehe.layout_for_space</identifier>
 
+        <!-- <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::DELETE</autogen> -->
+        <!-- <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::RETURN</autogen> -->
         <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::TAB, ModifierFlag::OPTION_L</autogen>
+
         <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen>
 
         <autogen>__KeyToKey__ KeyCode::KEY_1, KeyCode::KEY_1, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
@@ -13,6 +16,7 @@
         <autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::KEY_3, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_4, KeyCode::KEY_4, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_5, KeyCode::KEY_5, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::KEY_5, KeyCode::TAB, ModifierFlag::OPTION_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_6, KeyCode::KEY_6, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_7, KeyCode::KEY_7, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_8, KeyCode::KEY_8, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
