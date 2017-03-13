@@ -6567,7 +6567,7 @@
 	<key>EnableRendezvous</key>
 	<false/>
 	<key>FlashTabBarInFullscreen</key>
-	<true/>
+	<false/>
 	<key>FocusFollowsMouse</key>
 	<true/>
 	<key>FsTabDelay</key>
@@ -6685,7 +6685,7 @@
 	<key>IRMemory</key>
 	<integer>4</integer>
 	<key>JobName</key>
-	<false/>
+	<true/>
 	<key>LeftCommand</key>
 	<integer>7</integer>
 	<key>LeftOption</key>
@@ -6770,11 +6770,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>343 111 918 512 0 0 1280 777 </string>
+	<string>133 289 1016 502 0 0 1280 800 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>411 -607 592 584 331 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>6 210 650 567 0 0 1280 777 </string>
+	<string>0 21 1274 779 0 0 1280 800 </string>
 	<key>NeverWarnAboutShortLivedSessions_E34A7019-2220-417C-8F95-C1E91D91A2A9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_FBBFE345-B561-4684-B1C8-1F9CDB6C5B71</key>
@@ -6932,6 +6932,8 @@
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
+			<key>Application Keypad Allowed</key>
+			<false/>
 			<key>Automatically Log</key>
 			<false/>
 			<key>BM Growl</key>
@@ -7256,7 +7258,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/IceHe/Documents/Blog/icehe.me/source/_posts</string>
+			<string>/Users/IceHe/Documents/Work/sora</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -9625,7 +9627,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-11-06T15:18:07Z</date>
+	<date>2017-01-28T07:40:32Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Secure Input</key>
@@ -9633,9 +9635,9 @@
 	<key>ShowBookmarkName</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowNewOutputIndicator</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -9650,6 +9652,8 @@
 	<integer>4</integer>
 	<key>SwitchWindowModifier</key>
 	<integer>6</integer>
+	<key>TabStyle</key>
+	<integer>1</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>ThreeFingerEmulates</key>
@@ -9678,7 +9682,7 @@
 	<key>WebKitStandardFont</key>
 	<string>.Helvetica Neue DeskInterface</string>
 	<key>WindowNumber</key>
-	<false/>
+	<true/>
 	<key>WindowStyle</key>
 	<integer>0</integer>
 	<key>WordCharacters</key>
@@ -9688,7 +9692,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.12</string>
+	<string>3.0.13</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
