@@ -23,12 +23,26 @@
     </item>
 
     <item>
-        <name>Moom</name>
+        <name>Fn + i -> ↩</name>
         <appendix></appendix>
-        <identifier>moom</identifier>
+        <identifier>fn_i_to_return</identifier>
+        <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::FN, KeyCode::RETURN</autogen>
+    </item>
+
+    <item>
+        <name>Fn + u -> ⌫</name>
+        <appendix></appendix>
+        <identifier>fn_u_to_delete</identifier>
+        <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::FN, KeyCode::DELETE</autogen>
+    </item>
+
+    <item>
+        <name>Spectacle</name>
+        <appendix></appendix>
+        <identifier>spectacle</identifier>
         <autogen>
-            __KeyToKey__ KeyCode::Q, ModifierFlag::FN,
-            KeyCode::Q, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            __KeyToKey__ KeyCode::G, ModifierFlag::FN,
+            KeyCode::G, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
         <autogen>
             __KeyToKey__ KeyCode::W, ModifierFlag::FN,
@@ -41,6 +55,10 @@
         <autogen>
             __KeyToKey__ KeyCode::R, ModifierFlag::FN,
             KeyCode::R, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            __KeyToKey__ KeyCode::T, ModifierFlag::FN,
+            KeyCode::T, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
         <autogen>
             __KeyToKey__ KeyCode::A, ModifierFlag::FN,
@@ -61,6 +79,10 @@
         <autogen>
             __KeyToKey__ KeyCode::G, ModifierFlag::FN,
             KeyCode::G, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            __KeyToKey__ KeyCode::C, ModifierFlag::FN,
+            KeyCode::C, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
     </item>
 </root>
