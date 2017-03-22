@@ -38,11 +38,11 @@
 
     <item>
         <name>Spectacle</name>
-        <appendix></appendix>
+        <appendix>Now used for Keyboard Maestro</appendix>
         <identifier>spectacle</identifier>
         <autogen>
-            __KeyToKey__ KeyCode::G, ModifierFlag::FN,
-            KeyCode::G, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            __KeyToKey__ KeyCode::Q, ModifierFlag::FN,
+            KeyCode::Q, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
         <autogen>
             __KeyToKey__ KeyCode::W, ModifierFlag::FN,
@@ -79,10 +79,6 @@
         <autogen>
             __KeyToKey__ KeyCode::G, ModifierFlag::FN,
             KeyCode::G, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
-        </autogen>
-        <autogen>
-            __KeyToKey__ KeyCode::C, ModifierFlag::FN,
-            KeyCode::C, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
     </item>
 </root>
