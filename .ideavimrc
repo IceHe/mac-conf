@@ -12,8 +12,6 @@ map <c-r> :redo<CR>
 " Clipboard
 set clipboard=unnamed
 
-" TODO: maybe to rm oneday!?
-
 " Change Leader Key
 "let mapleader=","
 
