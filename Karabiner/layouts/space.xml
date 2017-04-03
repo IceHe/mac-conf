@@ -42,10 +42,10 @@
 
         <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::KEY_0</autogen>
         <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::QUOTE, ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::RETURN, KeyCode::RETURN, ModifierFlag::COMMAND_L</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::RETURN, KeyCode::RETURN, ModifierFlag::COMMAND_L</autogen> -->
 
         <!-- <autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::EQUAL, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen> -->
         <!-- <autogen>__KeyToKey__ KeyCode::DOT, KeyCode::MINUS, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen> -->
-        <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::SLASH, ModifierFlag::SHIFT_L</autogen>
+        <!-- <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::SLASH, ModifierFlag::SHIFT_L</autogen> -->
     </item>
 </root>
