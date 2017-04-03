@@ -2,38 +2,10 @@
 <!-- Custom -->
 <root>
     <item>
-        <name>Option_R = Switch Input Methods</name>
-        <appendix></appendix>
-        <identifier>option_r</identifier>
-        <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::SPACE, ModifierFlag::OPTION_L</autogen>
-    </item>
-
-    <item>
         <name>Command_R = Switch Input Methods</name>
         <appendix></appendix>
         <identifier>command_r</identifier>
         <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::SPACE, ModifierFlag::OPTION_L</autogen>
-    </item>
-
-    <item>
-        <name>^ + h -> ⌫</name>
-        <appendix></appendix>
-        <identifier>control_h_to_delete</identifier>
-        <autogen>__KeyToKey__ KeyCode::H, ModifierFlag::CONTROL_L, KeyCode::DELETE</autogen>
-    </item>
-
-    <item>
-        <name>Fn + i -> ↩</name>
-        <appendix></appendix>
-        <identifier>fn_i_to_return</identifier>
-        <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::FN, KeyCode::RETURN</autogen>
-    </item>
-
-    <item>
-        <name>Fn + u -> ⌫</name>
-        <appendix></appendix>
-        <identifier>fn_u_to_delete</identifier>
-        <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::FN, KeyCode::DELETE</autogen>
     </item>
 
     <item>
