@@ -184,4 +184,3 @@ inoremap <C-U> <Esc>d0xi
 " Fix Redo
 "map <C-R> :redo<CR>
 map <C-W> :redo<CR> "Fuck! Why I can't use the default <C-R>!?
-
