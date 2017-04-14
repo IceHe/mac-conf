@@ -1,10 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
-    // Controls the font family.
     "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
-    // Controls the font size.
     "editor.fontSize": 15,
-    // Controls after how many characters the editor will wrap to the next line. Setting this to 0 turns on viewport width wrapping (word wrapping). Setting this to -1 forces the editor to never wrap.
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -13,7 +10,9 @@
     "workbench.welcome.enabled": false,
     "workbench.colorTheme": "Material Theme",
     "workbench.iconTheme": "vscode-icons",
+    "workbench.activityBar.visible": false,
     "window.openFilesInNewWindow": "off",
+    "files.trimTrailingWhitespace": true,
     "emmet.excludeLanguages": [],
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
