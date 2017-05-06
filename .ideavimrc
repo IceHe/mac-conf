@@ -9,6 +9,9 @@ map <S-L> gt
 " Redo
 map <c-r> :redo<CR>
 
+" Exchange Char
+imap <c-t> <esc>xpli
+
 " Clipboard
 set clipboard=unnamed
 
