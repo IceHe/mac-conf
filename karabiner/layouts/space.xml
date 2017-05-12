@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <root>
     <item>
-        <name>Layout for Space</name>
+        <name>Layout : 凵</name>
         <appendix></appendix>
-        <identifier vk_config="true">icehe.layout_for_space</identifier>
+        <identifier vk_config="true">icehe.layout_space</identifier>
 
         <!-- <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::DELETE</autogen> -->
         <!-- <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::RETURN</autogen> -->
@@ -26,6 +26,9 @@
         <autogen>__KeyToKey__ KeyCode::MINUS, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::EQUAL, ModifierFlag::SHIFT_L</autogen>
 
+        <autogen>__KeyToKey__ KeyCode::O, KeyCode::BACKSLASH</autogen>
+        <autogen>__KeyToKey__ KeyCode::P, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
+
         <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
@@ -46,6 +49,6 @@
 
         <!-- <autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::EQUAL, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen> -->
         <!-- <autogen>__KeyToKey__ KeyCode::DOT, KeyCode::MINUS, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen> -->
-        <!-- <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::SLASH, ModifierFlag::SHIFT_L</autogen> -->
+        <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::SLASH, ModifierFlag::SHIFT_L</autogen>
     </item>
 </root>
