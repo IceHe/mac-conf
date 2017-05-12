@@ -25,16 +25,6 @@
     <item><appendix>Settings ---------------------</appendix></item>
 
     <item>
-        <name>Bluetooth Settings ← Fn + b</name>
-        <identifier>remap.fn_b</identifier>
-        <autogen>
-            __KeyOverlaidModifier__
-            KeyCode::B, ModifierFlag::FN,
-            KeyCode::B, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L
-        </autogen>
-    </item>
-
-    <item>
         <name>Toggle Wi-Fi ← Fn + y</name>
         <identifier>remap.toggle_wifi_by_fn_y</identifier>
         <autogen>
