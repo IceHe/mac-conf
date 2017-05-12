@@ -16,11 +16,14 @@
     <item>
         <name>Ice He</name>
         <!-- Main -->
-        <include path="key_remaps.xml" />
         <include path="custom.xml" />
+        <include path="fix_hhkb.xml" />
         <!-- Layouts -->
+        <include path="layouts/fn.xml" />
+        <item><appendix>Layouts ----------------------</appendix></item>
+        <include path="layouts/fix_hhkb.xml" />
+        <include path="layouts/links.xml" />
         <include path="layouts/space.xml" />
-        <include path="layouts/escape.xml" />
         <!-- URLs -->
         <include path="urls/generic.xml" />
     </item>
