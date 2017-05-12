@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<root>
+    <item><appendix>HHKB JP ---------------------------</appendix></item>
+
+    <item>
+        <name>Hold 凵, Eisuu, Kana → Layout 凵</name>
+        <identifier>hhkb_space_plus</identifier>
+        <autogen>
+            __KeyOverlaidModifier__
+            KeyCode::SPACE,
+            KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_icehe_layout_hhkb_space,
+            KeyCode::SPACE
+        </autogen>
+        <autogen>
+            __KeyOverlaidModifier__
+            KeyCode::JIS_EISUU,
+            KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_icehe_layout_hhkb_space,
+            KeyCode::SPACE
+        </autogen>
+        <autogen>
+            __KeyOverlaidModifier__
+            KeyCode::JIS_KANA,
+            KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_icehe_layout_hhkb_space,
+            KeyCode::SPACE
+        </autogen>
+    </item>
+
+    <item>
+        <name>Fn ← F19</name>
+        <appendix>Seil: F19 ← L^</appendix>
+        <identifier>hhkb_f19</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::F19,
+            KeyCode::FN
+        </autogen>
+    </item>
+
+    <item>
+        <name>⌫ ← ￥</name>
+        <identifier>hhkb_yen</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::JIS_YEN,
+            KeyCode::DELETE
+        </autogen>
+    </item>
+
+    <item>
+        <name>R⇧ ← JIS_UNDERSCORE & ↑</name>
+        <appendix></appendix>
+        <identifier>hhkb_jis_underscore</identifier>
+        <autogen>
+            __KeyOverlaidModifier__
+            KeyCode::JIS_UNDERSCORE,
+            KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+        <autogen>
+            __KeyOverlaidModifier__
+            KeyCode::CURSOR_UP,
+            KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+    </item>
+</root>
