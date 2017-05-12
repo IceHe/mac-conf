@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <root>
     <item>
-        <name>Layout for Escape</name>
+        <name>Layout : Links</name>
         <appendix></appendix>
-        <identifier vk_config="true">icehe.layout_for_escape</identifier>
+        <identifier vk_config="true">icehe.layout_links</identifier>
 
         <autogen>__KeyToKey__ KeyCode::KEY_1, ConsumerKeyCode::BRIGHTNESS_DOWN</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_2, ConsumerKeyCode::BRIGHTNESS_UP</autogen>
