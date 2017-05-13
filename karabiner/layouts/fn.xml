@@ -1,27 +1,5 @@
 <?xml version="1.0"?>
 <root>
-    <item><appendix>⌫ ↩ ----------------------</appendix></item>
-
-    <item>
-        <name>⌫ ← Fn + u</name>
-        <identifier>remap.fn_u</identifier>
-        <autogen>
-            __KeyOverlaidModifier__
-            KeyCode::U, ModifierFlag::FN,
-            KeyCode::DELETE
-        </autogen>
-    </item>
-
-    <item>
-        <name>↩ ← Fn + i</name>
-        <identifier>remap.fn_i</identifier>
-        <autogen>
-            __KeyOverlaidModifier__
-            KeyCode::I, ModifierFlag::FN,
-            KeyCode::RETURN
-        </autogen>
-    </item>
-
     <item><appendix>Settings ---------------------</appendix></item>
 
     <item>
