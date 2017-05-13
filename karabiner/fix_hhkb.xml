@@ -63,14 +63,14 @@
         <autogen>
             __KeyOverlaidModifier__
             KeyCode::JIS_UNDERSCORE,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L,
-            KeyCode::SHIFT_R
+            KeyCode::SHIFT_R,
+            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
         <autogen>
             __KeyOverlaidModifier__
             KeyCode::CURSOR_UP,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L,
-            KeyCode::SHIFT_R
+            KeyCode::SHIFT_R,
+            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
     </item>
 </root>
