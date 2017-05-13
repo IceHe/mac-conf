@@ -37,6 +37,16 @@
     </item>
 
     <item>
+        <name>CN ← `</name>
+        <identifier>hhkb_backquote</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::BACKQUOTE,
+            KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+    </item>
+
+    <item>
         <name>⌫ ← ￥</name>
         <identifier>hhkb_yen</identifier>
         <autogen>
@@ -53,12 +63,12 @@
         <autogen>
             __KeyOverlaidModifier__
             KeyCode::JIS_UNDERSCORE,
-            KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
         <autogen>
             __KeyOverlaidModifier__
             KeyCode::CURSOR_UP,
-            KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
     </item>
 </root>

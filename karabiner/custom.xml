@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <root>
-    <item><appendix>布局 ------------------------</appendix></item>
+    <item><appendix>Activate Layouts ------------------------</appendix></item>
+
     <item>
         <name>Hold 凵 → Layout 凵</name>
         <identifier>remap.space_plus</identifier>
@@ -22,28 +23,30 @@
         </autogen>
     </item>
 
-    <item><appendix>新尝试 ------------------------</appendix></item>
+    <item><appendix>↩ ⌫ --------------------</appendix></item>
 
     <item>
-        <name>↩ ← \</name>
-        <identifier>remap.backslash</identifier>
+        <name>↩ ← ^ + J</name>
+        <identifier>control_j</identifier>
         <autogen>
             __KeyToKey__
-            KeyCode::BACKSLASH,
+            KeyCode::J, ModifierFlag::CONTROL_L | ModifierFlag::NONE,
             KeyCode::RETURN
         </autogen>
     </item>
 
     <item>
-        <name>` ← F19</name>
-        <appendix>Seil: F19 ← L^</appendix>
-        <identifier>remap.f19</identifier>
+        <name>⌫ ← ^ + H</name>
+        <identifier>control_h</identifier>
         <autogen>
             __KeyToKey__
-            KeyCode::F19,
-            KeyCode::BACKQUOTE
+            KeyCode::H, ModifierFlag::CONTROL_L | ModifierFlag::NONE,
+            KeyCode::DELETE
         </autogen>
     </item>
+
+
+    <item><appendix>Input & ⎋ ------------------------</appendix></item>
 
     <item>
         <name>⎋</name>
@@ -58,72 +61,50 @@
     </item>
 
     <item>
-        <name>⎋ ← `</name>
-        <appendix>EN ← Click `</appendix>
-        <identifier>remap.backquote</identifier>
-        <autogen>
-            __KeyOverlaidModifier__
-            KeyCode::BACKQUOTE,
-            KeyCode::ESCAPE,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
-        </autogen>
-    </item>
-
-    <item>
-        <name>L⇧</name>
-        <appendix>EN ← Click L⇧</appendix>
-        <identifier>remap.shift_l</identifier>
-        <autogen>
-            __KeyOverlaidModifier__
-            KeyCode::SHIFT_L,
-            KeyCode::SHIFT_L,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
-        </autogen>
-    </item>
-
-    <item>
-        <name>L⇧ ← R⌘</name>
+        <name>⎋ ← R⌘</name>
         <appendix>EN ← Click R⌘</appendix>
         <identifier>remap.command_r_2</identifier>
         <autogen>
             __KeyOverlaidModifier__
             KeyCode::COMMAND_R,
+            KeyCode::ESCAPE,
+            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+        </autogen>
+    </item>
+
+
+    <item>
+        <name>L⇧</name>
+        <appendix>EN ← Click L⇧</appendix>
+        <identifier>remap.shift_l_2</identifier>
+        <autogen>
+            __KeyOverlaidModifier__
+            KeyCode::SHIFT_L,
             KeyCode::SHIFT_L,
             KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
     </item>
 
     <item>
-        <name>CN ← R⇧</name>
-        <appendix>CN ← Click R⇧</appendix>
-        <identifier>remap.shift_r</identifier>
+        <name>R⇧</name>
+        <appendix>EN ← Click R⇧</appendix>
+        <identifier>remap.shift_r_2</identifier>
         <autogen>
             __KeyOverlaidModifier__
             KeyCode::SHIFT_R,
-            KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
-        </autogen>
-    </item>
-
-    <item><appendix>旧习惯 ------------------------</appendix></item>
-
-    <item>
-        <name>⎋ ← R⌘</name>
-        <identifier>remap.command_r</identifier>
-        <autogen>
-            __KeyOverlaidModifier__
-            KeyCode::COMMAND_R,
-            KeyCode::ESCAPE
+            KeyCode::SHIFT_R,
+            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
     </item>
 
     <item>
-        <name>L⌥ + 凵 ← ￥</name>
-        <appendix>Seil → Ctrl_L : JIS_YEN</appendix>
-        <identifier>remap.jis_yen</identifier>
+        <name>CH ← F19</name>
+        <appendix>Seil: F19 ← L^</appendix>
+        <identifier>remap.f19_to_ch</identifier>
         <autogen>
             __KeyToKey__
-            KeyCode::JIS_YEN,
-            KeyCode::SPACE, ModifierFlag::OPTION_L
+            KeyCode::F19,
+            KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
     </item>
 </root>
