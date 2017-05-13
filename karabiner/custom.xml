@@ -23,7 +23,7 @@
         </autogen>
     </item>
 
-    <item><appendix>↩ ⌫ --------------------</appendix></item>
+    <item><appendix>↩ ⌫ ← ↓ ↑ → --------------------</appendix></item>
 
     <item>
         <name>↩ ← ^ + J</name>
@@ -45,6 +45,45 @@
         </autogen>
     </item>
 
+    <item>
+        <name>↑ ← ^ + P</name>
+        <identifier>control_p</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::P, ModifierFlag::CONTROL_L | ModifierFlag::NONE,
+            KeyCode::CURSOR_UP
+        </autogen>
+    </item>
+
+    <item>
+        <name>↓ ← ^ + N</name>
+        <identifier>control_n</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::N, ModifierFlag::CONTROL_L | ModifierFlag::NONE,
+            KeyCode::CURSOR_DOWN
+        </autogen>
+    </item>
+
+    <item>
+        <name>→ ← ^ + F</name>
+        <identifier>control_f</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::F, ModifierFlag::CONTROL_L | ModifierFlag::NONE,
+            KeyCode::CURSOR_RIGHT
+        </autogen>
+    </item>
+
+    <item>
+        <name>← ← ^ + B</name>
+        <identifier>control_b</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::B, ModifierFlag::CONTROL_L | ModifierFlag::NONE,
+            KeyCode::CURSOR_LEFT
+        </autogen>
+    </item>
 
     <item><appendix>Input & ⎋ ------------------------</appendix></item>
 
