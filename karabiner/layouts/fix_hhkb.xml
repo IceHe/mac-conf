@@ -1,22 +1,21 @@
 <?xml version="1.0"?>
 <root>
     <item>
-        <name>Layout : HHKB Fix</name>
+        <name>Layout : HHKB 凵</name>
         <appendix></appendix>
         <identifier vk_config="true">icehe.layout_hhkb_space</identifier>
 
+        <autogen>__KeyToKey__ KeyCode::ESCAPE, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::TAB, ModifierFlag::OPTION_L</autogen>
         <!-- <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::DELETE</autogen> -->
         <!-- <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::RETURN</autogen> -->
-        <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::TAB, ModifierFlag::OPTION_L</autogen>
 
         <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen>
-
         <autogen>__KeyToKey__ KeyCode::KEY_1, KeyCode::KEY_1, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_2, KeyCode::KEY_2, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::KEY_3, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_4, KeyCode::KEY_4, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_5, KeyCode::KEY_5, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
-        <autogen>__KeyToKey__ KeyCode::KEY_5, KeyCode::TAB, ModifierFlag::OPTION_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_6, KeyCode::KEY_6, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_7, KeyCode::KEY_7, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::KEY_8, KeyCode::KEY_8, ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
@@ -26,8 +25,6 @@
         <autogen>__KeyToKey__ KeyCode::MINUS, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::EQUAL, ModifierFlag::SHIFT_L</autogen>
 
-        <autogen>__KeyToKey__ KeyCode::O, KeyCode::BACKSLASH</autogen>
-        <autogen>__KeyToKey__ KeyCode::P, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
