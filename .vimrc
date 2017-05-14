@@ -81,3 +81,10 @@ map <leader><S-C> ^xx<Esc>
 " HTML Comment
 map <leader>h ^i<!-- <Esc>$a --><Esc>
 map <leader><S-H> ^xxxxx$xxxx
+
+" Triple hjkl to Esc!
+inoremap hhh <Esc>
+inoremap jjj <Esc>
+inoremap kkk <Esc>
+inoremap lll <Esc>
+
