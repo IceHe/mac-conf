@@ -58,11 +58,18 @@ map <C-S> :w<CR>
 imap <C-G> <Esc><C-G>
 map <C-G> ZZ<CR>
 
-" Mimic Emacs Line Editing in Insert Mode Only
+" Mimic Emacs in Insert Mode
+inoremap <C-B> <Left>
+inoremap <C-F> <Right>
+inoremap <C-P> <Up>
+inoremap <C-N> <Down>
+
 inoremap <C-A> <Home>
 inoremap <C-E> <End>
-inoremap <C-K> <Esc>lDa
-inoremap <C-U> <Esc>d0xi
+
+inoremap <C-K> <Esc>lDa  " Del to End of Line
+inoremap <C-U> <Esc>d0xi " Del to Head of Line
+inoremap <C-T> <esc>xpli " Exchange Chars
 
 " Copy to EOL (end of line)
 map <S-Y> v$hy
