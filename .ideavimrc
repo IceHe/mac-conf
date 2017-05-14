@@ -2,6 +2,13 @@
 " 设置大小写敏感和聪明感知(小写全搜，大写完全匹配)
 set ignorecase
 
+" Clipboard
+set clipboard=unnamed
+
+" Save
+imap <C-S> <Esc><C-S>a
+map <C-S> :w<CR>
+
 " Copy to EOL
 " (without the line break)
 map <S-Y> v$hy
@@ -26,12 +33,11 @@ inoremap <C-K> <Esc>lDa  " Del to End of Line
 inoremap <C-U> <Esc>d0xi " Del to Head of Line
 inoremap <C-T> <esc>xpli " Exchange Chars
 
-" Save
-imap <C-S> <Esc><C-S>a
-map <C-S> :w<CR>
-
-" Clipboard
-set clipboard=unnamed
+" Triple hjkl to Esc!
+inoremap hhh <Esc>
+inoremap jjj <Esc>
+inoremap kkk <Esc>
+inoremap lll <Esc>
 
 " Change Leader Key
 "let mapleader=","
