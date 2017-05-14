@@ -26,6 +26,16 @@
     </item>
 
     <item>
+        <name>⎋ ← Fn + ⎋</name>
+        <identifier>fn_escape</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::ESCAPE, ModifierFlag::FN | ModifierFlag::NONE,
+            KeyCode::ESCAPE
+        </autogen>
+    </item>
+
+    <item>
         <name>Fn ← F19</name>
         <appendix>Seil: F19 ← L^</appendix>
         <identifier>hhkb_f19</identifier>
