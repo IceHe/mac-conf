@@ -1,3 +1,6 @@
+" Enable Vim-Surround
+set surround
+
 " Search
 " 设置大小写敏感和聪明感知(小写全搜，大写完全匹配)
 set ignorecase
