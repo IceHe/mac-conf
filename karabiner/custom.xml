@@ -95,7 +95,7 @@
             __KeyOverlaidModifier__
             KeyCode::ESCAPE,
             KeyCode::ESCAPE,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::F18
         </autogen>
     </item>
 
@@ -107,7 +107,7 @@
             __KeyOverlaidModifier__
             KeyCode::COMMAND_R,
             KeyCode::ESCAPE,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::F18
         </autogen>
     </item>
 
@@ -120,7 +120,7 @@
             __KeyOverlaidModifier__
             KeyCode::SHIFT_L,
             KeyCode::SHIFT_L,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::F18
         </autogen>
     </item>
 
@@ -132,7 +132,7 @@
             __KeyOverlaidModifier__
             KeyCode::SHIFT_R,
             KeyCode::SHIFT_R,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::F18
         </autogen>
     </item>
 
@@ -143,7 +143,7 @@
         <autogen>
             __KeyToKey__
             KeyCode::F19,
-            KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::F17
         </autogen>
     </item>
 
