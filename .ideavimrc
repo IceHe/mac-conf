@@ -29,9 +29,12 @@ inoremap <C-N> <Down>
 inoremap <C-A> <Home>
 inoremap <C-E> <End>
 
-inoremap <C-K> <Esc>lDa  " Del to End of Line
-inoremap <C-U> <Esc>d0xi " Del to Head of Line
-inoremap <C-T> <esc>xpli " Exchange Chars
+" Del to End of Line
+inoremap <C-K> <Esc>lDa
+" Del to Head of Line
+inoremap <C-U> <Esc>d0xi
+" Exchange Chars
+inoremap <C-T> <esc>xpli
 
 " Triple hjkl to Esc!
 inoremap hhh <Esc>
