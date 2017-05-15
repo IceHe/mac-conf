@@ -52,7 +52,7 @@
         <autogen>
             __KeyToKey__
             KeyCode::BACKQUOTE,
-            KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::F17
         </autogen>
     </item>
 
