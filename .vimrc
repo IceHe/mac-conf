@@ -83,8 +83,8 @@ map <leader>h ^i<!-- <Esc>$a --><Esc>
 map <leader><S-H> ^xxxxx$xxxx
 
 " Triple hjkl to Esc!
-inoremap hhh <Esc>
-inoremap jjj <Esc>
-inoremap kkk <Esc>
-inoremap lll <Esc>
-
+" [WARNING] It's not an useful config!
+"inoremap hhh <Esc>
+"inoremap jjj <Esc>
+"inoremap kkk <Esc>
+"inoremap lll <Esc>

@@ -39,12 +39,6 @@ inoremap <C-U> <Esc>d0xi
 " Exchange Chars
 inoremap <C-T> <esc>xpli
 
-" Triple hjkl to Esc!
-inoremap hhh <Esc>
-inoremap jjj <Esc>
-inoremap kkk <Esc>
-inoremap lll <Esc>
-
 " Change Leader Key
 "let mapleader=","
 
@@ -66,3 +60,10 @@ inoremap lll <Esc>
 "vmap <leader>Y "+Y
 "nmap <leader>P "+P
 "vmap <leader>P "+P
+
+" Triple hjkl to Esc!
+" [WARNING] It's not an useful config!
+"inoremap hhh <Esc>
+"inoremap jjj <Esc>
+"inoremap kkk <Esc>
+"inoremap lll <Esc>
