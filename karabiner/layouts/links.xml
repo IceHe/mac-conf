@@ -25,6 +25,7 @@
         <autogen>__KeyToKey__ KeyCode::T, KeyCode::T, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
 
         <autogen>__KeyToKey__ KeyCode::I, KeyCode::I, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::O, KeyCode::O, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::P, KeyCode::P, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
 
         <autogen>__KeyToKey__ KeyCode::A, KeyCode::A, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
@@ -34,6 +35,7 @@
         <autogen>__KeyToKey__ KeyCode::G, KeyCode::G, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
 
         <autogen>__KeyToKey__ KeyCode::H, KeyCode::H, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::J, KeyCode::J, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::L, KeyCode::L, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
 
         <autogen>__KeyToKey__ KeyCode::Z, KeyCode::Z, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
