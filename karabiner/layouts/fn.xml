@@ -122,4 +122,16 @@
             KeyCode::G, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
         </autogen>
     </item>
+
+    <item>
+        <name>Fn + Tab ← 4 Whitespaces</name>
+        <appendix></appendix>
+        <identifier>fn_tab_to_4whitespaces</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::TAB, ModifierFlag::FN | ModifierFlag::NONE,
+            KeyCode::SPACE, KeyCode::SPACE, KeyCode::SPACE, KeyCode::SPACE
+        </autogen>
+    </item>
+
 </root>
