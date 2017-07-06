@@ -14,6 +14,16 @@
     </item>
 
     <item>
+        <name>Hold ⎋ → Layout Escape</name>
+        <identifier>remap.escape_plus</identifier>
+        <autogen>
+            __KeyOverlaidModifier__
+            KeyCode::ESCAPE,
+            KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_icehe_layout_escape
+        </autogen>
+    </item>
+
+    <item>
         <name>Hold R⌥ → Layout Links</name>
         <identifier>remap.option_r</identifier>
         <autogen>

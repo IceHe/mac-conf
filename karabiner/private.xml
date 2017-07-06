@@ -21,8 +21,9 @@
         <!-- Layouts -->
         <include path="layouts/fn.xml" />
         <item><appendix>Layouts ----------------------</appendix></item>
-        <include path="layouts/links.xml" />
         <include path="layouts/space.xml" />
+        <include path="layouts/links.xml" />
+        <include path="layouts/escape.xml" />
         <include path="layouts/fix_hhkb.xml" />
         <!-- URLs -->
         <include path="urls/generic.xml" />
