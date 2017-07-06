@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Layout : Escape</name>
+        <appendix></appendix>
+        <identifier vk_config="true">icehe.layout_escape</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::H, KeyCode::H, KeyCode::CURSOR_LEFT</autogen>
+        <autogen>__KeyToKey__ KeyCode::J, KeyCode::J, KeyCode::CURSOR_DOWN</autogen>
+        <autogen>__KeyToKey__ KeyCode::K, KeyCode::K, KeyCode::CURSOR_UP</autogen>
+        <autogen>__KeyToKey__ KeyCode::L, KeyCode::L, KeyCode::CURSOR_RIGHT</autogen>
+    </item>
+</root>
