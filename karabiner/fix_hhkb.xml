@@ -67,7 +67,7 @@
     </item>
 
     <item>
-        <name>R⇧ ← JIS_UNDERSCORE & ↑</name>
+        <name>R⇧ ← JIS_UNDERSCORE</name>
         <appendix></appendix>
         <identifier>hhkb_jis_underscore</identifier>
         <autogen>
@@ -76,6 +76,12 @@
             KeyCode::SHIFT_R,
             KeyCode::F18
         </autogen>
+    </item>
+
+    <item>
+        <name>R⇧ ← ↑</name>
+        <appendix></appendix>
+        <identifier>hhkb_up</identifier>
         <autogen>
             __KeyOverlaidModifier__
             KeyCode::CURSOR_UP,
@@ -83,6 +89,7 @@
             KeyCode::F18
         </autogen>
     </item>
+
 
     <item>
         <name>⇪ ← ←</name>
@@ -94,3 +101,4 @@
         </autogen>
     </item>
 </root>
+
