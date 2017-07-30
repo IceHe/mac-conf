@@ -74,13 +74,23 @@
             __KeyOverlaidModifier__
             KeyCode::JIS_UNDERSCORE,
             KeyCode::SHIFT_R,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::F18
         </autogen>
         <autogen>
             __KeyOverlaidModifier__
             KeyCode::CURSOR_UP,
             KeyCode::SHIFT_R,
-            KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L
+            KeyCode::F18
+        </autogen>
+    </item>
+
+    <item>
+        <name>⇪ ← ←</name>
+        <identifier>hhkb_left</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::CURSOR_LEFT,
+            KeyCode::CAPSLOCK
         </autogen>
     </item>
 </root>
