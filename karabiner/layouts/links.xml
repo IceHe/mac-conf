@@ -29,6 +29,7 @@
         <autogen>__KeyToKey__ KeyCode::P, KeyCode::P, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
 
         <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
 
         <autogen>__KeyToKey__ KeyCode::A, KeyCode::A, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
         <autogen>__KeyToKey__ KeyCode::S, KeyCode::S, ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
