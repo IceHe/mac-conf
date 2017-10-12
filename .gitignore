@@ -1,1 +1,74 @@
-keyboard_maestro_macros.kmlibrary
+###########
+# Include #
+###########
+
+!.gitignore
+!.ideavimrc
+!.tmux.conf
+!.vimrc
+!.vimrc.dev
+!.vimrc.local
+!.zshrc
+!.config/karabiner/karabiner.json
+
+###########
+# Exclude #
+###########
+
+## macOS
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+.Trash/
+
+1Password Emergency Kit.crypto
+
+## Language
+.CFUserTextEncoding
+## Non-essiential Data Files
+.cache/
+## Configuration
+.config/
+## User Data
+.local/share/
+
+.bash*
+.composer/
+.docker/
+.gem/
+.gemrc
+.git*
+.idea/
+.iterm2/
+.mysql_history
+.oh-my-zsh/
+.pearrc
+.ShadowsocksX*
+.ssh/
+.vim*
+.wget-hsts
+
+## maven
+.m2/
+## node
+.node-gyp/
+.npm/
+.nvm/
+node_modules/
+package-lock.json
+## phpmd
+.pdepend/
+## 七牛云缓存
+.qrsync/
+## rsync (work, to-rm)
+.rsync*
+## ssl
+.rnd
+## z
+.z*
