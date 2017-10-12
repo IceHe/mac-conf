@@ -1,3 +1,6 @@
+" Language: English
+language en_US
+
 " Enable: iMproved
 if &compatible
   set nocompatible
@@ -26,6 +29,9 @@ set undodir=~/.vim/undo/
 
 " Clipboard
 set clipboard=unnamed
+
+" Fix YankRing Bug
+let g:yankring_clipboard_monitor=0
 
 " Search
 " 设置大小写敏感和聪明感知(小写全搜，大写完全匹配)
@@ -85,9 +91,3 @@ map <leader><S-C> ^xx<Esc>
 map <leader>h ^i<!-- <Esc>$a --><Esc>
 map <leader><S-H> ^xxxxx$xxxx
 
-" Triple hjkl to Esc!
-" [WARNING] It's not an useful config!
-"inoremap hhh <Esc>
-"inoremap jjj <Esc>
-"inoremap kkk <Esc>
-"inoremap lll <Esc>
