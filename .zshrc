@@ -113,7 +113,6 @@ if is_dev; then
   export EDITOR='vim'
 else
   export EDITOR='nvim'
-  #export EDITOR='vim'
 fi
 #if [[ -n $SSH_CONNECTION ]]; then
   #export EDITOR='vim'
@@ -195,19 +194,12 @@ alias ha='zb && hexo clean && hexo g && hexo s'
 alias tg='zb && clear && hexo clean && hexo deploy && -'
 
 ## Vim
-alias v='nvim' ## Neo Vim
+alias v='nvim'
 alias sv='sudo nvim'
-#alias v='vim' ## Vim
+#alias v='vim'
 #alias sv='sudo vim'
 
 # edit files
-
-## Subl
-alias sth='st /etc/hosts'
-alias stp='st /usr/local/etc/php/7.1/php.ini'
-alias stt='st ~/.tmux.conf'
-alias stv='st ~/.vimrc'
-alias stz='st ~/.zshrc'
 
 ## Vim
 alias vh='v /etc/hosts'
@@ -219,7 +211,6 @@ alias vz='v ~/.zshrc'
 
 ## open
 alias o='open'
-alias so='sudo open'
 
 ## cd
 alias zd='cd ~/Desktop'
@@ -232,7 +223,6 @@ alias z_='cd ~/Documents/Blog/icehe.me/source/_posts'
 alias zn='cd ~/Documents/Blog/icehe.me/themes/next'
 
 alias zk='cd ~/Documents/Work'
-alias zdo='cd ~/Documents/Work/docker'
 alias zs='cd ~/Documents/Work/sora'
 alias zs2='cd ~/Documents/Work/sora2'
 alias zS='cd ~/Documents/Work/Scripts'
@@ -240,7 +230,6 @@ alias zw='cd ~/Documents/Work/weibov5_code'
 alias zw2='cd ~/Documents/Work/weibov5_code2'
 
 alias ze='cd /etc'
-alias z.='cd ~/dotfiles'
 alias zz='cd ~/.oh-my-zsh'
 alias zc='cd /usr/local/Cellar'
 
@@ -256,7 +245,7 @@ alias sinax="/Users/IceHe/Documents/Work/Scripts/sinax.sh"
 alias rtd="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev.sh"
 #alias rtl="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local.sh" # Seldom
 
-alias rtd2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev2.sh"
+#alias rtd2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev2.sh"
 #alias rtl2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local2.sh"
 
 alias rtd3="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev_131_232.sh"
@@ -278,14 +267,12 @@ function uss() {
 alias ss='env | grep _proxy='
 
 ## Docker
-alias sd='open /Applications/Docker.app'
-
 alias d='docker'
-alias dp='docker ps'
+alias dps='docker ps'
 
 alias des='d exec -it sora bash'
 alias dsp='d stop sora'
-alias drm='d stop sora'
+alias drm='d rm sora'
 alias dst='d start sora'
 alias drs='dsp && docker start sora'
 
@@ -336,12 +323,9 @@ function cs {
 alias sora=/Users/IceHe/Documents/Work/sora/sora
 alias mb='sora mk:branch'
 alias mc='sora mk:controller'
-alias mco='sora mk:command'
-alias mi='sora mk:issue'
 alias mt='sora mk:tag'
 alias mtc='sora mk:tag candidate*'
 alias mtr='sora mk:trait'
-alias rc='mt candidate*'
 
 ## Composer
 alias civ='composer install -vvv && composer dump'
@@ -363,12 +347,11 @@ if is_dev; then
     alias zn='cd /etc/nginx'
     alias zp='cd /etc/php.d'
     alias zpf='cd /etc/php-fpm.d'
-    alias zs='cs ~/sora'
 
     alias vn='sv /etc/nginx/v5.conf'
     alias vx='sv /etc/php.d/xdebug.ini'
 
-    alias zt='cd /data1/v5.weibo.cn/logs/ttt/2016/12'
+    alias zt='cd /data1/v5.weibo.cn/logs/ttt/'
 
     # Service
     alias rn='sudo service nginx restart'
