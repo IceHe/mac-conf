@@ -6,8 +6,6 @@
 !.ideavimrc
 !.tmux.conf
 !.vimrc
-!.vimrc.dev
-!.vimrc.local
 !.zshrc
 !.config/karabiner/karabiner.json
 
@@ -46,6 +44,7 @@ Public/
 .git*
 .idea/
 .iterm2/
+.lesshst
 .mysql_history
 .oh-my-zsh/
 .pearrc
