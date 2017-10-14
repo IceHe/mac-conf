@@ -1,0 +1,86 @@
+" config
+set localconfig
+let configpath="/Users/IceHe/.cvimrc"
+
+" true
+set autohidecursor
+set defaultnewtabpage
+set linkanimations
+"set showtabindices
+set smoothscroll
+set sortlinkhints
+
+" false
+set noautofocus
+set nodimhintcharacters
+
+" string
+let barposition="bottom"
+let hintcharacters="asdfgqwertzxcvb"
+
+" control
+map Q :help<CR>
+
+"" scroll
+map j scrollPageDown
+map k scrollPageUp
+map q scrollFullPageUp
+map d scrollFullPageDown
+
+"" tab
+map w previousTab
+map e nextTab
+map W moveTabLeft
+map E moveTabRight
+map gq firstTab
+map gr lastTab
+
+map a :buffer<Space>
+map S :duplicate<CR>
+map c yankDocumentUrl
+map v openPaste
+map V openPasteTab
+map gm muteTab
+
+"" history
+map z goBack
+map b goForward
+map R reloadTabUncached
+
+"" switch to tab
+map 1 1%
+map 2 2%
+map 3 3%
+map 4 4%
+map 5 5%
+map 6 6%
+map 7 7%
+map 8 8%
+map 9 9%
+map 0 10%
+map s1 11%
+map s2 12%
+map s3 13%
+map s4 14%
+map s5 15%
+map s6 16%
+map s7 17%
+map s8 18%
+map s9 19%
+map s0 20%
+
+"" quickstart
+map D :chrome://downloads<CR>
+map ga :tabnew google<CR>
+map gb :tabnew baidu<CR>
+map gd :tabnew douban.com<CR>
+map gh :tabnew file:///Users/IceHe/Downloads/html.html<CR>
+map gj :tabnew jd.com<CR>
+map gt :tabnew taobao.com<CR>
+map gw :tabnew weibo.com<CR>
+map gz :tabnew zhihu.com<CR>
+
+"" others
+map Z toggleVisualMode
+map i goToInput
+map I goToLastInput
