@@ -2,6 +2,7 @@
 # Include #
 ###########
 
+!.cvimrc
 !.gitignore
 !.ideavimrc
 !.tmux.conf
