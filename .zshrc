@@ -385,5 +385,9 @@ if is_dev; then
 
 fi
 
+# key-bindings
+bindkey '^b' backward-word
+bindkey '^f' forward-word
+
 clear
 
