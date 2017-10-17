@@ -47,6 +47,17 @@ map z goBack
 map b goForward
 map R reloadTabUncached
 
+"" quickstart
+map D :chrome://downloads<CR>
+map ga :tabnew google<CR>
+map gb :tabnew baidu<CR>
+map gd :tabnew douban.com<CR>
+map gh :tabnew file:///Users/IceHe/Downloads/html.html<CR>
+map gj :tabnew jd.com<CR>
+map gt :tabnew taobao.com<CR>
+map gw :tabnew weibo.com<CR>
+map gz :tabnew zhihu.com<CR>
+
 "" switch to tab
 map 1 1%
 map 2 2%
@@ -69,18 +80,19 @@ map s8 18%
 map s9 19%
 map s0 20%
 
-"" quickstart
-map D :chrome://downloads<CR>
-map ga :tabnew google<CR>
-map gb :tabnew baidu<CR>
-map gd :tabnew douban.com<CR>
-map gh :tabnew file:///Users/IceHe/Downloads/html.html<CR>
-map gj :tabnew jd.com<CR>
-map gt :tabnew taobao.com<CR>
-map gw :tabnew weibo.com<CR>
-map gz :tabnew zhihu.com<CR>
+"" text box
+map i goToInput
+map I goToLastInput
+
+imap <C-f> forwardWord
+imap <C-b> backwardWord
+
+imap <C-h> deleteChar
+imap <C-k> deleteToEnd
+
+iunmap <C-i>
+iunmap <C-o>
+iunmap <C-j>
 
 "" others
 map Z toggleVisualMode
-map i goToInput
-map I goToLastInput
