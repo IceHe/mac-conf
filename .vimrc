@@ -65,13 +65,16 @@ imap <C-G> <Esc><C-G>
 map <C-G> ZZ<CR>
 
 " Mimic Emacs in Insert Mode
-inoremap <C-B> <Left>
-inoremap <C-F> <Right>
 inoremap <C-P> <Up>
 inoremap <C-N> <Down>
 
 inoremap <C-A> <Home>
 inoremap <C-E> <End>
+
+" Forward Word (End)
+inoremap <C-F> <Esc>ea
+" Backward Word (End)
+inoremap <C-B> <Esc>gea
 
 " Del to End of Line
 inoremap <C-K> <Esc>lDa
