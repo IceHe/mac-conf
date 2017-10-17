@@ -217,6 +217,7 @@ alias zd='cd ~/Desktop'
 alias zl='cd ~/Downloads'
 alias zo='cd ~/Documents'
 alias za='cd ~/Documents/AppleScript'
+alias zg='cd ~/Documents/Coding'
 alias zp='cd ~/Documents/Python'
 alias zb='cd ~/Documents/Blog/icehe.me'
 alias z_='cd ~/Documents/Blog/icehe.me/source/_posts'
@@ -329,6 +330,7 @@ alias mtr='sora mk:trait'
 
 ## Composer
 alias civ='composer install -vvv && composer dump'
+alias cuv='composer update -vvv && composer dump'
 
 ## for Dev Machine (10.13.130.231)
 
