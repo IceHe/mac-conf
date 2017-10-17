@@ -206,6 +206,7 @@ alias vh='v /etc/hosts'
 alias vgi='v ./.gitignore'
 alias vp='v /usr/local/etc/php/7.1/php.ini'
 alias vt='v ~/.tmux.conf'
+alias viv='v ~/.ideavimrc'
 alias vv='v ~/.vimrc'
 alias vz='v ~/.zshrc'
 
