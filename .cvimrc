@@ -35,6 +35,7 @@ map E moveTabRight
 map gq firstTab
 map gr lastTab
 
+map t :tabnew<CR>
 map a :buffer<Space>
 map S :duplicate<CR>
 map c yankDocumentUrl
@@ -57,6 +58,7 @@ map gj :tabnew jd.com<CR>
 map gt :tabnew taobao.com<CR>
 map gw :tabnew weibo.com<CR>
 map gz :tabnew zhihu.com<CR>
+map gS :tabnew chrome-extension://ihlenndgcmojhcghmfjfneahoeklbjjh/pages/options.html<CR>
 
 "" switch to tab
 map 1 1%
