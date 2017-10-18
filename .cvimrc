@@ -86,8 +86,11 @@ map s0 20%
 map i goToInput
 map I goToLastInput
 
-imap <C-f> forwardWord
-imap <C-b> backwardWord
+imap <C-f> forwardChar
+imap <C-b> backwardChar
+
+imap <C-p> forwardWord
+imap <C-n> backwardWord
 
 imap <C-h> deleteChar
 imap <C-k> deleteToEnd
