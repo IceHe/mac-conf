@@ -60,8 +60,6 @@ Public/
 .node-gyp/
 .npm/
 .nvm/
-node_modules/
-package-lock.json
 ## phpmd
 .pdepend/
 ## 七牛云缓存
