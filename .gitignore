@@ -26,33 +26,14 @@ Pictures/
 Public/
 .Trash/
 
-1Password Emergency Kit.crypto
-
-## Language
+### Language
 .CFUserTextEncoding
-## Non-essiential Data Files
+### Non-essiential Data Files
 .cache/
-## Configuration
+### Configuration
 .config/
-## User Data
+### User Data
 .local/share/
-
-.bash*
-.composer/
-.docker/
-.gem/
-.gemrc
-.git*
-.idea/
-.iterm2/
-.lesshst
-.mysql_history
-.oh-my-zsh/
-.pearrc
-.ShadowsocksX*
-.ssh/
-.vim*
-.wget-hsts
 
 ## maven
 .m2/
@@ -70,3 +51,23 @@ Public/
 .rnd
 ## z
 .z*
+
+## others
+1Password Emergency Kit.crypto
+.bash*
+.composer/
+.docker/
+.gem/
+.gemrc
+.git*
+.idea/
+.iterm2/
+.lesshst
+.mysql_history
+.oh-my-zsh/
+.oracle_jre_usage/
+.pearrc
+.ShadowsocksX*
+.ssh/
+.vim*
+.wget-hsts
