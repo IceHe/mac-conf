@@ -1,56 +1,16 @@
-" Language: English
-language en_US
+" .vimrc "
 
-" Enable: iMproved
-if &compatible
-  set nocompatible
-endif
-
-" Enable:
-" - filetype detection,
-" - filetype-specific scripts (ftplugins),
-" - filetype-specific indent scripts.
-filetype plugin indent on
-
-" Encoding
-set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
-set termencoding=utf-8
-set encoding=utf-8
-
-" crontab
-if $VIM_CRONTAB == "true"
-    set nobackup
-    set nowritebackup
-endif
-
-" Undo
-set undofile
-set undodir=~/.vim/undo/
-
-" Clipboard
 set clipboard=unnamed
 
-" Fix YankRing Bug
-let g:yankring_clipboard_monitor=0
+let mapleader = ','
+
+" Save
+imap <C-S> <Esc><C-S>a
+map <C-S> :w<CR>
 
 " Search
-" 设置大小写敏感和聪明感知(小写全搜，大写完全匹配)
+" 设置大小写敏感和聪明感知（小写全搜，大写完全匹配）
 set ignorecase
-
-" Tab == 4 Whitespaces
-set ts=4
-set shiftwidth=4
-set expandtab
-set autoindent
-
-" Line Break
-set wrap
-
-" Line Number
-set nu
-
-" Leader Key
-let mapleader = ','
 
 " Swith Tab
 map <S-H> gT
@@ -76,18 +36,6 @@ map <leader>8 18gt
 map <leader>9 19gt
 map <leader>10 20gt
 
-" Toggle Line Number
-map <leader>n :set nu!<CR> " Toggle
-
-" Toggle Relative Line Number
-map <leader>r :set rnu!<CR> " Toggle
-
-" Save & Quit
-imap <C-S> <Esc><C-S>a
-map <C-S> :w<CR>
-imap <C-G> <Esc><C-G>
-map <C-G> ZZ<CR>
-
 " Mimic Emacs in Insert Mode
 inoremap <C-F> <Left>
 inoremap <C-B> <Right>
@@ -95,9 +43,8 @@ inoremap <C-B> <Right>
 inoremap <C-A> <Home>
 inoremap <C-E> <End>
 
-" Forward Word (End)
+" Forward|Backward Word (End)
 inoremap <C-N> <Esc>ea
-" Backward Word (End)
 inoremap <C-P> <Esc>gea
 
 " Del to End of Line
@@ -107,8 +54,53 @@ inoremap <C-U> <Esc>d0xi
 " Exchange Chars
 inoremap <C-T> <esc>xpli
 
-" Copy to EOL (end of line)
+" Copy to EOL (without the line break)
 map <S-Y> v$hy
+
+language en_US
+
+" Tab == 4 Whitespaces
+set ts=4
+set shiftwidth=4
+set expandtab
+set autoindent
+
+" Line Break
+set wrap
+
+" Line Number
+set nu
+
+" Toggle Line Number
+map <leader>n :set nu!<CR> " Toggle
+
+" Toggle Relative Line Number
+map <leader>r :set rnu!<CR> " Toggle
+
+" iMproved
+if &compatible
+  set nocompatible
+endif
+
+" Encoding
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
+
+" Undo
+set undofile
+set undodir=~/.vim/undo/
+
+filetype plugin indent on
+
+" Fix YankRing Bug
+let g:yankring_clipboard_monitor=0
+
+" crontab
+if $VIM_CRONTAB == "true"
+    set nobackup
+    set nowritebackup
+endif
 
 " Line Comment
 map <leader>c ^i//<Esc>
