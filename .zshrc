@@ -307,7 +307,7 @@ function utc {
 
 function uts {
     if [[ "$1" =~ ^.*/tests/(.*)Test\.php$ ]]; then
-        ut $1 && echo "\n<<< Generating Coverage Reports... >>>\n~/Documents/coverage/$match.php.html\n" && utc $1 > /dev/null && open ~/Documents/coverage/$match.php.html
+        ut $1 && echo "\n<<< Generating Coverage Reports... >>>\n~/Documents/coverage/$match.php.html\n" && utc $1 > /dev/null && open ~/Downloads/coverage/$match.php.html
     fi
 }
 
