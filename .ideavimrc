@@ -1,45 +1,16 @@
-" Enable Vim-Surround
-set surround
+" .ideavimrc "
 
-" Search
-" 设置大小写敏感和聪明感知(小写全搜，大写完全匹配)
-set ignorecase
-
-" Clipboard
 set clipboard=unnamed
+
+let mapleader=","
 
 " Save
 imap <C-S> <Esc><C-S>a
 map <C-S> :w<CR>
 
-" Copy to EOL
-" (without the line break)
-map <S-Y> v$hy
-
-" Redo
-withoutmap <c-r> :redo<CR>
-
-" Mimic Emacs in Insert Mode
-inoremap <C-F> <Left>
-inoremap <C-B> <Right>
-
-inoremap <C-A> <Home>
-inoremap <C-E> <End>
-
-" Forward Word (End)
-inoremap <C-N> <Esc>ea
-" Backward Word (End)
-inoremap <C-P> <Esc>gea
-
-" Del to End of Line
-inoremap <C-K> <Esc>lDa
-" Del to Head of Line
-inoremap <C-U> <Esc>d0xi
-" Exchange Chars
-inoremap <C-T> <esc>xpli
-
-" Leader Key
-let mapleader=","
+" Search
+" 设置大小写敏感和聪明感知（小写全搜，大写完全匹配）
+set ignorecase
 
 " Swith Tab
 map <S-H> gT
@@ -65,28 +36,30 @@ map <leader>8 18gt
 map <leader>9 19gt
 map <leader>10 20gt
 
-" Show Registers
-"map <c-,> :reg<CR>
+" Mimic Emacs in Insert Mode
+inoremap <C-F> <Left>
+inoremap <C-B> <Right>
 
-" Copy to | Paste from System Clipboard
-"nmap <leader>y "+y
-"vmap <leader>y "+y
-"nmap <leader>p "+p
-"vmap <leader>p "+p
-"
-"nmap <leader>c "+c
-"vmap <leader>c "+c
-"nmap <leader>d "+d
-"vmap <leader>d "+d
-"
-"nmap <leader>Y "+Y
-"vmap <leader>Y "+Y
-"nmap <leader>P "+P
-"vmap <leader>P "+P
+inoremap <C-A> <Home>
+inoremap <C-E> <End>
 
-" Triple hjkl to Esc!
-" [WARNING] It's not an useful config!
-"inoremap hhh <Esc>
-"inoremap jjj <Esc>
-"inoremap kkk <Esc>
-"inoremap lll <Esc>
+" Forward|Backward Word (End)
+inoremap <C-N> <Esc>ea
+inoremap <C-P> <Esc>gea
+
+" Del to End of Line
+inoremap <C-K> <Esc>lDa
+" Del to Head of Line
+inoremap <C-U> <Esc>d0xi
+" Exchange Chars
+inoremap <C-T> <esc>xpli
+
+" Copy to EOL (without the line break)
+map <S-Y> v$hy
+
+" Enable Vim-Surround
+set surround
+
+" Redo
+withoutmap <c-r> :redo<CR>
+
