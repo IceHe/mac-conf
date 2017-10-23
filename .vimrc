@@ -52,6 +52,30 @@ set nu
 " Leader Key
 let mapleader = ','
 
+" Swith Tab
+map <S-H> gT
+map <S-L> gt
+map <leader>a 1gt
+map <leader>s 2gt
+map <leader>d 3gt
+map <leader>f 4gt
+map <leader>g 5gt
+map <leader>h 6gt
+map <leader>j 7gt
+map <leader>k 8gt
+map <leader>l 9gt
+map <leader>; 10gt
+map <leader>1 11gt
+map <leader>2 12gt
+map <leader>3 13gt
+map <leader>4 14gt
+map <leader>5 15gt
+map <leader>6 16gt
+map <leader>7 17gt
+map <leader>8 18gt
+map <leader>9 19gt
+map <leader>10 20gt
+
 " Toggle Line Number
 map <leader>n :set nu!<CR> " Toggle
 
