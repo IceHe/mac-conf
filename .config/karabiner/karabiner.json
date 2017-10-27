@@ -183,7 +183,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + 凵  == International1 ( to Rg Click )",
+                        "description": "Fn + 凵  ==  凵 ( press to repeat )",
                         "manipulators": [
                             {
                                 "from": {
@@ -199,7 +199,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "international1"
+                                        "key_code": "spacebar"
                                     }
                                 ],
                                 "type": "basic"
