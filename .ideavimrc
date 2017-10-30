@@ -37,8 +37,8 @@ map <leader>9 19gt
 map <leader>10 20gt
 
 " Mimic Emacs in Insert Mode
-inoremap <C-F> <Left>
-inoremap <C-B> <Right>
+inoremap <C-B> <Left>
+inoremap <C-F> <Right>
 
 inoremap <C-A> <Home>
 inoremap <C-E> <End>
