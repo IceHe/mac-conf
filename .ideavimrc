@@ -64,4 +64,4 @@ set surround
 withoutmap <c-r> :redo<CR>
 
 " Join Lines
-map <S-J> Jx
+map <S-K> Jx
