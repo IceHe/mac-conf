@@ -326,7 +326,7 @@ function cs {
 alias sora=/Users/IceHe/Documents/Work/sora/sora
 alias mb='sora mk:branch'
 alias mc='sora mk:controller'
-alias ml='sora ls:issue'
+alias li='sora ls:issue'
 alias mt='sora mk:tag'
 alias mtc='sora mk:tag candidate*'
 alias mtr='sora mk:trait'
