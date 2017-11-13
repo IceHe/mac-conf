@@ -16,11 +16,10 @@
             "description": "⌘ + q, ⌘ + q ( twice ) == ⌘ + q",
             "manipulators": [
               {
-                "type": "basic",
                 "conditions": [
                   {
-                    "type": "variable_if",
                     "name": "command-q",
+                    "type": "variable_if",
                     "value": 1
                   }
                 ],
@@ -40,10 +39,10 @@
                     "key_code": "q",
                     "modifiers": "left_command"
                   }
-                ]
+                ],
+                "type": "basic"
               },
               {
-                "type": "basic",
                 "from": {
                   "key_code": "q",
                   "modifiers": {
@@ -64,14 +63,6 @@
                   }
                 ],
                 "to_delayed_action": {
-                  "to_if_invoked": [
-                    {
-                      "set_variable": {
-                        "name": "command-q",
-                        "value": 0
-                      }
-                    }
-                  ],
                   "to_if_canceled": [
                     {
                       "set_variable": {
@@ -79,8 +70,17 @@
                         "value": 0
                       }
                     }
+                  ],
+                  "to_if_invoked": [
+                    {
+                      "set_variable": {
+                        "name": "command-q",
+                        "value": 0
+                      }
+                    }
                   ]
-                }
+                },
+                "type": "basic"
               }
             ]
           },
