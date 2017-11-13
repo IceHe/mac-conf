@@ -98,8 +98,15 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17",
+                                        "key_code": "vk_none",
                                         "modifiers": []
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "select_input_source": {
+                                            "input_source_id": "^com\\.baidu\\.inputmethod\\.BaiduIM\\.pinyin$"
+                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -125,7 +132,9 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f18"
+                                        "select_input_source": {
+                                            "input_source_id": "^com\\.apple\\.keylayout\\.US$"
+                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -146,7 +155,9 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f18"
+                                        "select_input_source": {
+                                            "input_source_id": "^com\\.apple\\.keylayout\\.US$"
+                                        }
                                     }
                                 ],
                                 "type": "basic"
