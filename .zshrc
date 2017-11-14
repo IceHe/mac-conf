@@ -215,6 +215,7 @@ alias vcv='v ~/.cvimrc'
 alias viv='v ~/.ideavimrc'
 alias vv='v ~/.vimrc'
 alias vz='v ~/.zshrc'
+alias vk='v ~/.config/karabiner/karabiner.json'
 
 ## open
 alias o='open'
