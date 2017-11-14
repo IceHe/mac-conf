@@ -57,6 +57,7 @@ Public/
 .pearrc
 .ShadowsocksX*
 .ssh/
+.tig_history
 .vim*
 .wget-hsts
 
