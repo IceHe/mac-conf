@@ -175,6 +175,11 @@ alias llag='ls -hlA | grep'
 
 alias e='exit'
 
+## Homebrew
+alias bu='bug | bud'
+alias bug='brew upgrade -vvv'
+alias bud='brew update -vvv'
+
 ## IP
 alias ip='ip_addr | tr -d "\n" | pb; ip_addr'
 
