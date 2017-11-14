@@ -72,4 +72,5 @@ Public/
 !.zshrc
 !.config/karabiner/karabiner.json
 !.config/sublime/Package Control.sublime-settings.json
+!.config/sublime/Preferences.sublime-settings
 
