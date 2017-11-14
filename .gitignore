@@ -1,16 +1,4 @@
 ###########
-# Include #
-###########
-
-!.cvimrc
-!.gitignore
-!.ideavimrc
-!.tmux.conf
-!.vimrc
-!.zshrc
-!.config/karabiner/karabiner.json
-
-###########
 # Exclude #
 ###########
 
@@ -71,3 +59,17 @@ Public/
 .ssh/
 .vim*
 .wget-hsts
+
+###########
+# Include #
+###########
+
+!.cvimrc
+!.gitignore
+!.ideavimrc
+!.tmux.conf
+!.vimrc
+!.zshrc
+!.config/karabiner/karabiner.json
+!.config/sublime/Package Control.sublime-settings.json
+

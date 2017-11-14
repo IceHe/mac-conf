@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ActualVim",
+		"Alignment",
+		"All Autocomplete",
+		"BracketGuard",
+		"Colorsublime",
+		"Compare Side-By-Side",
+		"CTags",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"MarkdownEditing",
+		"Package Control",
+		"Pretty JSON",
+		"SublimeLinter",
+		"Swig",
+		"TrailingSpaces",
+		"Trimmer"
+	]
+}
