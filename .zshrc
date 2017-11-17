@@ -90,7 +90,7 @@ HIST_STAMPS="yyyy/mm/dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # Warning: sudo plugin must be put after vi-mode!
-plugins=(brew-cask colored-man copydir copyfile copydir cp git osx tmux sudo vundle z zsh-interactive-cd zsh-syntax-highlighting)
+plugins=(brew-cask colored-man copydir copyfile copydir cp git osx tmux sudo vundle z zsh-autosuggestions zsh-interactive-cd zsh-syntax-highlighting)
 
 # User configuration
 export PATH="$PATH:/usr/local/sbin"
@@ -125,16 +125,6 @@ zstyle ':completion:*' verbose true
 zstyle ':completion:incremental:*' completer _complete _correct
 zstyle ':completion:*' completer _complete _prefix _correct _prefix _match _approximate
 zstyle ':completion:*:*:-subscript-:*' tag-order indexes parameters
-
-# Enable zsh-autosuggestions
-# Warning: I ecountered a unknown error when I enabled it by adding in "plugins=()"!!
-if [ is_231 ] || [ `whoami` != "root" ]; then
-    source ~/.oh-my-zsh/plugins/zsh-autosuggestions/autosuggestions.zsh
-    zle-line-init() {
-        zle autosuggest-start
-    }
-    zle -N zle-line-init
-fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
