@@ -325,6 +325,7 @@ alias mc='sora mk:controller'
 alias li='sora ls:issue'
 alias mt='sora mk:tag'
 alias mtc='sora mk:tag candidate*'
+alias mtcy='sora mk:tag candidate* -y'
 alias mtr='sora mk:trait'
 
 ## Composer
