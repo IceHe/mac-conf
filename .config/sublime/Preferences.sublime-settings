@@ -89,7 +89,7 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/Dracula Markdown (SL).tmTheme",
 	"font_face": "Source Code Pro",
-	"font_size": 17,
+	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
