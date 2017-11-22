@@ -48,11 +48,13 @@ inoremap <C-N> <Esc>ea
 inoremap <C-P> <Esc>gea
 
 " Del to End of Line
-inoremap <C-K> <Esc>lDa
+inoremap <C-K> <Right><Esc>Da
 " Del to Head of Line
 inoremap <C-U> <Esc>d0xi
 " Exchange Chars
 inoremap <C-T> <esc>xpli
+" Join Lines Without Spacing
+map <S-K> Jx
 
 " Copy to EOL (without the line break)
 map <S-Y> v$hy
@@ -62,6 +64,3 @@ set surround
 
 " Redo
 withoutmap <c-r> :redo<CR>
-
-" Join Lines
-map <S-K> Jx
