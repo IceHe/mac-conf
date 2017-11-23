@@ -90,7 +90,7 @@ HIST_STAMPS="yyyy/mm/dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # Warning: sudo plugin must be put after vi-mode!
-plugins=(brew-cask colored-man copydir copyfile copydir cp git osx tmux sudo vundle zsh-syntax-highlighting z)
+plugins=(brew-cask colored-man copydir copyfile copydir cp git osx tmux sudo vundle z zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 export PATH="$PATH:/usr/local/sbin"
