@@ -60,18 +60,3 @@ Public/
 .tig_history
 .vim*
 .wget-hsts
-
-###########
-# Include #
-###########
-
-!.cvimrc
-!.gitignore
-!.ideavimrc
-!.tmux.conf
-!.vimrc
-!.zshrc
-!.config/karabiner/karabiner.json
-!.config/sublime/Package Control.sublime-settings.json
-!.config/sublime/Preferences.sublime-settings
-
