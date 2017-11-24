@@ -192,11 +192,30 @@ alias pb='pbcopy'
 ### Cannot use in macOS High Sierra!
 alias pbn='tr -d "\n" | pbcopy'
 
+## hallelujahIM
+alias rh='pkill -9 hallelujah'
+
 ## Hexo
 alias h='zb && hexo s'
 alias ha='zb && hexo clean && hexo g && hexo s'
 
 alias tg='zb && clear && hexo clean && hexo deploy && -'
+
+## Shadowsocks Proxy
+function sss() {
+    #export ALL_PROXY=socks5://127.0.0.1:1081 # 我的老方法
+    export http_proxy=http://127.0.0.1:1083;
+    export https_proxy=http://127.0.0.1:1083;
+}
+
+function uss() {
+    #unset ALL_PROXY # 我的老方法
+    unset http_proxy;
+    unset https_proxy;
+}
+
+#alias ss='env | grep ALL_PROXY'
+alias ss='env | grep _proxy='
 
 ## Vim
 alias v='nvim'
@@ -204,9 +223,6 @@ alias sv='sudo nvim'
 #alias v='vim'
 #alias sv='sudo vim'
 
-# edit files
-
-## Vim
 alias vh='v /etc/hosts'
 alias vgi='v ./.gitignore'
 alias vp='v /usr/local/etc/php/7.1/php.ini'
@@ -259,22 +275,6 @@ alias rtd="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev.sh"
 #alias rtl2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local2.sh"
 
 alias rtd3="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev_131_232.sh"
-
-## Shadowsocks Proxy
-function sss() {
-    #export ALL_PROXY=socks5://127.0.0.1:1081 # 我的老方法
-    export http_proxy=http://127.0.0.1:1083;
-    export https_proxy=http://127.0.0.1:1083;
-}
-
-function uss() {
-    #unset ALL_PROXY # 我的老方法
-    unset http_proxy;
-    unset https_proxy;
-}
-
-#alias ss='env | grep ALL_PROXY'
-alias ss='env | grep _proxy='
 
 ## Docker
 alias d='docker'
