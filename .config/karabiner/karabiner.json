@@ -15,7 +15,7 @@
                     {
                         "manipulators": [
                             {
-                                "description": "test",
+                                "description": "V5 Issues",
                                 "conditions": [
                                     {
                                         "type": "device_if",
@@ -28,17 +28,11 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "l"
+                                    "key_code": "i"
                                 },
                                 "to": [
                                     {
-                                        "key_code": "l",
-                                        "modifiers": [
-                                            "left_control",
-                                            "left_shift",
-                                            "left_option",
-                                            "left_command"
-                                        ]
+                                        "shell_command": "open https://gitlab.weibo.cn/mobile-api/mobile-api-v5-application/issues"
                                     }
                                 ],
                                 "type": "basic"
@@ -342,6 +336,49 @@
                                     },
                                     {
                                         "key_code": "spacebar"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Fn + u  ==  F19 ; Fn + i  ==  F20",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f19"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f20"
                                     }
                                 ],
                                 "type": "basic"
