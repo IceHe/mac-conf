@@ -15,18 +15,18 @@
                     {
                         "manipulators": [
                             {
-                                "description": "V5 Issues",
                                 "conditions": [
                                     {
-                                        "type": "device_if",
                                         "identifiers": [
                                             {
-                                                "vendor_id": 1278,
-                                                "product_id": 13
+                                                "product_id": 13,
+                                                "vendor_id": 1278
                                             }
-                                        ]
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
+                                "description": "V5 Issues",
                                 "from": {
                                     "key_code": "i"
                                 },
@@ -343,7 +343,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + u  ==  F19 ; Fn + i  ==  F20",
+                        "description": "Fn + u, i, o, p == f19, f20, f15, f16",
                         "manipulators": [
                             {
                                 "from": {
@@ -379,6 +379,44 @@
                                 "to": [
                                     {
                                         "key_code": "f20"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f13"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "b"
                                     }
                                 ],
                                 "type": "basic"
@@ -2781,30 +2819,6 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "japanese_pc_nfer"
-                            },
-                            "to": {
-                                "key_code": "international1"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "japanese_pc_xfer"
-                            },
-                            "to": {
-                                "key_code": "international3"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "japanese_pc_katakana"
-                            },
-                            "to": {
-                                "key_code": "escape"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "escape"
                             },
                             "to": {
@@ -2833,6 +2847,30 @@
                             },
                             "to": {
                                 "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "japanese_pc_katakana"
+                            },
+                            "to": {
+                                "key_code": "escape"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "japanese_pc_nfer"
+                            },
+                            "to": {
+                                "key_code": "international1"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "japanese_pc_xfer"
+                            },
+                            "to": {
+                                "key_code": "international3"
                             }
                         }
                     ]
@@ -2945,4 +2983,5 @@
             }
         }
     ]
+
 }
