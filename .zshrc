@@ -295,6 +295,9 @@ function cs {
 
 # Work
 
+## Git
+alias mr="open https://gitlab.weibo.cn/zhiyuan16/sora/merge_requests/new?merge_request%5Bsource_branch%5D=`git rev-parse --abbrev-ref HEAD`"
+
 ## Rsync
 alias rtd="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev.sh"
 #alias rtl="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local.sh" # Seldom
