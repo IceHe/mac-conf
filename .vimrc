@@ -95,20 +95,23 @@ set undodir=~/.vim/undo/
 
 filetype plugin indent on
 
-" Fix YankRing Bug
+" YankRing Bugfix
 let g:yankring_clipboard_monitor=0
 
-" crontab
+" Crontab
 if $VIM_CRONTAB == "true"
     set nobackup
     set nowritebackup
 endif
 
-" Line Comment
+" Comment
+"" # (hash)
+map <leader>a ^i#<Esc>
+map <leader><S-A> ^x<Esc>
+"" //
 map <leader>c ^i//<Esc>
 map <leader><S-C> ^xx<Esc>
-
-" HTML Comment
+"" <!-- -->
 map <leader>h ^i<!-- <Esc>$a --><Esc>
 map <leader><S-H> ^xxxxx$xxxx
 
