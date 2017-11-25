@@ -1,14 +1,12 @@
-# This Variable is also used in ./themes/sunrise_me.zsh-theme !!
+######
+# IP #
+######
 
 function wifi_ip() {
     /sbin/ifconfig en0|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d 'addr:'
 }
 
 function physical_ip() {
-    # Adapter
-    #/sbin/ifconfig en9|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d 'addr:'
-
-    # Docking Station
     /sbin/ifconfig en9|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d 'addr:'
 }
 
@@ -26,73 +24,50 @@ function ip_addr() {
     fi
 }
 
+## Is Sina Development Env?
+
 init_ip=$(ip_addr)
 
 function is_dev() {
     sina_dev_machine_ip="10.13.130.231"
     [ $init_ip = $sina_dev_machine_ip ]
-    #[ "$(ip_addr)" = $dev_ip ]
 }
 
-# Path to your oh-my-zsh installation.
-if is_dev; then
-    export ZSH=/usr/home/zhiyuan16/.oh-my-zsh
-else
-    export ZSH=/Users/IceHe/.oh-my-zsh
-fi
+#######
+# ENV #
+#######
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="sunrise_me"
+# Auto Correct
+zstyle ':completion:*' verbose true
+zstyle ':completion:incremental:*' completer _complete _correct
+zstyle ':completion:*' completer _complete _prefix _correct _prefix _match _approximate
+zstyle ':completion:*:*:-subscript-:*' tag-order indexes parameters
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+# NVM
+export NVM_DIR="/Users/IceHe/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+# Plugins
+plugins=(brew-cask colored-man copydir copyfile cp git osx sudo tmux vundle z zsh-syntax-highlighting)
+## Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+## Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+## Example format: plugins=(rails git textmate ruby lighthouse)
+## Add wisely, as too many plugins slow down shell startup.
+## Warning: sudo plugin must be put after vi-mode!
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+# Preferred Editor 
+export EDITOR='nvim'
+## For local and remote sessions
+#if [[ -n $SSH_CONNECTION ]]; then
+  #export EDITOR='vim'
+#else
+  #export EDITOR='mvim'
+#fi
 
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+# Theme
+ZSH_THEME="sunrise_icehe" # Look in ~/.oh-my-zsh/themes/
 
-# Uncomment the following line to disable colors in ls.
-#DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-HIST_STAMPS="yyyy/mm/dd"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-# Warning: sudo plugin must be put after vi-mode!
-plugins=(brew-cask colored-man copydir copyfile copydir cp git osx tmux sudo vundle z zsh-autosuggestions zsh-syntax-highlighting)
-
-# User configuration
+# PATH
 export PATH="$PATH:/usr/local/sbin"
 export PATH="$PATH:/opt/local/bin"
 export PATH="$PATH:/usr/sbin"
@@ -101,143 +76,46 @@ export PATH="$PATH:/sbin"
 export PATH="$PATH:/Users/IceHe/.composer/vendor/bin"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-#export MANPATH="/usr/local/man:$MANPATH"
-
+## Path to oh-my-zsh
+export ZSH=/Users/IceHe/.oh-my-zsh
+### TORM: Patch for Sina
+if is_dev; then
+    export ZSH=/usr/home/zhiyuan16/.oh-my-zsh
+fi
+### Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+# Enable Plugin 'zsh-autosuggestions' manually
+source ~/.oh-my-zsh/plugins/zsh-autosuggestions/autosuggestions.zsh
+zle-line-init() {
+    zle autosuggest-start
+}
 
-# Preferred editor for local and remote sessions
-if is_dev; then
-  export EDITOR='vim'
-else
-  export EDITOR='nvim'
-fi
-#if [[ -n $SSH_CONNECTION ]]; then
-  #export EDITOR='vim'
-#else
-  #export EDITOR='mvim'
-#fi
+# Key-bindings
+bindkey '^n' forward-word
+bindkey '^p' backward-word
 
-# About Auto Correct
-zstyle ':completion:*' verbose true
-zstyle ':completion:incremental:*' completer _complete _correct
-zstyle ':completion:*' completer _complete _prefix _correct _prefix _match _approximate
-zstyle ':completion:*:*:-subscript-:*' tag-order indexes parameters
+#########
+# ALIAS #
+#########
 
-# Enable zsh-autosuggestions
-# Warning: I ecountered a unknown error when I enabled it by adding in "plugins=()"!!
-if [ is_231 ] || [ `whoami` != "root" ]; then
-    source ~/.oh-my-zsh/plugins/zsh-autosuggestions/autosuggestions.zsh
-    zle-line-init() {
-        zle autosuggest-start
-    }
-    zle -N zle-line-init
-fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Fix *.app which cannot run now
-
-#alias fapp='chmod +x *.app/contents/macos/*'
-
-# Aliases
-
-## Safe-rm !!!
-alias rm='safe-rm'
-
-## crontab
-alias crontab="VIM_CRONTAB=true crontab"
-
-## Netcat
-alias no="nc -l 7777 < "
-alias ni="nc -n 10.13.130.231 7777 > "
-
-## List Dir
-alias lg='ls -h | grep'
-alias llg='ls -hl | grep'
-alias lag='ls -hA | grep'
-alias llag='ls -hlA | grep'
-
+alias cm='chmod' # change mode
+alias co='chown' # change owner
 alias e='exit'
+alias j='jobs'
+alias o='open'
+alias pb='pbcopy'
+alias pbn='tr -d "\n" | pbcopy'
+alias rm='safe-rm'
+alias rp='realpath'
+alias st='open -a /Applications/Sublime\ Text.app/'
 
-## Homebrew
+# brew: Homebrew
 alias bu='bug | bud'
 alias bug='brew upgrade -vvv'
 alias bud='brew update -vvv'
 
-## IP
-alias ip='ip_addr | tr -d "\n" | pb; ip_addr'
-
-## Background
-alias j='jobs'
-
-## Clipboard
-alias rp='realpath'
-alias pb='pbcopy'
-### Cannot use in macOS High Sierra!
-alias pbn='tr -d "\n" | pbcopy'
-
-## hallelujahIM
-alias rh='pkill -9 hallelujah'
-
-## Hexo
-alias h='zb && hexo s'
-alias ha='zb && hexo clean && hexo g && hexo s'
-
-alias tg='zb && clear && hexo clean && hexo deploy && -'
-
-## Shadowsocks Proxy
-function sss() {
-    #export ALL_PROXY=socks5://127.0.0.1:1081 # 我的老方法
-    export http_proxy=http://127.0.0.1:1083;
-    export https_proxy=http://127.0.0.1:1083;
-}
-
-function uss() {
-    #unset ALL_PROXY # 我的老方法
-    unset http_proxy;
-    unset https_proxy;
-}
-
-#alias ss='env | grep ALL_PROXY'
-alias ss='env | grep _proxy='
-
-## Vim
-alias v='nvim'
-alias sv='sudo nvim'
-#alias v='vim'
-#alias sv='sudo vim'
-
-alias vh='v /etc/hosts'
-alias vgi='v ./.gitignore'
-alias vp='v /usr/local/etc/php/7.1/php.ini'
-alias vt='v ~/.tmux.conf'
-alias vcv='v ~/.cvimrc'
-alias viv='v ~/.ideavimrc'
-alias vv='v ~/.vimrc'
-alias vz='v ~/.zshrc'
-alias vk='v ~/.config/karabiner/karabiner.json'
-alias stk='st ~/.config/karabiner/karabiner.json'
-
-## open
-alias o='open'
-
-## cd
+# cd: change directory
 alias zd='cd ~/Desktop'
 alias zl='cd ~/Downloads'
 alias zo='cd ~/Documents'
@@ -256,27 +134,15 @@ alias zw='cd ~/Documents/Work/weibov5_code'
 alias zw2='cd ~/Documents/Work/weibov5_code2'
 
 alias ze='cd /etc'
-alias zz='cd ~/.oh-my-zsh'
 alias zc='cd /usr/local/Cellar'
+alias z.='cd ~/.config'
+alias zz='cd ~/.oh-my-zsh'
+alias uz='cd ~/.oh-my-zsh && git pull && -'
 
-## qrsync
-alias qra='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_att_conf.json'
-alias qri='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_img_conf.json'
-alias qrt='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/ice_he_test_conf.json'
+# Crontab
+alias crontab="VIM_CRONTAB=true crontab"
 
-## Auto Scripts
-alias sina="/Users/IceHe/Documents/Work/Scripts/sina.sh"
-alias sinax="/Users/IceHe/Documents/Work/Scripts/sinax.sh"
-
-alias rtd="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev.sh"
-#alias rtl="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local.sh" # Seldom
-
-#alias rtd2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev2.sh"
-#alias rtl2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local2.sh"
-
-alias rtd3="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev_131_232.sh"
-
-## Docker
+# Docker
 alias d='docker'
 alias dps='docker ps'
 
@@ -286,19 +152,118 @@ alias drm='d rm sora'
 alias dst='d start sora'
 alias drs='dsp && docker start sora'
 
-## MySQL
+# Git
+alias gcf='git config'
+alias gcfl='git config -l'
+alias gcfe='git config -e'
+
+alias gcm='git commit -m'
+
+alias gcom='git checkout master'
+
+alias gdc='git diff --cached'
+
+alias gfap='git fetch -ap'
+
+alias ggr='git grep'
+
+alias glf='git ls-files'
+
+alias glm='git pull main'
+alias glmm='git pull main master'
+
+alias grm='git remote'
+alias grma='git remote add'
+
+alias gr='git reset'
+alias grh='git reset HEAD --hard'
+
+alias gs='git status -bs'
+
+alias gst='git stash'
+alias gsd='git stash drop'
+alias gsl='git stash list'
+alias gsp='git stash pop'
+
+# Hexo
+alias h='zb && hexo s'
+alias ha='zb && hexo clean && hexo g && hexo s'
+alias tg='zb && clear && hexo clean && hexo deploy && -'
+
+# IP
+alias ip='ip_addr | tr -d "\n" | pb; ip_addr'
+
+# ls: list
+
+## overwrite $ZSH/lib/directories.zsh
+alias l='ls -h'
+alias ll='ls -hl'
+alias la='ls -hA'
+alias lla='ls -hlA'
+## grep
+alias lg='ls -h | grep'
+alias llg='ls -hl | grep'
+alias lag='ls -hA | grep'
+alias llag='ls -hlA | grep'
+## tip
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
+# MySQL
 alias sm="mysql.server start"
 
-## Redis
+# nc: Netcat
+alias no="nc -l 7777 < "
+alias ni="nc -n 10.13.130.231 7777 > "
+
+# qrsync: 七牛云存储同步
+alias qra='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_att_conf.json'
+alias qri='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_img_conf.json'
+alias qrt='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/ice_he_test_conf.json'
+
+# Redis
 alias sr="redis-server /usr/local/etc/redis.conf"
 
-## Sublime Text
-alias st='open -a /Applications/Sublime\ Text.app/'
+# Shadowsocks
+function sss() {
+    #export ALL_PROXY=socks5://127.0.0.1:1081
+    export http_proxy=http://127.0.0.1:1083;
+    export https_proxy=http://127.0.0.1:1083;
+}
+function uss() {
+    #unset ALL_PROXY
+    unset http_proxy;
+    unset https_proxy;
+}
+alias ss='env | grep _proxy=' #alias ss='env | grep ALL_PROXY'
 
-## Sora
+# tmux
+alias t='tmux'
+alias tn='tmux new-session -s'
 
-### PHPUnit
+# Vim
+alias v='nvim'
+alias sv='sudo nvim'
+#alias v='vim'
+#alias sv='sudo vim'
 
+alias vh='v /etc/hosts'
+alias vgi='v ./.gitignore'
+alias vp='v /usr/local/etc/php/7.1/php.ini'
+alias vt='v ~/.tmux.conf'
+alias vcv='v ~/.cvimrc'
+alias viv='v ~/.ideavimrc'
+alias vv='v ~/.vimrc'
+alias vz='v ~/.zshrc'
+alias vk='v ~/.config/karabiner/karabiner.json'
+alias stk='st ~/.config/karabiner/karabiner.json'
+
+# PHP
+
+## Composer
+alias civ='composer install -vvv && composer dump'
+alias cuv='composer update -vvv && composer dump'
+
+## PHPUnit
 function ut {
     num=
     if [[ `pwd` =~ ^.*sora2.*$ ]]; then
@@ -318,8 +283,7 @@ function uts {
     fi
 }
 
-### PHP CS
-
+## PHPCS
 function cs {
     num=
     if [[ `pwd` =~ ^.*sora2.*$ ]]; then
@@ -329,7 +293,16 @@ function cs {
     echo "/Users/IceHe/Documents/Work/sora$num/sora cs $1"
 }
 
-### ./sora
+# Work
+
+## Rsync
+alias rtd="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev.sh"
+#alias rtl="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local.sh" # Seldom
+#alias rtd2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev2.sh"
+#alias rtl2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local2.sh"
+alias rtd3="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev_131_232.sh"
+
+## Sora
 alias sora=/Users/IceHe/Documents/Work/sora/sora
 alias mb='sora mk:branch'
 alias mc='sora mk:controller'
@@ -339,47 +312,42 @@ alias mtc='sora mk:tag candidate*'
 alias mtcy='sora mk:tag candidate* -y'
 alias mtr='sora mk:trait'
 
-## Composer
-alias civ='composer install -vvv && composer dump'
-alias cuv='composer update -vvv && composer dump'
+## SSH
+alias sina="/Users/IceHe/Documents/Work/Scripts/sina.sh"
+alias sinax="/Users/IceHe/Documents/Work/Scripts/sinax.sh"
 
-## for Dev Machine (10.13.130.231)
-
+## 10.13.130.231 (development env)
 if is_dev; then
-
-    # Encoding
+    # ENV
+    export EDITOR='vim'
     export LC_ALL="zh_CN.UTF-8"
 
-    # Shortcuts
-    alias zlc='cd /data1/v5.weibo.cn/library/conf'
-    alias vpc='vim /data1/v5.weibo.cn/library/conf/v5_pageconfig.ini'
-
+    # Alias
+    ## Code
     alias zw='cd /data1/v5.weibo.cn/code'
     alias zw2='cd /data1/v5.weibo.cn/code2'
 
+    ## Config
+    alias zlc='cd /data1/v5.weibo.cn/library/conf'
+    alias vpc='vim /data1/v5.weibo.cn/library/conf/v5_pageconfig.ini'
+
+    ## Log
+    alias zt='cd /data1/v5.weibo.cn/logs/ttt/'
+    alias rmt="sudo rm -rf /data1/v5.weibo.cn/logs/ttt/*"
+
+    ## HTTP Server
     alias zn='cd /etc/nginx'
+    alias vn='sv /etc/nginx/v5.conf'
+
     alias zp='cd /etc/php.d'
     alias zpf='cd /etc/php-fpm.d'
 
-    alias vn='sv /etc/nginx/v5.conf'
     alias vx='sv /etc/php.d/xdebug.ini'
 
-    alias zt='cd /data1/v5.weibo.cn/logs/ttt/'
-
-    # Service
+    ## Services
     alias rn='sudo service nginx restart'
     alias rp='sudo service php-fpm restart'
     alias rnp='rn && rp'
-
-    alias rp7='sudo killall -9 php-fpm && sudo /usr/home/zhiyuan16/php7/sbin/php-fpm && echo php7 php-fpm: ok'
-    alias rnp7='rn && rp7 && rp'
-
-    # Vim
-    alias v='vim'
-    alias sv='sudo vim'
-
-    # Hosts
-    alias vh='sv /etc/hosts'
 
     # PHP7
     alias p5='/usr/bin/php'
@@ -387,21 +355,18 @@ if is_dev; then
     alias zp7='/usr/home/zhiyuan16/php7/'
     alias vx7='sv /usr/home/zhiyuan16/php7/lib/php.ini'
 
-    # Netcat
-    alias ni="nc -n 10.209.2.181 7777 > "
+    alias rp7='sudo killall -9 php-fpm && sudo /usr/home/zhiyuan16/php7/sbin/php-fpm && echo php7 php-fpm: ok'
+    alias rnp7='rn && rp7 && rp'
 
-    # Clear logs
-    alias rmt="sudo rm -rf /data1/v5.weibo.cn/logs/ttt/*"
-
+    ## Vim
+    alias vh='sv /etc/hosts'
+    alias v='vim'
+    alias sv='sudo vim'
 fi
 
-# key-bindings
-bindkey '^p' backward-word
-bindkey '^n' forward-word
-
-###################
-# Tools about fzf #
-###################
+#######
+# FZF #
+#######
 
 # Wiki: <https://github.com/junegunn/fzf/wiki>
 
