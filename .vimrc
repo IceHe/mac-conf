@@ -107,7 +107,6 @@ endif
 " Comment
 "" # (hash)
 map <leader>a ^i#<Esc>
-map <leader><S-A> ^x<Esc>
 "" //
 map <leader>c ^i//<Esc>
 map <leader><S-C> ^xx<Esc>
