@@ -15,6 +15,7 @@
                     {
                         "manipulators": [
                             {
+                                "description": "Wikipedia - Regex",
                                 "conditions": [
                                     {
                                         "identifiers": [
@@ -26,13 +27,104 @@
                                         "type": "device_if"
                                     }
                                 ],
-                                "description": "V5 Issues",
+                                "from": {
+                                    "key_code": "r"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "BeJson - URL En/De-code",
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 13,
+                                                "vendor_id": 1278
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "u"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open https://www.bejson.com/enc/urlencode/"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "GitLab - V5 Issues",
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 13,
+                                                "vendor_id": 1278
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "i"
                                 },
                                 "to": [
                                     {
                                         "shell_command": "open https://gitlab.weibo.cn/mobile-api/mobile-api-v5-application/issues"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "Wikipedia - HTTP Status Codes",
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 13,
+                                                "vendor_id": 1278
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "s"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open https://en.wikipedia.org/wiki/List_of_HTTP_status_codes"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "Linux Commands Manual",
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 13,
+                                                "vendor_id": 1278
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "c"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open http://man.linuxde.net/sed"
                                     }
                                 ],
                                 "type": "basic"
