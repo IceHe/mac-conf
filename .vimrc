@@ -79,6 +79,9 @@ map <leader>n :set nu!<CR> " Toggle
 " Toggle Relative Line Number
 map <leader>r :set rnu!<CR> " Toggle
 
+" Deactivate Highlighted
+map <leader>h :noh<CR>
+
 " iMproved
 if &compatible
   set nocompatible
@@ -104,12 +107,20 @@ if $VIM_CRONTAB == "true"
     set nowritebackup
 endif
 
+" Window
+map <leader>t :tabedit<space>
+map <leader>e :edit<space>
+
 " Comment
-"" # (hash)
-map <leader>a ^i#<Esc>
-"" //
-map <leader>c ^i//<Esc>
-map <leader><S-C> ^xx<Esc>
-"" <!-- -->
-map <leader>h ^i<!-- <Esc>$a --><Esc>
-map <leader><S-H> ^xxxxx$xxxx
+" " (semicolon)
+map <leader>' ^i;<Esc>
+" " (double quote)
+map <leader>' ^i"<Esc>
+" # (hash)
+map <leader># ^i#<Esc>
+" //
+map <leader>/ ^i//<Esc>
+map <leader>? ^xx<Esc>
+" <!-- -->
+map <leader>! ^i<!-- <Esc>$a --><Esc>
+map <leader>< ^xxxxx$xxxx
