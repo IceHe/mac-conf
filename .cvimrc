@@ -27,6 +27,9 @@ map k scrollPageUp
 map q scrollFullPageUp
 map d scrollFullPageDown
 
+map ! scrollToLeft
+map $ scrollToRight
+
 "" tab
 map w previousTab
 map e nextTab
