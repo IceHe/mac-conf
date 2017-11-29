@@ -36,6 +36,14 @@ map <leader>8 18gt
 map <leader>9 19gt
 map <leader>10 20gt
 
+" Move Tab
+map <leader>W :tabm<space>-1<CR>
+map <leader>E :tabm<space>+1<CR>
+
+" Window
+map <leader>t :tabedit<space>
+map <leader>e :edit<space>
+
 " Mimic Emacs in Insert Mode
 inoremap <C-B> <Left>
 inoremap <C-F> <Right>
@@ -106,10 +114,6 @@ if $VIM_CRONTAB == "true"
     set nobackup
     set nowritebackup
 endif
-
-" Window
-map <leader>t :tabedit<space>
-map <leader>e :edit<space>
 
 " Comment
 " " (semicolon)
