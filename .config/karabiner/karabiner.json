@@ -13,9 +13,9 @@
                 },
                 "rules": [
                     {
+                        "description": "Wikipedia - Regex",
                         "manipulators": [
                             {
-                                "description": "Wikipedia - Regex",
                                 "conditions": [
                                     {
                                         "identifiers": [
@@ -36,9 +36,13 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "BeJson - URL En/De-code",
+                        "manipulators": [
                             {
-                                "description": "BeJson - URL En/De-code",
                                 "conditions": [
                                     {
                                         "identifiers": [
@@ -59,9 +63,13 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "GitLab - V5 Issues",
+                        "manipulators": [
                             {
-                                "description": "GitLab - V5 Issues",
                                 "conditions": [
                                     {
                                         "identifiers": [
@@ -82,9 +90,13 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Wikipedia - HTTP Status Codes",
+                        "manipulators": [
                             {
-                                "description": "Wikipedia - HTTP Status Codes",
                                 "conditions": [
                                     {
                                         "identifiers": [
@@ -97,7 +109,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "s"
+                                    "key_code": "h"
                                 },
                                 "to": [
                                     {
@@ -105,9 +117,13 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Linux Commands Manual",
+                        "manipulators": [
                             {
-                                "description": "Linux Commands Manual",
                                 "conditions": [
                                     {
                                         "identifiers": [
@@ -120,7 +136,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "c"
+                                    "key_code": "l"
                                 },
                                 "to": [
                                     {
