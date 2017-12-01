@@ -306,6 +306,7 @@ alias rtd="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev.sh"
 alias rtd3="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev_131_232.sh"
 alias s0="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_sora_0.sh"
 alias s1="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_sora_1.sh"
+alias s2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_sora_2.sh"
 
 ## Sora
 alias sora=/Users/IceHe/Documents/Work/sora/sora
