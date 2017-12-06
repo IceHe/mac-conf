@@ -172,8 +172,7 @@ alias glf='git ls-files'
 alias glm='git pull main'
 alias glmm='git pull main master'
 
-alias grm='git remote'
-alias grma='git remote add'
+alias grm='git rm'
 
 alias gr='git reset'
 alias grh='git reset HEAD --hard'
@@ -296,7 +295,11 @@ function cs {
 # Work
 
 ## Git
-alias mr="open https://gitlab.weibo.cn/zhiyuan16/sora/merge_requests/new?merge_request%5Bsource_branch%5D=`git rev-parse --abbrev-ref HEAD`"
+function mr {
+    branch=`git rev-parse --abbrev-ref HEAD`
+    echo $branch
+    open https://gitlab.weibo.cn/zhiyuan16/sora/merge_requests/new?merge_request%5Bsource_branch%5D=$branch
+}
 
 ## Rsync
 alias rtd="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev.sh"
