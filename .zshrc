@@ -172,6 +172,12 @@ alias glf='git ls-files'
 alias glm='git pull main'
 alias glmm='git pull main master'
 
+function gnb {
+    branch=`git rev-parse --abbrev-ref HEAD`
+    echo git push --set-upstream origin $branch
+    git push --set-upstream origin $branch
+}
+
 alias grm='git rm'
 
 alias gr='git reset'
