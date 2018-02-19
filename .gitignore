@@ -37,6 +37,8 @@ Public/
 .rsync*
 ## ssl
 .rnd
+## Tencent? (include QQMusic)
+.wns/
 ## z
 .z*
 
@@ -57,6 +59,7 @@ Public/
 .pearrc
 .ShadowsocksX*
 .ssh/
+.snipaste/
 .tig_history
 .vim*
 .wget-hsts
