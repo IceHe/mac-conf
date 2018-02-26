@@ -210,8 +210,6 @@ alias lg='ls -h | grep'
 alias llg='ls -hl | grep'
 alias lag='ls -hA | grep'
 alias llag='ls -hlA | grep'
-## tip
-alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
 # MySQL
 alias sm="mysql.server start"
