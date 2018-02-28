@@ -323,9 +323,11 @@ alias lgi='sora ls:api -l"gray intranet" -a'
 alias li='sora ls:issue'
 alias lai='sora ls:api'
 alias mt='sora mk:tag'
+alias mtr='sora mk:tag released*'
+alias mtrd='sora mk:tag released* -d'
 alias mtc='sora mk:tag candidate*'
+alias mtcd='sora mk:tag candidate* -d'
 alias mtcy='sora mk:tag candidate* -y'
-alias mtr='sora mk:trait'
 
 ## SSH
 alias sina="/Users/IceHe/Documents/Work/Scripts/sina.sh"
