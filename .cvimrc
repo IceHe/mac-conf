@@ -2,6 +2,9 @@
 set localconfig
 let configpath="/Users/IceHe/.cvimrc"
 
+" blacklist
+let blacklists = ["https://trello.com/*"]
+
 " true
 set autohidecursor
 set defaultnewtabpage
