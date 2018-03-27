@@ -152,6 +152,8 @@ alias drm='d rm sora'
 alias dst='d start sora'
 alias drs='dsp && docker start sora'
 
+alias rmi='d rmi'
+
 # Git
 alias gcf='git config'
 alias gcfl='git config -l'
@@ -162,6 +164,7 @@ alias gcm='git commit -m'
 alias gcom='git checkout master'
 
 alias gdc='git diff --cached'
+alias gdwc='git diff --word-diff --cached'
 
 alias gfap='git fetch -ap'
 
