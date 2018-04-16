@@ -25,12 +25,11 @@ Public/
 
 ## maven
 .m2/
+.mvn_repo/
 ## node
 .node-gyp/
 .npm/
 .nvm/
-## phpmd
-.pdepend/
 ## 七牛云缓存
 .qrsync/
 ## rsync (work, to-rm)
@@ -59,10 +58,11 @@ VirtualBox VMs/
 .mysql_history
 .oh-my-zsh/
 .oracle_jre_usage/
-.pearrc
 .ShadowsocksX*
 .ssh/
 .snipaste/
+.subversion/
 .tig_history
+.vim/
 .vim*
 .wget-hsts
