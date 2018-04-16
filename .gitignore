@@ -39,11 +39,14 @@ Public/
 .rnd
 ## Tencent? (include QQMusic)
 .wns/
+## Weibo Video Platform CMD Tool
+.wtool/
 ## z
 .z*
 
 ## others
 1Password Emergency Kit.crypto
+VirtualBox VMs/
 .bash*
 .composer/
 .docker/
