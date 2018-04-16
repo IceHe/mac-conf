@@ -28,11 +28,6 @@ function ip_addr() {
 
 init_ip=$(ip_addr)
 
-function is_dev() {
-    sina_dev_machine_ip="10.13.130.231"
-    [ $init_ip = $sina_dev_machine_ip ]
-}
-
 #######
 # ENV #
 #######
@@ -76,15 +71,11 @@ export PATH="$PATH:/sbin"
 export PATH="$PATH:/Users/IceHe/.composer/vendor/bin"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-## Path to JDK
+## Path to JDKJava
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home"
 
 ## Path to oh-my-zsh
 export ZSH=/Users/IceHe/.oh-my-zsh
-### TORM: Patch for Sina
-if is_dev; then
-    export ZSH=/usr/home/zhiyuan16/.oh-my-zsh
-fi
 ### Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
@@ -102,8 +93,6 @@ bindkey '^p' backward-word
 # ALIAS #
 #########
 
-alias cm='chmod' # change mode
-alias co='chown' # change owner
 alias e='exit'
 alias j='jobs'
 alias o='open'
@@ -122,8 +111,6 @@ alias bud='brew update -vvv'
 alias zd='cd ~/Desktop'
 alias zl='cd ~/Downloads'
 alias zo='cd ~/Documents'
-alias za='cd ~/Documents/AppleScript'
-alias zg='cd ~/Documents/Coding'
 alias zp='cd ~/Documents/Python'
 alias zb='cd ~/Documents/Blog/icehe.me'
 alias z_='cd ~/Documents/Blog/icehe.me/source/_posts'
@@ -132,18 +119,10 @@ alias zn='cd ~/Documents/Blog/icehe.me/themes/next'
 alias zj='cd ~/Documents/Java'
 alias zs='cd ~/Documents/Java/story'
 
-alias zk='cd ~/Documents/Work'
-#alias zs='cd ~/Documents/Work/sora'
-alias zs2='cd ~/Documents/Work/sora2'
-alias zS='cd ~/Documents/Work/Scripts'
-alias zw='cd ~/Documents/Work/weibov5_code'
-alias zw2='cd ~/Documents/Work/weibov5_code2'
-
 alias ze='cd /etc'
 alias zc='cd /usr/local/Cellar'
 alias z.='cd ~/.config'
 alias zz='cd ~/.oh-my-zsh'
-alias uz='cd ~/.oh-my-zsh && git pull && -'
 
 # Crontab
 alias crontab="VIM_CRONTAB=true crontab"
@@ -152,12 +131,10 @@ alias crontab="VIM_CRONTAB=true crontab"
 alias d='docker'
 alias dps='docker ps'
 
-alias des='d exec -it sora bash'
-alias dsp='d stop sora'
-alias drm='d rm sora'
-alias dst='d start sora'
-alias drs='dsp && docker start sora'
-
+alias de='d exec -it '
+alias dsp='d stop'
+alias drm='d rm'
+alias dst='d start'
 alias rmi='d rmi'
 
 # Git
@@ -228,9 +205,9 @@ alias no="nc -l 7777 < "
 alias ni="nc -n 10.13.130.231 7777 > "
 
 # qrsync: 七牛云存储同步
-alias qra='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_att_conf.json'
-alias qri='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_img_conf.json'
-alias qrt='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/ice_he_test_conf.json'
+#alias qra='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_att_conf.json'
+#alias qri='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_img_conf.json'
+#alias qrt='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/ice_he_test_conf.json'
 
 # Redis
 alias sr="redis-server /usr/local/etc/redis.conf"
@@ -260,7 +237,6 @@ alias sv='sudo nvim'
 
 alias vh='v /etc/hosts'
 alias vgi='v ./.gitignore'
-alias vp='v /usr/local/etc/php/7.1/php.ini'
 alias vt='v ~/.tmux.conf'
 alias vcv='v ~/.cvimrc'
 alias viv='v ~/.ideavimrc'
@@ -268,42 +244,6 @@ alias vv='v ~/.vimrc'
 alias vz='v ~/.zshrc'
 alias vk='v ~/.config/karabiner/karabiner.json'
 alias stk='st ~/.config/karabiner/karabiner.json'
-
-# PHP
-
-## Composer
-alias civ='composer install -vvv && composer dump'
-alias cuv='composer update -vvv && composer dump'
-
-## PHPUnit
-function ut {
-    num=
-    if [[ `pwd` =~ ^.*sora2.*$ ]]; then
-        num=2
-    fi
-    /Users/IceHe/Documents/Work/sora$num/sora test "$@"
-    echo "/Users/IceHe/Documents/Work/sora$num/sora test $@"
-}
-
-function utc {
-    ut --coverage-html=/Users/IceHe/Downloads/coverage $@
-}
-
-function uts {
-    if [[ "$1" =~ ^.*/tests/(.*)Test\.php$ ]]; then
-        ut $1 && echo "\n<<< Generating Coverage Reports... >>>\nopen /Users/IceHe/Downloads/coverage/$match.php.html\n" && utc $1 > /dev/null && open ~/Downloads/coverage/$match.php.html
-    fi
-}
-
-## PHPCS
-function cs {
-    num=
-    if [[ `pwd` =~ ^.*sora2.*$ ]]; then
-        num=2
-    fi
-    /Users/IceHe/Documents/Work/sora$num/sora cs $1
-    echo "/Users/IceHe/Documents/Work/sora$num/sora cs $1"
-}
 
 # Work
 
@@ -314,81 +254,9 @@ function mr {
     open https://gitlab.weibo.cn/zhiyuan16/sora/merge_requests/new?merge_request%5Bsource_branch%5D=$branch
 }
 
-## Rsync
-alias rtd="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev.sh"
-#alias rtl="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local.sh" # Seldom
-#alias rtd2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev2.sh"
-#alias rtl2="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_local2.sh"
-alias rtd3="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_dev_131_232.sh"
-alias s8001="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_sora_8001.sh"
-alias s8011="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_sora_8011.sh"
-alias s8012="/Users/IceHe/Documents/Work/Scripts/rsync_code_to_sora_8012.sh"
-
-## Sora
-alias sora=/Users/IceHe/Documents/Work/sora/sora
-alias mb='sora mk:branch'
-alias mc='sora mk:controller'
-alias lgi='sora ls:api -l"gray intranet" -a'
-alias li='sora ls:issue'
-alias lai='sora ls:api'
-alias mt='sora mk:tag'
-alias mtr='sora mk:tag released*'
-alias mtrd='sora mk:tag released* -d'
-alias mtc='sora mk:tag candidate*'
-alias mtcd='sora mk:tag candidate* -d'
-alias mtcy='sora mk:tag candidate* -y'
-
 ## SSH
 alias sina="/Users/IceHe/Documents/Work/Scripts/sina.sh"
 alias sinax="/Users/IceHe/Documents/Work/Scripts/sinax.sh"
-
-## 10.13.130.231 (development env)
-if is_dev; then
-    # ENV
-    export EDITOR='vim'
-    export LC_ALL="zh_CN.UTF-8"
-
-    # Alias
-    ## Code
-    alias zw='cd /data1/v5.weibo.cn/code'
-    alias zw2='cd /data1/v5.weibo.cn/code2'
-
-    ## Config
-    alias zlc='cd /data1/v5.weibo.cn/library/conf'
-    alias vpc='vim /data1/v5.weibo.cn/library/conf/v5_pageconfig.ini'
-
-    ## Log
-    alias zt='cd /data1/v5.weibo.cn/logs/ttt/'
-    alias rmt="sudo rm -rf /data1/v5.weibo.cn/logs/ttt/*"
-
-    ## HTTP Server
-    alias zn='cd /etc/nginx'
-    alias vn='sv /etc/nginx/v5.conf'
-
-    alias zp='cd /etc/php.d'
-    alias zpf='cd /etc/php-fpm.d'
-
-    alias vx='sv /etc/php.d/xdebug.ini'
-
-    ## Services
-    alias rn='sudo service nginx restart'
-    alias rp='sudo service php-fpm restart'
-    alias rnp='rn && rp'
-
-    # PHP7
-    alias p5='/usr/bin/php'
-    alias php='/usr/home/zhiyuan16/php7/bin/php'
-    alias zp7='/usr/home/zhiyuan16/php7/'
-    alias vx7='sv /usr/home/zhiyuan16/php7/lib/php.ini'
-
-    alias rp7='sudo killall -9 php-fpm && sudo /usr/home/zhiyuan16/php7/sbin/php-fpm && echo php7 php-fpm: ok'
-    alias rnp7='rn && rp7 && rp'
-
-    ## Vim
-    alias vh='sv /etc/hosts'
-    alias v='vim'
-    alias sv='sudo vim'
-fi
 
 #######
 # FZF #
