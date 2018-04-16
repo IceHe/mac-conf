@@ -76,6 +76,9 @@ export PATH="$PATH:/sbin"
 export PATH="$PATH:/Users/IceHe/.composer/vendor/bin"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+## Path to JDK
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home"
+
 ## Path to oh-my-zsh
 export ZSH=/Users/IceHe/.oh-my-zsh
 ### TORM: Patch for Sina
@@ -126,8 +129,11 @@ alias zb='cd ~/Documents/Blog/icehe.me'
 alias z_='cd ~/Documents/Blog/icehe.me/source/_posts'
 alias zn='cd ~/Documents/Blog/icehe.me/themes/next'
 
+alias zj='cd ~/Documents/Java'
+alias zs='cd ~/Documents/Java/story'
+
 alias zk='cd ~/Documents/Work'
-alias zs='cd ~/Documents/Work/sora'
+#alias zs='cd ~/Documents/Work/sora'
 alias zs2='cd ~/Documents/Work/sora2'
 alias zS='cd ~/Documents/Work/Scripts'
 alias zw='cd ~/Documents/Work/weibov5_code'
