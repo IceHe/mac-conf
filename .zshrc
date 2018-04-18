@@ -103,7 +103,7 @@ alias rp='realpath'
 alias st='open -a /Applications/Sublime\ Text.app/'
 
 # brew: Homebrew
-alias bu='bug | bud'
+alias bu='bug && bud'
 alias bug='brew upgrade -vvv'
 alias bud='brew update -vvv'
 
