@@ -42429,11 +42429,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 2560 1440 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1692 370 928 394 1440 0 1440 2537 </string>
+	<string>690 200 918 512 0 0 2560 1417 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>411 -607 592 584 331 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 7 1275 770 0 0 1280 777 </string>
+	<string>0 0 1275 1417 0 0 2560 1417 </string>
 	<key>NeverWarnAboutShortLivedSessions_E34A7019-2220-417C-8F95-C1E91D91A2A9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_FBBFE345-B561-4684-B1C8-1F9CDB6C5B71</key>
@@ -42929,7 +42929,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/IceHe/Documents/Work/sora</string>
+			<string>/Users/IceHe/Documents/Java</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -45306,7 +45306,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-04-04T04:55:41Z</date>
+	<date>2018-04-16T03:57:20Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Secure Input</key>
