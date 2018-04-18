@@ -1,0 +1,13 @@
+# macOS Finder
+.DS_Store
+
+# Temp Files
+*~
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven
+target/
+logs/
