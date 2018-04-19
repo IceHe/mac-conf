@@ -1,0 +1,38 @@
+// Converts code indentation from 2 spaces to 4 spaces
+//
+// For a hotkey, add to Preferences > Key Bindings > User:
+//
+// { "keys": ["ctrl+alt+i"], "command": "run_macro_file", "args": {"file": "res://Packages/User/ConvertTwoSpacesToFour.sublime-macro"} }
+
+[
+    {
+        "args":
+        {
+            "setting": "tab_size",
+            "value": 2
+        },
+        "command": "set_setting"
+    },
+    {
+        "args":
+        {
+            "set_translate_tabs": true
+        },
+        "command": "unexpand_tabs"
+    },
+    {
+        "args":
+        {
+            "setting": "tab_size",
+            "value": 4
+        },
+        "command": "set_setting"
+    },
+    {
+        "args":
+        {
+            "set_translate_tabs": true
+        },
+        "command": "expand_tabs"
+    }
+]
