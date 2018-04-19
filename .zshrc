@@ -199,6 +199,16 @@ alias llg='ls -hl | grep'
 alias lag='ls -hA | grep'
 alias llag='ls -hlA | grep'
 
+# Maven
+alias m='mvn'
+alias mn='mvn clean'
+alias mc='mvn compile'
+alias mt='mvn test'
+alias mp='mvn package'
+alias mh='mvn -help'
+
+alias mw='mvn -N io.takari:maven:wrapper'
+
 # MySQL
 alias sm="mysql.server start"
 
