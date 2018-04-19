@@ -4,4 +4,5 @@
     { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
     { "keys": ["ctrl+i"], "command": "jump_forward" },
     { "keys": ["ctrl+o"], "command": "jump_back" },
+    { "keys": ["ctrl+shift+i"], "command": "run_macro_file", "args": {"file": "Packages/User/convert-2-spaces-to-4.sublime-macro"} },
 ]
