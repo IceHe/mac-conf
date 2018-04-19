@@ -123,6 +123,8 @@ alias ze='cd /etc'
 alias zc='cd /usr/local/Cellar'
 alias z.='cd ~/.config'
 alias zz='cd ~/.oh-my-zsh'
+## Sublime {M}acros
+alias zm='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
 
 # Crontab
 alias crontab="VIM_CRONTAB=true crontab"
