@@ -154,6 +154,7 @@ alias gdwc='git diff --word-diff --cached'
 alias gfap='git fetch -ap'
 
 alias ggr='git grep'
+alias gi='git init'
 
 alias glf='git ls-files'
 
@@ -208,6 +209,11 @@ alias mp='mvn package'
 alias mh='mvn -help'
 
 alias mw='mvn -N io.takari:maven:wrapper'
+alias mwc='./mvnw clean'
+alias mwp='./mvnw package'
+alias mwcp='./mvnw clean package'
+alias jj='java -jar'
+alias mwsbr='./mvnw spring-boot:run'
 
 # MySQL
 alias sm="mysql.server start"
