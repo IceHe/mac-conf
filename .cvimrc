@@ -103,4 +103,5 @@ iunmap <C-o>
 iunmap <C-j>
 
 "" others
+map m setMark
 map Z toggleVisualMode
