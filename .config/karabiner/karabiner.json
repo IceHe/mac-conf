@@ -575,7 +575,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + 123456789qwertasdfgcv  ==  Moom",
+                        "description": "Fn + 123456789qwertasdfgzxcvb  ==  Moom",
                         "manipulators": [
                             {
                                 "from": {
@@ -1066,6 +1066,56 @@
                                 "to": [
                                     {
                                         "key_code": "g",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_shift",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "z",
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_shift",
+                                            "left_option",
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "x",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
                                         "modifiers": [
                                             "left_control",
                                             "left_shift",
