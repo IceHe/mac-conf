@@ -103,7 +103,8 @@
 	"ignored_packages":
 	[
 		"ActualVim",
-		"MarkdownEditing"
+		"MarkdownEditing",
+		"SublimeLinter"
 	],
 	"open_files_in_new_window": false,
 	"theme": "Adaptive.sublime-theme",
