@@ -101,6 +101,7 @@ alias pbn='tr -d "\n" | pbcopy'
 alias rm='safe-rm'
 alias rp='realpath'
 alias st='open -a /Applications/Sublime\ Text.app/'
+alias vc='open -a /Applications/Visual\ Studio\ Code.app'
 
 # brew: Homebrew
 alias bu='bug && bud'
@@ -278,8 +279,9 @@ function mr {
 }
 
 ## SSH
-alias sina="/Users/IceHe/Documents/Work/Scripts/sina.sh"
-alias sinax="/Users/IceHe/Documents/Work/Scripts/sinax.sh"
+alias s249="/Users/IceHe/Documents/Work/Scripts/sina.sh 10.77.120.249"
+alias s31="/Users/IceHe/Documents/Work/Scripts/sina.sh 10.77.120.31"
+alias sx="/Users/IceHe/Documents/Work/Scripts/sinax.sh"
 
 #######
 # FZF #
