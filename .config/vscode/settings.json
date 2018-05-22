@@ -120,6 +120,5 @@
         // "MD033": { "no-inline-html": false }
         "MD033": false
     },
-    "editor.renderControlCharacters": true,
     "workbench.statusBar.visible": true
 }
