@@ -1,0 +1,125 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.activityBar.visible": false,
+    "files.trimTrailingWhitespace": true,
+    "files.encoding": "utf8",
+    "files.autoSave": "afterDelay",
+    "emmet.excludeLanguages": [],
+    // "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "vim.visualstar": true,
+    "vim.hlsearch": true,
+    "vim.leader": ",",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-e>": false,
+        "<C-f>": false,
+        "<C-n>": false,
+    },
+    // todo: cannot use `insertModeKeyBindings`
+    // "vim.insertModeKeyBindings": [
+    //     {
+    //         "before": ["<C-k>"],
+    //         "after": ["<Right>", "<Esc>", "D", "a"]
+    //     },
+    //     {
+    //         "before": ["<C-n>"],
+    //         "after": ["<Down>"]
+    //     },
+    //     {
+    //         "before": ["<C-f>"],
+    //         "after": ["<Right>"]
+    //     }
+    // ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "Y"
+            ],
+            "after": ["v", "$", "h", "y"]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.previousEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.nextEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "z", "h"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.moveEditorLeftInGroup",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "z", "l"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.moveEditorRightInGroup",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["Z", "Z"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "markdown.preview.fontSize": 18,
+    "window.openFilesInNewWindow": "off",
+    "markdownlint.config": {
+        "no-hard-tabs": false,
+        "MD007": { "indent": 4 },
+        "MD013": false,
+        "MD024": false,
+        // "MD033": { "no-inline-html": false }
+        "MD033": false
+    },
+    "editor.renderControlCharacters": true,
+    "workbench.statusBar.visible": true
+}
