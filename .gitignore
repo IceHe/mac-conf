@@ -40,6 +40,7 @@ Public/
 .rnd
 ## VS Code
 .vscode/
+.VSCodeVim/
 ## Tencent? (include QQMusic)
 .wns/
 ## Weibo Video Platform CMD Tool
