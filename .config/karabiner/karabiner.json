@@ -494,7 +494,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + u, i, o, p == f19, f20, f15, f16",
+                        "description": "Fn + u, i, o, p, ↩ == caps_lock, f20, f13, f18, f19",
                         "manipulators": [
                             {
                                 "from": {
@@ -568,6 +568,25 @@
                                 "to": [
                                     {
                                         "key_code": "f18"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f19"
                                     }
                                 ],
                                 "type": "basic"
