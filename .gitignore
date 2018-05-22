@@ -26,6 +26,8 @@ Public/
 ## maven
 .m2/
 .mvn_repo/
+## markdown-preview-enhanced (VS Code plugin)
+.mume/
 ## node
 .node-gyp/
 .npm/
@@ -36,6 +38,8 @@ Public/
 .rsync*
 ## ssl
 .rnd
+## VS Code
+.vscode/
 ## Tencent? (include QQMusic)
 .wns/
 ## Weibo Video Platform CMD Tool
