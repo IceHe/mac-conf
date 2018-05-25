@@ -120,5 +120,6 @@
         // "MD033": { "no-inline-html": false }
         "MD033": false
     },
-    "workbench.statusBar.visible": true
+    "workbench.statusBar.visible": true,
+    "window.zoomLevel": 0
 }
