@@ -106,6 +106,9 @@ set undodir=~/.vim/undo/
 
 filetype plugin indent on
 
+" Disable Ex-Mode
+noremap Q <Nop>
+
 " YankRing Bugfix
 let g:yankring_clipboard_monitor=0
 
