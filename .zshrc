@@ -265,7 +265,10 @@ alias vv='v ~/.vimrc'
 alias vz='v ~/.zshrc'
 alias vk='v ~/.config/karabiner/karabiner.json'
 alias stk='st ~/.config/karabiner/karabiner.json'
+alias vck='vc ~/.config/karabiner/karabiner.json'
 alias vs='v  ~/.ShadowsocksX-NG/user-rule.txt'
+
+## to remove
 alias sts='st ~/.ShadowsocksX-NG/user-rule.txt'
 alias zss='cd ~/.ShadowsocksX-NG'
 
