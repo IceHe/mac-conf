@@ -119,7 +119,8 @@
         "MD014": false,
         "MD024": false,
         // "MD033": { "no-inline-html": false }
-        "MD033": false
+        "MD033": false,
+        "MD038": false
     },
     "workbench.statusBar.visible": true,
     "window.zoomLevel": 0
