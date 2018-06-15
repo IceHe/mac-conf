@@ -96,6 +96,7 @@ bindkey '^p' backward-word
 alias e='exit'
 alias j='jobs'
 alias o='open'
+alias o.='open .'
 alias pb='pbcopy'
 alias pbn='tr -d "\n" | pbcopy'
 alias rm='safe-rm'
