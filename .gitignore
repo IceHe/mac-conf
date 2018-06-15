@@ -32,6 +32,8 @@ Public/
 .node-gyp/
 .npm/
 .nvm/
+## OneDrive
+OneDrive - elcass/
 ## 七牛云缓存
 .qrsync/
 ## rsync (work, to-rm)
