@@ -8,6 +8,7 @@
         "comments": true,
         "strings": true
     },
+    "editor.renderControlCharacters": true,
     "workbench.colorTheme": "Quiet Light",
     "workbench.activityBar.visible": false,
     "files.trimTrailingWhitespace": true,
