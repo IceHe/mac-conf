@@ -2,6 +2,7 @@
 {
     "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 16,
+    "editor.formatOnType": true,
     "editor.minimap.enabled": false,
     "editor.quickSuggestions": {
         "other": true,
