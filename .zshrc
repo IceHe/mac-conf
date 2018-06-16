@@ -253,6 +253,9 @@ alias ss='env | grep _proxy=' #alias ss='env | grep ALL_PROXY'
 alias t='tmux'
 alias tn='tmux new-session -s'
 
+# touch
+alias th='touch'
+
 # Vim
 alias v='nvim'
 alias sv='sudo nvim'
