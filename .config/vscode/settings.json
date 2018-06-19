@@ -27,91 +27,6 @@
         "<C-f>": false,
         "<C-n>": false,
     },
-    // todo: cannot use `insertModeKeyBindings`
-    // "vim.insertModeKeyBindings": [
-    //     {
-    //         "before": ["<C-k>"],
-    //         "after": ["<Right>", "<Esc>", "D", "a"]
-    //     },
-    //     {
-    //         "before": ["<C-n>"],
-    //         "after": ["<Down>"]
-    //     },
-    //     {
-    //         "before": ["<C-f>"],
-    //         "after": ["<Right>"]
-    //     }
-    // ],
-    "vim.otherModesKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "Y"
-            ],
-            "after": ["v", "$", "h", "y"]
-        },
-        {
-            "before": [
-                "H"
-            ],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.previousEditor",
-                    "args": []
-                }
-            ]
-        },
-        {
-            "before": [
-                "L"
-            ],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.nextEditor",
-                    "args": []
-                }
-            ]
-        },
-        {
-            "before": [
-                "z", "h"
-            ],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.moveEditorLeftInGroup",
-                    "args": []
-                }
-            ]
-        },
-        {
-            "before": [
-                "z", "l"
-            ],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.moveEditorRightInGroup",
-                    "args": []
-                }
-            ]
-        },
-        {
-            "before": ["Z", "Z"],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.files.save",
-                    "args": []
-                },
-                {
-                    "command": "workbench.action.closeActiveEditor",
-                    "args": []
-                }
-            ]
-        }
-    ],
     "markdown.preview.fontSize": 18,
     "window.openFilesInNewWindow": "off",
     "markdownlint.config": {
@@ -127,5 +42,8 @@
         "MD041": false
     },
     "workbench.statusBar.visible": true,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    }
 }
