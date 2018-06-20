@@ -121,6 +121,7 @@ alias zn='cd ~/Documents/Blog/icehe.me/themes/next'
 
 alias zj='cd ~/Documents/Java'
 alias zs='cd ~/Documents/Java/story'
+alias zsora='cd ~/Documents/Work/sora'
 
 alias ze='cd /etc'
 alias zc='cd /usr/local/Cellar'
@@ -280,12 +281,12 @@ alias zss='cd ~/.ShadowsocksX-NG'
 
 # Work
 
-## Git
-function mr {
-    branch=`git rev-parse --abbrev-ref HEAD`
-    echo $branch
-    open https://gitlab.weibo.cn/zhiyuan16/sora/merge_requests/new?merge_request%5Bsource_branch%5D=$branch
-}
+## MAPI MR
+#function mr {
+#    branch=`git rev-parse --abbrev-ref HEAD`
+#    echo $branch
+#    open https://gitlab.weibo.cn/zhiyuan16/sora/merge_requests/new?merge_request%5Bsource_branch%5D=$branch
+#}
 
 ## SSH
 alias s249="/Users/IceHe/Documents/Work/Scripts/sina.sh 10.77.120.249"
