@@ -41,7 +41,8 @@
         "MD033": false,
         "MD034": false,
         "MD038": false,
-        "MD041": false
+        "MD041": false,
+        "MD045": false
     },
     "workbench.statusBar.visible": true,
     "window.zoomLevel": 0,
