@@ -13,6 +13,14 @@
     "emmet.excludeLanguages": [],
     "files.autoSave": "afterDelay",
     "files.encoding": "utf8",
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.idea": true,
+        "**/.svn": true,
+        "**/.vscode": true,
+    },
     "files.trimTrailingWhitespace": true,
     // "vim.easymotion": true,
     "vim.handleKeys": {
