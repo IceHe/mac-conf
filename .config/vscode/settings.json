@@ -33,7 +33,10 @@
     "vim.leader": ",",
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
+    "markdown.extension.italic.indicator": "_",
     "markdown.preview.fontSize": 18,
+    "markdown-preview-enhanced.breakOnSingleNewLine": false, // test
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true, // test
     "markdownlint.config": {
         "no-hard-tabs": false,
         // "MD004": { "style": "dash" },
