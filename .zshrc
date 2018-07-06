@@ -24,10 +24,6 @@ function ip_addr() {
     fi
 }
 
-## Is Sina Development Env?
-
-init_ip=$(ip_addr)
-
 #######
 # ENV #
 #######
@@ -292,6 +288,9 @@ alias zss='cd ~/.ShadowsocksX-NG'
 alias s249="/Users/IceHe/Documents/Work/Scripts/sina.sh 10.77.120.249"
 alias s31="/Users/IceHe/Documents/Work/Scripts/sina.sh 10.77.120.31"
 alias sx="/Users/IceHe/Documents/Work/Scripts/sinax.sh"
+
+## WTool
+export DCP_USER=zhiyuan16
 
 #######
 # FZF #
