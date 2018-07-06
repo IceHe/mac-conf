@@ -202,8 +202,8 @@ function gac {
     fi
 
     export clipboard=`pbpaste`
-    echo \$clipboard=$clipboard
-    echo
+    #echo \$clipboard=$clipboard
+    #echo
 
     echo \$ git add $clipboard
     ga $clipboard
@@ -214,11 +214,12 @@ function gac {
     gcm "$1 $clipboard"
 }
 
-function gupd {
-    gac Update
-}
-
-#alias gac='export clipboard=`pbpaste` && ga $clipboard && gcm "Update $clipboard"'
+alias gadd="gac Add"
+alias gupd="gac Update"
+alias gmov="gac Move"
+alias gfix="gac Fix"
+alias gimp="gac Improve"
+alias gren="gac Rename"
 
 # Hexo
 alias h='zb && hexo s'
