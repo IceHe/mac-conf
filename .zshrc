@@ -201,17 +201,16 @@ function gac {
         return
     fi
 
-    echo $1
-    echo
-
     export clipboard=`pbpaste`
     echo \$clipboard=$clipboard
     echo
 
+    echo \$ git add $clipboard
     ga $clipboard
     gs
     echo
 
+    echo \$ git commit -m "$1 $clipboard"
     gcm "$1 $clipboard"
 }
 
