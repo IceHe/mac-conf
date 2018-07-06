@@ -181,6 +181,46 @@ alias gsd='git stash drop'
 alias gsl='git stash list'
 alias gsp='git stash pop'
 
+## test
+function args {
+    echo \$?=$?
+    echo \$#=$#
+    echo \$@=$@
+    echo \$*=$*
+    echo \$0=$0
+    echo \$1=$1
+    echo \$2=$2
+    echo \$3=$3
+    echo \$4=$4
+    echo \$5=$5
+}
+
+function gac {
+    if [[ $1 == "" ]]; then
+        echo && echo verb for git 404!
+        return
+    fi
+
+    echo $1
+    echo
+
+    export clipboard=`pbpaste`
+    echo \$clipboard=$clipboard
+    echo
+
+    ga $clipboard
+    gs
+    echo
+
+    gcm "$1 $clipboard"
+}
+
+function gupd {
+    gac Update
+}
+
+#alias gac='export clipboard=`pbpaste` && ga $clipboard && gcm "Update $clipboard"'
+
 # Hexo
 alias h='zb && hexo s'
 alias ha='zb && hexo clean && hexo g && hexo s'
