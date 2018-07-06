@@ -210,7 +210,7 @@ function gac {
     gs
     echo
 
-    echo \$ git commit -m "$1 $clipboard"
+    echo \$ git commit -m \"$1 $clipboard\"
     gcm "$1 $clipboard"
 }
 
