@@ -3663,7 +3663,7 @@
                 }
             ],
             "name": "Default",
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0
