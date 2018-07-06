@@ -15,7 +15,7 @@
                 },
                 "rules": [
                     {
-                        "description": "凵 + z  ==  |~  and  凵 + x  ==  |#",
+                        "description": "凵 + z  ——  |~  and  凵 + x  ——  |#",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -68,7 +68,7 @@
                         ]
                     },
                     {
-                        "description": "⌘ + q, ⌘ + q ( twice ) == ⌘ + q",
+                        "description": "⌘ + q, ⌘ + q ( twice ) —— ⌘ + q",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -142,7 +142,7 @@
                     {
                         "manipulators": [
                             {
-                                "description": "⇪  ==  CH",
+                                "description": "⇪  ——  ZH",
                                 "from": {
                                     "key_code": "caps_lock",
                                     "modifiers": {
@@ -162,7 +162,7 @@
                         ]
                     },
                     {
-                        "description": "⎋ || ⇧  ==  EN",
+                        "description": "⎋ || ⇧  ——  EN",
                         "manipulators": [
                             {
                                 "//": {
@@ -221,7 +221,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + hjkl  ==  ←↓↑→",
+                        "description": "Fn + hjkl  ——  ←↓↑→",
                         "manipulators": [
                             {
                                 "from": {
@@ -302,7 +302,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + 凵  ==  凵 ( press to repeat )",
+                        "description": "Fn + 凵  ——  凵 ( press to repeat )",
                         "manipulators": [
                             {
                                 "from": {
@@ -326,7 +326,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + tab  ==  4 Spaces",
+                        "description": "Fn + tab  ——  4 Spaces",
                         "manipulators": [
                             {
                                 "from": {
@@ -359,7 +359,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + u, i, o, p, ↩ == caps_lock, f20, f13, f18, f19",
+                        "description": "Fn + u, i, o, p, ↩ —— caps_lock, f20, f13, f18, f19",
                         "manipulators": [
                             {
                                 "from": {
@@ -459,7 +459,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + 123456789qwertasdfgzxcvb  ==  Moom",
+                        "description": "Fn + 123456789qwertasdfgzxcvb  ——  Moom",
                         "manipulators": [
                             {
                                 "from": {
@@ -1126,7 +1126,7 @@
                         ]
                     },
                     {
-                        "description": "凵 + ⇥  ==  ⌥ + ⇥",
+                        "description": "凵 + ⇥  ——  ⌥ + ⇥",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1157,7 +1157,7 @@
                         ]
                     },
                     {
-                        "description": "凵 + `-=[]\\'/  ==  ~_+{}|\"?",
+                        "description": "凵 + `-=[]\\'/  ——  ~_+{}|\"?",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1370,7 +1370,7 @@
                         ]
                     },
                     {
-                        "description": "凵 + asdfghjkl;  ==  1234567890",
+                        "description": "凵 + asdfghjkl;  ——  1234567890",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1605,7 +1605,7 @@
                         ]
                     },
                     {
-                        "description": "凵 + 123…890  ==  ^ + ⇧ + ⌥ + 123…890",
+                        "description": "凵 + 123…890  ——  ^ + ⇧ + ⌥ + 123…890",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1890,7 +1890,7 @@
                         ]
                     },
                     {
-                        "description": "1234567890  <=>  !@#$%^&*()",
+                        "description": "1234567890  <—>  !@#$%^&*()",
                         "manipulators": [
                             {
                                 "from": {
@@ -2312,7 +2312,7 @@
                         ]
                     },
                     {
-                        "description": "Rg ⌥ + 0-9a-z…&sym  ==  ⇧ + ⌥ + ⌘ + a-z…&sym",
+                        "description": "Rg ⌥ + 0-9a-z…&sym  ——  ⇧ + ⌥ + ⌘ + a-z…&sym",
                         "manipulators": [
                             {
                                 "conditions": [
