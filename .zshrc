@@ -285,12 +285,19 @@ alias zss='cd ~/.ShadowsocksX-NG'
 #}
 
 ## SSH
-alias s249="/Users/IceHe/Documents/Work/Scripts/sina.sh 10.77.120.249"
-alias s31="/Users/IceHe/Documents/Work/Scripts/sina.sh 10.77.120.31"
 alias sx="/Users/IceHe/Documents/Work/Scripts/sinax.sh"
+alias s31="/Users/IceHe/Documents/Work/Scripts/sina.sh 10.77.120.31"
+alias s249="/Users/IceHe/Documents/Work/Scripts/sina.sh 10.77.120.249"
 
 ## WTool
 export DCP_USER=zhiyuan16
+
+alias wt="wtool"
+alias jp="wtool jpool"
+alias dcp="wtool dcplogin"
+
+### similar to `sx`
+alias wl="wtool login"
 
 #######
 # FZF #
