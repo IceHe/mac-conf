@@ -206,11 +206,13 @@ function gac {
     echo
 
     echo \$ git add $clipboard
+    echo
     ga $clipboard
     gs
     echo
 
     echo \$ git commit -m "$1 $clipboard"
+    echo
     gcm "$1 $clipboard"
 }
 
