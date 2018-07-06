@@ -203,7 +203,7 @@ function gac {
 
     export clipboard=`pbpaste`
     #echo \$clipboard=$clipboard
-    #echo
+    echo
 
     echo \$ git add $clipboard
     ga $clipboard
