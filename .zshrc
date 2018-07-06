@@ -290,6 +290,9 @@ alias ss='env | grep _proxy=' #alias ss='env | grep ALL_PROXY'
 alias t='tmux'
 alias tn='tmux new-session -s'
 
+alias tch="tmux split-window -h -c '#{pane_current_path}'"
+alias tcv="tmux split-window -v -c '#{pane_current_path}'"
+
 # touch
 alias th='touch'
 
