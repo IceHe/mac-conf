@@ -15,32 +15,8 @@
                 },
                 "rules": [
                     {
-                        "description": "凵 + z  ——  |~  and  凵 + x  ——  |#",
+                        "description": "凵 + x  ——  |#",
                         "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "spacefn_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "description": "??",
-                                "from": {
-                                    "key_code": "z"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "backslash",
-                                        "modifiers": "left_shift"
-                                    },
-                                    {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": "left_shift"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
                             {
                                 "conditions": [
                                     {
@@ -68,7 +44,7 @@
                         ]
                     },
                     {
-                        "description": "⌘ + q, ⌘ + q ( twice ) —— ⌘ + q",
+                        "description": "twice ⌘ + q —— once ⌘ + q",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -302,7 +278,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + 凵  ——  凵 ( press to repeat )",
+                        "description": "Fn + 凵  ——  凵 ( repeatable )",
                         "manipulators": [
                             {
                                 "from": {
@@ -459,7 +435,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + 123456789qwertasdfgzxcvb  ——  Moom",
+                        "description": "Fn + 0~9 qwert asdfg zxcvb  ——  Moom",
                         "manipulators": [
                             {
                                 "from": {
@@ -1605,7 +1581,7 @@
                         ]
                     },
                     {
-                        "description": "凵 + 123…890  ——  ^ + ⇧ + ⌥ + 123…890",
+                        "description": "凵 + 1234567890  ——  ^ + ⇧ + ⌥ + 1234567890",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1890,7 +1866,7 @@
                         ]
                     },
                     {
-                        "description": "1234567890  <—>  !@#$%^&*()",
+                        "description": "1234567890  <—>  ⇧ + 1234567890",
                         "manipulators": [
                             {
                                 "from": {
@@ -2312,7 +2288,7 @@
                         ]
                     },
                     {
-                        "description": "Rg ⌥ + 0-9a-z…&sym  ——  ⇧ + ⌥ + ⌘ + a-z…&sym",
+                        "description": "Rg ⌥ + 0-9a-z…  ——  ⇧ + ⌥ + ⌘ + a-z…",
                         "manipulators": [
                             {
                                 "conditions": [
