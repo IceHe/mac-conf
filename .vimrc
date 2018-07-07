@@ -79,7 +79,9 @@ set smartindent
 set wrap
 
 " Line Number
-set nu
+"set nu
+"set nu!
+set nonu
 
 " Toggle Line Number
 map <leader>n :set nu!<CR> " Toggle
