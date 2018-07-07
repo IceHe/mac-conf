@@ -35,10 +35,10 @@
     "vim.visualstar": true,
     "markdown.extension.italic.indicator": "_",
     "markdown.preview.fontSize": 18,
-    "markdown-preview-enhanced.breakOnSingleNewLine": false, // test
-    "markdown-preview-enhanced.enableCriticMarkupSyntax": true, // test
-    "markdown-preview-enhanced.enableExtendedTableSyntax": true, // recom
-    "markdown-preview-enhanced.enableTypographer": true, // test
+    "markdown-preview-enhanced.breakOnSingleNewLine": false, // GitLab
+    "markdown-preview-enhanced.enableCriticMarkupSyntax": true, // advanced
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true, // advanced
+    "markdown-preview-enhanced.previewTheme": "vue.css",
     "markdownlint.config": {
         "no-hard-tabs": false,
         // "MD004": { "style": "dash" },
