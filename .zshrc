@@ -220,6 +220,7 @@ alias gmov="gac Move"
 alias gfix="gac Fix"
 alias gimp="gac Improve"
 alias gren="gac Rename"
+alias grvt="gac Revert"
 
 # Hexo
 alias h='zb && hexo s'
