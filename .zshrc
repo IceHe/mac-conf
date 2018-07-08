@@ -139,6 +139,11 @@ alias drm='d rm'
 alias dst='d start'
 alias rmi='d rmi'
 
+# Docsify
+alias doc='docsify'
+alias doci='docsify init'
+alias docs='docsify serve'
+
 # Git
 alias gcf='git config'
 alias gcfl='git config -l'
