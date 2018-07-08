@@ -18,6 +18,7 @@
         "**/.git": true,
         "**/.hg": true,
         "**/.idea": true,
+        "**/*.iml": true,
         "**/.svn": true,
         "**/.vscode": true,
     },
