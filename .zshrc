@@ -224,11 +224,7 @@ function gcmp {
         return
     fi
 
-    export clipboard=`pbpaste`
-    echo
-
-    echo \$ git commit -m \"$1 $clipboard\"
-    gcmc "$1 $clipboard"
+    gcmc "$1 `pbpaste`"
 }
 
 alias gadd="gcmp Add"
