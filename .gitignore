@@ -34,6 +34,8 @@ Public/
 .nvm/
 ## OneDrive
 OneDrive - elcass/
+## OpenSSL CSR
+.csr/
 ## 七牛云缓存
 .qrsync/
 ## rsync (work, to-rm)
