@@ -200,14 +200,13 @@ function args {
     echo \$5=$5
 }
 
-function gac {
+function gcmc {
     if [[ $1 == "" ]]; then
-        echo && echo verb for git 404!
+        echo && echo custom text for git 404!
         return
     fi
 
     export clipboard=`pbpaste`
-    #echo \$clipboard=$clipboard
     echo
 
     echo \$ git add $clipboard
@@ -215,17 +214,31 @@ function gac {
     gs
     echo
 
-    echo \$ git commit -m \"$1 $clipboard\"
-    gcm "$1 $clipboard"
+    echo \$ git commit -m \"$1\"
+    gcm "$1"
 }
 
-alias gadd="gac Add"
-alias gupd="gac Update"
-alias gmov="gac Move"
-alias gfix="gac Fix"
-alias gimp="gac Improve"
-alias gren="gac Rename"
-alias grvt="gac Revert"
+function gcmp {
+    if [[ $1 == "" ]]; then
+        echo && echo verb prefix for git 404!
+        return
+    fi
+
+    export clipboard=`pbpaste`
+    echo
+
+    echo \$ git commit -m \"$1 $clipboard\"
+    gcmc "$1 $clipboard"
+}
+
+alias gadd="gcmp Add"
+alias gupd="gcmp Update"
+alias gmov="gcmp Move"
+alias gfix="gcmp Fix"
+alias gimp="gcmp Improve"
+alias gren="gcmp Rename"
+alias grvt="gcmp Revert"
+alias gsim="gcmp Simplify"
 
 # Hexo
 alias h='zb && hexo s'
