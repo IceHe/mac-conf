@@ -257,6 +257,9 @@ alias llg='ls -hl | grep'
 alias lag='ls -hA | grep'
 alias llag='ls -hlA | grep'
 
+# Mardownlint (Node.js)
+alias ml='/Users/IceHe/Documents/Tools/markdownlint/bin/mdl'
+
 # Maven
 alias m='mvn'
 alias mn='mvn clean'
