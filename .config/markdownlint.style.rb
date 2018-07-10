@@ -20,10 +20,10 @@ rule "MD023" # Headers must start at the beginning of the line
 # rule "MD024" # Multiple headers with the same content
 # rule "MD025" # Multiple top level headers in the same document
 rule "MD026" # Trailing punctuation in header
-rule "MD027" # Multiple spaces after blockquote symbol
+# rule "MD027" # Multiple spaces after blockquote symbol
 rule "MD028" # Blank line inside blockquote
-rule "MD029" # Ordered list item prefix
-rule "MD030" # Spaces after list markers
+# rule "MD029" # Ordered list item prefix
+# rule "MD030" # Spaces after list markers
 # rule "MD031" # Fenced code blocks should be surrounded by blank lines
 rule "MD032" # Lists should be surrounded by blank lines
 # rule "MD033" # Inline HTML
@@ -33,4 +33,4 @@ rule "MD036" # Emphasis used instead of a header
 rule "MD037" # Spaces inside emphasis markers
 # rule "MD038" # Spaces inside code span elements
 rule "MD039" # Spaces inside link text
-rule "MD046" # Code block style
+# rule "MD046" # Code block style
