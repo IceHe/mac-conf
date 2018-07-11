@@ -116,6 +116,8 @@ alias z_='cd ~/Documents/Blog/icehe.me/source/_posts'
 alias zn='cd ~/Documents/Blog/icehe.me/themes/next'
 
 alias zj='cd ~/Documents/Java'
+alias zf='cd ~/Documents/Java/form'
+alias zm='cd ~/Documents/Java/medialib'
 alias zs='cd ~/Documents/Java/story'
 alias zsora='cd ~/Documents/Work/sora'
 
@@ -124,7 +126,7 @@ alias zc='cd /usr/local/Cellar'
 alias z.='cd ~/.config'
 alias zz='cd ~/.oh-my-zsh'
 ## Sublime {M}acros
-alias zm='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
+#alias zM='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
 
 # Crontab
 alias crontab="VIM_CRONTAB=true crontab"
@@ -232,6 +234,7 @@ alias gupd="gcmp Update"
 alias gmov="gcmp Move"
 alias gfix="gcmp Fix"
 alias gimp="gcmp Improve"
+alias grem="gcmp Remove"
 alias gren="gcmp Rename"
 alias grvt="gcmp Revert"
 alias gsim="gcmp Simplify"
