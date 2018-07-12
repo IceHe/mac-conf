@@ -40,6 +40,7 @@
     "markdown-preview-enhanced.enableCriticMarkupSyntax": true, // advanced
     "markdown-preview-enhanced.enableExtendedTableSyntax": true, // advanced
     "markdown-preview-enhanced.previewTheme": "vue.css",
+    "markdown-preview-enhanced.singlePreview": false,
     "markdownlint.config": {
         "no-hard-tabs": false,
         // "MD004": { "style": "dash" },
