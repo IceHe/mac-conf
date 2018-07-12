@@ -114,6 +114,7 @@ alias zp='cd ~/Documents/Python'
 alias zb='cd ~/Documents/Blog/icehe.me'
 alias z_='cd ~/Documents/Blog/icehe.me/source/_posts'
 alias zn='cd ~/Documents/Blog/icehe.me/themes/next'
+alias zi='cd ~/Documents/IceHe'
 
 alias zj='cd ~/Documents/Java'
 alias zf='cd ~/Documents/Java/form'
@@ -306,6 +307,9 @@ function uss() {
     unset https_proxy;
 }
 alias ss='env | grep _proxy=' #alias ss='env | grep ALL_PROXY'
+
+# SSH
+alias hasee='ssh icehe@10.222.136.32'
 
 # tmux
 alias t='tmux'
