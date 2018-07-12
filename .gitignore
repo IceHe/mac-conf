@@ -48,6 +48,7 @@ OneDrive - elcass/
 ## Tencent? (include QQMusic)
 .wns/
 ## Weibo Video Platform CMD Tool
+.hss_history
 .wtool*
 .wtool/
 wtool/
@@ -77,3 +78,6 @@ VirtualBox VMs/
 .vim/
 .vim*
 .wget-hsts
+
+## unknown
+
