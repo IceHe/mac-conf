@@ -239,6 +239,7 @@ alias grem="gcmp Remove"
 alias gren="gcmp Rename"
 alias grvt="gcmp Revert"
 alias gsim="gcmp Simplify"
+alias gtt="gcmp Test"
 
 # Hexo
 alias h='zb && hexo s'
@@ -320,6 +321,9 @@ alias tcv="tmux split-window -v -c '#{pane_current_path}'"
 
 # touch
 alias th='touch'
+
+# tree (archived)
+#alias tree='find . | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|── \1/"'
 
 # Vim
 alias v='nvim'
