@@ -189,7 +189,7 @@ alias gsd='git stash drop'
 alias gsl='git stash list'
 alias gsp='git stash pop'
 
-## test
+## Git Experimental
 function args {
     echo \$?=$?
     echo \$#=$#
@@ -240,6 +240,30 @@ alias gren="gcmp Rename"
 alias grvt="gcmp Revert"
 alias gsim="gcmp Simplify"
 alias gtt="gcmp Test"
+
+function gkm {
+    /Users/IceHe/.config/
+    gr
+    ga "Keyboard Maestro Macros.kmsync"
+    gcm "Update configs of Keyboard Maestro"
+    -
+}
+
+function gzs {
+    /Users/IceHe/
+    gr
+    ga .zshrc
+    gcm "Update configs of Zsh"
+    -
+}
+
+function gvc {
+    /Users/IceHe/.config
+    gr
+    ga vscode/settings.json
+    gcm "Update configs of VS Code"
+    -
+}
 
 # Hexo
 alias h='zb && hexo s'
