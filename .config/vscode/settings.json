@@ -59,7 +59,7 @@
         "MD045": false
     },
     "window.openFilesInNewWindow": "off",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
     "workbench.statusBar.visible": true,
