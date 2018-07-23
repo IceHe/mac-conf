@@ -354,6 +354,7 @@ alias v='nvim'
 alias sv='sudo nvim'
 #alias v='vim'
 #alias sv='sudo vim'
+alias vim='nvim'
 
 alias vh='v /etc/hosts'
 alias vgi='v ./.gitignore'
