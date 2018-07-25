@@ -67,10 +67,13 @@ export PATH="$PATH:/sbin"
 export PATH="$PATH:/Users/IceHe/.composer/vendor/bin"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-## Path to JDK
+## Groovy SDK
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+
+## JDK
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
-## Path to oh-my-zsh
+## oh-my-zsh
 export ZSH=/Users/IceHe/.oh-my-zsh
 ### Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
