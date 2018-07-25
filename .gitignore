@@ -23,6 +23,9 @@ Public/
 ### User Data
 .local/share/
 
+## gradle
+.gradle/
+.tooling/
 ## maven
 .m2/
 .mvn_repo/
