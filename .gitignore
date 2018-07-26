@@ -35,6 +35,8 @@ Public/
 .node-gyp/
 .npm/
 .nvm/
+## now (now.sh : about Server-Side Rendering)
+.now/
 ## OneDrive
 OneDrive - elcass/
 ## OpenSSL CSR
