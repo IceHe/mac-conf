@@ -4,7 +4,7 @@
 	required = true
 [user]
 	name = IceHe.me
-	email = x@icehe.me
+	email = icehe.me@qq.com
 [core]
 	excludesfile = /Users/IceHe/.gitignore_global
 	ignorecase = false
