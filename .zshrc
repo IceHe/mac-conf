@@ -268,6 +268,14 @@ function gvc {
     -
 }
 
+function gkr {
+    /Users/IceHe/.config
+    gr
+    ga karabiner/karabiner.json
+    gcm "Update configs of Karabiner-Elements"
+    -
+}
+
 # Hexo
 alias h='zb && hexo s'
 alias ha='zb && hexo clean && hexo g && hexo s'
