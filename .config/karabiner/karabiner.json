@@ -145,14 +145,6 @@
                         "description": "⎋ || ⇧  ——  EN",
                         "manipulators": [
                             {
-                                "//": {
-                                    "to_if_alone": [
-                                        {
-                                            "key_code": "f18",
-                                            "modifiers": []
-                                        }
-                                    ]
-                                },
                                 "from": {
                                     "key_code": "escape",
                                     "modifiers": {
