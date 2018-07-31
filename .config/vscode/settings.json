@@ -2,7 +2,6 @@
 {
     "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 16,
-    "editor.formatOnType": true,
     "editor.minimap.enabled": false,
     "editor.quickSuggestions": {
         "other": true,
@@ -11,7 +10,7 @@
     },
     "editor.renderControlCharacters": true,
     "emmet.excludeLanguages": [],
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onWindowChange",
     "files.encoding": "utf8",
     "files.exclude": {
         "**/.DS_Store": true,
@@ -23,7 +22,6 @@
         "**/.vscode": true,
     },
     "files.trimTrailingWhitespace": true,
-    // "vim.easymotion": true,
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-e>": false,
@@ -63,5 +61,5 @@
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": false,
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": true
 }
