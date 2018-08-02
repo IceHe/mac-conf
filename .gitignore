@@ -45,6 +45,8 @@ OneDrive - elcass/
 .qrsync/
 ## rsync (work, to-rm)
 .rsync*
+## SpaceVim
+.SpaceVim/
 ## ssl
 .rnd
 ## VS Code
