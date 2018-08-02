@@ -244,6 +244,12 @@ alias grvt="gcmp Revert"
 alias gsim="gcmp Simplify"
 alias gtt="gcmp Test"
 
+function grdm {
+    echo 'README.md' | pb
+    ga README.md
+    gcm "Update README.md"
+}
+
 function gkm {
     /Users/IceHe/.config/
     gr
