@@ -31,10 +31,6 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f18",
-                                        "modifiers": []
-                                    },
-                                    {
                                         "key_code": "backslash",
                                         "modifiers": "left_shift"
                                     },
