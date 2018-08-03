@@ -129,11 +129,7 @@
                                 },
                                 "to": [
                                     {
-                                        "select_input_source": {
-                                            "language": "zh-Hans",
-                                            "input_source_id": "com.sogou.inputmethod.sogou.pinyin",
-                                            "input_mode_id": "com.sogou.inputmethod.pinyin"
-                                        }
+                                        "shell_command": "osascript /Users/IceHe/Documents/AppleScript/Lib/switch_zh_input_source.applescript",
                                     }
                                 ],
                                 "type": "basic"
