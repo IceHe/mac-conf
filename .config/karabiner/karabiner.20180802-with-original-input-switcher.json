@@ -129,8 +129,11 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f17",
-                                        "modifiers": []
+                                        "select_input_source": {
+                                            "language": "zh-Hans",
+                                            "input_source_id": "com.sogou.inputmethod.sogou.pinyin",
+                                            "input_mode_id": "com.sogou.inputmethod.pinyin"
+                                        }
                                     }
                                 ],
                                 "type": "basic"
@@ -157,7 +160,9 @@
                                 "to_if_alone": [
                                     {
                                         "select_input_source": {
-                                            "input_source_id": "^com\\.apple\\.keylayout\\.US$"
+                                            "language": "en",
+                                            "input_source_id": "com.apple.keylayout.US",
+                                            "input_mode_id": ""
                                         }
                                     }
                                 ],
