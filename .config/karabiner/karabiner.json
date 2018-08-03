@@ -129,7 +129,8 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "osascript /Users/IceHe/Documents/AppleScript/Lib/switch_zh_input_source.applescript",
+                                        "key_code": "f17",
+                                        "modifiers": []
                                     }
                                 ],
                                 "type": "basic"
