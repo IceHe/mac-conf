@@ -117,7 +117,7 @@ alias zp='cd ~/Documents/Python'
 alias zb='cd ~/Documents/Blog/blog'
 alias z_='cd ~/Documents/Blog/blog/source/_posts'
 alias zn='cd ~/Documents/Blog/blog/themes/next'
-alias zi='cd ~/Documents/lib'
+alias zi='cd ~/Documents/Lib'
 
 alias zj='cd ~/Documents/Java'
 alias zf='cd ~/Documents/Java/form'
