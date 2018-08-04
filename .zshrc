@@ -118,11 +118,12 @@ alias zb='cd ~/Documents/Blog/blog'
 alias z_='cd ~/Documents/Blog/blog/source/_posts'
 alias zn='cd ~/Documents/Blog/blog/themes/next'
 alias zi='cd ~/Documents/Lib'
+alias zi='cd ~/Documents/Snippets'
 
 alias zj='cd ~/Documents/Java'
 alias zf='cd ~/Documents/Java/form'
 alias zm='cd ~/Documents/Java/medialib'
-alias zs='cd ~/Documents/Java/story'
+alias zS='cd ~/Documents/Java/story'
 alias zsora='cd ~/Documents/Work/sora'
 
 alias ze='cd /etc'
