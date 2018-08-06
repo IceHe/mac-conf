@@ -47,6 +47,7 @@ OneDrive - elcass/
 .rsync*
 ## SpaceVim
 .SpaceVim/
+.SpaceVim.d/
 ## ssl
 .rnd
 ## VS Code
