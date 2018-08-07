@@ -32,13 +32,12 @@
     "vim.leader": ",",
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
-    "markdown.extension.italic.indicator": "_",
     "markdown.preview.fontSize": 18,
     "markdown-preview-enhanced.breakOnSingleNewLine": false, // GitLab
-    "markdown-preview-enhanced.enableCriticMarkupSyntax": true, // advanced
-    "markdown-preview-enhanced.enableExtendedTableSyntax": true, // advanced
+    "markdown-preview-enhanced.enableCriticMarkupSyntax": true, // Advanced
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true, // Advanced
     "markdown-preview-enhanced.previewTheme": "vue.css",
-    "markdown-preview-enhanced.singlePreview": false,
+    "markdown-preview-enhanced.singlePreview": true,
     "markdownlint.config": {
         "no-hard-tabs": false,
         // "MD004": { "style": "dash" },
