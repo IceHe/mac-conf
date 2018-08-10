@@ -330,6 +330,10 @@ alias sm="mysql.server start"
 alias no="nc -l 7777 < "
 alias ni="nc -n 10.13.130.231 7777 > "
 
+# gpngquant
+alias pngquant='/Users/IceHe/Documents/Tools/pngquant/pngquant'
+alias pngquant-openmp='/Users/IceHe/Documents/Tools/pngquant/pngquant-openmp'
+
 # qrsync: 七牛云存储同步
 #alias qra='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_att_conf.json'
 #alias qri='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_img_conf.json'
