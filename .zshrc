@@ -245,6 +245,12 @@ alias grvt="gcmp Revert"
 alias gsim="gcmp Simplify"
 alias gtt="gcmp Test"
 
+function gidx {
+    echo 'index.html' | pb
+    ga index.html
+    gcm "Update index.html"
+}
+
 function grdm {
     echo 'README.md' | pb
     ga README.md
