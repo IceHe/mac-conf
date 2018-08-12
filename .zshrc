@@ -1,4 +1,3 @@
-######
 # IP #
 ######
 
@@ -239,6 +238,7 @@ alias gupd="gcmp Update"
 alias gmov="gcmp Move"
 alias gfix="gcmp Fix"
 alias gimp="gcmp Improve"
+alias gref="gcmp Refactor"
 alias grem="gcmp Remove"
 alias gren="gcmp Rename"
 alias grvt="gcmp Revert"
