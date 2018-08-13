@@ -78,6 +78,7 @@ VirtualBox VMs/
 .mysql_history
 .oh-my-zsh/
 .oracle_jre_usage/
+.privacy/
 .ShadowsocksX*
 .ssh/
 .snipaste/
@@ -86,6 +87,4 @@ VirtualBox VMs/
 .vim/
 .vim*
 .wget-hsts
-
-## unknown
 
