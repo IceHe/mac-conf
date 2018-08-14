@@ -259,11 +259,14 @@ function grdm {
 
 function gren {
     gs
+    echo
 
     desc=`git status -s | grep "R  " | awk -F "R  " '{ print $2 }'`
-    echo Rename $desc
 
     tmp_cmd="git commit -m 'Rename $desc'"
+    echo $tmp_cmd
+    echo
+
     eval $tmp_cmd
 }
 
