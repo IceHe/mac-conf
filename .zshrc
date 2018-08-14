@@ -241,7 +241,6 @@ alias gfix="gcmp Fix"
 alias gimp="gcmp Improve"
 alias gref="gcmp Refactor"
 alias grem="gcmp Remove"
-alias gren="gcmp Rename"
 alias grvt="gcmp Revert"
 alias gsim="gcmp Simplify"
 alias gtt="gcmp Test"
@@ -256,6 +255,13 @@ function grdm {
     echo 'README.md' | pb
     ga README.md
     gcm "Update README.md"
+}
+
+function gren {
+    desc=`git status -s | grep "R  " | awk -F "R  " '{ print $2 }'`
+    echo $desc
+    tmp_cmd="git commit -m 'Rename $desc'"
+    eval $tmp_cmd
 }
 
 function gkm {
@@ -643,6 +649,4 @@ export FZF_DEFAULT_OPTS='
     --color fg:-1,bg:-1,hl:230,fg+:3,bg+:233,hl+:229
     --color info:150,prompt:110,spinner:150,pointer:167,marker:174
 '
-
-clear
 
