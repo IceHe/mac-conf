@@ -37,22 +37,12 @@ Public/
 .nvm/
 ## now (now.sh : about Server-Side Rendering)
 .now/
-## OneDrive
-OneDrive - elcass/
 ## OpenSSL CSR
 .csr/
 ## 七牛云缓存
 .qrsync/
-## rsync (work, to-rm)
-.rsync*
-## SpaceVim
-.SpaceVim/
-.SpaceVim.d/
 ## ssl
 .rnd
-## VS Code
-.vscode/
-.VSCodeVim/
 ## Tencent? (include QQMusic)
 .wns/
 ## Weibo Video Platform CMD Tool
@@ -60,8 +50,6 @@ OneDrive - elcass/
 .wtool*
 .wtool/
 wtool/
-## z
-.z*
 
 ## others
 1Password Emergency Kit.crypto
@@ -78,13 +66,21 @@ VirtualBox VMs/
 .mysql_history
 .oh-my-zsh/
 .oracle_jre_usage/
+OneDrive - elcass/
+.php_history
 .privacy/
+.rsync*
 .ShadowsocksX*
+.SpaceVim/
+.SpaceVim.d/
 .ssh/
 .snipaste/
 .subversion/
 .tig_history
 .vim/
 .vim*
+.vscode/
+.VSCodeVim/
 .wget-hsts
+.z*
 
