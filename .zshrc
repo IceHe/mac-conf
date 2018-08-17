@@ -245,16 +245,19 @@ alias grvt="gcmp Revert"
 alias gsim="gcmp Simplify"
 alias gtt="gcmp Test"
 
+function ggi {
+    echo '.gitignore' | pb
+    gupd
+}
+
 function gidx {
     echo 'index.html' | pb
-    ga index.html
-    gcm "Update index.html"
+    gupd
 }
 
 function grdm {
     echo 'README.md' | pb
-    ga README.md
-    gcm "Update README.md"
+    gupd
 }
 
 function gren {
@@ -281,24 +284,24 @@ function gkm {
 function gzs {
     /Users/IceHe/
     gr
-    ga .zshrc
-    gcm "Update configs of Zsh"
+    echo '.zshrc' | pb
+    gupd
     -
 }
 
 function gvc {
-    /Users/IceHe/.config
+    /Users/IceHe/
     gr
-    ga vscode/settings.json
-    gcm "Update configs of VS Code"
+    echo '.config/vscode/settings.json' | pb
+    gupd
     -
 }
 
 function gkr {
-    /Users/IceHe/.config
+    /Users/IceHe/
     gr
-    ga karabiner/karabiner.json
-    gcm "Update configs of Karabiner-Elements"
+    echo '.config/karabiner/karabiner.json' | pb
+    gupd
     -
 }
 
