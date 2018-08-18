@@ -13,6 +13,7 @@
     "emmet.excludeLanguages": [],
     "files.autoSave": "onWindowChange",
     "files.encoding": "utf8",
+    "files.eol": "\n",
     "files.exclude": {
         "**/.DS_Store": true,
         "**/.git": true,
@@ -61,5 +62,6 @@
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": true,
-    "workbench.statusBar.visible": true
+    "workbench.statusBar.visible": true,
+    "workbench.editor.showTabs": true
 }
