@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "breadcrumbs.enabled": true,
     "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
@@ -59,6 +60,6 @@
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
-    "workbench.editor.closeEmptyGroups": false,
+    "workbench.editor.closeEmptyGroups": true,
     "workbench.statusBar.visible": true
 }
