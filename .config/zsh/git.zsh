@@ -1,4 +1,7 @@
-# Git
+#######
+# Git #
+#######
+
 alias gcf='git config'
 alias gcfl='git config -l'
 alias gcfe='git config -e'
