@@ -24,3 +24,5 @@ function ip_addr() {
     fi
 }
 
+alias ip='ip_addr | tr -d "\n" | pb; ip_addr'
+
