@@ -63,13 +63,6 @@ zstyle ':completion:*:*:-subscript-:*' tag-order indexes parameters
 # ALIAS #
 #########
 
-source ~/.config/zsh/fzf.zsh
-source ~/.config/zsh/git.zsh
-source ~/.config/zsh/ip.zsh
-source ~/.config/zsh/ls.zsh
-source ~/.config/zsh/proxy.zsh
-source ~/.config/zsh/tmux.zsh
-
 # Abbrs
 alias bu='brew upgrade -vvv && brew update -vvv'
 alias d='docker'
@@ -109,6 +102,15 @@ alias z.='cd ~/.config'
 alias zh='cd ~/.config/zsh'
 alias zp='cd ~/.privacy'
 alias zz='cd ~/.oh-my-zsh'
+
+# Source
+
+source ~/.config/zsh/fzf.zsh
+source ~/.config/zsh/git.zsh
+source ~/.config/zsh/ip.zsh
+source ~/.config/zsh/ls.zsh
+source ~/.config/zsh/proxy.zsh
+source ~/.config/zsh/tmux.zsh
 
 # Docker
 alias dps='docker ps'
