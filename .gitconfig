@@ -3,7 +3,7 @@
 	smudge = git-lfs smudge %f
 	required = true
 [user]
-	name = IceHe.me
+	name = IceHe
 	email = icehe.me@qq.com
 [core]
 	excludesfile = /Users/IceHe/.gitignore_global
