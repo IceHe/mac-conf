@@ -53,6 +53,7 @@
         // "MD033": { "no-inline-html": false }
         "MD033": false,
         "MD034": false,
+        "MD036": false,
         "MD038": false,
         "MD041": false,
         "MD045": false
