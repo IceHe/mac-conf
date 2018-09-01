@@ -9,7 +9,7 @@ let blacklists = ["https://trello.com/*"]
 set autohidecursor
 set defaultnewtabpage
 set linkanimations
-"set showtabindices
+set showtabindices
 set smoothscroll
 set sortlinkhints
 
@@ -19,7 +19,7 @@ set nodimhintcharacters
 
 " string
 let barposition="bottom"
-let hintcharacters="asdfgqwertzxcvb"
+let hintcharacters="asdfgqwerzxcv"
 
 " control
 map Q :help<CR>
@@ -29,17 +29,16 @@ map j scrollPageDown
 map k scrollPageUp
 map q scrollFullPageUp
 map d scrollFullPageDown
-
-map ! scrollToLeft
-map $ scrollToRight
+map ! scrollToLeft "_reserved
+map $ scrollToRight "_reserved
 
 "" tab
 map w previousTab
 map e nextTab
 map W moveTabLeft
 map E moveTabRight
-map gq firstTab
-map gr lastTab
+"map gq firstTab "_reserved
+"map gr lastTab "_reserved
 
 map t :tabnew<CR>
 map a :buffer<Space>
@@ -56,15 +55,10 @@ map R reloadTabUncached
 
 "" quickstart
 map D :chrome://downloads<CR>
-map ga :tabnew google<CR>
-map gb :tabnew baidu<CR>
-map gd :tabnew douban.com<CR>
-map gh :tabnew file:///Users/IceHe/Downloads/html.html<CR>
-map gj :tabnew jd.com<CR>
-map gt :tabnew taobao.com<CR>
-map gw :tabnew weibo.com<CR>
-map gz :tabnew zhihu.com<CR>
 map gS :tabnew chrome-extension://ihlenndgcmojhcghmfjfneahoeklbjjh/pages/options.html<CR>
+"_examples
+"map ga :tabnew google<CR>
+"map gh :tabnew file:///Users/IceHe/Downloads/html.html<CR>
 
 "" switch to tab
 map 1 1%
@@ -104,4 +98,5 @@ iunmap <C-j>
 
 "" others
 map m setMark
-map Z toggleVisualMode
+"map Z toggleVisualMode "_reserved
+
