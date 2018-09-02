@@ -16,6 +16,7 @@ alias gdwc='git diff --word-diff --cached'
 alias gfap='git fetch -ap'
 
 alias ggr='git grep'
+
 alias gi='git init'
 
 alias glf='git ls-files'
@@ -24,6 +25,8 @@ alias glm='git pull main'
 alias glmm='git pull main master'
 
 alias gmom='git merge origin/master'
+
+alias gmv='git mv'
 
 function gnb {
     branch=`git rev-parse --abbrev-ref HEAD`
