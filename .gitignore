@@ -2,7 +2,7 @@
 # Exclude #
 ###########
 
-## macOS
+# macOS
 Applications/
 Desktop/
 Documents/
@@ -14,38 +14,38 @@ Pictures/
 Public/
 .Trash/
 
-### Language
+## Language
 .CFUserTextEncoding
-### Non-essiential Data Files
+## Non-essiential Data Files
 .cache/
-### Configuration
+## Configuration
 .config/
-### User Data
+## User Data
 .local/share/
 
-## gradle
+# gradle
 .gradle/
 .tooling/
-## maven
+# maven
 .m2/
 .mvn_repo/
-## markdown-preview-enhanced (VS Code plugin)
+# markdown-preview-enhanced (VS Code plugin)
 .mume/
-## node
+# node
 .node-gyp/
 .npm/
 .nvm/
-## now (now.sh : about Server-Side Rendering)
+# now (now.sh : about Server-Side Rendering)
 .now/
-## OpenSSL CSR
+# OpenSSL CSR
 .csr/
-## 七牛云缓存
+# 七牛云缓存
 .qrsync/
-## ssl
+# ssl
 .rnd
-## Tencent? (include QQMusic)
+# Tencent? (include QQMusic)
 .wns/
-## Weibo Video Platform CMD Tool
+# Weibo WTool
 .hss_history
 .wtool*
 .wtool/
@@ -53,6 +53,8 @@ wtool/
 
 ## others
 1Password Emergency Kit.crypto
+mac-conf/
+OneDrive - elcass/
 VirtualBox VMs/
 .bash*
 .composer/
@@ -66,7 +68,6 @@ VirtualBox VMs/
 .mysql_history
 .oh-my-zsh/
 .oracle_jre_usage/
-OneDrive - elcass/
 .php_history
 .privacy/
 .rediscli_history
