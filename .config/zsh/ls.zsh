@@ -15,3 +15,7 @@ alias lag='ls -A | grep'
 alias llg='ls -hl | grep'
 alias llag='ls -Ahl | grep'
 
+# Sort by Size
+alias lS='ls -hlrS'
+alias laS='ls -AhlrS'
+
