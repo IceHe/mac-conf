@@ -149,12 +149,6 @@ alias wl="wtool login"
 
 # SELDOM #
 
-## Gpngquant
-alias pngquant='/Users/IceHe/Documents/Tools/pngquant/pngquant'
-alias pngquant-openmp='/Users/IceHe/Documents/Tools/pngquant/pngquant-openmp'
-
-# TO-RM
-
 ## Hexo
 alias h='zb && hexo s'
 alias ha='zb && hexo clean && hexo g && hexo s'
