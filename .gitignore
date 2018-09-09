@@ -40,7 +40,8 @@ Public/
 # OpenSSL CSR
 .csr/
 # 七牛云缓存
-.qrsync/
+.qshell/
+.tools/qshell/**/*.log
 # ssl
 .rnd
 # Tencent? (include QQMusic)
