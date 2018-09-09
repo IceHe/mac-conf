@@ -5,8 +5,8 @@
 # List
 ## Overwrite $ZSH/lib/directories.zsh
 alias l='ls -h'
-alias ll='ls -hl'
 alias la='ls -hA'
+alias ll='ls -hl'
 alias lla='ls -hlA'
 
 # List & Grep
