@@ -13,5 +13,5 @@ alias lla='ls -hlA'
 alias lg='ls | grep'
 alias lag='ls -A | grep'
 alias llg='ls -hl | grep'
-alias llag='ls -hlA | grep'
+alias llag='ls -Ahl | grep'
 
