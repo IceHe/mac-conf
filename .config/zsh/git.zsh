@@ -24,6 +24,8 @@ alias glf='git ls-files'
 alias glm='git pull main'
 alias glmm='git pull main master'
 
+alias gls='git ls-files'
+
 alias gmom='git merge origin/master'
 
 alias gmv='git mv'
