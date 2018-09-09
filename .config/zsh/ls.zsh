@@ -10,8 +10,8 @@ alias la='ls -hA'
 alias lla='ls -hlA'
 
 # List & Grep
-alias lg='ls -h | grep'
+alias lg='ls | grep'
+alias lag='ls -A | grep'
 alias llg='ls -hl | grep'
-alias lag='ls -hA | grep'
 alias llag='ls -hlA | grep'
 
