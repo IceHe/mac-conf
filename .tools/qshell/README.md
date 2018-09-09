@@ -4,3 +4,12 @@
 > - 该工具设计和开发的主要目的就是帮助开发者快速解决问题。
 
 - 参考 https://developer.qiniu.com/kodo/tools/1302/qshell
+
+## Make link
+
+on macOS
+
+```bash
+cd path/to/qshell/[version]/
+ln -s $(realpath qshell_darwin_x64) /usr/local/bin/qshell
+```
