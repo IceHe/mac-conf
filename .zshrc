@@ -153,11 +153,6 @@ alias wl="wtool login"
 alias pngquant='/Users/IceHe/Documents/Tools/pngquant/pngquant'
 alias pngquant-openmp='/Users/IceHe/Documents/Tools/pngquant/pngquant-openmp'
 
-## Qrsync ( 七牛云存储同步 )
-alias qra='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_att_conf.json'
-alias qri='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/blog_img_conf.json'
-alias qrt='/Users/IceHe/Documents/Blog/qr_dev_tool/qrsync /Users/IceHe/Documents/Blog/qr_dev_tool/ice_he_test_conf.json'
-
 # TO-RM
 
 ## Hexo
