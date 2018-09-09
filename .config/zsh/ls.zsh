@@ -19,3 +19,8 @@ alias llag='ls -Ahl | grep'
 alias lS='ls -hlrS'
 alias laS='ls -AhlrS'
 
+# Sort by Time
+alias lt='ls -Ahlrt'
+alias ltu='ls -Ahlrtu'
+alias ltU='ls -AhlrtU'
+
