@@ -1,0 +1,39 @@
+############################
+# IntelliJ IDEA VM options #
+############################
+
+# DEFAULT
+# ( Original )
+
+#-Xms128m
+#-Xmx750m
+#-XX:ReservedCodeCacheSize=240m
+
+# PREVIOUS
+# ( Reference : http://tomaszdziurko.com/2015/11/1-and-the-only-one-to-customize-intellij-idea-memory-settings/ )
+
+#-Xms2046m
+#-Xmx4096m
+#-XX:ReservedCodeCacheSize=1024m
+#
+#-XX:+UseCompressedOops
+#-Dfile.encoding=UTF-8
+#-XX:+UseConcMarkSweepGC
+#-XX:SoftRefLRUPolicyMSPerMB=50
+#-ea
+#-Dsun.io.useCanonCaches=false
+#-Djava.net.preferIPv4Stack=true
+#-XX:+HeapDumpOnOutOfMemoryError
+#-XX:-OmitStackTraceInFastThrow
+#-Xverify:none
+#
+#-XX:ErrorFile=$USER_HOME/java_error_in_idea_%p.log
+#-XX:HeapDumpPath=$USER_HOME/java_error_in_idea.hprof
+
+# CURRENT
+# ( 2018-09-13 )
+
+-Xms2g
+-Xmx6g
+-XX:ReservedCodeCacheSize=1g
+-XX:+UseCompressedOops
