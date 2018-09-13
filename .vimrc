@@ -121,8 +121,6 @@ if $VIM_CRONTAB == "true"
 endif
 
 " Comment
-" " (semicolon)
-map <leader>' ^i;<Esc>
 " " (double quote)
 map <leader>' ^i"<Esc>
 " # (hash)
