@@ -33,7 +33,7 @@
 # CURRENT
 # ( 2018-09-13 )
 
--Xms2g
+-Xms3g
 -Xmx6g
 -XX:ReservedCodeCacheSize=1g
 -XX:+UseCompressedOops
