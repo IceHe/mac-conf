@@ -120,17 +120,3 @@ if $VIM_CRONTAB == "true"
     set nowritebackup
 endif
 
-" Comment
-" " (semicolon)
-map <leader>' ^i;<Esc>
-" " (double quote)
-map <leader>' ^i"<Esc>
-" # (hash)
-map <leader># ^i#<Esc>
-" //
-map <leader>/ ^i//<Esc>
-map <leader>? ^xx<Esc>
-" <!-- -->
-map <leader>! ^i<!-- <Esc>$a --><Esc>
-map <leader>< ^xxxxx$xxxx
-
