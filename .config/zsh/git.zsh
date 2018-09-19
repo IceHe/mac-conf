@@ -91,7 +91,6 @@ function gcmp {
 
 alias gadd="gcmp Add"
 alias gupd="gcmp Update"
-alias gmov="gcmp Move"
 alias gfix="gcmp Fix"
 alias gimp="gcmp Improve"
 alias gref="gcmp Refactor"
@@ -122,6 +121,19 @@ function gren {
     desc=`git status -s | grep "R  " | awk -F "R  " '{ print $2 }'`
 
     tmp_cmd="git commit -m 'Rename $desc'"
+    echo \$ $tmp_cmd
+    echo
+
+    eval $tmp_cmd
+}
+
+function gmov {
+    gs
+    echo
+
+    desc=`git status -s | grep "R  " | awk -F "R  " '{ print $2 }'`
+
+    tmp_cmd="git commit -m 'Move $desc'"
     echo \$ $tmp_cmd
     echo
 
