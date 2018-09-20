@@ -156,17 +156,4 @@ alias tg='zb && clear && hexo clean && hexo deploy && -'
 
 ## Maven
 alias m='mvn'
-#alias mn='mvn clean'
-#alias mc='mvn compile'
-#alias mt='mvn test'
-#alias mp='mvn package'
-#alias mh='mvn -help'
-
-## Mvnw
-#alias imw='mvn -N io.takari:maven:wrapper'
-#alias mw='./mvnw'
-#alias mwc='./mvnw clean'
-#alias mwp='./mvnw package'
-#alias mwcp='./mvnw clean package'
-#alias mwsbr='./mvnw spring-boot:run'
 
