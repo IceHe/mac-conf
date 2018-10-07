@@ -18,12 +18,13 @@ else
 fi
 
 # PATH
+export PATH="$PATH:/Users/IceHe/.composer/vendor/bin"
+export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 export PATH="$PATH:/usr/local/sbin"
 export PATH="$PATH:/opt/local/bin"
 export PATH="$PATH:/usr/sbin"
 export PATH="$PATH:/usr/bin"
 export PATH="$PATH:/sbin"
-export PATH="$PATH:/Users/IceHe/.composer/vendor/bin"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Groovy SDK
