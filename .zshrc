@@ -104,15 +104,6 @@ alias zh='cd ~/.config/zsh'
 alias zp='cd ~/.privacy'
 alias zz='cd ~/.oh-my-zsh'
 
-# Source
-
-source ~/.config/zsh/fzf.zsh
-source ~/.config/zsh/git.zsh
-source ~/.config/zsh/ip.zsh
-source ~/.config/zsh/ls.zsh
-source ~/.config/zsh/proxy.zsh
-source ~/.config/zsh/tmux.zsh
-
 # Docker
 alias dps='docker ps'
 alias dst='docker start'
@@ -120,6 +111,19 @@ alias dsp='docker stop'
 alias de='docker exec -it'
 alias drm='docker rm'
 alias drmi='docker rmi'
+
+# Maven
+alias m='mvn'
+alias sms='mv /Users/IceHe/.m2/settings.xml2 /Users/IceHe/.m2/settings.xml'
+alias nms='mv /Users/IceHe/.m2/settings.xml /Users/IceHe/.m2/settings.xml2'
+
+# Source
+source ~/.config/zsh/fzf.zsh
+source ~/.config/zsh/git.zsh
+source ~/.config/zsh/ip.zsh
+source ~/.config/zsh/ls.zsh
+source ~/.config/zsh/proxy.zsh
+source ~/.config/zsh/tmux.zsh
 
 # Vim
 alias v='nvim'
@@ -154,7 +158,4 @@ alias wl="wtool login"
 alias h='zb && hexo s'
 alias ha='zb && hexo clean && hexo g && hexo s'
 alias tg='zb && clear && hexo clean && hexo deploy && -'
-
-## Maven
-alias m='mvn'
 
