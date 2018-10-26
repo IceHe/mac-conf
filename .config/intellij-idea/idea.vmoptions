@@ -37,3 +37,4 @@
 -Xmx6g
 -XX:ReservedCodeCacheSize=1g
 -XX:+UseCompressedOops
+
