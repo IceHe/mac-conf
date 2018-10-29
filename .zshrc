@@ -20,10 +20,12 @@ fi
 # PATH
 
 # PATH Settings on macOS
+#
 # - /etc/profile
 #   - Auto Completion : eval `/usr/libexec/path_helper -s`
 # - /etc/paths
 # - /etc/paths.d/*
+#
 
 #/bin
 #/sbin
