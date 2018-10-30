@@ -64,7 +64,7 @@
         // "MD023": false, // Headings must start at the beginning of the line
         "MD024": false, // Multiple headings with the same content
         "MD025": false, // Multiple top level headings in the same document
-        // "MD026": false, // Trailing punctuation in heading
+        "MD026": false, // Trailing punctuation in heading
         // "MD027": false, // Multiple spaces after blockquote symbol
         // "MD028": false, // Blank line inside blockquote
         // "MD029": false, // Ordered list item prefix
