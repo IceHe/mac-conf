@@ -19,6 +19,9 @@ fi
 
 # PATH
 
+## TEMP
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+
 # PATH Settings on macOS
 #
 # - /etc/profile
