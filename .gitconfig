@@ -19,3 +19,5 @@
 	default = simple
 [pager]
 	branch = false
+[http]
+	sslVerify = false
