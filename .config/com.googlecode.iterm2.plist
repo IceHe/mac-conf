@@ -7,7 +7,7 @@
 	<key>AboutToPasteTabsWithCancel_selection</key>
 	<integer>2</integer>
 	<key>AdjustWindowForFontSizeChange</key>
-	<false/>
+	<true/>
 	<key>AllowClipboardAccess</key>
 	<true/>
 	<key>AnimateDimming</key>
@@ -42365,7 +42365,7 @@
 	<key>NSFontPanelSizeSliderParams</key>
 	<string>2 0 100</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/.config</string>
+	<string>~/Documents</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 498}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -42427,15 +42427,15 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>78 548 606 456 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
-	<string>2972 1185 616 174 2560 -587 1440 2537 </string>
+	<string>652 662 616 174 0 0 1920 1057 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 139 606 456 0 0 2560 1440 </string>
+	<string>2675 -291 606 469 2560 -587 1440 2537 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>690 102 796 486 0 0 2560 1417 </string>
+	<string>2172 -729 770 429 1920 -947 1440 2537 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>411 -607 592 584 331 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1275 1417 0 0 2560 1417 </string>
+	<string>313 -793 1275 770 313 -800 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_E34A7019-2220-417C-8F95-C1E91D91A2A9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_FBBFE345-B561-4684-B1C8-1F9CDB6C5B71</key>
@@ -42655,7 +42655,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string>/Users/IceHe/Coding/Shell/t.sh</string>
+			<string></string>
 			<key>Cursor Boost</key>
 			<real>0.25102848101265834</real>
 			<key>Cursor Color</key>
@@ -46148,6 +46148,8 @@
 	<true/>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
+	<key>NoSyncSaveDocumentAsPathSet_saveDocumentAs:</key>
+	<true/>
 	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
 	<true/>
 	<key>NoSyncSuppressMissingProfileInArrangementWarning</key>
@@ -46296,7 +46298,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-07-23T18:38:50Z</date>
+	<date>2018-11-22T07:50:08Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Secure Input</key>
@@ -46365,7 +46367,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.2.0beta6</string>
+	<string>3.2.1beta5</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
