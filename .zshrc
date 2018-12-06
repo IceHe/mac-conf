@@ -140,6 +140,9 @@ alias m='mvn'
 alias sms='mv /Users/IceHe/.m2/settings.xml2 /Users/IceHe/.m2/settings.xml'
 alias nms='mv /Users/IceHe/.m2/settings.xml /Users/IceHe/.m2/settings.xml2'
 
+# Rsync
+alias rsync='/usr/local/bin/rsync'
+
 # Source
 source ~/.config/zsh/fzf.zsh
 source ~/.config/zsh/git.zsh
