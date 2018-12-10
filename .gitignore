@@ -67,6 +67,7 @@ VirtualBox VMs/
 .iterm2/
 .lesshst
 .linux-conf/
+.mono/
 .mysql_history
 .oh-my-zsh/
 .oracle_jre_usage/
