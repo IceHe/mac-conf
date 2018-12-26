@@ -25,7 +25,7 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 ## Go
 export GOPATH=$HOME/go
 export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOBIN
+export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 ### GOBIN must be an absolute path
 export GOBIN=/Users/IceHe/go/bin
