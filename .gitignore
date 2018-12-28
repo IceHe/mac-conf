@@ -33,6 +33,7 @@ Public/
 .mume/
 # node
 .node-gyp/
+.node_repl_history
 .npm/
 .nvm/
 # now (now.sh : about Server-Side Rendering)
