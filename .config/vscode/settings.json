@@ -91,5 +91,6 @@
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": true,
     "workbench.statusBar.visible": true,
-    "workbench.editor.showTabs": true
+    "workbench.editor.showTabs": true,
+    "terminal.integrated.fontSize": 14
 }
