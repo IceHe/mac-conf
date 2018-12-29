@@ -24,6 +24,7 @@
         "**/.vscode": true,
     },
     "files.trimTrailingWhitespace": true,
+    "terminal.integrated.fontSize": 14,
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-e>": false,
@@ -91,6 +92,5 @@
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": true,
     "workbench.statusBar.visible": true,
-    "workbench.editor.showTabs": true,
-    "terminal.integrated.fontSize": 14
+    "workbench.editor.showTabs": true
 }
