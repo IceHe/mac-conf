@@ -177,18 +177,18 @@ alias vcv='v ~/.cvimrc'
 alias viv='v ~/.ideavimrc'
 alias vz='v ~/.zshrc'
 alias vt='v ~/.tmux.conf'
-alias vs='v  ~/.ShadowsocksX-NG/user-rule.txt'
 
 alias vk='v ~/.config/karabiner/karabiner.json'
 alias stk='st ~/.config/karabiner/karabiner.json'
 alias vck='vc ~/.config/karabiner/karabiner.json'
+alias vvc='~/.config/vscode/settings.json'
 
 # WTool
 export DCP_USER=zhiyuan16
 alias wt="wtool"
-alias jp="wtool jpool"
-alias dcp="wtool dcplogin"
 alias wl="wtool login" 
+alias dcp="wtool dcplogin"
+alias jp="wtool jpool"
 
 #############################################################################
 
