@@ -31,6 +31,9 @@ Public/
 .mvn_repo/
 # markdown-preview-enhanced (VS Code plugin)
 .mume/
+# Mongo
+.dbshell
+.mongorc.js
 # node
 .node-gyp/
 .node_repl_history
