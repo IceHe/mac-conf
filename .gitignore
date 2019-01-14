@@ -34,6 +34,9 @@ Public/
 # Mongo
 .dbshell
 .mongorc.js
+# msmtp
+.mailrc
+.msmtprc
 # node
 .node-gyp/
 .node_repl_history
