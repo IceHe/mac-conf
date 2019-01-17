@@ -127,8 +127,9 @@ alias zf='cd ~/Documents/Java/form'
 alias zw='cd ~/Documents/Java/weibo_video'
 alias zm='cd ~/Documents/Java/medialib'
 alias zmf='cd ~/Documents/Java/magma-front'
-alias zs='cd ~/Documents/Java/story'
 alias zsora='cd ~/Documents/Work/sora'
+
+alias zs='cd ~/Documents/Src'
 
 alias ze='cd /etc'
 alias zc='cd /usr/local/Cellar'
