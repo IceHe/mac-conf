@@ -7,7 +7,7 @@ alias gcfl='git config -l'
 alias gcfe='git config -e'
 
 alias gcm='git commit -m'
-alias gu='git commit -m "Upd"'
+alias gu='git commit -m "."'
 alias gau='gaa && gu'
 
 alias gcom='git checkout master'
