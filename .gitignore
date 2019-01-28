@@ -81,6 +81,7 @@ VirtualBox VMs/
 .oracle_jre_usage/
 .php_history
 .privacy/
+.python_history
 .rediscli_history
 .rsync*
 .ShadowsocksX*
