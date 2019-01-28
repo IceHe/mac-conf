@@ -42385,7 +42385,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAc7AAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAdKAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -42423,19 +42423,19 @@
 		<string>@^f</string>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>3395 -478 445 77 2560 -587 1440 2537 </string>
+	<string>701 232 445 77 0 0 1280 777 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>78 548 606 456 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
-	<string>652 662 616 174 0 0 1920 1057 </string>
+	<string>2332 825 616 174 1920 -947 1440 2537 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>2675 -291 606 469 2560 -587 1440 2537 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2172 -729 770 429 1920 -947 1440 2537 </string>
+	<string>194 115 796 486 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>411 -607 592 584 331 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>313 -793 1275 770 313 -800 1280 777 </string>
+	<string>1920 -44 1440 1634 1920 -947 1440 2537 </string>
 	<key>NeverWarnAboutShortLivedSessions_E34A7019-2220-417C-8F95-C1E91D91A2A9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_FBBFE345-B561-4684-B1C8-1F9CDB6C5B71</key>
@@ -42755,11 +42755,11 @@
 			<key>Name</key>
 			<string>Custom</string>
 			<key>Non Ascii Font</key>
-			<string>Consolas 20</string>
+			<string>Consolas 16</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Consolas 20</string>
+			<string>Consolas 16</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prevent Opening in a Tab</key>
@@ -46298,7 +46298,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-11-22T07:50:08Z</date>
+	<date>2019-01-17T07:51:42Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Secure Input</key>
@@ -46367,7 +46367,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.2.1beta5</string>
+	<string>3.2.7beta3</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
