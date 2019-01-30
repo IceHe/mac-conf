@@ -172,7 +172,7 @@ alias sv='sudo nvim'
 alias vim='nvim'
 
 alias vgi='v ./.gitignore'
-alias vh='v /etc/hosts'
+#alias vh='v /etc/hosts'
 alias vv='v ~/.vimrc'
 alias vcv='v ~/.cvimrc'
 alias viv='v ~/.ideavimrc'
