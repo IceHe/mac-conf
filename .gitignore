@@ -24,6 +24,8 @@ Src/
 ## User Data
 .local/share/
 
+# delve debugger.
+.dlv/
 # gradle
 .gradle/
 .tooling/
