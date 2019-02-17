@@ -157,9 +157,7 @@
                                 "to_if_alone": [
                                     {
                                         "select_input_source": {
-                                            "input_mode_id": "",
-                                            "input_source_id": "com.apple.keylayout.US",
-                                            "language": "en"
+                                            "input_source_id": "^com\\.apple\\.keylayout\\.US$"
                                         }
                                     }
                                 ],
