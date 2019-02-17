@@ -21,6 +21,7 @@ fi
 
 ## MySQL 5.7
 #export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 ## Go
 export GOPATH=$HOME/go
