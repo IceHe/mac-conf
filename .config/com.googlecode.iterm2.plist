@@ -42427,15 +42427,15 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>78 548 606 456 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
-	<string>2332 825 616 174 1920 -947 1440 2537 </string>
+	<string>332 452 616 174 0 0 1280 777 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>2675 -291 606 469 2560 -587 1440 2537 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>194 115 796 486 0 0 1280 777 </string>
+	<string>194 89 918 512 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>411 -607 592 584 331 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1920 -44 1440 1634 1920 -947 1440 2537 </string>
+	<string>0 0 1280 777 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_E34A7019-2220-417C-8F95-C1E91D91A2A9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_FBBFE345-B561-4684-B1C8-1F9CDB6C5B71</key>
@@ -42931,7 +42931,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/IceHe/Documents/Java</string>
+			<string>/Users/IceHe/Documents/Lib</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -46298,7 +46298,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-01-17T07:51:42Z</date>
+	<date>2019-03-03T06:17:34Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Secure Input</key>
@@ -46367,7 +46367,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.2.7beta3</string>
+	<string>3.2.7beta4</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
