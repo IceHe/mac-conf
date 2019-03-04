@@ -81,10 +81,7 @@ bindkey '^n' forward-word
 bindkey '^p' backward-word
 
 ## Zsh-autosuggentsions ( enable plugin manually )
-source ~/.oh-my-zsh/plugins/zsh-autosuggestions/autosuggestions.zsh
-zle-line-init() {
-    zle autosuggest-start
-}
+source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Zstyle ( auto correct )
 zstyle ':completion:*' verbose true
