@@ -15,8 +15,7 @@ function trw {
 
     tmux new-window -c "$(pwd)"
     tmp_tmux_cur_win_num=$(tmux display-message -p '#I')
-    
+
     tmux swap-window -s $tmp_tmux_cur_win_num -t $tmp_tmux_prev_win_num
     tmux kill-window -t 'tmp_tmux_win'
 }
-
