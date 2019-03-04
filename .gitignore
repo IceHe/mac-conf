@@ -14,6 +14,7 @@ Pictures/
 Public/
 Src/
 .Trash/
+.DS_Store
 
 ## Language
 .CFUserTextEncoding
@@ -70,6 +71,7 @@ PycharmProjects/
 VirtualBox VMs/
 .bash*
 .composer/
+.cups/
 .docker/
 .gem/
 .gemrc
