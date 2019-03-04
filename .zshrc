@@ -10,7 +10,7 @@ plugins=(brew-cask colored-man copydir copyfile cp git osx sudo tmux vundle z zs
 ## Add wisely, as too many plugins slow down shell startup.
 ## Warning: sudo plugin must be put after vi-mode!
 
-# Editor 
+# Editor
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
@@ -29,7 +29,7 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 ### GOBIN must be an absolute path
-export GOBIN=/Users/IceHe/go/bin
+export GOBIN=~/go/bin
 
 # PATH Settings on macOS
 #
@@ -52,7 +52,7 @@ export GOBIN=/Users/IceHe/go/bin
 #……
 
 # e.g.
-#export PATH="$PATH:/Users/IceHe/.composer/vendor/bin"
+#export PATH="$PATH:~/.composer/vendor/bin"
 #export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 #……
 #export PATH="$PATH:/bin"
@@ -66,14 +66,14 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
 # NVM
-export NVM_DIR="/Users/IceHe/.nvm"
+export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Theme
 ZSH_THEME="sunrise_icehe" # Look in ~/.oh-my-zsh/themes/
 
 # Oh-my-zsh
-export ZSH=/Users/IceHe/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # Key-bindings
@@ -105,7 +105,6 @@ alias pb='pbcopy'
 alias pbn='tr -d "\n" | pbcopy'
 alias rm='safe-rm'
 alias rp='realpath'
-alias sx="/Users/IceHe/Documents/Work/Scripts/sinax.sh"
 
 alias ms="mysql.server"
 alias rs="redis-server /usr/local/etc/redis.conf"
@@ -124,12 +123,6 @@ alias z_='cd ~/Documents/Blog/blog/source/_posts'
 alias zi='cd ~/Documents/Lib'
 
 alias zj='cd ~/Documents/Java'
-alias zf='cd ~/Documents/Java/form'
-alias zw='cd ~/Documents/Java/weibo_video'
-alias zm='cd ~/Documents/Java/medialib'
-alias zmf='cd ~/Documents/Java/magma-front'
-alias zsora='cd ~/Documents/Work/sora'
-
 alias zs='cd ~/Documents/Src'
 
 alias ze='cd /etc'
@@ -138,7 +131,6 @@ alias z.='cd ~/.config'
 alias zg='cd ~/go'
 alias zgb='cd ~/go/bin'
 alias zgs='cd ~/go/src'
-alias zmb='cd ~/go/src/magma-backend'
 alias zh='cd ~/.config/zsh'
 alias zp='cd ~/.privacy'
 alias zz='cd ~/.oh-my-zsh'
@@ -153,8 +145,8 @@ alias drmi='docker rmi'
 
 # Maven
 alias m='mvn'
-alias sms='mv /Users/IceHe/.m2/settings.xml2 /Users/IceHe/.m2/settings.xml'
-alias nms='mv /Users/IceHe/.m2/settings.xml /Users/IceHe/.m2/settings.xml2'
+alias sms='mv ~/.m2/settings.xml2 ~/.m2/settings.xml'
+alias nms='mv ~/.m2/settings.xml ~/.m2/settings.xml2'
 
 # Rsync
 alias rsync='/usr/local/bin/rsync'
@@ -185,13 +177,6 @@ alias stk='st ~/.config/karabiner/karabiner.json'
 alias vck='vc ~/.config/karabiner/karabiner.json'
 alias vvc='~/.config/vscode/settings.json'
 
-# WTool
-export DCP_USER=zhiyuan16
-alias wt="wtool"
-alias wl="wtool login" 
-alias dcp="wtool dcplogin"
-alias jp="wtool jpool"
-
 #############################################################################
 
 # SELDOM #
@@ -200,4 +185,3 @@ alias jp="wtool jpool"
 alias h='zb && hexo s'
 alias ha='zb && hexo clean && hexo g && hexo s'
 alias tg='zb && clear && hexo clean && hexo deploy && -'
-
