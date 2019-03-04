@@ -143,7 +143,7 @@ function gmov {
 }
 
 function gkm {
-    /Users/IceHe/.config/
+    ~/.config/
     gr
     ga "Keyboard Maestro Macros.kmsync"
     gcm "Update configs of Keyboard Maestro"
@@ -151,7 +151,7 @@ function gkm {
 }
 
 function gzs {
-    /Users/IceHe/
+    ~/
     gr
     echo '.zshrc' | pb
     gupd
@@ -159,7 +159,7 @@ function gzs {
 }
 
 function gvc {
-    /Users/IceHe/
+    ~/
     gr
     echo '.config/vscode/settings.json' | pb
     gupd
@@ -167,7 +167,7 @@ function gvc {
 }
 
 function gkr {
-    /Users/IceHe/
+    ~/
     gr
     echo '.config/karabiner/karabiner.json' | pb
     gupd
