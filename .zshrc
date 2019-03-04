@@ -81,6 +81,7 @@ bindkey '^n' forward-word
 bindkey '^p' backward-word
 
 ## Zsh-autosuggentsions ( enable plugin manually )
+## ( Ref : https://github.com/zsh-users/zsh-autosuggestions )
 source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Zstyle ( auto correct )
