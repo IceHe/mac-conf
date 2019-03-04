@@ -92,5 +92,6 @@
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": true,
     "workbench.statusBar.visible": true,
-    "workbench.editor.showTabs": true
+    "workbench.editor.showTabs": true,
+    "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509"
 }
