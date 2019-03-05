@@ -3366,7 +3366,7 @@
                 }
             ],
             "name": "Custom-IceHe",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": {
@@ -3509,7 +3509,7 @@
                 }
             ],
             "name": "Default",
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0
