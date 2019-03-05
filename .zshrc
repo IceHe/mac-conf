@@ -156,6 +156,9 @@ source ~/.config/zsh/ip.zsh
 source ~/.config/zsh/ls.zsh
 source ~/.config/zsh/proxy.zsh
 source ~/.config/zsh/tmux.zsh
+if [ -f "~/_private/zsh.zsh" ]; then
+    source ~/_private/zsh.zsh
+fi
 
 # Vim
 alias v='nvim'
