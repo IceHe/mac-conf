@@ -57,11 +57,6 @@ Src/
 .rnd
 # Tencent? (include QQMusic)
 .wns/
-# Weibo WTool
-.hss_history
-.wtool*
-.wtool/
-wtool/
 
 ## others
 1Password Emergency Kit.crypto
@@ -103,4 +98,6 @@ VirtualBox VMs/
 .vue-templates/
 .wget-hsts
 .z*
+_private/
+
 
