@@ -156,9 +156,6 @@ source ~/.config/zsh/ip.zsh
 source ~/.config/zsh/ls.zsh
 source ~/.config/zsh/proxy.zsh
 source ~/.config/zsh/tmux.zsh
-if [ -f "~/_private/zsh.zsh" ]; then
-    source ~/_private/zsh.zsh
-fi
 
 # Vim
 alias v='nvim'
@@ -177,6 +174,11 @@ alias vk='v ~/.config/karabiner/karabiner.json'
 alias stk='st ~/.config/karabiner/karabiner.json'
 alias vck='vc ~/.config/karabiner/karabiner.json'
 alias vvc='~/.config/vscode/settings.json'
+
+# X
+if [ -f "~/_private/zsh.zsh" ]; then
+    source ~/_private/zsh.zsh
+fi
 
 #############################################################################
 
