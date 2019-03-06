@@ -160,7 +160,7 @@ source ~/.config/zsh/tmux.zsh
 # Vim
 alias v='nvim'
 alias sv='sudo nvim'
-alias vim='nvim'
+#alias vim='nvim'
 
 alias vgi='v ./.gitignore'
 #alias vh='v /etc/hosts'
@@ -176,8 +176,8 @@ alias vck='vc ~/.config/karabiner/karabiner.json'
 alias vvc='~/.config/vscode/settings.json'
 
 # X
-if [ -f "~/_private/zsh.zsh" ]; then
-    source ~/_private/zsh.zsh
+if [[ -f "/Users/mac/_private/zsh.zsh" ]]; then
+    source /Users/mac/_private/zsh.zsh
 fi
 
 #############################################################################

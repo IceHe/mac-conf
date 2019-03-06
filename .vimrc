@@ -1,6 +1,7 @@
 " .vimrc "
 
 set clipboard=unnamed
+set clipboard+=unnamedplus
 
 let mapleader = ','
 
