@@ -17,6 +17,7 @@
     "files.exclude": {
         "**/.DS_Store": true,
         "**/.git": true,
+        "**/.gitignore": true,
         "**/.hg": true,
         "**/.idea": true,
         "**/*.iml": true,
@@ -35,8 +36,7 @@
     "vim.leader": ",",
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
-    "markdown.preview.fontSize": 18,
-    "markdown-preview-enhanced.breakOnSingleNewLine": false, // GitLab
+    "markdown.preview.fontSize": 18, // GitLab
     "markdown-preview-enhanced.enableCriticMarkupSyntax": true, // Advanced
     "markdown-preview-enhanced.enableExtendedTableSyntax": true, // Advanced
     "markdown-preview-enhanced.previewTheme": "vue.css",
@@ -87,7 +87,7 @@
         "MD045": false // Images should have alternate text (alt text)
     },
     "window.openFilesInNewWindow": "off",
-    "window.zoomLevel": -2,
+    "window.zoomLevel": -1,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": true,
