@@ -10,6 +10,18 @@
         "strings": true
     },
     "editor.renderControlCharacters": true,
+    // <2019-03-20 begin>
+    // The number of spaces a tab is equal to. This setting is overridden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.tabSize": 4,
+    // Insert spaces when pressing Tab. This setting is overriden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.insertSpaces": true,
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+    // will be detected based on the file contents. Set to false to keep
+    // the values you've explicitly set, above.
+    "editor.detectIndentation": false,
+    // <2019-03-20 end>
     "emmet.excludeLanguages": [],
     "files.autoSave": "onWindowChange",
     "files.encoding": "utf8",
@@ -87,7 +99,7 @@
         "MD045": false // Images should have alternate text (alt text)
     },
     "window.openFilesInNewWindow": "off",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -2,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": true,
