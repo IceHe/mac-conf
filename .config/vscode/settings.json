@@ -11,6 +11,7 @@
     },
     "editor.renderControlCharacters": true,
     // <2019-03-20 begin>
+    // ( Ref : https://stackoverflow.com/questions/29972396/vscode-how-do-i-set-tab-space-style )
     // The number of spaces a tab is equal to. This setting is overridden
     // based on the file contents when `editor.detectIndentation` is true.
     "editor.tabSize": 4,
