@@ -21,7 +21,8 @@ fi
 
 ## MySQL 5.7
 #export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+#export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 
 ## Go
 export GOPATH=$HOME/go
@@ -188,3 +189,4 @@ fi
 alias h='zb && hexo s'
 alias ha='zb && hexo clean && hexo g && hexo s'
 alias tg='zb && clear && hexo clean && hexo deploy && -'
+
