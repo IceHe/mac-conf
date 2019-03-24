@@ -103,7 +103,23 @@
 	"ignored_packages":
 	[
 		"ActualVim",
-		"MarkdownEditing"
+		"Alignment",
+		"All Autocomplete",
+		"BracketGuard",
+		"Clickable URLs",
+		"Colorsublime",
+		"Compare Side-By-Side",
+		"CTags",
+		"FileDiffs",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"MarkdownEditing",
+		"Pretty JSON",
+		"SublimeLinter",
+		"Swig",
+		"TrailingSpaces",
+		"Trimmer"
 	],
 	"open_files_in_new_window": false,
 	"theme": "Adaptive.sublime-theme",
