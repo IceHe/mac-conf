@@ -100,11 +100,13 @@
         "MD045": false // Images should have alternate text (alt text)
     },
     "window.openFilesInNewWindow": "off",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -3,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": true,
     "workbench.statusBar.visible": true,
     "workbench.editor.showTabs": true,
-    "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509"
+    "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
