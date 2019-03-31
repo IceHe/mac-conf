@@ -181,6 +181,10 @@ if [[ -f "/Users/mac/_private/zsh.zsh" ]]; then
     source /Users/mac/_private/zsh.zsh
 fi
 
+if [[ -f "/Users/IceHe/.privacy/zsh.zsh" ]]; then
+    source /Users/IceHe/.privacy/zsh.zsh
+fi
+
 #############################################################################
 
 # SELDOM #
