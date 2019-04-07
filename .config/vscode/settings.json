@@ -108,5 +108,6 @@
     "workbench.editor.showTabs": true,
     "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "markdown-preview-enhanced.enableScriptExecution": true
 }
