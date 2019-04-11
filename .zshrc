@@ -2,6 +2,9 @@
 # ENV #
 #######
 
+# Lang
+export LANG=zh_CN.UTF-8
+
 # Plugins
 plugins=(brew-cask colored-man copydir copyfile cp git osx sudo tmux vundle z zsh-syntax-highlighting)
 ## Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
