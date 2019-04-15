@@ -21,6 +21,7 @@
     // When opening a file, `editor.tabSize` and `editor.insertSpaces`
     // will be detected based on the file contents. Set to false to keep
     // the values you've explicitly set, above.
+    "editor.suggestSelection": "first"
     "editor.detectIndentation": false,
     // <2019-03-20 end>
     "emmet.excludeLanguages": [],
@@ -106,8 +107,5 @@
     "workbench.editor.closeEmptyGroups": true,
     "workbench.statusBar.visible": true,
     "workbench.editor.showTabs": true,
-    "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "markdown-preview-enhanced.enableScriptExecution": true
+    "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509"
 }
