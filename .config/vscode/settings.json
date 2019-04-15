@@ -21,9 +21,9 @@
     // When opening a file, `editor.tabSize` and `editor.insertSpaces`
     // will be detected based on the file contents. Set to false to keep
     // the values you've explicitly set, above.
-    "editor.suggestSelection": "first"
     "editor.detectIndentation": false,
     // <2019-03-20 end>
+    "editor.suggestSelection": "first",
     "emmet.excludeLanguages": [],
     "files.autoSave": "onWindowChange",
     "files.encoding": "utf8",
