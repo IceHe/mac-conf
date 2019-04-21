@@ -2,6 +2,22 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Alignment",
+		"All Autocomplete",
+		"BracketGuard",
+		"Clickable URLs",
+		"Colorsublime",
+		"Compare Side-By-Side",
+		"CTags",
+		"FileDiffs",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Pretty JSON",
+		"SublimeLinter",
+		"Swig",
+		"TrailingSpaces",
+		"Trimmer"
 	],
 	"installed_packages":
 	[
