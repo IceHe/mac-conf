@@ -1,0 +1,56 @@
+{
+    "title": "04. ⎋ || ⇧  ——  EN",
+    "rules": [
+        {
+            "description": "04. ⎋ || ⇧  ——  EN",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "escape",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "select_input_source": {
+                                "input_source_id": "^com\\.apple\\.keylayout\\.US$"
+                            }
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "left_shift",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_shift"
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "select_input_source": {
+                                "input_source_id": "^com\\.apple\\.keylayout\\.US$"
+                            }
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
