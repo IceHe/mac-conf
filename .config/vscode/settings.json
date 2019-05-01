@@ -107,5 +107,8 @@
     "workbench.editor.closeEmptyGroups": true,
     "workbench.statusBar.visible": true,
     "workbench.editor.showTabs": true,
-    "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509"
+    "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
