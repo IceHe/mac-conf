@@ -46,8 +46,6 @@ Src/
 .node_repl_history
 .npm/
 .nvm/
-# now (now.sh : about Server-Side Rendering)
-.now/
 # OpenSSL CSR
 .csr/
 # 七牛云缓存
