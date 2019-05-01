@@ -1,0 +1,29 @@
+{
+    "title": "06. Fn + 凵  ——  凵 ( repeatable )",
+    "rules": [
+        {
+            "description": "06. Fn + 凵  ——  凵 ( repeatable )",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "spacebar",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "spacebar"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
