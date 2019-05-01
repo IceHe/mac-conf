@@ -26,7 +26,7 @@ fi
 # PATH
 
 ## MySQL 5.7
-#export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+# Current version is 8.0+ by default. (2019-05-01)
 #export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 
