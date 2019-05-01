@@ -16,7 +16,7 @@
                 },
                 "rules": [
                     {
-                        "description": "凵 + x  ——  |#",
+                        "description": "01. 凵 + x  ——  |#",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -45,7 +45,7 @@
                         ]
                     },
                     {
-                        "description": "twice ⌘ + q —— once ⌘ + q",
+                        "description": "02. twice ⌘ + q —— once ⌘ + q",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -117,9 +117,9 @@
                         ]
                     },
                     {
+                        "description": "03. ⇪  ——  zh",
                         "manipulators": [
                             {
-                                "description": "⇪  ——  ZH",
                                 "from": {
                                     "key_code": "caps_lock",
                                     "modifiers": {
@@ -139,7 +139,7 @@
                         ]
                     },
                     {
-                        "description": "⎋ || ⇧  ——  EN",
+                        "description": "04. ⎋ || ⇧  ——  EN",
                         "manipulators": [
                             {
                                 "from": {
@@ -190,7 +190,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + hjkl  ——  ←↓↑→",
+                        "description": "05. Fn + hjkl  ——  ←↓↑→",
                         "manipulators": [
                             {
                                 "from": {
@@ -271,7 +271,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + 凵  ——  凵 ( repeatable )",
+                        "description": "06. Fn + 凵  ——  凵 ( repeatable )",
                         "manipulators": [
                             {
                                 "from": {
@@ -295,7 +295,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + tab  ——  4 Spaces",
+                        "description": "07. Fn + tab  ——  4 Spaces",
                         "manipulators": [
                             {
                                 "from": {
@@ -328,7 +328,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + u, i, o, p, ↩ —— caps_lock, f20, f13, f18, f19",
+                        "description": "08. Fn + u, i, o, p, ↩ —— caps_lock, f20, f13, f18, f19",
                         "manipulators": [
                             {
                                 "from": {
@@ -428,7 +428,7 @@
                         ]
                     },
                     {
-                        "description": "Fn + 0~9 qwert asdfg zxcvb  ——  Moom",
+                        "description": "09. Fn + 0~9 qwert asdfg zxcvb  ——  Moom",
                         "manipulators": [
                             {
                                 "from": {
@@ -1058,7 +1058,7 @@
                         ]
                     },
                     {
-                        "description": "Enable Layout 凵",
+                        "description": "10. Enable Layout 凵",
                         "manipulators": [
                             {
                                 "from": {
@@ -1095,7 +1095,7 @@
                         ]
                     },
                     {
-                        "description": "凵 + ⇥  ——  ⌥ + ⇥",
+                        "description": "11. 凵 + ⇥  ——  ⌥ + ⇥",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1126,7 +1126,7 @@
                         ]
                     },
                     {
-                        "description": "凵 + `-=[]\\'/  ——  ~_+{}|\"?",
+                        "description": "12. 凵 + `-=[]\\'/  ——  ~_+{}|\"?",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1339,7 +1339,7 @@
                         ]
                     },
                     {
-                        "description": "凵 + asdfghjkl;  ——  1234567890",
+                        "description": "13. 凵 + asdfghjkl;  ——  1234567890",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1574,7 +1574,7 @@
                         ]
                     },
                     {
-                        "description": "凵 + 1234567890  ——  ^ + ⇧ + ⌥ + 1234567890",
+                        "description": "14. 凵 + 1234567890  ——  ^ + ⇧ + ⌥ + 1234567890",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1859,7 +1859,7 @@
                         ]
                     },
                     {
-                        "description": "1234567890  <—>  ⇧ + 1234567890",
+                        "description": "15. 1234567890  <—>  ⇧ + 1234567890",
                         "manipulators": [
                             {
                                 "from": {
@@ -2244,7 +2244,7 @@
                         ]
                     },
                     {
-                        "description": "Enable Layout Rg ⌥",
+                        "description": "16. Enable Layout Rg ⌥",
                         "manipulators": [
                             {
                                 "from": {
@@ -2281,7 +2281,7 @@
                         ]
                     },
                     {
-                        "description": "Rg ⌥ + 0-9a-z…  ——  ⇧ + ⌥ + ⌘ + a-z…",
+                        "description": "17. Rg ⌥ + 0-9a-z…  ——  ⇧ + ⌥ + ⌘ + a-z…",
                         "manipulators": [
                             {
                                 "conditions": [
