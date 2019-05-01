@@ -1,0 +1,27 @@
+{
+    "title": "03. ⇪  ——  zh",
+    "rules": [
+        {
+            "description": "03. ⇪  ——  zh",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "caps_lock",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f17",
+                            "modifiers": []
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
