@@ -67,7 +67,6 @@ PycharmProjects/
 VirtualBox VMs/
 .bash*
 .composer/
-.cups/
 .docker/
 .gem/
 .gemrc
@@ -82,16 +81,13 @@ VirtualBox VMs/
 .oracle_jre_usage/
 .php_history
 .privacy/
-.python_history
 .rediscli_history
-.rsync*
 .ShadowsocksX*
 .SpaceVim/
 .SpaceVim.d/
 .ssh/
 .snipaste/
 .subversion/
-.tig_history
 .vim/
 .vim*
 .vscode/
@@ -99,6 +95,5 @@ VirtualBox VMs/
 .vue-templates/
 .wget-hsts
 .z*
-_private/
 
 
