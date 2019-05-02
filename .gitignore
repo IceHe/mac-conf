@@ -74,11 +74,13 @@ VirtualBox VMs/
 .lesshst
 .linux-conf/
 .mono/
+.mycli.log
 .mysql_history
 .oh-my-zsh/
 .oracle_jre_usage/
 .php_history
 .privacy/
+.python_history
 .rediscli_history
 .ShadowsocksX*
 .SpaceVim/
