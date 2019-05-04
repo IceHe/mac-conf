@@ -102,7 +102,7 @@ zstyle ':completion:*:*:-subscript-:*' tag-order indexes parameters
 #########
 
 # Abbrs
-alias bu='brew upgrade -vvv && brew update -vvv'
+alias bu='brew update -vvv && brew upgrade -vvv'
 alias d='docker'
 alias e='exit'
 alias o='open'
