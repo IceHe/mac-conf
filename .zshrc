@@ -167,7 +167,7 @@ source ~/.config/zsh/tmux.zsh
 # Vim
 alias v='nvim'
 alias sv='sudo nvim'
-alias vim='/usr/local/bin/vim'
+#alias vim='nvim'
 
 alias vgi='v ./.gitignore'
 #alias vh='v /etc/hosts'
