@@ -9,8 +9,17 @@ imap <C-S> <Esc><C-S>a
 map <C-S> :w<CR>
 
 " Search
-" 设置大小写敏感和聪明感知（小写全搜，大写完全匹配）
-set ignorecase
+
+"" 设置大小写敏感和聪明感知（小写全搜，大写完全匹配）
+"set ignorecase
+"set ic
+"set noic
+
+"" If you search for something containing uppercase characters,
+""   it will do a case sensitive search;
+""   if you search for something purely lowercase,
+""   it will do a case insensitive search.
+set smartcase
 
 " Swith Tab
 map <S-H> gT
