@@ -16,6 +16,7 @@ plugins=(
   cp 
   dotenv    # 2019-05-15
   git 
+  globalias
   osx 
   #rake      # 2019-05-15
   #rbenv     # 2019-05-15
