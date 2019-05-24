@@ -22,6 +22,10 @@
 	<string>manual</string>
 	<key>AutoHideTmuxClientSession</key>
 	<true/>
+	<key>BadgeRightMargin</key>
+	<integer>5</integer>
+	<key>BadgeTopMargin</key>
+	<integer>5</integer>
 	<key>CheckTestRelease</key>
 	<true/>
 	<key>CloseBookmarksWindowAfterOpening</key>
@@ -42217,6 +42221,12 @@
 	<false/>
 	<key>DisableFullscreenTransparency</key>
 	<true/>
+	<key>DisableMetalWhenIdle</key>
+	<true/>
+	<key>DisallowCopyEmptyString</key>
+	<true/>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<true/>
 	<key>EnableAPIServer</key>
 	<false/>
 	<key>EnableRendezvous</key>
@@ -42307,6 +42317,8 @@
 	<key>HiddenAdvancedFontRendering</key>
 	<false/>
 	<key>HideActivityIndicator</key>
+	<false/>
+	<key>HideFromDockAndAppSwitcher</key>
 	<false/>
 	<key>HideMenuBarInFullscreen</key>
 	<true/>
@@ -42439,7 +42451,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>411 -607 592 584 331 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1280 777 0 0 1280 777 </string>
+	<string>0 0 1280 777 0 0 1280 800 </string>
 	<key>NeverWarnAboutShortLivedSessions_E34A7019-2220-417C-8F95-C1E91D91A2A9</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_FBBFE345-B561-4684-B1C8-1F9CDB6C5B71</key>
@@ -42724,6 +42736,8 @@
 			<false/>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
+			<key>Icon</key>
+			<integer>0</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
@@ -42904,6 +42918,8 @@
 			<array/>
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
+			<key>Title Components</key>
+			<integer>7</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Triggers</key>
@@ -46150,7 +46166,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>523094753.293006</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -46836,6 +46852,8 @@
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>2</integer>
+	<key>OptionClickMovesCursor</key>
+	<true/>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
 	<key>PassOnControlClick</key>
@@ -46869,6 +46887,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/IceHe/.config</string>
+	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
+	<false/>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -46890,7 +46910,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-04-20T18:11:11Z</date>
+	<date>2019-05-23T20:42:40Z</date>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -46900,7 +46920,7 @@
 	<key>ShowBookmarkName</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>ShowPaneTitles</key>
@@ -46923,6 +46943,8 @@
 	<integer>6</integer>
 	<key>TabStyle</key>
 	<integer>0</integer>
+	<key>TabStyleWithAutomaticOption</key>
+	<integer>5</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>ThreeFingerEmulates</key>
@@ -46935,7 +46957,7 @@
 		<string>Recent Directories</string>
 	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
-	<false/>
+	<true/>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1465200768</real>
 	<key>URLHandlersByGuid</key>
@@ -46944,6 +46966,8 @@
 	<false/>
 	<key>UseCompactLabel</key>
 	<false/>
+	<key>UseExperimentalFontMetrics</key>
+	<true/>
 	<key>UseLionStyleFullscreen</key>
 	<true/>
 	<key>VisualIndicatorForEsc</key>
