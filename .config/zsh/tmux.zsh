@@ -9,7 +9,7 @@ alias tch="tmux split-window -h -c '#{pane_current_path}'"
 alias tcv="tmux split-window -v -c '#{pane_current_path}'"
 
 function tw {
-    cd ~/Document/Lib
+    cd ~/Documents/Lib
 
     # ICEHE
     tmux new -s icehe -d
