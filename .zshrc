@@ -93,7 +93,8 @@ export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Theme
-ZSH_THEME="sunrise_icehe" # Look in ~/.oh-my-zsh/themes/
+#ZSH_THEME="sunrise_icehe" # Look in ~/.oh-my-zsh/themes/
+ZSH_THEME="robbyrussell" # Look in ~/.oh-my-zsh/themes/
 
 # Oh-my-zsh
 export ZSH=~/.oh-my-zsh
@@ -102,10 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # Key-bindings
 bindkey '^n' forward-word
 bindkey '^p' backward-word
-
-## Zsh-autosuggentsions ( enable plugin manually )
-## ( Ref : https://github.com/zsh-users/zsh-autosuggestions )
-source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Zstyle ( auto correct )
 zstyle ':completion:*' verbose true
