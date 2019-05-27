@@ -84,6 +84,7 @@ plugins=(
 #   docker-compose
 #   dotenv   # to test?
   git
+  globalias
   osx
   sudo
   tmux
@@ -289,12 +290,13 @@ alias sz='source ~/.zshrc && echo \$ source ~/.zshrc'
 
 # globalias
 # ( REF : ~/.oh-my-zsh/plugins/globalias/globalias.plugin.zsh )
-globalias() {
-   zle _expand_alias
-   zle expand-word
-   zle self-insert
-}
-zle -N globalias
+
 ## space expands all aliases, including global.
 bindkey -M emacs "^x " globalias
 bindkey -M viins "^x " globalias
+## Revert common configs
+bindkey -M isearch " " magic-space
+bindkey -M emacs " " magic-space
+bindkey -M viins " " magic-space
+bindkey -M emacs -r "^ "
+bindkey -M viins -r "^ "
