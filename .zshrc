@@ -288,13 +288,12 @@ alias sz='source ~/.zshrc && echo \$ source ~/.zshrc'
 # BIND-KEY #
 ############
 
-# globalias
+# Expand Alias
+# ( including global via plugin globalias )
 # ( REF : ~/.oh-my-zsh/plugins/globalias/globalias.plugin.zsh )
-
-## space expands all aliases, including global.
 bindkey -M emacs "^x " globalias
 bindkey -M viins "^x " globalias
-## Revert common configs
+# Revert improper configs in plugin globalias
 bindkey -M isearch " " magic-space
 bindkey -M emacs " " magic-space
 bindkey -M viins " " magic-space
