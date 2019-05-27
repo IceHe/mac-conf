@@ -64,6 +64,7 @@ function args {
     echo \$5=$5
 }
 
+# git commit message prefix
 function gcmc {
     if [[ $1 == "" ]]; then
         echo && echo custom text for git 404!
@@ -82,15 +83,6 @@ function gcmc {
     gcm "$1"
 }
 
-function gcmp {
-    if [[ $1 == "" ]]; then
-        echo && echo verb prefix for git 404!
-        return
-    fi
-
-    gcmc "$1 `pbpaste`"
-}
-
 alias gadd="gcmp Add"
 alias gupd="gcmp Update"
 alias gfix="gcmp Fix"
@@ -101,20 +93,35 @@ alias grvt="gcmp Revert"
 alias gsim="gcmp Simplify"
 alias gtt="gcmp Test"
 
-function ggi {
-    echo '.gitignore' | pb
-    gupd
+# git commit short message prefix
+function gcsmp {
+    if [[ $1 == "" || $2 == "" ]]; then
+        echo && echo verb & type prefix for git 404!
+        return
+    fi
+
+    gs
+    echo
+
+    desc=`git status -s | grep "$2  " | awk -F "[./]" '{print $(NF-1)}'`
+
+    cmd="git commit -m '$1 $desc'"
+    echo \$ $cmd
+    echo
+
+    eval $cmd
 }
 
-function gidx {
-    echo 'index.html' | pb
-    gupd
-}
-
-function grdm {
-    echo 'README.md' | pb
-    gupd
-}
+alias gaddj="gcsmp Add A"
+alias gupdj="gcsmp Update M"
+alias gfixj="gcsmp Fix M"
+alias gimpj="gcsmp Improve M"
+alias gmovj="gcsmp Move R"
+alias grenj="gcsmp Rename R"
+alias grefj="gcsmp Refactor M"
+alias gremj="gcsmp Remove D"
+alias gsimj="gcsmp Simplify M"
+alias gttj="gcsmp Test M"
 
 function gren {
     gs
@@ -141,36 +148,3 @@ function gmov {
 
     eval $tmp_cmd
 }
-
-function gkm {
-    ~/.config/
-    gr
-    ga "Keyboard Maestro Macros.kmsync"
-    gcm "Update configs of Keyboard Maestro"
-    -
-}
-
-function gzs {
-    ~/
-    gr
-    echo '.zshrc' | pb
-    gupd
-    -
-}
-
-function gvc {
-    ~/
-    gr
-    echo '.config/vscode/settings.json' | pb
-    gupd
-    -
-}
-
-function gkr {
-    ~/
-    gr
-    echo '.config/karabiner/karabiner.json' | pb
-    gupd
-    -
-}
-
