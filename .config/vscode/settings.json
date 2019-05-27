@@ -39,17 +39,6 @@
         "**/.vscode": true,
     },
     "files.trimTrailingWhitespace": true,
-    "terminal.integrated.fontSize": 14,
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-e>": false,
-        "<C-f>": false,
-        "<C-n>": false,
-    },
-    "vim.hlsearch": true,
-    "vim.leader": ",",
-    "vim.useSystemClipboard": true,
-    "vim.visualstar": true,
     "markdown.preview.fontSize": 18, // GitLab
     "markdown-preview-enhanced.enableCriticMarkupSyntax": true, // Advanced
     "markdown-preview-enhanced.enableExtendedTableSyntax": true, // Advanced
@@ -100,6 +89,18 @@
         // "MD044": false, // Proper names should have the correct capitalization
         "MD045": false // Images should have alternate text (alt text)
     },
+    "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509",
+    "terminal.integrated.fontSize": 14,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-e>": false,
+        "<C-f>": false,
+        "<C-n>": false
+    },
+    "vim.hlsearch": true,
+    "vim.leader": ",",
+    "vim.useSystemClipboard": true,
+    "vim.visualstar": true,
     "window.openFilesInNewWindow": "off",
     "window.zoomLevel": -2,
     "workbench.activityBar.visible": false,
@@ -107,7 +108,6 @@
     "workbench.editor.closeEmptyGroups": true,
     "workbench.statusBar.visible": true,
     "workbench.editor.showTabs": true,
-    "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     }
