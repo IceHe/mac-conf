@@ -4,27 +4,26 @@
 
 # List
 # ( overwrite $ZSH/lib/directories.zsh )
-alias l='ls -h'
-alias la='ls -hA'
-alias ll='ls -hl'
-alias lla='ls -hlA'
+# ( reference $ZSH/plugins/common-aliases )
+alias l='ls -Fh'
+alias la='ls -AFh'
+alias ll='ls -Fhl'
+alias lla='ls -AFhl'
 
 # List & Grep
-alias lg='ls | grep'
-alias lag='ls -A | grep'
-alias llg='ls -hl | grep'
-alias llag='ls -Ahl | grep'
+alias lg='l | grep'
+alias lag='la | grep'
+alias llg='ll | grep'
+alias llag='lla | grep'
 
-# Sort by Size
-alias lS='ls -AhlS'
-
-# Sort by Time
-# - Modified
-alias lt='ls -Ahlt'
-# - Changed (metadata)
-alias ltc='ls -Ahltc'
-# - Access
-alias ltu='ls -Ahltu'
-# - Creation
-alias ltU='ls -AhltU'
-
+# Sort
+# by size
+alias lS='ls -AFhlS'
+# by mtime ( modification )
+alias lt='ls -AFhlt'
+# by ctime ( changed metadata )
+alias ltc='ls -AFhltc'
+# by atime ( access )
+alias ltu='ls -AFhltu'
+# by creation time ( only macOS )
+alias ltU='ls -AFhltU'
