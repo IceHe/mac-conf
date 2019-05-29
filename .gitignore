@@ -97,8 +97,5 @@ VirtualBox VMs/
 .z*
 
 # temp
-.myclirc
 .taskbook.json
-## wait for a year? (from 2019-05-25)
-.oh-my-zsh*/
 
