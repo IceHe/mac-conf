@@ -299,3 +299,4 @@ bindkey -M emacs " " magic-space
 bindkey -M viins " " magic-space
 bindkey -M emacs -r "^ "
 bindkey -M viins -r "^ "
+
