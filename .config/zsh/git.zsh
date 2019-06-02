@@ -7,6 +7,7 @@ alias gcfl='git config -l'
 alias gcfe='git config -e'
 
 alias gcm='git commit -m'
+alias gcu='git commit -u'
 alias gu='git commit -m "`date +%F\ %T\ %A`"'
 alias gau='gaa && gu'
 
