@@ -2,14 +2,15 @@
 # Git #
 #######
 
+alias gau='git add -u && gs'
+
 alias gcf='git config'
 alias gcfl='git config -l'
 alias gcfe='git config -e'
 
 alias gcm='git commit -m'
-alias gcu='git commit -u'
-alias gu='git commit -m "`date +%F\ %T\ %A`"'
-alias gau='gaa && gu'
+alias g.='git commit -m "`date +%F\ %T\ %A`"'
+alias ga.='gaa && gu'
 
 alias gcom='git checkout master'
 
@@ -65,7 +66,6 @@ function args {
     echo \$5=$5
 }
 
-# git commit message prefix
 function gcmc {
     if [[ $1 == "" ]]; then
         echo && echo custom text for git 404!
@@ -82,6 +82,16 @@ function gcmc {
 
     echo \$ git commit -m \"$1\"
     gcm "$1"
+}
+
+# git commit message prefix
+function gcmp {
+    if [[ $1 == "" ]]; then
+        echo && echo verb prefix for git 404!
+        return
+    fi
+
+    gcmc "$1 `pbpaste`"
 }
 
 alias gadd="gcmp Add"
@@ -130,11 +140,11 @@ function gren {
 
     desc=`git status -s | grep "R  " | awk -F "R  " '{ print $2 }'`
 
-    tmp_cmd="git commit -m 'Rename $desc'"
-    echo \$ $tmp_cmd
+    cmd="git commit -m 'Rename $desc'"
+    echo \$ $cmd
     echo
 
-    eval $tmp_cmd
+    eval $cmd
 }
 
 function gmov {
@@ -143,9 +153,9 @@ function gmov {
 
     desc=`git status -s | grep "R  " | awk -F "R  " '{ print $2 }'`
 
-    tmp_cmd="git commit -m 'Move $desc'"
-    echo \$ $tmp_cmd
+    cmd="git commit -m 'Move $desc'"
+    echo \$ $cmd
     echo
 
-    eval $tmp_cmd
+    eval $cmd
 }
