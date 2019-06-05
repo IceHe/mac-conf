@@ -115,7 +115,7 @@ function gcsmp {
     echo
 
     #desc=`git status -s | grep "$2  " | awk -F "[./]" '{print $(NF-1)}'`
-    desc=`git status -s | grep "$2  " | awk -F "[/]" '{print $(NF-1)}'`
+    desc=`git status -s | grep "$2  " | awk -F "[/]" '{print $NF}'`
 
     cmd="git commit -m '$1 $desc'"
     echo \$ $cmd
