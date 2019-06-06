@@ -9,7 +9,7 @@ alias gcfl='git config -l'
 alias gcfe='git config -e'
 
 alias gcm='git commit -m'
-alias g.='git commit -m "`date +%F\ %T\ %A`"'
+alias g.='git commit -m "`date +%F\ %T\ %a`"'
 alias ga.='gaa && g.'
 
 alias gcom='git checkout master'
