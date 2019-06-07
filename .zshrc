@@ -284,6 +284,14 @@ source ~/.config/zsh/tmux.zsh
 # Reload ZSH Configs in .zshrc
 alias sz='source ~/.zshrc && echo \$ source ~/.zshrc'
 
+# Clipboard (testing)
+function jj() {
+    tmp_json=~/Downloads/tmp-json/$(date +%F_%T_%a_$RANDOM).json
+    pbpaste | sed -E 's/\\(.)/\1/g' | /usr/local/bin/jq | tee -a $tmp_json
+    #open -a "/Applications/Google Chrome.app" $tmp_json
+    open $tmp_json
+}
+
 ############
 # BIND-KEY #
 ############
