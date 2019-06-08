@@ -1,8 +1,8 @@
 {
-    "title": "22. Fn + u, i, o, p, ↩ —— caps_lock, f20, f13, f18, f19",
+    "title": "28. Fn + u, i, o, p, ↩ —— caps_lock, f20, f13, f18, f19",
     "rules": [
         {
-            "description": "22. Fn + u, i, o, p, ↩ —— caps_lock, f20, f13, f18, f19",
+            "description": "28. Fn + u, i, o, p, ↩ —— caps_lock, f20, f13, f18, f19",
             "manipulators": [
                 {
                     "conditions": [
