@@ -1,8 +1,8 @@
 {
-    "title": "05. Fn + hjkl  ——  ←↓↑→",
+    "title": "20. Fn + hjkl  ——  ←↓↑→",
     "rules": [
         {
-            "description": "05. Fn + hjkl  ——  ←↓↑→",
+            "description": "20. Fn + hjkl  ——  ←↓↑→",
             "manipulators": [
                 {
                     "conditions": [
