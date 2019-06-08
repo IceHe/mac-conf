@@ -1,0 +1,42 @@
+{
+    "title": "27. Fn + tab  ——  4 Spaces",
+    "rules": [
+        {
+            "description": "27. Fn + tab  ——  4 Spaces",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "tab",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "spacebar"
+                        },
+                        {
+                            "key_code": "spacebar"
+                        },
+                        {
+                            "key_code": "spacebar"
+                        },
+                        {
+                            "key_code": "spacebar"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
