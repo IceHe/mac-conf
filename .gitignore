@@ -85,6 +85,7 @@ VirtualBox VMs/
 .ssh/
 .snipaste/
 .subversion/
+.tools/qshell/
 .vim/
 .vim*
 .vscode/
@@ -95,4 +96,5 @@ VirtualBox VMs/
 
 # temp
 .taskbook.json
+
 
