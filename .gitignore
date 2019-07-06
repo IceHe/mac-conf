@@ -85,6 +85,7 @@ VirtualBox VMs/
 .ssh/
 .snipaste/
 .subversion/
+.tmux/resurrect/*
 .tools/qshell/
 .vim/
 .vim*
