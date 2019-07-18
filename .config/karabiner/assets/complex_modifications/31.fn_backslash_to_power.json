@@ -1,0 +1,29 @@
+{
+    "title": "31. Fn + \\  ——  ",
+    "rules": [
+        {
+            "description": "31. Fn + \\  ——  ",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "backslash",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "eject"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
