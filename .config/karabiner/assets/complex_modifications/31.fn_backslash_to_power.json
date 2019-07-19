@@ -5,12 +5,16 @@
             "description": "31. Fn + \\  ——  ",
             "manipulators": [
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "backslash",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
