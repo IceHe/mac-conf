@@ -16,7 +16,7 @@
                     "to": [
                         {
                             "set_variable": {
-                                "name": "spacefn_mode",
+                                "name": "space_mode",
                                 "value": 1
                             }
                         }
@@ -24,7 +24,7 @@
                     "to_after_key_up": [
                         {
                             "set_variable": {
-                                "name": "spacefn_mode",
+                                "name": "space_mode",
                                 "value": 0
                             }
                         }

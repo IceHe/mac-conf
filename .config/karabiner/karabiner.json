@@ -21,7 +21,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1081,7 +1081,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "spacefn_mode",
+                                            "name": "space_mode",
                                             "value": 1
                                         }
                                     }
@@ -1089,7 +1089,7 @@
                                 "to_after_key_up": [
                                     {
                                         "set_variable": {
-                                            "name": "spacefn_mode",
+                                            "name": "space_mode",
                                             "value": 0
                                         }
                                     }
@@ -1109,7 +1109,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1140,7 +1140,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1166,7 +1166,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1192,7 +1192,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1218,7 +1218,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1244,7 +1244,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1270,7 +1270,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1296,7 +1296,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1322,7 +1322,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1353,7 +1353,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1376,7 +1376,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1399,7 +1399,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1422,7 +1422,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1445,7 +1445,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1468,7 +1468,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1491,7 +1491,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1514,7 +1514,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1537,7 +1537,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1560,7 +1560,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1588,7 +1588,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1616,7 +1616,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1644,7 +1644,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1672,7 +1672,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1700,7 +1700,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1728,7 +1728,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1756,7 +1756,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1784,7 +1784,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1812,7 +1812,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1840,7 +1840,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -4245,7 +4245,7 @@
                                         "value": 0
                                     },
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
@@ -4273,7 +4273,7 @@
                                         "value": 1
                                     },
                                     {
-                                        "name": "spacefn_mode",
+                                        "name": "space_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
