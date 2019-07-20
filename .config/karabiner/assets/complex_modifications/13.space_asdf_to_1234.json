@@ -7,7 +7,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -30,7 +30,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -53,7 +53,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -76,7 +76,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -99,7 +99,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -122,7 +122,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -145,7 +145,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -168,7 +168,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -191,7 +191,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -214,7 +214,7 @@
                 {
                     "conditions": [
                         {
-                            "name": "spacefn_mode",
+                            "name": "space_mode",
                             "type": "variable_if",
                             "value": 1
                         }
