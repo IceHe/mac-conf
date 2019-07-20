@@ -1,8 +1,8 @@
 {
-    "title": "27. Fn + tab  ——  4 Spaces",
+    "title": "27. FnLyt + tab  ——  4 Spaces",
     "rules": [
         {
-            "description": "27. Fn + tab  ——  4 Spaces",
+            "description": "27. FnLyt + tab  ——  4 Spaces",
             "manipulators": [
                 {
                     "conditions": [
