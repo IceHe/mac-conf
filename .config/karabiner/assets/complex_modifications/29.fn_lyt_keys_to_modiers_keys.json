@@ -1,8 +1,8 @@
 {
-    "title": "29. Fn + keys  ——  ^ ⌘ ⌥ ⇧ + keys",
+    "title": "29. FnLyt + keys  ——  ^ ⌘ ⌥ ⇧ + keys",
     "rules": [
         {
-            "description": "29. Fn + keys  ——  ^ ⌘ ⌥ ⇧ + keys",
+            "description": "29. FnLyt + keys  ——  ^ ⌘ ⌥ ⇧ + keys",
             "manipulators": [
                 {
                     "conditions": [
