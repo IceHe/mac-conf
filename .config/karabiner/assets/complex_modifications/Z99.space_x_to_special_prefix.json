@@ -1,13 +1,13 @@
 {
-    "title": "01. 凵 + x  ——  |#",
+    "title": "Z99. 凵 + x  ——  |#",
     "rules": [
         {
-            "description": "01. 凵 + x  ——  |#",
+            "description": "Z99. 凵 + x  ——  |#",
             "manipulators": [
                 {
                     "conditions": [
                         {
-                            "name": "space_mode",
+                            "name": "space_layout",
                             "type": "variable_if",
                             "value": 1
                         }

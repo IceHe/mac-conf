@@ -1,16 +1,20 @@
 {
-    "title": "05. Fn + hjkl  ——  ←↓↑→",
+    "title": "F03. FnLyt + hjkl  ——  ←↓↑→",
     "rules": [
         {
-            "description": "05. Fn + hjkl  ——  ←↓↑→",
+            "description": "F03. FnLyt + hjkl  ——  ←↓↑→",
             "manipulators": [
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "h",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -24,12 +28,16 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "j",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -43,12 +51,16 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "k",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -62,12 +74,16 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "l",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]

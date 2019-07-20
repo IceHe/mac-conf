@@ -1,12 +1,12 @@
 {
-    "title": "23. ⇪  ——  ZH  |  Fn layout",
+    "title": "R00. Enable Layout Rg ⌥",
     "rules": [
         {
-            "description": "23. ⇪  ——  ZH  |  Fn layout",
+            "description": "R00. Enable Layout Rg ⌥",
             "manipulators": [
                 {
                     "from": {
-                        "key_code": "caps_lock",
+                        "key_code": "right_option",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -16,7 +16,7 @@
                     "to": [
                         {
                             "set_variable": {
-                                "name": "fn_mode",
+                                "name": "rgopt_mode",
                                 "value": 1
                             }
                         }
@@ -24,14 +24,14 @@
                     "to_after_key_up": [
                         {
                             "set_variable": {
-                                "name": "fn_mode",
+                                "name": "rgopt_mode",
                                 "value": 0
                             }
                         }
                     ],
                     "to_if_alone": [
                         {
-                            "key_code": "f17"
+                            "key_code": "right_option"
                         }
                     ],
                     "type": "basic"

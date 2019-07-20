@@ -1,8 +1,8 @@
 {
-    "title": "44. FnLyt + ⎋  ——  `  |  凵 + ⎋  ——  ~",
+    "title": "F07. FnLyt + ⎋  ——  `  |  凵 + ⎋  ——  ~ ( compatible )",
     "rules": [
         {
-            "description": "44. FnLyt + ⎋  ——  `  |  凵 + ⎋  ——  ~",
+            "description": "F07. FnLyt + ⎋  ——  `  |  凵 + ⎋  ——  ~ ( compatible )",
             "manipulators": [
                 {
                     "conditions": [
@@ -12,7 +12,7 @@
                             "value": 1
                         },
                         {
-                            "name": "space_mode",
+                            "name": "space_layout",
                             "type": "variable_if",
                             "value": 0
                         }
@@ -40,7 +40,7 @@
                             "value": 0
                         },
                         {
-                            "name": "space_mode",
+                            "name": "space_layout",
                             "type": "variable_if",
                             "value": 1
                         }
@@ -71,7 +71,7 @@
                             "value": 1
                         },
                         {
-                            "name": "space_mode",
+                            "name": "space_layout",
                             "type": "variable_if",
                             "value": 1
                         }

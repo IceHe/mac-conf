@@ -1,12 +1,12 @@
 {
-    "title": "20. Enable Layout Fn",
+    "title": "A00. Enable Layout 凵",
     "rules": [
         {
-            "description": "20. Enable Layout Fn",
+            "description": "A00. Enable Layout 凵",
             "manipulators": [
                 {
                     "from": {
-                        "key_code": "fn",
+                        "key_code": "spacebar",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -16,7 +16,7 @@
                     "to": [
                         {
                             "set_variable": {
-                                "name": "fn_mode",
+                                "name": "space_layout",
                                 "value": 1
                             }
                         }
@@ -24,14 +24,14 @@
                     "to_after_key_up": [
                         {
                             "set_variable": {
-                                "name": "fn_mode",
+                                "name": "space_layout",
                                 "value": 0
                             }
                         }
                     ],
                     "to_if_alone": [
                         {
-                            "key_code": "f17"
+                            "key_code": "spacebar"
                         }
                     ],
                     "type": "basic"

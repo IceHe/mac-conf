@@ -1,12 +1,12 @@
 {
-    "title": "16. Enable Layout Rg ⌥",
+    "title": "F01. ⇪  ——  ZH | FnLyt",
     "rules": [
         {
-            "description": "16. Enable Layout Rg ⌥",
+            "description": "F01. ⇪  ——  ZH | FnLyt",
             "manipulators": [
                 {
                     "from": {
-                        "key_code": "right_option",
+                        "key_code": "caps_lock",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -16,7 +16,7 @@
                     "to": [
                         {
                             "set_variable": {
-                                "name": "rgopt_mode",
+                                "name": "fn_mode",
                                 "value": 1
                             }
                         }
@@ -24,14 +24,14 @@
                     "to_after_key_up": [
                         {
                             "set_variable": {
-                                "name": "rgopt_mode",
+                                "name": "fn_mode",
                                 "value": 0
                             }
                         }
                     ],
                     "to_if_alone": [
                         {
-                            "key_code": "right_option"
+                            "key_code": "f17"
                         }
                     ],
                     "type": "basic"
