@@ -1,8 +1,8 @@
 {
-    "title": "07. Fn + tab  ——  4 Spaces",
+    "title": "07. Fn + tab  ——  ⌥ + ⇥",
     "rules": [
         {
-            "description": "07. Fn + tab  ——  4 Spaces",
+            "description": "07. Fn + tab  ——  ⌥ + ⇥",
             "manipulators": [
                 {
                     "from": {
