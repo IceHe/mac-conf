@@ -1,8 +1,8 @@
 {
-    "title": "35. 1234567890  <—>  ⇧ + 1234567890 for Fn Layout",
+    "title": "35. FnLyt : 1234567890  <—>  ⇧ + 1234567890",
     "rules": [
         {
-            "description": "35. 1234567890  <—>  ⇧ + 1234567890 for Fn Layout",
+            "description": "35. FnLyt : 1234567890  <—>  ⇧ + 1234567890",
             "manipulators": [
                 {
                     "conditions": [
