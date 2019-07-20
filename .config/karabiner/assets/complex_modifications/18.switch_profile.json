@@ -2,7 +2,7 @@
     "title": "18. Switch Profile",
     "rules": [
         {
-            "description": "18. Profile  :  fn + -  ——  IceHe  ,  fn + =   ——  Default",
+            "description": "18. Profile  :  Fn + -  ——  IceHe  ,  Fn + =   ——  Default",
             "manipulators": [
                 {
                     "from": {
