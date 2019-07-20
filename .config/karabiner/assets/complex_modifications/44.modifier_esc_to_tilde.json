@@ -1,37 +1,9 @@
 {
-    "title": "41. `  ——  ⎋  |  FnLyt + `  ——  `",
+    "title": "44. FnLyt + ⎋  ——  `  |  Space + ⎋  ——  ~",
     "rules": [
         {
-            "description": "41. `  ——  ⎋  |  FnLyt + `  ——  `",
+            "description": "44. FnLyt + ⎋  ——  `  |  Space + ⎋  ——  ~",
             "manipulators": [
-                {
-                    "conditions": [
-                        {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 0
-                        },
-                        {
-                            "name": "space_mode",
-                            "type": "variable_if",
-                            "value": 0
-                        }
-                    ],
-                    "from": {
-                        "key_code": "grave_accent_and_tilde",
-                        "modifiers": {
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "escape"
-                        }
-                    ],
-                    "type": "basic"
-                },
                 {
                     "conditions": [
                         {
@@ -46,7 +18,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "grave_accent_and_tilde",
+                        "key_code": "escape",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -56,6 +28,68 @@
                     "to": [
                         {
                             "key_code": "grave_accent_and_tilde"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        },
+                        {
+                            "name": "space_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "escape",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "grave_accent_and_tilde",
+                            "modifiers": [
+                                "shift"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        },
+                        {
+                            "name": "space_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "escape",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "grave_accent_and_tilde",
+                            "modifiers": [
+                                "shift"
+                            ]
                         }
                     ],
                     "type": "basic"
