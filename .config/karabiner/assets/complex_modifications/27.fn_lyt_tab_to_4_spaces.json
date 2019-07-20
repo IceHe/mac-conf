@@ -1,20 +1,16 @@
 {
-    "title": "27. FnLyt + tab  ——  4 Spaces",
+    "title": "27. FnLyt + keys  ——  others",
     "rules": [
         {
-            "description": "27. FnLyt + tab  ——  4 Spaces",
+            "description": "27. FnLyt + keys  ——  others",
             "manipulators": [
                 {
-                    "conditions": [
-                        {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
                     "from": {
                         "key_code": "tab",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]
@@ -22,16 +18,121 @@
                     },
                     "to": [
                         {
-                            "key_code": "spacebar"
-                        },
+                            "key_code": "delete_or_backspace"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "left_control",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
                         {
-                            "key_code": "spacebar"
-                        },
+                            "key_code": "return_or_enter"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "u",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
                         {
-                            "key_code": "spacebar"
-                        },
+                            "key_code": "caps_lock"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "i",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
                         {
-                            "key_code": "spacebar"
+                            "key_code": "f20"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "o",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f13"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "p",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f18"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "return_or_enter",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f19"
                         }
                     ],
                     "type": "basic"

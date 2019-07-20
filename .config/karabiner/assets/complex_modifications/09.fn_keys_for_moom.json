@@ -1,8 +1,8 @@
 {
-    "title": "09. Fn + 0~9 qwert asdfg zxcvb  ——  Moom",
+    "title": "09. Fn + keys  ——  ^ ⌘ ⌥ ⇧ + keys",
     "rules": [
         {
-            "description": "09. Fn + 0~9 qwert asdfg zxcvb  ——  Moom",
+            "description": "09. Fn + keys  ——  ^ ⌘ ⌥ ⇧ + keys",
             "manipulators": [
                 {
                     "from": {
