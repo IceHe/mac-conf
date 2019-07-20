@@ -1,0 +1,29 @@
+{
+    "title": "07. Fn + tab  ——  ⌫",
+    "rules": [
+        {
+            "description": "07. Fn + tab  ——  ⌫",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "tab",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_or_backspace"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
