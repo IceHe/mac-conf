@@ -1,0 +1,68 @@
+{
+    "title": "24. ⎋ || ⇧  ——  EN",
+    "rules": [
+        {
+            "description": "24. ⎋ || ⇧  ——  EN",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        },
+                        {
+                            "name": "space_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
+                    "from": {
+                        "key_code": "escape",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "select_input_source": {
+                                "input_source_id": "^com\\.apple\\.keylayout\\.US$"
+                            }
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "left_shift",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_shift"
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "select_input_source": {
+                                "input_source_id": "^com\\.apple\\.keylayout\\.US$"
+                            }
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
