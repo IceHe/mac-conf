@@ -1,16 +1,13 @@
 {
-    "title": "18. Switch Profile",
+    "title": "02. ⎋ || ⇧  ——  EN",
     "rules": [
         {
-            "description": "18. Profile  :  Fn + -  ——  IceHe  ,  Fn + =   ——  Default",
+            "description": "02. ⎋ || ⇧  ——  EN",
             "manipulators": [
                 {
                     "from": {
-                        "key_code": "hyphen",
+                        "key_code": "escape",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -18,18 +15,22 @@
                     },
                     "to": [
                         {
-                            "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'IceHe'"
+                            "key_code": "escape"
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "select_input_source": {
+                                "input_source_id": "^com\\.apple\\.keylayout\\.US$"
+                            }
                         }
                     ],
                     "type": "basic"
                 },
                 {
                     "from": {
-                        "key_code": "equal_sign",
+                        "key_code": "left_shift",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -37,7 +38,14 @@
                     },
                     "to": [
                         {
-                            "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Default'"
+                            "key_code": "left_shift"
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "select_input_source": {
+                                "input_source_id": "^com\\.apple\\.keylayout\\.US$"
+                            }
                         }
                     ],
                     "type": "basic"

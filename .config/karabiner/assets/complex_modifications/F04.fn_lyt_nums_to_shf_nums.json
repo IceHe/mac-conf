@@ -1,10 +1,17 @@
 {
-    "title": "15. 1234567890  <—>  ⇧ + 1234567890",
+    "title": "F04. FnLyt : 1234567890  <—>  ⇧ + 1234567890",
     "rules": [
         {
-            "description": "15. 1234567890  <—>  ⇧ + 1234567890",
+            "description": "F04. FnLyt : 1234567890  <—>  ⇧ + 1234567890",
             "manipulators": [
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "1",
                         "modifiers": {
@@ -24,6 +31,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "2",
                         "modifiers": {
@@ -43,6 +57,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "3",
                         "modifiers": {
@@ -62,6 +83,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "4",
                         "modifiers": {
@@ -81,6 +109,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "5",
                         "modifiers": {
@@ -100,6 +135,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "6",
                         "modifiers": {
@@ -119,6 +161,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "7",
                         "modifiers": {
@@ -138,6 +187,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "8",
                         "modifiers": {
@@ -157,6 +213,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "9",
                         "modifiers": {
@@ -176,6 +239,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "0",
                         "modifiers": {
@@ -195,6 +265,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "1",
                         "modifiers": {
@@ -214,6 +291,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "2",
                         "modifiers": {
@@ -233,6 +317,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "3",
                         "modifiers": {
@@ -252,6 +343,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "4",
                         "modifiers": {
@@ -271,6 +369,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "5",
                         "modifiers": {
@@ -290,6 +395,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "6",
                         "modifiers": {
@@ -309,6 +421,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "7",
                         "modifiers": {
@@ -328,6 +447,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "8",
                         "modifiers": {
@@ -347,6 +473,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "9",
                         "modifiers": {
@@ -366,6 +499,13 @@
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
                     "from": {
                         "key_code": "0",
                         "modifiers": {

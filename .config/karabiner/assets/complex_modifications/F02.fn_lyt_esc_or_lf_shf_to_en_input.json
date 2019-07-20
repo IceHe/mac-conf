@@ -1,8 +1,8 @@
 {
-    "title": "24. ⎋ || ⇧  ——  EN",
+    "title": "F02. ⎋ || ⇧  ——  EN",
     "rules": [
         {
-            "description": "24. ⎋ || ⇧  ——  EN",
+            "description": "F02. ⎋ || ⇧  ——  EN",
             "manipulators": [
                 {
                     "conditions": [
@@ -12,7 +12,7 @@
                             "value": 0
                         },
                         {
-                            "name": "space_mode",
+                            "name": "space_layout",
                             "type": "variable_if",
                             "value": 0
                         }

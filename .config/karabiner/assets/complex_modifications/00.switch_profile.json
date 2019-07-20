@@ -1,13 +1,16 @@
 {
-    "title": "04. ⎋ || ⇧  ——  EN",
+    "title": "00. Switch Profile",
     "rules": [
         {
-            "description": "04. ⎋ || ⇧  ——  EN",
+            "description": "00. Profile  :  Fn + -  ——  IceHe  ,  Fn + =   ——  Default",
             "manipulators": [
                 {
                     "from": {
-                        "key_code": "escape",
+                        "key_code": "hyphen",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]
@@ -15,22 +18,18 @@
                     },
                     "to": [
                         {
-                            "key_code": "escape"
-                        }
-                    ],
-                    "to_if_alone": [
-                        {
-                            "select_input_source": {
-                                "input_source_id": "^com\\.apple\\.keylayout\\.US$"
-                            }
+                            "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'IceHe'"
                         }
                     ],
                     "type": "basic"
                 },
                 {
                     "from": {
-                        "key_code": "left_shift",
+                        "key_code": "equal_sign",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]
@@ -38,14 +37,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "left_shift"
-                        }
-                    ],
-                    "to_if_alone": [
-                        {
-                            "select_input_source": {
-                                "input_source_id": "^com\\.apple\\.keylayout\\.US$"
-                            }
+                            "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Default'"
                         }
                     ],
                     "type": "basic"

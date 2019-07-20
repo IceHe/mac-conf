@@ -1,20 +1,16 @@
 {
-    "title": "27. FnLyt + keys  ——  others",
+    "title": "06. Fn + keys  ——  others",
     "rules": [
         {
-            "description": "27. FnLyt + keys  ——  others",
+            "description": "06. Fn + keys  ——  others",
             "manipulators": [
                 {
-                    "conditions": [
-                        {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
                     "from": {
                         "key_code": "tab",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]
@@ -28,16 +24,12 @@
                     "type": "basic"
                 },
                 {
-                    "conditions": [
-                        {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
                     "from": {
                         "key_code": "left_control",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]
@@ -51,16 +43,12 @@
                     "type": "basic"
                 },
                 {
-                    "conditions": [
-                        {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
                     "from": {
                         "key_code": "u",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]
@@ -74,16 +62,12 @@
                     "type": "basic"
                 },
                 {
-                    "conditions": [
-                        {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
                     "from": {
                         "key_code": "i",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]
@@ -97,16 +81,12 @@
                     "type": "basic"
                 },
                 {
-                    "conditions": [
-                        {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
                     "from": {
                         "key_code": "o",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]
@@ -120,16 +100,12 @@
                     "type": "basic"
                 },
                 {
-                    "conditions": [
-                        {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
                     "from": {
                         "key_code": "p",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]
@@ -143,16 +119,12 @@
                     "type": "basic"
                 },
                 {
-                    "conditions": [
-                        {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
                     "from": {
                         "key_code": "return_or_enter",
                         "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
                             "optional": [
                                 "any"
                             ]

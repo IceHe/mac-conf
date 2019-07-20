@@ -1,16 +1,20 @@
 {
-    "title": "09. Fn + keys  ——  ^ ⌘ ⌥ ⇧ + keys",
+    "title": "F05. FnLyt + keys  ——  ⌘ ⌥ ^ ⇧ + keys",
     "rules": [
         {
-            "description": "09. Fn + keys  ——  ^ ⌘ ⌥ ⇧ + keys",
+            "description": "F05. FnLyt + keys  ——  ⌘ ⌥ ^ ⇧ + keys",
             "manipulators": [
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "1",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -20,22 +24,26 @@
                         {
                             "key_code": "1",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "2",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -45,22 +53,26 @@
                         {
                             "key_code": "2",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "3",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -70,22 +82,26 @@
                         {
                             "key_code": "3",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "4",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -95,22 +111,26 @@
                         {
                             "key_code": "4",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "5",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -120,22 +140,26 @@
                         {
                             "key_code": "5",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "6",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -145,22 +169,26 @@
                         {
                             "key_code": "6",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "7",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -170,22 +198,26 @@
                         {
                             "key_code": "7",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "8",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -195,22 +227,26 @@
                         {
                             "key_code": "8",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "9",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -220,22 +256,26 @@
                         {
                             "key_code": "9",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "0",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -245,22 +285,26 @@
                         {
                             "key_code": "0",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "q",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -270,22 +314,26 @@
                         {
                             "key_code": "q",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "w",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -295,22 +343,26 @@
                         {
                             "key_code": "w",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "e",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -320,22 +372,26 @@
                         {
                             "key_code": "e",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "r",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -345,22 +401,26 @@
                         {
                             "key_code": "r",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "t",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -370,22 +430,26 @@
                         {
                             "key_code": "t",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "a",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -395,22 +459,26 @@
                         {
                             "key_code": "a",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "s",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -420,22 +488,26 @@
                         {
                             "key_code": "s",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "d",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -445,22 +517,26 @@
                         {
                             "key_code": "d",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "f",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -470,22 +546,26 @@
                         {
                             "key_code": "f",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "g",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -495,22 +575,26 @@
                         {
                             "key_code": "g",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "z",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -520,22 +604,26 @@
                         {
                             "key_code": "z",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "x",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -545,22 +633,26 @@
                         {
                             "key_code": "x",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "c",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -570,22 +662,26 @@
                         {
                             "key_code": "c",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "v",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -595,22 +691,26 @@
                         {
                             "key_code": "v",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "b",
                         "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
                             "optional": [
                                 "any"
                             ]
@@ -620,10 +720,10 @@
                         {
                             "key_code": "b",
                             "modifiers": [
-                                "left_control",
-                                "left_shift",
+                                "left_command",
                                 "left_option",
-                                "left_command"
+                                "left_control",
+                                "left_shift"
                             ]
                         }
                     ],

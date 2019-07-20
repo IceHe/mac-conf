@@ -1,8 +1,8 @@
 {
-    "title": "02. twice ⌘ + q —— once ⌘ + q",
+    "title": "Z00. twice ⌘ + q —— once ⌘ + q",
     "rules": [
         {
-            "description": "02. twice ⌘ + q —— once ⌘ + q",
+            "description": "Z00. twice ⌘ + q —— once ⌘ + q",
             "manipulators": [
                 {
                     "conditions": [
