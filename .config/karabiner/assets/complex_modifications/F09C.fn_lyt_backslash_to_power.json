@@ -2,7 +2,7 @@
     "title": "F09C. FnLyt + \\  ——   ( compatible )",
     "rules": [
         {
-            "description": "F09C. FnLyt + \\  ——   ( compatible )",
+            "description": "F09C. FnLyt + \\  ——  ^ +  ( compatible )",
             "manipulators": [
                 {
                     "conditions": [
@@ -22,7 +22,10 @@
                     },
                     "to": [
                         {
-                            "key_code": "eject"
+                            "key_code": "eject",
+                            "modifiers": [
+                                "left_control"
+                            ]
                         }
                     ],
                     "type": "basic"
