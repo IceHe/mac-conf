@@ -1,0 +1,100 @@
+{
+    "title": "F08C. FnLyt + ⌫  ——  \\  ,  凵 + ⌫  ——  | ( compatible )",
+    "rules": [
+        {
+            "description": "F08C. FnLyt + ⌫  ——  \\  ,  凵 + ⌫  ——  | ( compatible )",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        },
+                        {
+                            "name": "space_layout",
+                            "type": "variable_if",
+                            "value": 0
+                        }
+                    ],
+                    "from": {
+                        "key_code": "delete_or_backspace",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "backslash"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 0
+                        },
+                        {
+                            "name": "space_layout",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "delete_or_backspace",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "backslash",
+                            "modifiers": [
+                                "shift"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "fn_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        },
+                        {
+                            "name": "space_layout",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "delete_or_backspace",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "backslash",
+                            "modifiers": [
+                                "shift"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
