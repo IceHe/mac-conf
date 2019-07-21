@@ -107,7 +107,7 @@
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": true,
     "workbench.statusBar.visible": true,
-    "workbench.editor.showTabs": false,
+    "workbench.editor.showTabs": true,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     }
