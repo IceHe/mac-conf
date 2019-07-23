@@ -829,7 +829,7 @@
                         ]
                     },
                     {
-                        "description": "A04. 凵 + ⇥  ——  4 Spaces",
+                        "description": "A04. 凵 + ⇥  ——  ⌥ + ⇥",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -849,16 +849,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "spacebar"
-                                    },
-                                    {
-                                        "key_code": "spacebar"
-                                    },
-                                    {
-                                        "key_code": "spacebar"
-                                    },
-                                    {
-                                        "key_code": "spacebar"
+                                        "key_code": "tab",
+                                        "modifiers": [
+                                            "option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -3941,6 +3935,14 @@
                 },
                 {
                     "from": {
+                        "key_code": "grave_accent_and_tilde"
+                    },
+                    "to": {
+                        "key_code": "escape"
+                    }
+                },
+                {
+                    "from": {
                         "key_code": "left_control"
                     },
                     "to": {
@@ -3953,14 +3955,6 @@
                     },
                     "to": {
                         "key_code": "spacebar"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "grave_accent_and_tilde"
-                    },
-                    "to": {
-                        "key_code": "escape"
                     }
                 }
             ],
