@@ -55,10 +55,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "grave_accent_and_tilde",
-                            "modifiers": [
-                                "shift"
-                            ]
+                            "key_code": "grave_accent_and_tilde"
                         }
                     ],
                     "type": "basic"
@@ -86,10 +83,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "grave_accent_and_tilde",
-                            "modifiers": [
-                                "shift"
-                            ]
+                            "key_code": "grave_accent_and_tilde"
                         }
                     ],
                     "type": "basic"
