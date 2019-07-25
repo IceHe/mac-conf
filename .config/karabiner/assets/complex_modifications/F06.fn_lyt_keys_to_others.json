@@ -22,30 +22,16 @@
                     },
                     "to": [
                         {
-                            "key_code": "delete_or_backspace"
-                        }
-                    ],
-                    "type": "basic"
-                },
-                {
-                    "conditions": [
+                            "key_code": "space"
+                        },
                         {
-                            "name": "fn_mode",
-                            "type": "variable_if",
-                            "value": 1
-                        }
-                    ],
-                    "from": {
-                        "key_code": "left_control",
-                        "modifiers": {
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
+                            "key_code": "space"
+                        },
                         {
-                            "key_code": "return_or_enter"
+                            "key_code": "space"
+                        },
+                        {
+                            "key_code": "space"
                         }
                     ],
                     "type": "basic"
