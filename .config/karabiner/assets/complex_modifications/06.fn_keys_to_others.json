@@ -18,7 +18,16 @@
                     },
                     "to": [
                         {
-                            "key_code": "delete_or_backspace"
+                            "key_code": "spacebar"
+                        },
+                        {
+                            "key_code": "spacebar"
+                        },
+                        {
+                            "key_code": "spacebar"
+                        },
+                        {
+                            "key_code": "spacebar"
                         }
                     ],
                     "type": "basic"
