@@ -18,16 +18,35 @@
                     },
                     "to": [
                         {
-                            "key_code": "space"
+                            "key_code": "spacebar"
                         },
                         {
-                            "key_code": "space"
+                            "key_code": "spacebar"
                         },
                         {
-                            "key_code": "space"
+                            "key_code": "spacebar"
                         },
                         {
-                            "key_code": "space"
+                            "key_code": "spacebar"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "left_control",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "return_or_enter"
                         }
                     ],
                     "type": "basic"
