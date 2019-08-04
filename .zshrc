@@ -72,7 +72,6 @@ export UPDATE_ZSH_DAYS=1
 plugins=(
   bgnotify  # test
   branch    # test
-  bwana     # new!
   colored-man-pages # test
   colorize  # test : need python 3.6
   command-not-found # test
