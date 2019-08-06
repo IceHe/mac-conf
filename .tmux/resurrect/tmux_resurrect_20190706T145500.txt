@@ -1,8 +1,0 @@
-pane	icehe	1	:lib	0	:-	1	:/Users/IceHe/Documents/Lib	0	zsh	:
-pane	icehe	1	:lib	0	:-	2	:/Users/IceHe/Documents/Lib/_private	1	zsh	:
-pane	icehe	2	:home	1	:*	1	:/Users/IceHe	1	zsh	:
-pane	icehe	3	:zsh	0	:	1	:/Users/IceHe/.config/tmux	1	zsh	:
-window	icehe	1	0	:-	54cd,141x32,0,0[141x16,0,0,0,141x15,0,17,1]
-window	icehe	2	1	:*	b1ff,141x32,0,0,2
-window	icehe	3	0	:	b200,141x32,0,0,3
-state	icehe	
