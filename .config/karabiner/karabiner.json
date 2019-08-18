@@ -3683,6 +3683,22 @@
                             "to": {
                                 "key_code": "right_command"
                             }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": {
+                                "key_code": "backslash"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
+                            }
                         }
                     ]
                 },
@@ -3746,18 +3762,10 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "left_option"
+                                "key_code": "backslash"
                             },
                             "to": {
-                                "key_code": "left_command"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "left_command"
-                            },
-                            "to": {
-                                "key_code": "left_option"
+                                "key_code": "delete_or_backspace"
                             }
                         },
                         {
@@ -3770,10 +3778,18 @@
                         },
                         {
                             "from": {
-                                "key_code": "backslash"
+                                "key_code": "left_command"
                             },
                             "to": {
-                                "key_code": "delete_or_backspace"
+                                "key_code": "left_option"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_option"
+                            },
+                            "to": {
+                                "key_code": "left_command"
                             }
                         }
                     ]
