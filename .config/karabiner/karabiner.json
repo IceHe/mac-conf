@@ -59,6 +59,30 @@
                         ]
                     },
                     {
+                        "description": "07. ^ + J  ——  F16",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f16"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "A00. Enable Layout 凵",
                         "manipulators": [
                             {
@@ -3654,6 +3678,22 @@
                     "simple_modifications": [
                         {
                             "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": {
+                                "key_code": "backslash"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "left_command"
                             },
                             "to": {
@@ -3682,22 +3722,6 @@
                             },
                             "to": {
                                 "key_code": "right_command"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "delete_or_backspace"
-                            },
-                            "to": {
-                                "key_code": "backslash"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "backslash"
-                            },
-                            "to": {
-                                "key_code": "delete_or_backspace"
                             }
                         }
                     ]
