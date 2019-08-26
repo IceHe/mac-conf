@@ -913,7 +913,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "fn"
                                     }
                                 ],
                                 "type": "basic"
@@ -950,7 +950,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "fn"
                                     }
                                 ],
                                 "type": "basic"
