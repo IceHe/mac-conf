@@ -18,13 +18,13 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:lib' 'cd ~' Enter
 
-    # lib
+    # LIB
     tmux new-window -a -t icehe -n lib -c ~/Documents/Lib
     tmux send -t 'icehe:lib' 'git pull' Enter
     # tmux split-window -t 'icehe:lib' -c ~/Documents/Lib/_private
     # tmux send -t 'icehe:lib' 'git pull' Enter
 
-    # home
+    # HOME
     tmux neww -a -t icehe -n home -c ~
     tmux send -t 'icehe:home' 'brew update && brew upgrade' Enter
 
