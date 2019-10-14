@@ -13,16 +13,24 @@ function tw {
 
     # ICEHE
     tmux new -s icehe -d
+    
+    # init
+    tmux rename-window -t 'icehe:1' init
+    tmux send -t 'icehe:lib' 'cd ~' Enter
 
     # lib
-    tmux rename-window -t 'icehe:1' lib
-    tmux send -t 'icehe:lib' 'cd ~/Documents/Lib' Enter 'git pull' Enter
-    tmux split-window -t 'icehe:lib' -c ~/Documents/Lib/_private
+    tmux new-window -a -t icehe -n lib -c ~/Documents/Lib
     tmux send -t 'icehe:lib' 'git pull' Enter
+    # tmux split-window -t 'icehe:lib' -c ~/Documents/Lib/_private
+    # tmux send -t 'icehe:lib' 'git pull' Enter
 
     # home
     tmux neww -a -t icehe -n home -c ~
     tmux send -t 'icehe:home' 'brew update && brew upgrade' Enter
+
+    # clean-up
+    tmux send -t 'icehe:init' 'exit' Enter
+    tmux select-window -t 'icehe:lib'
 
     tmux
 }
