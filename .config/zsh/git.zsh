@@ -104,6 +104,7 @@ alias grem="gcmp Remove"
 alias grvt="gcmp Revert"
 alias gsim="gcmp Simplify"
 alias gtt="gcmp Test"
+alias gdep="gcmp Deprecate"
 
 # git commit short message prefix
 function gcsmp {
@@ -135,6 +136,7 @@ alias grefj="gcsmp Refactor M"
 alias gremj="gcsmp Remove D"
 alias gsimj="gcsmp Simplify M"
 alias gttj="gcsmp Test M"
+alias gdepj="gcsmp Deprecate M"
 
 function gren {
     gs
