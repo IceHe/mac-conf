@@ -21,8 +21,8 @@ function tw {
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Documents/Lib
     tmux send -t 'icehe:lib' 'git pull' Enter
-    # tmux split-window -t 'icehe:lib' -c ~/Documents/Lib/_private
-    # tmux send -t 'icehe:lib' 'git pull' Enter
+    tmux split-window -t 'icehe:lib' -c ~/Documents/Lib/_private
+    tmux send -t 'icehe:lib' 'git pull' Enter
 
     # HOME
     tmux neww -a -t icehe -n home -c ~
