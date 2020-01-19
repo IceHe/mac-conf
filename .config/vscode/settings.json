@@ -102,7 +102,7 @@
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
     "window.openFilesInNewWindow": "off",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -2,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
     "workbench.editor.closeEmptyGroups": true,
