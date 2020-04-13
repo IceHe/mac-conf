@@ -31,7 +31,8 @@ alias glom='git pull origin master'
 
 alias gls='git ls-files'
 
-alias gmom='git merge origin/master'
+#alias gmom='git merge origin/master'
+alias gmom='git pull --rebase origin master'
 
 alias gmv='git mv'
 
