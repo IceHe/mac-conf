@@ -138,6 +138,7 @@ alias gremj="gcsmp Remove D"
 alias gsimj="gcsmp Simplify M"
 alias gttj="gcsmp Test M"
 alias gdepj="gcsmp Deprecate M"
+alias gfmtj="gcsmp Format M"
 
 function gren {
     gs
