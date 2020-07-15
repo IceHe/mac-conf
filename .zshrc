@@ -179,7 +179,8 @@ export GOBIN=~/go/bin
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
 # JDK
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_HOME=`/usr/libexec/java_home -v 14`
 
 # MySQL 5.x
 # Current version is 8.0+ by default. (2019-05-01)
