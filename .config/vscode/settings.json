@@ -3,6 +3,7 @@
     "breadcrumbs.enabled": true,
     "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -88,6 +89,7 @@
         // "MD044": false, // Proper names should have the correct capitalization
         "MD045": false // Images should have alternate text (alt text)
     },
+    "scm.diffDecorations": "gutter",
     "sync.gist": "8caa4001e0a0fbd45e8f3e3c2d008509",
     "terminal.integrated.fontSize": 14,
     "vim.handleKeys": {
@@ -113,6 +115,5 @@
     "java.semanticHighlighting.enabled": true,
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
-    },
-    "editor.minimap.enabled": false
+    }
 }
