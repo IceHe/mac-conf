@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "breadcrumbs.enabled": true,
+    "breadcrumbs.enabled": false,
     "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
@@ -9,7 +9,7 @@
         "comments": true,
         "strings": true
     },
-    "editor.renderControlCharacters": false,
+    "editor.renderControlCharacters": true,
     // <2019-03-20 begin>
     // ( Ref : https://stackoverflow.com/questions/29972396/vscode-how-do-i-set-tab-space-style )
     // The number of spaces a tab is equal to. This setting is overridden
