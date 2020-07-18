@@ -3,13 +3,12 @@
     "breadcrumbs.enabled": true,
     "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 16,
-    "editor.minimap.enabled": false,
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
         "strings": true
     },
-    "editor.renderControlCharacters": true,
+    "editor.renderControlCharacters": false,
     // <2019-03-20 begin>
     // ( Ref : https://stackoverflow.com/questions/29972396/vscode-how-do-i-set-tab-space-style )
     // The number of spaces a tab is equal to. This setting is overridden
@@ -39,7 +38,7 @@
         "**/.vscode": true,
     },
     "files.trimTrailingWhitespace": true,
-    "markdown.preview.fontSize": 18, // GitLab
+    "markdown.preview.fontSize": 16, // GitLab
     "markdown-preview-enhanced.enableCriticMarkupSyntax": true, // Advanced
     "markdown-preview-enhanced.enableExtendedTableSyntax": true, // Advanced
     "markdown-preview-enhanced.previewTheme": "vue.css",
@@ -102,13 +101,18 @@
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
     "window.openFilesInNewWindow": "off",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
-    "workbench.editor.closeEmptyGroups": true,
+    "workbench.editor.closeEmptyGroups": false,
     "workbench.statusBar.visible": true,
     "workbench.editor.showTabs": true,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "java.semanticHighlighting.enabled": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "editor.minimap.enabled": false
 }
