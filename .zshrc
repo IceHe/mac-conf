@@ -221,7 +221,7 @@ alias vc='open -a /Applications/Visual\ Studio\ Code.app'
 alias zd='cd ~/Desktop'
 alias zl='cd ~/Downloads'
 alias zo='cd ~/Documents'
-alias zi='cd ~/Documents/Lib'
+alias zi='cd ~/Documents/lib'
 
 alias ze='cd /etc'
 alias zc='cd /usr/local/Cellar'
