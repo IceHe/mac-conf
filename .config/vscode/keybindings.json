@@ -174,5 +174,21 @@
     {
         "key": "ctrl+shift+2",
         "command": "workbench.action.editorLayoutTwoRows"
+    },
+    {
+        "key": "alt+cmd+f",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "cmd+r",
+        "command": "editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "alt+cmd+f",
+        "command": "-editor.action.startFindReplaceAction"
     }
 ]
