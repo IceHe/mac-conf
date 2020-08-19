@@ -101,6 +101,7 @@
     "vim.hlsearch": true,
     "vim.leader": ",",
     "vim.useSystemClipboard": true,
+    "vim.vimrc.enable": true,
     "vim.visualstar": true,
     "window.openFilesInNewWindow": "off",
     "window.zoomLevel": -1,
