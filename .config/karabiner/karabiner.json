@@ -59,11 +59,11 @@
                         ]
                     },
                     {
-                        "description": "07. ^ + J  ——  F16",
+                        "description": "07. ^ + ;  ——  F16",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "j",
+                                    "key_code": "semicolon",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control"
