@@ -65,11 +65,13 @@ VirtualBox VMs/
 .bash*
 .composer/
 .docker/
+.eclipse/
 .gem/
 .gemrc
 .git*
 .idea/
 .iterm2/
+.jmc/
 .lesshst
 .linux-conf/
 .mono/
