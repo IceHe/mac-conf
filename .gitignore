@@ -30,6 +30,8 @@ Src/
 # gradle
 .gradle/
 .tooling/
+# Java Flight Recording
+*.jfr
 # maven
 .m2/
 .mvn_repo/
