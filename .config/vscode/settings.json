@@ -116,5 +116,6 @@
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
     },
-    "vim.vimrc.enable": true
+    "vim.vimrc.enable": true,
+    "vim.cursorStylePerMode.insert": "line"
 }
