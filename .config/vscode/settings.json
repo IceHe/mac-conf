@@ -117,5 +117,6 @@
         "editor.defaultFormatter": "redhat.java"
     },
     "vim.vimrc.enable": true,
-    "vim.cursorStylePerMode.insert": "line"
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.vimrc.path": "$HOME/.vimrc"
 }
