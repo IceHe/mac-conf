@@ -105,7 +105,7 @@
     "window.openFilesInNewWindow": "off",
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "MomoSolLight",
     "workbench.editor.closeEmptyGroups": false,
     "workbench.statusBar.visible": true,
     "workbench.editor.showTabs": true,
