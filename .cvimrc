@@ -1,3 +1,5 @@
+" TODO : Chrome cannot use cvim. So remove this config file in the future. 2020/12/04
+
 " config
 set localconfig
 let configpath="/Users/IceHe/.cvimrc"
