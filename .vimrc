@@ -3,7 +3,6 @@
 " Clipboard
 " ( See help info in vim or nvim `:h clipboard` )
 set clipboard=unnamed
-" ( It doesn't work in nvim! It drove me nuts! )
 set clipboard+=unnamedplus
 
 " Leader Key
