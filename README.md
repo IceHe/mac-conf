@@ -2,7 +2,9 @@
 
 Here are macOS configurations in directory `~`.
 
-Memo
+---
+
+Memos
 
 - .cvimrc : 以后用不了 Chrome 的 cvim 拓展就删掉该配置文件 - https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh
 - .TrojanX : 以后用不了 TrojanX 就删掉该目录 - https://github.com/JimLee1996/TrojanX
