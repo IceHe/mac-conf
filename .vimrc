@@ -1,9 +1,15 @@
 " .vimrc "
 
+" Clipboard
+" ( See help info in vim or nvim `:h clipboard` )
 set clipboard=unnamed
 set clipboard+=unnamedplus
 
+" Leader Key
 let mapleader = ','
+
+" Syntax Highlighting
+syntax on
 
 " Save
 imap <C-S> <Esc><C-S>a
@@ -124,5 +130,6 @@ endif
 " Test on 2020-09-13
 let @i = '^lli_$a_'
 let @c = 'ysE`'
-let @l = '^i- :s/\.\s*/.'
+let @l = '^i- :s/\.\s*/.
+'
 
