@@ -130,6 +130,5 @@ endif
 " Test on 2020-09-13
 let @i = '^lli_$a_'
 let @c = 'ysE`'
-let @l = '^i- :s/\.\s*/.
-'
+let @l = '^i- :s/\.\s*/.'
 
