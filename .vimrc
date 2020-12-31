@@ -127,8 +127,19 @@ if $VIM_CRONTAB == "true"
     set nowritebackup
 endif
 
-" Test on 2020-09-13
-let @i = '^lli_$a_'
-let @c = 'ysE`'
-let @l = '^i- :s/\.\s*/.'
-
+let @c='i`Ea`'
+let @f='@g@h'
+let @g=':%s/，/, /g
+:%s/；/; /g
+:%s/：/: /g
+:%s/！/! /g
+:%s/？/? /g
+:%s/。/. /g
+:%s/“/ "/g
+:%s/”/" /g
+:%s/（/ ( /g
+:%s/）/ ) /g
+'
+let @h=":%s/‘/ '/g
+:%s/’/' /g
+"
