@@ -52,6 +52,8 @@ Src/
 .tools/qshell/**/*.log
 # ssl
 .rnd
+# Sublime Text - Plugin - Sync Settings
+.sync_settings/
 # Tencent? (include QQMusic)
 .wns/
 
