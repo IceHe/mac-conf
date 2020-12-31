@@ -1,3 +1,1 @@
-# README
-
-`markdownlint.sytle.rb` file is archived.
+`markdownlint.sytle.rb` file was archived on 2020-12-31.
