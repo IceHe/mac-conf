@@ -1,8 +1,6 @@
 # .tools
 
 - `inputsource` : https://github.com/hnakamur/inputsource
-- `pngquant` : https://pngquant.org/
-- `qshell` : https://developer.qiniu.com/kodo/tools/1302/qshell
 
 ## Link to tools
 
