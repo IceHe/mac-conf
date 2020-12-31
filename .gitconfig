@@ -1,18 +1,22 @@
 [filter "lfs"]
+    # https://git-scm.com/docs/git-config#Documentation/git-config.txt-filterltdrivergtclean
+    # https://www.atlassian.com/git/tutorials/git-lfs
+    # http://shuhrat.github.io/programming/git-lfs-tips-and-tricks.html
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	required = true
 	process = git-lfs filter-process
 [user]
+    # https://git-scm.com/docs/git-config#Documentation/git-config.txt-username
 	name = IceHe
 	email = icehe.me@qq.com
 [core]
+    # https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreignoreCase
 	ignorecase = false
-[push]
-    #default = simple
 [pager]
     # https://stackoverflow.com/questions/48341920/git-branch-command-behaves-like-less/48342309
 	branch = false
 [http]
+    # https://git-scm.com/docs/git-config#Documentation/git-config.txt-httpsslVerify
     # https://stackoverflow.com/questions/9008309/how-do-i-set-git-ssl-no-verify-for-specific-repos-only
 	sslVerify = false
