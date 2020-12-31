@@ -7,17 +7,12 @@
 	name = IceHe
 	email = icehe.me@qq.com
 [core]
-	excludesfile = /Users/IceHe/.gitignore_global
 	ignorecase = false
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 [push]
-	default = simple
+    #default = simple
 [pager]
+    # https://stackoverflow.com/questions/48341920/git-branch-command-behaves-like-less/48342309
 	branch = false
 [http]
+    # https://stackoverflow.com/questions/9008309/how-do-i-set-git-ssl-no-verify-for-specific-repos-only
 	sslVerify = false
