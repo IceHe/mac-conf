@@ -1,4 +1,2 @@
-# IceHe's Mac Confs
-
-Here are macOS configurations in directory `~`.
+IceHe's common configuration files in directory `~` on macOS.
 
