@@ -196,13 +196,6 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# CLI Editor
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
-else
-  export EDITOR='nvim'
-fi
-
 #########
 # ALIAS #
 #########
@@ -257,9 +250,8 @@ alias ms="mysql.server"
 alias rs="redis-server /usr/local/etc/redis.conf"
 
 # Vim | NeoVim
-alias v='nvim'
-alias sv='sudo nvim'
-# alias vim='nvim'
+alias v='vim'
+alias sv='sudo vim'
 
 ## Modify Files
 alias vgi='v ./.gitignore'
