@@ -178,10 +178,14 @@ export GOBIN=~/go/bin
 # Groovy SDK
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
+# Homebrew
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+export PATH="/opt/homebrew/bin:$PATH"
+
 # JDK
-#export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_HOME=`/usr/libexec/java_home -v 8`
 #export JAVA_HOME=`/usr/libexec/java_home -v 11`
-export JAVA_HOME=`/usr/libexec/java_home -v 14`
+#export JAVA_HOME=`/usr/libexec/java_home -v 14`
 
 # MySQL 5.x
 # Current version is 8.0+ by default. (2019-05-01)
@@ -204,6 +208,8 @@ fi
 #########
 
 # Shortest
+alias a='arch -x86_64' # Architecture X86
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
 alias bu='brew update -vvv && brew upgrade -vvv'
 alias d='docker'
 alias e='exit'
