@@ -70,20 +70,21 @@ export UPDATE_ZSH_DAYS=1
 # Add wisely, as too many plugins slow down shell startup.
 #plugins=(git)
 plugins=(
-  bgnotify  # test
-  branch    # test
-#  colored-man-pages # test
-  copydir
-  copyfile
+  #bgnotify
   cp
-#   docker
-#   docker-compose
+  #docker
+  #docker-compose
+  extract
+  fd
   git
   globalias
-  osx
+  #golang
+  #maven
+  redis-cli
+  #rsync
+  safe-paste
   sudo
   tmux
-  vundle
   z
   zsh-autosuggestions
 )
@@ -195,10 +196,13 @@ export NVM_DIR="~/.nvm"
 
 # Shortest
 alias a='arch -x86_64' # Architecture X86
-alias ibrew='arch -x86_64 /usr/local/bin/brew'
+alias b='brew'
+alias ib='arch -x86_64 /usr/local/bin/brew'
 alias bu='brew update -vvv && brew upgrade -vvv'
 alias d='docker'
 alias e='exit'
+alias f='find'
+alias i='ip'
 alias m='mvn'
 alias o='open'
 alias pb='pbcopy'
@@ -217,40 +221,20 @@ alias zo='cd ~/Documents'
 alias zi='cd ~/Documents/lib'
 
 alias ze='cd /etc'
-alias zc='cd /usr/local/Cellar'
-alias z.='cd ~/.config'
+alias zc='cd ~/.config'
 alias zh='cd ~/.config/zsh'
-alias zp='cd ~/.privacy'
-alias zz='cd ~/.oh-my-zsh'
-
-# Docker ( seldom )
-# alias dps='docker ps'
-# alias dst='docker start'
-# alias dsp='docker stop'
-# alias de='docker exec -it'
-# alias drm='docker rm'
-# alias drmi='docker rmi'
-
-## Hexo ( almost not )
-# alias h='zb && hexo s'
-# alias ha='zb && hexo clean && hexo g && hexo s'
-# alias tg='zb && clear && hexo clean && hexo deploy && -'
 
 # MySQL
 alias ms="mysql.server"
 
-# Redis
-alias rs="redis-server /usr/local/etc/redis.conf"
-
-# Vim | NeoVim
+# Vim
 alias v='vim'
 alias sv='sudo vim'
 
 ## Modify Files
 alias vgi='v ./.gitignore'
-alias vh='v /etc/hosts'
+alias vh='sv /etc/hosts'
 alias vv='v ~/.vimrc'
-alias vcv='v ~/.cvimrc'
 alias viv='v ~/.ideavimrc'
 alias vt='v ~/.tmux.conf'
 alias vz='v ~/.zshrc'
@@ -258,14 +242,6 @@ alias vz='v ~/.zshrc'
 alias vk='v ~/.config/karabiner/karabiner.json'
 alias stk='st ~/.config/karabiner/karabiner.json'
 alias vck='vc ~/.config/karabiner/karabiner.json'
-alias vvc='v ~/.config/vscode/settings.json'
-alias stvc='st ~/.config/vscode/settings.json'
-alias vcvc='vc ~/.config/vscode/settings.json'
-
-# X
-if [[ -f "/Users/IceHe/.privacy/zsh.zsh" ]]; then
-    source /Users/IceHe/.privacy/zsh.zsh
-fi
 
 # Source
 source ~/.config/zsh/fzf.zsh
@@ -276,14 +252,6 @@ source ~/.config/zsh/proxy.zsh
 source ~/.config/zsh/tmux.zsh
 # Reload ZSH Configs in .zshrc
 alias sz='source ~/.zshrc && echo \$ source ~/.zshrc'
-
-# Clipboard (testing)
-function jj() {
-    tmp_json=~/Downloads/tmp-json/$(date +%F_%T_%a_$RANDOM).json
-    pbpaste | sed -E 's/\\(.)/\1/g' | /usr/local/bin/jq | tee -a $tmp_json
-    #open -a "/Applications/Google Chrome.app" $tmp_json
-    open $tmp_json
-}
 
 ############
 # BIND-KEY #
