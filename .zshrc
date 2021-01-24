@@ -72,16 +72,12 @@ export UPDATE_ZSH_DAYS=1
 plugins=(
   bgnotify  # test
   branch    # test
-  colored-man-pages # test
-  colorize  # test : need python 3.6
-  command-not-found # test
-  # requirement : https://github.com/Homebrew/homebrew-command-not-found
+#  colored-man-pages # test
   copydir
   copyfile
   cp
 #   docker
 #   docker-compose
-#   dotenv   # to test?
   git
   globalias
   osx
@@ -167,16 +163,16 @@ export LANG=en_US.UTF-8
 # /bin
 # ````
 
-# Go
-export GOPATH=$HOME/go
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
-### GOBIN must be an absolute path
-export GOBIN=~/go/bin
+## Go
+#export GOPATH=$HOME/go
+#export GOROOT=/usr/local/opt/go/libexec
+#export PATH=$PATH:$GOPATH/bin
+#export PATH=$PATH:$GOROOT/bin
+#### GOBIN must be an absolute path
+#export GOBIN=~/go/bin
 
-# Groovy SDK
-export GROOVY_HOME=/usr/local/opt/groovy/libexec
+## Groovy SDK
+#export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
 # Homebrew
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
@@ -184,13 +180,10 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 # JDK
 export JAVA_HOME=`/usr/libexec/java_home -v 8`
-#export JAVA_HOME=`/usr/libexec/java_home -v 11`
-#export JAVA_HOME=`/usr/libexec/java_home -v 14`
 
-# MySQL 5.x
-# Current version is 8.0+ by default. (2019-05-01)
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-# export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+## MySQL 5.x
+## Current version is 8.0+ by default.
+#export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 # NVM
 export NVM_DIR="~/.nvm"
