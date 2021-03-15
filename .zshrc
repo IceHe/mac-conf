@@ -180,7 +180,7 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 export PATH="/opt/homebrew/bin:$PATH"
 
 # JDK
-export JAVA_HOME=`/usr/libexec/java_home -v 8`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
 ## MySQL 5.x
 ## Current version is 8.0+ by default.
