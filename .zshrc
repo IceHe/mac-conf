@@ -190,6 +190,9 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# BISON
+export PATH="/usr/local/opt/bison/bin:$PATHexport PATH="/usr/local/opt/bison/bin:$PATH
+
 #########
 # ALIAS #
 #########
