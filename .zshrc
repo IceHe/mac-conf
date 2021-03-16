@@ -231,8 +231,8 @@ alias zh='cd ~/.config/zsh'
 alias ms="mysql.server"
 
 # Vim
-alias v='vim'
-alias sv='sudo vim'
+alias v='nvim'
+alias sv='sudo nvim'
 
 ## Modify Files
 alias vgi='v ./.gitignore'

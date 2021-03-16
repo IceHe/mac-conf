@@ -31,6 +31,10 @@ function tw {
     tmux send -t 'icehe:home' 'brew update && brew upgrade' Enter
     tmux send -t 'icehe:home' 'clear' Enter
 
+    # Docsify
+    tmux neww -a -t icehe -n docsify -c ~/Documents/lib
+    tmux send -t 'icehe:docsify' 'docsify serve .' Enter
+
     # clean-up
     tmux send -t 'icehe:init' 'exit' Enter
     tmux select-window -t 'icehe:lib'
