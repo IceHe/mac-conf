@@ -653,6 +653,10 @@
 	</array>
 	<key>OpenBookmark</key>
 	<true/>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
