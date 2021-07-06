@@ -21,6 +21,7 @@ function tw {
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Documents/lib
     tmux send -t 'icehe:lib' 'git pull' Enter
+    tmux send -t 'icehe:lib' 'nohup docsify serve . &' Enter
     tmux send -t 'icehe:lib' 'clear' Enter
     tmux split-window -t 'icehe:lib' -c ~/Documents/lib/_private
     tmux send -t 'icehe:lib' 'git pull' Enter
@@ -32,8 +33,8 @@ function tw {
     tmux send -t 'icehe:home' 'clear' Enter
 
     # Docsify
-    tmux neww -a -t icehe -n docsify -c ~/Documents/lib
-    tmux send -t 'icehe:docsify' 'docsify serve .' Enter
+    #tmux neww -a -t icehe -n docsify -c ~/Documents/lib
+    #tmux send -t 'icehe:docsify' 'docsify serve .' Enter
 
     # clean-up
     tmux send -t 'icehe:init' 'exit' Enter
