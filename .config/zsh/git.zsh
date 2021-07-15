@@ -168,7 +168,7 @@ function gmov {
 
 # 显示最近的 commit id
 # Latest Commit ID
-alias glci="git log --oneline | head -1 | awk -F ' ' '{ print $1 }'"
+alias glci="git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'"
 
 # 展示 main 和 master 之外的分支
 # Git Other Branch
