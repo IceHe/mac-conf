@@ -170,10 +170,15 @@ function gmov {
 # Latest Commit ID
 alias glci="git log --oneline | head -1 | awk -F ' ' '{ print $1 }'"
 
-# 展示 mater 和 deploy-test 之外的分支
+# 展示 main 和 master 之外的分支
 # Git Other Branch
-alias gob="gb -l | grep -E -v 'main|master'"
+alias gob="git branch -l | grep -E -v 'main|master'"
 
-# 拷贝除 mater 和 deploy-test 之外的第一个分支的名称
-# Git Other Branch name Copy
-alias gobc="gb -l | grep -E -v 'main|master' | head -1 | tr -d ' \n' | pbcopy"
+# 拷贝除 main 和 master 之外的第一个分支的名称
+# Git Other Branch Name Copy
+alias gobc="git branch -l | grep -E -v 'main|master' | head -1 | tr -d ' \n' | pbcopy"
+
+# 切换到除 main 和 mater 之外的第一个分支的名称
+# Git Checkout Other Branch
+alias gcoo="git checkout \`git branch -l | grep -E -v 'main|master' | head -1 | tr -d ' \n'\`"
+
