@@ -165,3 +165,15 @@ function gmov {
 
     eval $cmd
 }
+
+# 显示最近的 commit id
+# Latest Commit ID
+alias glci="git log --oneline | head -1 | awk -F ' ' '{ print $1 }'"
+
+# 展示 mater 和 deploy-test 之外的分支
+# Git Other Branch
+alias gob="gb -l | grep -E -v 'main|master'"
+
+# 拷贝除 mater 和 deploy-test 之外的第一个分支的名称
+# Git Other Branch name Copy
+alias gobc="gb -l | grep -E -v 'main|master' | head -1 | tr -d ' \n' | pbcopy"
