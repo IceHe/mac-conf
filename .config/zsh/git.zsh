@@ -169,15 +169,16 @@ function gmov {
 function iCmd {
     local cmd=$1
     echo -e "\n\$ $cmd"
-    $($cmd)
+    eval $cmd
 }
 
 function orbm {
-    iCmd "gst"
-    iCmd"gcom"
-    iCmd"gl"
-    iCmd"gco -"
-    iCmd"grbm"
+    iCmd "git stash"
+    iCmd "git checkout master"
+    iCmd "git pull"
+    iCmd "git checkout -"
+    iCmd "git rebase master"
+    echo
 }
 
 # 显示最近的 commit id
