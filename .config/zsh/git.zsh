@@ -178,6 +178,8 @@ function orbm {
     iCmd "git pull"
     iCmd "git checkout -"
     iCmd "git rebase master"
+    # 按需取用
+    # iCmd "git stash pop" 
     echo
 }
 
