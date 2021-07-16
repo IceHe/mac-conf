@@ -195,6 +195,7 @@ function dcpo {
     echo -e "latestCommitId = $latestCommitId"
 
     iCmd "git checkout deploy-test"
+    iCmd "git pull"
     iCmd "git cherry-pick $latestCommitId"
     echo
 }
