@@ -172,6 +172,8 @@ function iCmd {
     eval $cmd
 }
 
+# 特性分支快速 rebase 主分支的短命令
+# Other branch ReBase Master branch
 function orbm {
     iCmd "git stash"
     iCmd "git checkout master"
@@ -180,6 +182,20 @@ function orbm {
     iCmd "git rebase master"
     # 按需取用
     # iCmd "git stash pop" 
+    echo
+}
+
+# 将特性分支最新的提交添加到测试分支中
+# Deploy-test branch Cherry-Pick Other branch
+function dcpo {
+    iCmd "git stash"
+
+    echo -e "\n\$ git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'"
+    latestCommitId=`git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'`
+    echo -e "latestCommitId = $latestCommitId"
+
+    iCmd "git checkout deploy-test"
+    iCmd "git cherry-pick $latestCommitId"
     echo
 }
 
