@@ -166,6 +166,20 @@ function gmov {
     eval $cmd
 }
 
+function iCmd {
+    local cmd=$1
+    echo -e "\n\$ $cmd"
+    $($cmd)
+}
+
+function orbm {
+    iCmd "gst"
+    iCmd"gcom"
+    iCmd"gl"
+    iCmd"gco -"
+    iCmd"grbm"
+}
+
 # 显示最近的 commit id
 # Latest Commit ID
 alias glci="git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'"
