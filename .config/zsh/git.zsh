@@ -14,6 +14,8 @@ alias ga.='gaa && g.'
 
 alias gcom='git checkout master'
 
+alias gcfd='git clean -fd'
+
 alias gdc='git diff --cached'
 alias gdwc='git diff --word-diff --cached'
 
