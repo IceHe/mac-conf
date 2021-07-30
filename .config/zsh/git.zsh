@@ -13,6 +13,7 @@ alias g.='git commit -m "`date +%F\ %T\ %a`"'
 alias ga.='gaa && g.'
 
 alias gcom='git checkout master'
+alias gcod='git checkout deploy-test'
 
 alias gcfd='git clean -fd'
 
