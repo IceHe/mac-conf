@@ -30,7 +30,7 @@ ZSH_THEME="robbyrussell"
 # DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-export UPDATE_ZSH_DAYS=1
+export UPDATE_ZSH_DAYS=7
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS=true
@@ -212,6 +212,7 @@ alias pb='pbcopy'
 alias pbn='tr -d "\n" | pbcopy'
 alias rm='safe-rm'
 alias rp='realpath'
+alias zup='.oh-my-zsh/tools/upgrade.sh'
 
 # Applications
 alias st='open -a /Applications/Sublime\ Text.app/'
@@ -226,6 +227,9 @@ alias zi='cd ~/Documents/lib'
 alias ze='cd /etc'
 alias zc='cd ~/.config'
 alias zh='cd ~/.config/zsh'
+
+# Coreutils ( GNU commands )
+alias awk='gawk'
 
 # MySQL
 alias ms="mysql.server"

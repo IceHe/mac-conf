@@ -14,6 +14,8 @@ alias ga.='gaa && g.'
 
 alias gcom='git checkout master'
 
+alias gcfd='git clean -fd'
+
 alias gdc='git diff --cached'
 alias gdwc='git diff --word-diff --cached'
 
@@ -165,3 +167,54 @@ function gmov {
 
     eval $cmd
 }
+
+function iCmd {
+    local cmd=$1
+    echo -e "\n\$ $cmd"
+    eval $cmd
+}
+
+# 特性分支快速 rebase 主分支的短命令
+# Other branch ReBase Master branch
+function orbm {
+    iCmd "git stash"
+    iCmd "git checkout master"
+    iCmd "git pull"
+    iCmd "git checkout -"
+    iCmd "git rebase master"
+    # 按需取用
+    # iCmd "git stash pop" 
+    echo
+}
+
+# 将特性分支最新的提交添加到测试分支中
+# Deploy-test branch Cherry-Pick Other branch
+function dcpo {
+    iCmd "git stash"
+
+    echo -e "\n\$ git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'"
+    latestCommitId=`git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'`
+    echo -e "latestCommitId = $latestCommitId"
+
+    iCmd "git checkout deploy-test"
+    iCmd "git pull"
+    iCmd "git cherry-pick $latestCommitId"
+    echo
+}
+
+# 显示最近的 commit id
+# Latest Commit ID
+alias glci="git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'"
+
+# 展示 main 和 master 之外的分支
+# Git Other Branch
+alias gob="git branch -l | grep -E -v 'main|master'"
+
+# 拷贝除 main 和 master 之外的第一个分支的名称
+# Git Other Branch Name Copy
+alias gobc="git branch -l | grep -E -v 'main|master' | head -1 | tr -d ' \n' | pbcopy"
+
+# 切换到除 main 和 mater 之外的第一个分支的名称
+# Git Checkout Other Branch
+alias gcoo="git checkout \`git branch -l | grep -E -v 'main|master' | head -1 | tr -d ' \n'\`"
+
