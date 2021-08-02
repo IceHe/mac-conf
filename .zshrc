@@ -181,6 +181,9 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 # JDK
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+# or e.g.
+#export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home'
+# ( Run `/usr/libexec/java_home -V` to list all installed JREs & JVMs. )
 
 ## MySQL 5.x
 ## Current version is 8.0+ by default.
