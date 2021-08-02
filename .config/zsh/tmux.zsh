@@ -61,7 +61,7 @@ function tw {
 
     # clean-up
     tmux send -t 'icehe:init' 'exit' Enter
-    tmux select-window -t 'icehe:lib'
+    tmux select-window -t 'icehe:cs1'
 
     tmux
 }
