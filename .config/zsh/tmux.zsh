@@ -18,6 +18,29 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:lib' 'cd ~' Enter
 
+    # CS1
+    tmux new-window -a -t icehe -n cs1 -c ~/Documents/conan-commerce-shipment
+    tmux send -t 'icehe:cs1' 'git pull' Enter
+    tmux send -t 'icehe:cs1' 'clear' Enter
+
+    # CS2
+    tmux new-window -a -t icehe -n cs2 -c ~/Documents/another/conan-commerce-shipment
+    tmux send -t 'icehe:cs2' 'git pull' Enter
+    tmux send -t 'icehe:cs2' 'clear' Enter
+
+    # CS2
+    tmux new-window -a -t icehe -n cs3 -c ~/Documents/yet-another/conan-commerce-shipment
+    tmux send -t 'icehe:cs3' 'git pull' Enter
+    tmux send -t 'icehe:cs3' 'clear' Enter
+
+    # Desktop
+    tmux new-window -a -t icehe -n desktop -c ~/Desktop
+    tmux send -t 'icehe:desktop' 'git pull' Enter
+    tmux send -t 'icehe:desktop' 'clear' Enter
+    tmux split-window -h 'icehe:desktop' -c ~/Desktop
+    tmux send -t 'icehe:desktop' 'git pull' Enter
+    tmux send -t 'icehe:desktop' 'clear' Enter
+
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Documents/lib
     tmux send -t 'icehe:lib' 'git pull' Enter
