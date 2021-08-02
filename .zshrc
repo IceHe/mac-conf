@@ -180,7 +180,8 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 export PATH="/opt/homebrew/bin:$PATH"
 
 # JDK
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+#export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home'
 
 ## MySQL 5.x
 ## Current version is 8.0+ by default.
@@ -192,6 +193,9 @@ export NVM_DIR="~/.nvm"
 
 # BISON
 export PATH="/usr/local/opt/bison/bin:$PATHexport PATH="/usr/local/opt/bison/bin:$PATH
+
+# FCT
+export PATH="/Users/icehe/Documents/fenbi-code-tool/bin:$PATH"
 
 #########
 # ALIAS #
@@ -249,6 +253,10 @@ alias vz='v ~/.zshrc'
 alias vk='v ~/.config/karabiner/karabiner.json'
 alias stk='st ~/.config/karabiner/karabiner.json'
 alias vck='vc ~/.config/karabiner/karabiner.json'
+
+# FCT
+alias fp='fct push -b master -r hezhiyuan'
+alias fpf='fp -f'
 
 # Source
 source ~/.config/zsh/fzf.zsh
