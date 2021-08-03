@@ -255,6 +255,7 @@ alias stk='st ~/.config/karabiner/karabiner.json'
 alias vck='vc ~/.config/karabiner/karabiner.json'
 
 # FCT
+alias fl='fct lint'
 alias fp='fct push -b master -r hezhiyuan'
 alias fpf='fp -f'
 

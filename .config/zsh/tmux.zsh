@@ -37,8 +37,7 @@ function tw {
     tmux new-window -a -t icehe -n desktop -c ~/Desktop
     tmux send -t 'icehe:desktop' 'git pull' Enter
     tmux send -t 'icehe:desktop' 'clear' Enter
-    tmux split-window -h 'icehe:desktop' -c ~/Desktop
-    tmux send -t 'icehe:desktop' 'git pull' Enter
+    tmux send -t 'icehe:desktop' 'tmux split-window -h' Enter
     tmux send -t 'icehe:desktop' 'clear' Enter
 
     # LIB
