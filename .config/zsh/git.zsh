@@ -209,13 +209,13 @@ alias glci="git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'"
 
 # 展示 main 和 master 之外的分支
 # Git Other Branch
-alias gob="git branch -l | grep -E -v 'main|master'"
+alias gob="git branch -l | grep -E -v 'main|master|deploy-test'"
 
 # 拷贝除 main 和 master 之外的第一个分支的名称
 # Git Other Branch Name Copy
-alias gobc="git branch -l | grep -E -v 'main|master' | head -1 | tr -d ' \n' | pbcopy"
+alias gobc="git branch -l | grep -E -v 'main|master|deploy-test' | head -1 | tr -d ' \n' | pbcopy"
 
 # 切换到除 main 和 mater 之外的第一个分支的名称
 # Git Checkout Other Branch
-alias gcoo="git checkout \`git branch -l | grep -E -v 'main|master' | head -1 | tr -d ' \n'\`"
+alias gcoo="git checkout \`git branch -l | grep -E -v 'main|master|deploy-test' | head -1 | tr -d ' \n'\`"
 
