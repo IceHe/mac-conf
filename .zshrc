@@ -197,6 +197,9 @@ export PATH="/usr/local/opt/bison/bin:$PATHexport PATH="/usr/local/opt/bison/bin
 # FCT
 export PATH="/Users/icehe/Documents/fenbi-code-tool/bin:$PATH"
 
+# Thrift
+export PATH="/usr/local/opt/thrift@0.9/bin:$PATH"
+
 #########
 # ALIAS #
 #########
