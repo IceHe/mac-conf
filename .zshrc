@@ -10,8 +10,7 @@ export ZSH="/Users/IceHe/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
+# Set list of themes to pick from when loading at random Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
@@ -261,6 +260,11 @@ alias vck='vc ~/.config/karabiner/karabiner.json'
 alias fl='fct lint'
 alias fp='fct push -b master -r hezhiyuan'
 alias fpf='fp -f'
+
+# DEPLOY
+alias adt='./auto-deploy-test.sh hezhiyuan 1 1 1'
+alias adc='./auto-deploy-canary.sh hezhiyuan 1 1 1 1'
+alias acdp='./auto-check-deploy-production.sh hezhiyuan'
 
 # Source
 source ~/.config/zsh/fzf.zsh
