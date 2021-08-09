@@ -10,6 +10,8 @@
 	<true/>
 	<key>Default Bookmark Guid</key>
 	<string>F9DCE47A-B2D8-4D9F-93CD-EB15743EE7CC</string>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<true/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
@@ -655,8 +657,6 @@
 	</array>
 	<key>OpenBookmark</key>
 	<true/>
-	<key>PMPrintingExpandedStateForPrint2</key>
-	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -690,8 +690,6 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
-	<key>Print In Black And White</key>
-	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
