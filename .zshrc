@@ -257,6 +257,7 @@ alias vck='vc ~/.config/karabiner/karabiner.json'
 source ~/.config/zsh/fzf.zsh
 source ~/.config/zsh/git.zsh
 source ~/.config/zsh/ip.zsh
+source ~/.config/zsh/js.zsh
 source ~/.config/zsh/ls.zsh
 source ~/.config/zsh/proxy.zsh
 source ~/.config/zsh/tmux.zsh
