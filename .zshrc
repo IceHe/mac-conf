@@ -284,3 +284,5 @@ bindkey -M viins -r "^ "
 export SDKMAN_DIR="/Users/icehe/.sdkman"
 [[ -s "/Users/icehe/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/icehe/.sdkman/bin/sdkman-init.sh"
 
+export GPG_TTY=$(tty)
+
