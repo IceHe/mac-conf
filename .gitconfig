@@ -10,7 +10,7 @@
     # https://git-scm.com/docs/git-config#Documentation/git-config.txt-username
 	name = IceHe
 	email = icehe.me@qq.com
-    #signingkey = F196772E7E50CD84
+    signingkey = F196772E7E50CD84
 [core]
     # https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreignoreCase
 	ignorecase = false
@@ -22,6 +22,6 @@
     # https://stackoverflow.com/questions/9008309/how-do-i-set-git-ssl-no-verify-for-specific-repos-only
 	sslVerify = false
 [commit]
-    #gpgsign = true
+    gpgsign = true
 [gpg]
-    #program = gpg
+    program = gpg
