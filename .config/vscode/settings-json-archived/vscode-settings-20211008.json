@@ -1,5 +1,16 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "beautify.language": {
+        "js": {
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ],
+            "type": [
+                "javascript",
+            ]
+        }
+    },
     "editor.fontSize": 12,
     "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
     "editor.formatOnSave": true,
@@ -15,6 +26,7 @@
     "eslint.run": "onSave",
     "eslint.format.enable": true,
     "explorer.confirmDragAndDrop": false,
+    "files.eol": "\n",
     "files.exclude": {
         "**/.DS_Store": true,
         "**/.git": true,
@@ -22,6 +34,7 @@
         "**/.svn": false,
         "**/CVS": false
     },
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7ZXI7dW1sMjU7dW1sXCIsXCJjdXN0b21MaWJyYXJpZXNcIjpbXCJMLnNjcmF0Y2hwYWRcIl0sXCJwbHVnaW5zXCI6W10sXCJyZWNlbnRDb2xvcnNcIjpbXSxcImZvcm1hdFdpZHRoXCI6XCIyNDBcIixcImNyZWF0ZVRhcmdldFwiOmZhbHNlLFwicGFnZUZvcm1hdFwiOntcInhcIjowLFwieVwiOjAsXCJ3aWR0aFwiOjgyNyxcImhlaWdodFwiOjExNjl9LFwic2VhcmNoXCI6dHJ1ZSxcInNob3dTdGFydFNjcmVlblwiOnRydWUsXCJncmlkQ29sb3JcIjpcIiNENEQwQzBcIixcImRhcmtHcmlkQ29sb3JcIjpcIiM2ZTZlNmVcIixcImF1dG9zYXZlXCI6dHJ1ZSxcInJlc2l6ZUltYWdlc1wiOm51bGwsXCJvcGVuQ291bnRlclwiOjAsXCJ2ZXJzaW9uXCI6MTgsXCJ1bml0XCI6MSxcImlzUnVsZXJPblwiOmZhbHNlLFwidWlcIjpcIlwifSJ9",
     "markdown-preview-enhanced.previewTheme": "vue.css",
@@ -87,6 +100,9 @@
     "vim.vimrc.path": "/Users/icehe/.vimrc",
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
