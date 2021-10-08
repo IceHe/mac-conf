@@ -1,16 +1,5 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "beautify.language": {
-        "js": {
-            "filename": [
-                ".jshintrc",
-                ".jsbeautifyrc"
-            ],
-            "type": [
-                "javascript",
-            ]
-        }
-    },
     "editor.fontSize": 12,
     "editor.fontFamily": "Consolas, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
     "editor.formatOnSave": true,
@@ -23,8 +12,10 @@
     "editor.suggestSelection": "first",
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
     "emmet.excludeLanguages": [],
+    "eslint.alwaysShowStatus": true,
     "eslint.run": "onSave",
     "eslint.format.enable": true,
+    "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.eol": "\n",
     "files.exclude": {
@@ -100,10 +91,4 @@
     "vim.vimrc.path": "/Users/icehe/.vimrc",
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Quiet Light",
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
 }
