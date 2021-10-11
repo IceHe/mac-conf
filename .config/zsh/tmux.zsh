@@ -21,7 +21,7 @@ function tw {
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Documents/lib
     tmux send -t 'icehe:lib' 'git pull' Enter
-    tmux send -t 'icehe:lib' 'nohup docsify serve -p 3100 . &' Enter
+    tmux send -t 'icehe:lib' 'nohup npx docsify serve -p 3100 . &' Enter
     tmux send -t 'icehe:lib' 'clear' Enter
     tmux split-window -t 'icehe:lib' -c ~/Documents/lib/_private
     tmux send -t 'icehe:lib' 'git pull' Enter
