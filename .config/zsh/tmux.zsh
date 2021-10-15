@@ -31,6 +31,8 @@ function tw {
     tmux neww -a -t icehe -n home -c ~
     tmux send -t 'icehe:home' 'brew update && brew upgrade' Enter
     tmux send -t 'icehe:home' 'clear' Enter
+    tmux split-window -t 'icehe:home' -c ~
+    tmux send -t 'icehe:home' 'clear' Enter
 
     # LOGTO
     tmux neww -a -t icehe -n logto -c ~/Documents/logto
