@@ -27,12 +27,10 @@ function tw {
     tmux send -t 'icehe:lib' 'git pull' Enter
     tmux send -t 'icehe:lib' 'clear' Enter
 
-    # HOME
-    tmux neww -a -t icehe -n home -c ~
-    tmux send -t 'icehe:home' 'brew update && brew upgrade' Enter
-    tmux send -t 'icehe:home' 'clear' Enter
-    tmux split-window -t 'icehe:home' -c ~
-    tmux send -t 'icehe:home' 'clear' Enter
+    # JS
+    tmux neww -a -t icehe -n js -c ~/Documents/js
+    tmux send -t 'icehe:js' 'git pull' Enter
+    tmux send -t 'icehe:js' 'clear' Enter
 
     # LOGTO
     tmux neww -a -t icehe -n logto -c ~/Documents/logto
@@ -44,10 +42,12 @@ function tw {
     tmux send -t 'icehe:playground' 'git pull' Enter
     tmux send -t 'icehe:playground' 'clear' Enter
 
-
-    # Docsify
-    #tmux neww -a -t icehe -n docsify -c ~/Documents/lib
-    #tmux send -t 'icehe:docsify' 'docsify serve .' Enter
+    # HOME
+    tmux neww -a -t icehe -n home -c ~
+    tmux send -t 'icehe:home' 'brew update && brew upgrade' Enter
+    tmux send -t 'icehe:home' 'clear' Enter
+    tmux split-window -t 'icehe:home' -c ~
+    tmux send -t 'icehe:home' 'clear' Enter
 
     # clean-up
     tmux send -t 'icehe:init' 'exit' Enter
