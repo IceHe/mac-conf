@@ -32,6 +32,11 @@ function tw {
     tmux send -t 'icehe:js' 'git pull' Enter
     tmux send -t 'icehe:js' 'clear' Enter
 
+    # ANDROID
+    tmux neww -a -t icehe -n android -c ~/Documents/kotlin/android
+    tmux send -t 'icehe:android' 'git pull' Enter
+    tmux send -t 'icehe:android' 'clear' Enter
+
     # LOGTO
     tmux neww -a -t icehe -n logto -c ~/Documents/logto
     tmux send -t 'icehe:logto' 'git pull' Enter
