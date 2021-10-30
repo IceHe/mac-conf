@@ -180,7 +180,8 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 export PATH="/opt/homebrew/bin:$PATH"
 
 # JDK
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+#export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_HOME=`/usr/libexec/java_home -v 11`
 # or e.g.
 #export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home'
 # ( Run `/usr/libexec/java_home -V` to list all installed JREs & JVMs. )
