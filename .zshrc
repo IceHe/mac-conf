@@ -207,7 +207,6 @@ alias a='arch -x86_64' # Architecture X86
 alias b='brew'
 alias ib='arch -x86_64 /usr/local/bin/brew'
 alias bu='brew update -vvv && brew upgrade -vvv'
-alias d='docker'
 alias e='exit'
 alias f='find'
 alias i='ip'
