@@ -32,7 +32,15 @@ function tw {
     tmux send -t 'icehe:js' 'git pull' Enter
     tmux send -t 'icehe:js' 'clear' Enter
 
-    # ANDROID
+    # JS / client
+    tmux neww -a -t icehe -n client -c ~/Documents/js/packages/client
+    tmux send -t 'icehe:client' 'clear' Enter
+
+    # JS / playground
+    tmux neww -a -t icehe -n playground -c ~/Documents/js/packages/playground
+    tmux send -t 'icehe:playground' 'clear' Enter
+
+    # KOTLIN / android
     tmux neww -a -t icehe -n android -c ~/Documents/kotlin/android
     tmux send -t 'icehe:android' 'git pull' Enter
     tmux send -t 'icehe:android' 'clear' Enter
@@ -42,10 +50,9 @@ function tw {
     tmux send -t 'icehe:logto' 'git pull' Enter
     tmux send -t 'icehe:logto' 'clear' Enter
 
-    # PLAYGROUND
-    tmux neww -a -t icehe -n playground -c ~/Documents/playground
-    tmux send -t 'icehe:playground' 'git pull' Enter
-    tmux send -t 'icehe:playground' 'clear' Enter
+    # LOGTO / core
+    tmux neww -a -t icehe -n core -c ~/Documents/logto/packages/core
+    tmux send -t 'icehe:core' 'clear' Enter
 
     # HOME
     tmux neww -a -t icehe -n home -c ~
