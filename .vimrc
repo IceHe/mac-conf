@@ -57,6 +57,8 @@ inoremap <C-F> <Right>
 inoremap <C-A> <Home>
 inoremap <C-E> <End>
 
+inoremap <C-J> <Return>
+
 " Forward|Backward Word (End)
 inoremap <C-N> <Esc>ea
 inoremap <C-P> <Esc>gea
