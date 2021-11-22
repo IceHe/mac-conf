@@ -8,7 +8,7 @@
 	process = git-lfs filter-process
 [user]
     # https://git-scm.com/docs/git-config#Documentation/git-config.txt-username
-	name = IceHe
+	name = IceHe.xyz
 	email = icehe.me@qq.com
     signingkey = F196772E7E50CD84
 [core]
