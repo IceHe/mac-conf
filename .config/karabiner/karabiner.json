@@ -4537,6 +4537,16 @@
                             "key_code": "japanese_kana"
                         }
                     ]
+                },
+                {
+                    "from": {
+                        "key_code": "right_command"
+                    },
+                    "to": [
+                        {
+                            "key_code": "return_or_enter"
+                        }
+                    ]
                 }
             ],
             "virtual_hid_keyboard": {
