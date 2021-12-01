@@ -194,7 +194,7 @@ source ~/.config/zsh/tmux.zsh
 # ( REF : ~/.oh-my-zsh/plugins/globalias/globalias.plugin.zsh )
 bindkey -M emacs "^x " globalias
 bindkey -M viins "^x " globalias
-# Revert improper configs in plugin globalias
+# Revert part of settings in plugin globalias
 bindkey -M isearch " " magic-space
 bindkey -M emacs " " magic-space
 bindkey -M viins " " magic-space
