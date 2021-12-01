@@ -184,3 +184,19 @@ source ~/.config/zsh/js.zsh
 source ~/.config/zsh/ls.zsh
 source ~/.config/zsh/proxy.zsh
 source ~/.config/zsh/tmux.zsh
+
+############
+# BIND-KEY #
+############
+
+# Expand Alias
+# ( including global via plugin globalias )
+# ( REF : ~/.oh-my-zsh/plugins/globalias/globalias.plugin.zsh )
+bindkey -M emacs "^x " globalias
+bindkey -M viins "^x " globalias
+# Revert improper configs in plugin globalias
+bindkey -M isearch " " magic-space
+bindkey -M emacs " " magic-space
+bindkey -M viins " " magic-space
+bindkey -M emacs -r "^ "
+bindkey -M viins -r "^ "
