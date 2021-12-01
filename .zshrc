@@ -190,8 +190,8 @@ source ~/.config/zsh/tmux.zsh
 ############
 
 # Expand Alias
-# ( including global via plugin globalias )
-# ( REF : ~/.oh-my-zsh/plugins/globalias/globalias.plugin.zsh )
+# ( The feature is imported globally via the plugin globalias )
+# ( SEE : ~/.oh-my-zsh/plugins/globalias/globalias.plugin.zsh )
 bindkey -M emacs "^x " globalias
 bindkey -M viins "^x " globalias
 # Revert part of settings in plugin globalias
