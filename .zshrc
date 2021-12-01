@@ -256,6 +256,7 @@ alias vck='vc ~/.config/karabiner/karabiner.json'
 
 # Source
 source ~/.config/zsh/fzf.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # TRYING on 2021/12/01
 source ~/.config/zsh/git.zsh
 source ~/.config/zsh/ip.zsh
 source ~/.config/zsh/js.zsh
