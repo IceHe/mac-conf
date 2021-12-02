@@ -75,6 +75,7 @@ plugins=(
   git
   globalias
   safe-paste
+  tmux
   zsh-autosuggestions
 )
 
