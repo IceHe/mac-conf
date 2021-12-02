@@ -16,7 +16,7 @@ function tw {
     
     # init
     tmux rename-window -t 'icehe:1' init
-    tmux send -t 'icehe:lib' 'cd ~' Enter
+    tmux send -t 'icehe:init' 'cd ~' Enter
 
     # JS
     tmux neww -a -t icehe -n js -c ~/Documents/js
@@ -48,8 +48,8 @@ function tw {
     tmux neww -a -t icehe -n logto -c ~/Documents/logto
     tmux send -t 'icehe:logto' 'git pull' Enter
     tmux send -t 'icehe:logto' 'clear' Enter
-    tmux split-window -t 'icehe:logto/core' -c ~/Documents/logto/packages/core
-    tmux send -t 'icehe:logto/core' 'clear' Enter
+    tmux split-window -t 'icehe:logto' -c ~/Documents/logto/packages/core
+    tmux send -t 'icehe:logto' 'clear' Enter
 
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Documents/lib
