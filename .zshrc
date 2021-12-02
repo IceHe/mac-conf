@@ -160,6 +160,7 @@ alias zd='cd ~/Desktop'
 alias zl='cd ~/Downloads'
 alias zo='cd ~/Documents'
 alias zi='cd ~/Documents/lib'
+alias zh='cd ~/.config/zsh'
 
 # Vim
 alias v='nvim'
