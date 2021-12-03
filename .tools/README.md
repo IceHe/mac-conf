@@ -1,6 +1,6 @@
 # .tools
 
-- `inputsource` : https://github.com/hnakamur/inputsource
+`inputsource` : https://github.com/hnakamur/inputsource
 
 ## Link to tools
 
