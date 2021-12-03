@@ -16,11 +16,15 @@ ln -s $(realpath inputsource) /usr/local/bin/inputsource
 ```bash
 # list paths/to/TOOL
 where TOOL
+
 # show which to use
 which TOOL
+
 # check link to TOOL
 ls -hl path/to/TOOL
+```
 
+```bash
 # e.g.
 $ where inputsource
 /usr/bin/inputsource
