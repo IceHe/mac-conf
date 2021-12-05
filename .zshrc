@@ -157,9 +157,10 @@ alias vc='open -a /Applications/Visual\ Studio\ Code.app'
 
 # CD - Change Directory
 alias zd='cd ~/Desktop'
-alias zl='cd ~/Downloads'
 alias zo='cd ~/Documents'
-alias zi='cd ~/Documents/lib'
+alias zl='cd ~/Downloads'
+alias zp='cd ~/Projects'
+alias zi='cd ~/Projects/lib'
 alias zh='cd ~/.config/zsh'
 
 # Vim

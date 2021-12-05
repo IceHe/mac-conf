@@ -9,54 +9,54 @@ alias tch="tmux split-window -h -c '#{pane_current_path}'"
 alias tcv="tmux split-window -v -c '#{pane_current_path}'"
 
 function tw {
-    cd ~/Documents/lib
+    cd ~/Projects/lib
 
     # ICEHE
     tmux new -s icehe -d
-    
+
     # init
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:init' 'cd ~' Enter
 
     # JS
-    tmux neww -a -t icehe -n js -c ~/Documents/js
+    tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git pull' Enter
     tmux send -t 'icehe:js' 'clear' Enter
-    tmux split-window -t 'icehe:js' -c ~/Documents/js/packages/client
+    tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/client
     tmux send -t 'icehe:js' 'clear' Enter
 
     ## JS / client
-    #tmux neww -a -t icehe -n client -c ~/Documents/js/packages/client
+    #tmux neww -a -t icehe -n client -c ~/Projects/js/packages/client
     #tmux send -t 'icehe:client' 'clear' Enter
 
     ## JS / playground
-    #tmux neww -a -t icehe -n playground -c ~/Documents/js/packages/playground
+    #tmux neww -a -t icehe -n playground -c ~/Projects/js/packages/playground
     #tmux send -t 'icehe:playground' 'clear' Enter
 
     ## JS / packages
-    #tmux neww -a -t icehe -n js/pkgs -c ~/Documents/js/packages/client
+    #tmux neww -a -t icehe -n js/pkgs -c ~/Projects/js/packages/client
     #tmux send -t 'icehe:js/pkgs' 'clear' Enter
-    #tmux split-window -t 'icehe:js/pkgs' -c ~/Documents/js/packages/playground
+    #tmux split-window -t 'icehe:js/pkgs' -c ~/Projects/js/packages/playground
     #tmux send -t 'icehe:js/pkgs' 'clear' Enter
 
     # KOTLIN / android
-    tmux neww -a -t icehe -n kt/android -c ~/Documents/kotlin/android
+    tmux neww -a -t icehe -n kt/android -c ~/Projects/kotlin/android
     tmux send -t 'icehe:kt/android' 'git pull' Enter
     tmux send -t 'icehe:kt/android' 'clear' Enter
 
     # LOGTO
-    tmux neww -a -t icehe -n logto -c ~/Documents/logto
+    tmux neww -a -t icehe -n logto -c ~/Projects/logto
     tmux send -t 'icehe:logto' 'git pull' Enter
     tmux send -t 'icehe:logto' 'clear' Enter
-    tmux split-window -t 'icehe:logto' -c ~/Documents/logto/packages/core
+    tmux split-window -t 'icehe:logto' -c ~/Projects/logto/packages/core
     tmux send -t 'icehe:logto' 'clear' Enter
 
     # LIB
-    tmux new-window -a -t icehe -n lib -c ~/Documents/lib
+    tmux new-window -a -t icehe -n lib -c ~/Projects/lib
     tmux send -t 'icehe:lib' 'git pull' Enter
     tmux send -t 'icehe:lib' 'nohup npx docsify serve -p 3100 . &' Enter
     tmux send -t 'icehe:lib' 'clear' Enter
-    tmux split-window -t 'icehe:lib' -c ~/Documents/lib/_private
+    tmux split-window -t 'icehe:lib' -c ~/Projects/lib/_private
     tmux send -t 'icehe:lib' 'git pull' Enter
     tmux send -t 'icehe:lib' 'clear' Enter
 
