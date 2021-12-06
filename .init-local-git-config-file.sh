@@ -24,3 +24,6 @@ echo '[commit]
 	email = icehe.xyz@qq.com
 ' > ./.git/config
 
+# View the local Git configuration file
+less ./.git/config
+
