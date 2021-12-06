@@ -8,14 +8,14 @@ function ss() {
 }
 
 function sss() {
-    #export ALL_PROXY=socks5://127.0.0.1:1081
+    export all_proxy=socks5://127.0.0.1:1081
     export http_proxy=http://127.0.0.1:7890;
     export https_proxy=http://127.0.0.1:7890;
     ss
 }
 
 function uss() {
-    #unset ALL_PROXY
+    unset all_proxy
     unset http_proxy;
     unset https_proxy;
     ss
