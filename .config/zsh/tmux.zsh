@@ -22,7 +22,7 @@ function tw {
     tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git pull' Enter
     tmux send -t 'icehe:js' 'clear' Enter
-    tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/client
+    tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/js
     tmux send -t 'icehe:js' 'clear' Enter
 
     ## JS / client
@@ -66,6 +66,13 @@ function tw {
     tmux send -t 'icehe:home' 'clear' Enter
     tmux split-window -t 'icehe:home' -c ~
     tmux send -t 'icehe:home' 'clear' Enter
+
+    # JS
+    tmux neww -a -t icehe -n js-2 -c ~/Projects/js-2
+    tmux send -t 'icehe:js-2' 'git pull' Enter
+    tmux send -t 'icehe:js-2' 'clear' Enter
+    tmux split-window -t 'icehe:js-2' -c ~/Projects/js-2/packages/client
+    tmux send -t 'icehe:js-2' 'clear' Enter
 
     # clean-up
     tmux send -t 'icehe:init' 'exit' Enter
