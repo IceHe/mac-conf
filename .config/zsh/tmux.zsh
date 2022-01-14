@@ -18,38 +18,30 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:init' 'cd ~' Enter
 
-    # JS
+    # JS : root & client
     tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git pull' Enter
     tmux send -t 'icehe:js' 'clear' Enter
-    tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/js
+    tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/client
     tmux send -t 'icehe:js' 'clear' Enter
 
-    ## JS / client
-    #tmux neww -a -t icehe -n client -c ~/Projects/js/packages/client
-    #tmux send -t 'icehe:client' 'clear' Enter
-
-    ## JS / playground
-    #tmux neww -a -t icehe -n playground -c ~/Projects/js/packages/playground
-    #tmux send -t 'icehe:playground' 'clear' Enter
-
-    ## JS / packages
+    ## JS : client & playground
     #tmux neww -a -t icehe -n js/pkgs -c ~/Projects/js/packages/client
     #tmux send -t 'icehe:js/pkgs' 'clear' Enter
     #tmux split-window -t 'icehe:js/pkgs' -c ~/Projects/js/packages/playground
     #tmux send -t 'icehe:js/pkgs' 'clear' Enter
 
-    # KOTLIN / android
-    tmux neww -a -t icehe -n kt/android -c ~/Projects/kotlin/android
-    tmux send -t 'icehe:kt/android' 'git pull' Enter
-    tmux send -t 'icehe:kt/android' 'clear' Enter
+    ## KOTLIN : android
+    #tmux neww -a -t icehe -n kt/android -c ~/Projects/kotlin/android
+    #tmux send -t 'icehe:kt/android' 'git pull' Enter
+    #tmux send -t 'icehe:kt/android' 'clear' Enter
 
-    # LOGTO
-    tmux neww -a -t icehe -n logto -c ~/Projects/logto
-    tmux send -t 'icehe:logto' 'git pull' Enter
-    tmux send -t 'icehe:logto' 'clear' Enter
-    tmux split-window -t 'icehe:logto' -c ~/Projects/logto/packages/core
-    tmux send -t 'icehe:logto' 'clear' Enter
+    ## LOGTO : root & core
+    #tmux neww -a -t icehe -n logto -c ~/Projects/logto
+    #tmux send -t 'icehe:logto' 'git pull' Enter
+    #tmux send -t 'icehe:logto' 'clear' Enter
+    #tmux split-window -t 'icehe:logto' -c ~/Projects/logto/packages/core
+    #tmux send -t 'icehe:logto' 'clear' Enter
 
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Projects/lib
@@ -66,13 +58,6 @@ function tw {
     tmux send -t 'icehe:home' 'clear' Enter
     tmux split-window -t 'icehe:home' -c ~
     tmux send -t 'icehe:home' 'clear' Enter
-
-    # JS
-    tmux neww -a -t icehe -n js-2 -c ~/Projects/js-2
-    tmux send -t 'icehe:js-2' 'git pull' Enter
-    tmux send -t 'icehe:js-2' 'clear' Enter
-    tmux split-window -t 'icehe:js-2' -c ~/Projects/js-2/packages/client
-    tmux send -t 'icehe:js-2' 'clear' Enter
 
     # clean-up
     tmux send -t 'icehe:init' 'exit' Enter
