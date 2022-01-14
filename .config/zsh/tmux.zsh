@@ -18,12 +18,18 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:init' 'cd ~' Enter
 
-    # JS : root & client
+    # JS : root
     tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git pull' Enter
     tmux send -t 'icehe:js' 'clear' Enter
-    tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/client
-    tmux send -t 'icehe:js' 'clear' Enter
+    #tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/client
+    #tmux send -t 'icehe:js' 'clear' Enter
+
+    # JS : client & js
+    tmux neww -a -t icehe -n js/pkgs -c ~/Projects/js/packages/client
+    tmux send -t 'icehe:js/pkgs' 'clear' Enter
+    tmux split-window -t 'icehe:js/pkgs' -c ~/Projects/js/packages/js
+    tmux send -t 'icehe:js/pkgs' 'clear' Enter
 
     ## JS : client & playground
     #tmux neww -a -t icehe -n js/pkgs -c ~/Projects/js/packages/client
