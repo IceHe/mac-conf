@@ -60,6 +60,14 @@ alias gsd='git stash drop'
 alias gsl='git stash list'
 alias gsp='git stash pop'
 
+# 显示最近的 commit id
+# Latest Commit ID
+alias glci="git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'"
+
+##############
+# DEPRECATED #
+##############
+
 ## Git Experimental
 function args {
     echo \$?=$?
@@ -74,6 +82,7 @@ function args {
     echo \$5=$5
 }
 
+# Git Commit Message from Clipboard
 function gcmc {
     if [[ $1 == "" ]]; then
         echo && echo custom text for git 404!
@@ -92,7 +101,7 @@ function gcmc {
     gcm "$1"
 }
 
-# git commit message prefix
+# Git Commit Message with Prefix
 function gcmp {
     if [[ $1 == "" ]]; then
         echo && echo verb prefix for git 404!
@@ -113,7 +122,7 @@ alias gsim="gcmp Simplify"
 alias gtt="gcmp Test"
 alias gdep="gcmp Deprecate"
 
-# git commit short message prefix
+# Git Commit Short Message with Prefix
 function gcsmp {
     if [[ $1 == "" || $2 == "" ]]; then
         echo && echo verb & type prefix for git 404!
@@ -205,10 +214,6 @@ function dcpo {
     iCmd "git cherry-pick $latestCommitId"
     echo
 }
-
-# 显示最近的 commit id
-# Latest Commit ID
-alias glci="git log --oneline | head -1 | awk -F ' ' '{ print \$1 }'"
 
 # 展示 main 和 master 之外的分支
 # Git Other Branch
