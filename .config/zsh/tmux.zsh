@@ -31,6 +31,12 @@ function tw {
     tmux split-window -t 'icehe:js/pkgs' -c ~/Projects/js/packages/js
     tmux send -t 'icehe:js/pkgs' 'clear' Enter
 
+    ## JS : browser
+    tmux neww -a -t icehe -n js/pkgs2 -c ~/Projects/js/packages/browser
+    tmux send -t 'icehe:js/pkgs2' 'clear' Enter
+    #tmux split-window -t 'icehe:js/pkgs2' -c ~/Projects/js/packages/browser-sample
+    #tmux send -t 'icehe:js/pkgs2' 'clear' Enter
+
     ## JS : client & playground
     #tmux neww -a -t icehe -n js/pkgs -c ~/Projects/js/packages/client
     #tmux send -t 'icehe:js/pkgs' 'clear' Enter
