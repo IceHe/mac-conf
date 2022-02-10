@@ -2,8 +2,7 @@
 # Tmux #
 ########
 
-alias t='tmux'
-alias tn='tmux new-session -s'
+alias t='tmux' alias tn='tmux new-session -s'
 
 alias tch="tmux split-window -h -c '#{pane_current_path}'"
 alias tcv="tmux split-window -v -c '#{pane_current_path}'"
@@ -22,20 +21,16 @@ function tw {
     tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git pull' Enter
     tmux send -t 'icehe:js' 'clear' Enter
-    #tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/client
-    #tmux send -t 'icehe:js' 'clear' Enter
 
-    # JS : client & js
-    tmux neww -a -t icehe -n js/pkgs -c ~/Projects/js/packages/client
-    tmux send -t 'icehe:js/pkgs' 'clear' Enter
-    tmux split-window -t 'icehe:js/pkgs' -c ~/Projects/js/packages/js
-    tmux send -t 'icehe:js/pkgs' 'clear' Enter
+    # JS : js
+    tmux neww -a -t icehe -n js/js -c ~/Projects/js/packages/client
+    tmux send -t 'icehe:js/js' 'clear' Enter
 
     ## JS : browser
-    tmux neww -a -t icehe -n js/pkgs2 -c ~/Projects/js/packages/browser
-    tmux send -t 'icehe:js/pkgs2' 'clear' Enter
-    #tmux split-window -t 'icehe:js/pkgs2' -c ~/Projects/js/packages/browser-sample
-    #tmux send -t 'icehe:js/pkgs2' 'clear' Enter
+    tmux neww -a -t icehe -n js/browser -c ~/Projects/js/packages/browser
+    tmux send -t 'icehe:js/browser' 'clear' Enter
+    #tmux split-window -t 'icehe:js/browser' -c ~/Projects/js/packages/browser-sample
+    #tmux send -t 'icehe:js/browser' 'clear' Enter
 
     ## JS : client & playground
     #tmux neww -a -t icehe -n js/pkgs -c ~/Projects/js/packages/client
@@ -43,17 +38,22 @@ function tw {
     #tmux split-window -t 'icehe:js/pkgs' -c ~/Projects/js/packages/playground
     #tmux send -t 'icehe:js/pkgs' 'clear' Enter
 
-    ## KOTLIN : android
-    #tmux neww -a -t icehe -n kt/android -c ~/Projects/kotlin/android
-    #tmux send -t 'icehe:kt/android' 'git pull' Enter
-    #tmux send -t 'icehe:kt/android' 'clear' Enter
+    # KOTLIN : root
+    tmux neww -a -t icehe -n kotlin -c ~/Projects/kotlin
+    tmux send -t 'icehe:kotlin' 'git pull' Enter
+    tmux send -t 'icehe:kotlin' 'clear' Enter
 
-    ## LOGTO : root & core
-    #tmux neww -a -t icehe -n logto -c ~/Projects/logto
-    #tmux send -t 'icehe:logto' 'git pull' Enter
-    #tmux send -t 'icehe:logto' 'clear' Enter
-    #tmux split-window -t 'icehe:logto' -c ~/Projects/logto/packages/core
-    #tmux send -t 'icehe:logto' 'clear' Enter
+    # SWIFT : swift
+    tmux neww -a -t icehe -n swift -c ~/Projects/swift
+    tmux send -t 'icehe:swift' 'git pull' Enter
+    tmux send -t 'icehe:swift' 'clear' Enter
+
+    # LOGTO : root & core
+    tmux neww -a -t icehe -n logto -c ~/Projects/logto
+    tmux send -t 'icehe:logto' 'git pull' Enter
+    tmux send -t 'icehe:logto' 'clear' Enter
+    tmux split-window -t 'icehe:logto' -c ~/Projects/logto/packages/core
+    tmux send -t 'icehe:logto' 'clear' Enter
 
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Projects/lib
