@@ -17,20 +17,18 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:init' 'cd ~' Enter
 
-    # JS : root
+    # JS : root & js
     tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git pull' Enter
     tmux send -t 'icehe:js' 'clear' Enter
-
-    # JS : js
-    tmux neww -a -t icehe -n js/js -c ~/Projects/js/packages/client
-    tmux send -t 'icehe:js/js' 'clear' Enter
+    tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/js
+    tmux send -t 'icehe:js' 'clear' Enter
 
     ## JS : browser
-    tmux neww -a -t icehe -n js/browser -c ~/Projects/js/packages/browser
-    tmux send -t 'icehe:js/browser' 'clear' Enter
-    #tmux split-window -t 'icehe:js/browser' -c ~/Projects/js/packages/browser-sample
-    #tmux send -t 'icehe:js/browser' 'clear' Enter
+    tmux neww -a -t icehe -n browser -c ~/Projects/js/packages/browser
+    tmux send -t 'icehe:browser' 'clear' Enter
+    #tmux split-window -t 'icehe:browser' -c ~/Projects/js/packages/browser-sample
+    #tmux send -t 'icehe:browser' 'clear' Enter
 
     ## JS : client & playground
     #tmux neww -a -t icehe -n js/pkgs -c ~/Projects/js/packages/client
@@ -39,9 +37,9 @@ function tw {
     #tmux send -t 'icehe:js/pkgs' 'clear' Enter
 
     # KOTLIN : root
-    tmux neww -a -t icehe -n kotlin -c ~/Projects/kotlin
-    tmux send -t 'icehe:kotlin' 'git pull' Enter
-    tmux send -t 'icehe:kotlin' 'clear' Enter
+    tmux neww -a -t icehe -n kt -c ~/Projects/kotlin
+    tmux send -t 'icehe:kt' 'git pull' Enter
+    tmux send -t 'icehe:kt' 'clear' Enter
 
     # SWIFT : swift
     tmux neww -a -t icehe -n swift -c ~/Projects/swift
