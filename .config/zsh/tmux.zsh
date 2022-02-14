@@ -8,6 +8,8 @@ alias tch="tmux split-window -h -c '#{pane_current_path}'"
 alias tcv="tmux split-window -v -c '#{pane_current_path}'"
 
 function tw {
+    cd ~ && git pull || return
+
     cd ~/Projects/lib
 
     # ICEHE
