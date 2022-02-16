@@ -20,6 +20,10 @@ function tw {
     echo -e "\n\$ .oh-my-zsh/tools/upgrade.sh"
     .oh-my-zsh/tools/upgrade.sh
 
+    ## Reload .zshrc
+    echo -e "\n\$ source ~/.zshrc"
+    source ~/.zshrc && echo
+
     ## Switch PWD to lib
     # cd ~/Projects/lib
     
