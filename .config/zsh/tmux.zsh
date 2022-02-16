@@ -24,6 +24,10 @@ function tw {
 
     # JS : root & js
     tmux neww -a -t icehe -n js -c ~/Projects/js
+    tmux send -t 'icehe:js' 'git fetch -ap' Enter
+    tmux send -t 'icehe:js' 'git checkout master' Enter
+    tmux send -t 'icehe:js' 'git pull' Enter
+    tmux send -t 'icehe:js' 'git checkout -' Enter
     tmux send -t 'icehe:js' 'git pull' Enter
     # tmux send -t 'icehe:js' 'clear' Enter
     tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/js
