@@ -38,7 +38,7 @@ function tw {
 
     # JS : root & js
     tmux neww -a -t icehe -n js -c ~/Projects/js
-    tmux send -t 'icehe:js' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull' Enter
+    tmux send -t 'icehe:js' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
     tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/js
 
     # JS : browser
@@ -59,7 +59,7 @@ function tw {
 
     # LOGTO : root & core
     tmux neww -a -t icehe -n logto -c ~/Projects/logto
-    tmux send -t 'icehe:logto' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull' Enter
+    tmux send -t 'icehe:logto' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
     tmux split-window -t 'icehe:logto' -c ~/Projects/logto/packages/core
 
     # LIB
