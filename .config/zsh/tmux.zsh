@@ -36,31 +36,29 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:init' 'cd ~' Enter
 
-    # JS : root & js
+    # JS : root
     tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
-    tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/js
 
-    # JS : browser
-    tmux neww -a -t icehe -n browser -c ~/Projects/js/packages/browser
-    # tmux split-window -t 'icehe:browser' -c ~/Projects/js/packages/browser-sample
+    # JS : js & browser
+    tmux neww -a -t icehe -n browser -c ~/Projects/js/packages/js
+    tmux split-window -t 'icehe:browser' -c ~/Projects/js/packages/browser
 
-    # JS : client & playground
-    # tmux neww -a -t icehe -n js/pkgs -c ~/Projects/js/packages/client
-    # tmux split-window -t 'icehe:js/pkgs' -c ~/Projects/js/packages/playground
+    # JS : react
+    tmux neww -a -t icehe -n react -c ~/Projects/js/packages/react
 
-    # KOTLIN : root
-    tmux neww -a -t icehe -n kt -c ~/Projects/kotlin
-    tmux send -t 'icehe:kt' 'git fetch -ap && echo && git pull' Enter
+    # # KOTLIN : root
+    # tmux neww -a -t icehe -n kt -c ~/Projects/kotlin
+    # tmux send -t 'icehe:kt' 'git fetch -ap && echo && git pull' Enter
 
-    # SWIFT : swift
-    tmux neww -a -t icehe -n swift -c ~/Projects/swift
-    tmux send -t 'icehe:swift' 'git fetch -ap && echo && git pull' Enter
+    # # SWIFT : swift
+    # tmux neww -a -t icehe -n swift -c ~/Projects/swift
+    # tmux send -t 'icehe:swift' 'git fetch -ap && echo && git pull' Enter
 
-    # LOGTO : root & core
-    tmux neww -a -t icehe -n logto -c ~/Projects/logto
-    tmux send -t 'icehe:logto' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
-    tmux split-window -t 'icehe:logto' -c ~/Projects/logto/packages/core
+    # # LOGTO : root & core
+    # tmux neww -a -t icehe -n logto -c ~/Projects/logto
+    # tmux send -t 'icehe:logto' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
+    # tmux split-window -t 'icehe:logto' -c ~/Projects/logto/packages/core
 
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Projects/lib
