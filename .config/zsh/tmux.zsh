@@ -40,12 +40,12 @@ function tw {
     tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
 
-    # JS : js & browser
-    tmux neww -a -t icehe -n browser -c ~/Projects/js/packages/js
-    tmux split-window -t 'icehe:browser' -c ~/Projects/js/packages/browser
-
     # JS : react
     tmux neww -a -t icehe -n react -c ~/Projects/js/packages/react
+
+    # JS : browser ( & js )
+    tmux neww -a -t icehe -n browser -c ~/Projects/js/packages/js
+    tmux split-window -t 'icehe:browser' -c ~/Projects/js/packages/browser
 
     # # KOTLIN : root
     # tmux neww -a -t icehe -n kt -c ~/Projects/kotlin
