@@ -36,16 +36,20 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:init' 'cd ~' Enter
 
+    # LOGTO : root
+    tmux neww -a -t icehe -n logto -c ~/Projects/logto
+    tmux send -t 'icehe:logto' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
+
+    # LOGTO : core
+    tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/core
+
     # JS : root
     tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
 
-    # JS : react
-    tmux neww -a -t icehe -n react -c ~/Projects/js/packages/react
-
-    # JS : browser ( & js )
-    tmux neww -a -t icehe -n browser -c ~/Projects/js/packages/js
-    tmux split-window -t 'icehe:browser' -c ~/Projects/js/packages/browser
+    # # JS : browser ( & js )
+    # tmux neww -a -t icehe -n browser -c ~/Projects/js/packages/js
+    # tmux split-window -t 'icehe:browser' -c ~/Projects/js/packages/browser
 
     # # KOTLIN : root
     # tmux neww -a -t icehe -n kt -c ~/Projects/kotlin
@@ -54,11 +58,6 @@ function tw {
     # # SWIFT : swift
     # tmux neww -a -t icehe -n swift -c ~/Projects/swift
     # tmux send -t 'icehe:swift' 'git fetch -ap && echo && git pull' Enter
-
-    # # LOGTO : root & core
-    # tmux neww -a -t icehe -n logto -c ~/Projects/logto
-    # tmux send -t 'icehe:logto' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
-    # tmux split-window -t 'icehe:logto' -c ~/Projects/logto/packages/core
 
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Projects/lib
