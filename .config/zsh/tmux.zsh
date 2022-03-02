@@ -43,9 +43,10 @@ function tw {
     # LOGTO : core
     tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/core
 
-    # JS : root
+    # JS : root & browser-sample
     tmux neww -a -t icehe -n js -c ~/Projects/js
     tmux send -t 'icehe:js' 'git fetch -ap && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i' Enter
+    tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/browser-sample
 
     # # JS : browser ( & js )
     # tmux neww -a -t icehe -n browser -c ~/Projects/js/packages/js
