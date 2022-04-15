@@ -173,6 +173,7 @@ alias vv='v ~/.vimrc'
 alias viv='v ~/.ideavimrc'
 alias vt='v ~/.tmux.conf'
 alias vz='v ~/.zshrc'
+alias vzt='v ~/.config/zsh/tmux.zsh'
 
 alias vk='v ~/.config/karabiner/karabiner.json'
 alias vck='vc ~/.config/karabiner/karabiner.json'
