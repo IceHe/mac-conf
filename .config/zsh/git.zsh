@@ -227,3 +227,11 @@ alias gobc="git branch -l | grep -E -v 'main|master' | head -1 | tr -d ' \n' | p
 # Git Checkout Other Branch
 alias gcoo="git checkout \`git branch -l | grep -E -v 'main|master' | head -1 | tr -d ' \n'\`"
 
+function gUpdJsProj {
+    iCmd "git fetch -ap" && \
+    iCmd "git add --all && git stash" && \
+    iCmd "git checkout master && git pull" && \
+    iCmd "git checkout - && git pull" && \
+    iCmd "pnpm i" && \
+    iCmd "git stash pop"
+}
