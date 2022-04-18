@@ -38,7 +38,7 @@ function tw {
 
     # LOGTO : root
     tmux neww -a -t icehe -n logto -c ~/Projects/logto
-    tmux send -t 'icehe:logto' 'gUpdJsProj' Enter
+    tmux send -t 'icehe:logto' 'gujp' Enter
 
     # LOGTO : core
     tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/core
@@ -48,7 +48,7 @@ function tw {
 
     # JS : root & browser-sample
     tmux neww -a -t icehe -n js -c ~/Projects/js
-    tmux send -t 'icehe:js' 'gUpdJsProj' Enter
+    tmux send -t 'icehe:js' 'gujp' Enter
     tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/browser-sample
 
     # # JS : browser ( & js )
