@@ -38,13 +38,7 @@ function tw {
 
     # LOGTO : root
     tmux neww -a -t icehe -n logto -c ~/Projects/logto
-    tmux send -t 'icehe:logto' '\
-        git fetch -ap && echo && \
-        git add --all && git stash && echo && \
-        git checkout master && git pull && echo && \
-        git checkout - && git pull && echo && \
-        pnpm i && echo && \
-        git stash pop' Enter
+    tmux send -t 'icehe:logto' 'git fetch -ap && echo && git add --all && git stash && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i && echo &&  git stash pop' Enter
 
     # LOGTO : core
     tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/core
@@ -54,13 +48,7 @@ function tw {
 
     # JS : root & browser-sample
     tmux neww -a -t icehe -n js -c ~/Projects/js
-    tmux send -t 'icehe:js' '\
-        git fetch -ap && echo && \
-        git add --all && git stash && echo && \
-        git checkout master && git pull && echo && \
-        git checkout - && git pull && echo && \
-        pnpm i && echo && \
-        git stash pop' Enter
+    tmux send -t 'icehe:js' 'git fetch -ap && echo && git add --all && git stash && echo && git checkout master && git pull && echo && git checkout - && git pull && echo && pnpm i && echo && git stash pop' Enter
     tmux split-window -t 'icehe:js' -c ~/Projects/js/packages/browser-sample
 
     # # JS : browser ( & js )
@@ -77,9 +65,7 @@ function tw {
 
     # LIB
     tmux new-window -a -t icehe -n lib -c ~/Projects/lib
-    tmux send -t 'icehe:lib' '\
-        git add --all && git stash && echo && \
-        git pull && git stash pop' Enter
+    tmux send -t 'icehe:lib' 'git add --all && git stash && echo && git pull && git stash pop' Enter
     tmux send -t 'icehe:lib' 'nohup npx docsify serve -p 3100 . &' Enter
     tmux split-window -t 'icehe:lib' -c ~/Projects/lib/_private
     tmux send -t 'icehe:lib' 'git pull' Enter
