@@ -5,7 +5,8 @@
 alias n='node'
 
 alias p='pnpm'
-alias pi='p i'
+alias pi='pnpm install'
+alias pbu='pnpm build'
 
 alias pt='pnpm test'
 alias plpt='pnpm lint && pnpm test'
