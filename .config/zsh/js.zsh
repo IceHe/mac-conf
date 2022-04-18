@@ -5,8 +5,12 @@
 alias n='node'
 
 alias p='pnpm'
-alias pi='pnpm i'
+alias pi='p i'
+
 alias pt='pnpm test'
-alias pips='pnpm install && pnpm start'
 alias plpt='pnpm lint && pnpm test'
+alias pd='pnpm dev'
+alias pst='pnpm start'
+
+alias plb='pnpm -- lerna run --stream build'
 
