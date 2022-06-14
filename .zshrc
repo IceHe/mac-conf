@@ -210,3 +210,11 @@ bindkey -M viins -r "^ "
 
 #export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
+##########
+# BUGFIX #
+##########
+
+# Should NOT show the control characters, e.g. backspaces!
+# ( Ref: https://github.com/tmux/tmux/issues/597#issuecomment-469405884 )
+TERM=xterm
+
