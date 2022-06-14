@@ -43,8 +43,11 @@ function tw {
     # LOGTO : core
     tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/core
 
-    # LOGTO : schemas
-    tmux neww -a -t icehe -n schemas -c ~/Projects/logto/packages/schemas
+    # LOGTO : fb
+    tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/connector-facebook
+
+    # # LOGTO : schemas
+    # tmux neww -a -t icehe -n schemas -c ~/Projects/logto/packages/schemas
 
     # JS : root & browser-sample
     tmux neww -a -t icehe -n js -c ~/Projects/js
