@@ -44,7 +44,7 @@ function tw {
     tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/core
 
     # LOGTO : fb
-    tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/connector-facebook
+    tmux neww -a -t icehe -n fb -c ~/Projects/logto/packages/connector-facebook
 
     # # LOGTO : schemas
     # tmux neww -a -t icehe -n schemas -c ~/Projects/logto/packages/schemas
