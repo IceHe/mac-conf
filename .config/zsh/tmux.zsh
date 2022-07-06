@@ -43,8 +43,13 @@ function tw {
     # LOGTO : core
     tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/core
 
-    # LOGTO : fb
-    tmux neww -a -t icehe -n fb -c ~/Projects/logto/packages/connector-facebook
+    # LOGTO : docs
+    tmux neww -a -t icehe -n docs -c ~/Projects/docs
+    tmux send -t 'icehe:docs' 'gujp' Enter
+    tmux split-window -t 'icehe:docs' -c ~/Projects/docs
+
+    ## LOGTO : fb
+    #tmux neww -a -t icehe -n fb -c ~/Projects/logto/packages/connector-facebook
 
     # # LOGTO : schemas
     # tmux neww -a -t icehe -n schemas -c ~/Projects/logto/packages/schemas
