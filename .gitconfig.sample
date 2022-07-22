@@ -21,6 +21,8 @@
 	branch = false
 [pull]
 	rebase = true
+[push]
+	autoSetupRemote = true
 [user]
     # https://git-scm.com/docs/git-config#Documentation/git-config.txt-username
 	name = IceHe.xyz
