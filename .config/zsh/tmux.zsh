@@ -36,23 +36,26 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:init' 'cd ~' Enter
 
-    # LOGTO : root
+    # root - logto
     tmux neww -a -t icehe -n logto -c ~/Projects/logto
     tmux send -t 'icehe:logto' 'gujp' Enter
 
-    # LOGTO : core
+    # core - logto
     tmux neww -a -t icehe -n core -c ~/Projects/logto/packages/core
 
-    # LOGTO : docs
-    tmux neww -a -t icehe -n docs -c ~/Projects/docs
-    tmux send -t 'icehe:docs' 'gujp' Enter
-    tmux split-window -t 'icehe:docs' -c ~/Projects/docs
+    # integration-tests - logto
+    tmux neww -a -t icehe -n int-test -c ~/Projects/logto/packages/integration-tests
 
-    ## LOGTO : fb
+    ## docs - logto
+    #tmux neww -a -t icehe -n docs -c ~/Projects/docs
+    #tmux send -t 'icehe:docs' 'gujp' Enter
+    #tmux split-window -t 'icehe:docs' -c ~/Projects/docs
+
+    ## fb - LOGTO 
     #tmux neww -a -t icehe -n fb -c ~/Projects/logto/packages/connector-facebook
 
-    # # LOGTO : schemas
-    # tmux neww -a -t icehe -n schemas -c ~/Projects/logto/packages/schemas
+    ## schemas - logto
+    #tmux neww -a -t icehe -n schemas -c ~/Projects/logto/packages/schemas
 
     # JS : root & browser-sample
     tmux neww -a -t icehe -n js -c ~/Projects/js
