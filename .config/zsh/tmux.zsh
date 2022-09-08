@@ -49,10 +49,10 @@ function tw {
     # # schemas - logto
     # tmux neww -a -t icehe -n schemas -c ~/Projects/logto/packages/schemas
 
-    # # docs
-    # tmux neww -a -t icehe -n docs -c ~/Projects/docs
-    # tmux send -t 'icehe:docs' 'gujp' Enter
-    # tmux split-window -t 'icehe:docs' -c ~/Projects/docs
+    # docs
+    tmux neww -a -t icehe -n docs -c ~/Projects/docs
+    tmux send -t 'icehe:docs' 'gujp' Enter
+    tmux split-window -t 'icehe:docs' -c ~/Projects/docs
 
     # # root & browser-sample - js
     # tmux neww -a -t icehe -n js -c ~/Projects/js
@@ -63,9 +63,9 @@ function tw {
     # tmux neww -a -t icehe -n browser -c ~/Projects/js/packages/js
     # tmux split-window -t 'icehe:browser' -c ~/Projects/js/packages/browser
 
-    # root - kotlin
-    tmux neww -a -t icehe -n kt -c ~/Projects/kotlin
-    tmux send -t 'icehe:kt' 'git fetch -ap && echo && git pull' Enter
+    # # root - kotlin
+    # tmux neww -a -t icehe -n kt -c ~/Projects/kotlin
+    # tmux send -t 'icehe:kt' 'git fetch -ap && echo && git pull' Enter
 
     # # root - swift
     # tmux neww -a -t icehe -n swift -c ~/Projects/swift
