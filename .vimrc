@@ -16,8 +16,11 @@ imap <C-S> <Esc><C-S>a
 map <C-S> :w<CR>
 
 " Search
-" 设置大小写敏感和聪明感知（小写全搜，大写完全匹配）
+" 大小写敏感
 set ignorecase
+" 小写全搜, 大写完全匹配
+"set smartcase
+
 " Swith Tab
 map <S-H> gT
 map <S-L> gt
@@ -101,7 +104,7 @@ map <leader>r :set rnu!<CR> " Toggle
 " Deactivate Highlighted
 map <leader>h :noh<CR>
 
-" iMproved
+" Improved
 if &compatible
   set nocompatible
 endif

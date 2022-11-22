@@ -10,7 +10,6 @@ map <C-S> :w<CR>
 
 " Search
 
-"" 设置大小写敏感和聪明感知（小写全搜，大写完全匹配）
 "set ignorecase
 "set ic
 "set noic
@@ -52,7 +51,7 @@ inoremap <C-F> <Right>
 inoremap <C-A> <Home>
 inoremap <C-E> <End>
 
-" Forward|Backward Word (End)
+" Forward or Backward Word (End)
 inoremap <C-N> <Esc>ea
 inoremap <C-P> <Esc>gea
 
