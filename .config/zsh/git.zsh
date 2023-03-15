@@ -2,6 +2,8 @@
 # Git #
 #######
 
+unalias ls
+
 alias gau='git add -u && gs'
 
 alias gcf='git config'
