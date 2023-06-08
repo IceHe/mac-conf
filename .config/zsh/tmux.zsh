@@ -12,13 +12,13 @@ function tw {
 
     # Prepare
     
-    ## Pull latest IceHe's mac-conf
-    echo -e "\n\$ cd ~ && git pull || return"
-    cd ~ && git pull || return
+    # ## Pull latest IceHe's mac-conf
+    # echo -e "\n\$ cd ~ && git pull || return"
+    # cd ~ && git pull || return
 
-    ## Upgrade Oh-My-Zsh!
-    echo -e "\n\$ .oh-my-zsh/tools/upgrade.sh"
-    .oh-my-zsh/tools/upgrade.sh
+    # ## Upgrade Oh-My-Zsh!
+    # echo -e "\n\$ .oh-my-zsh/tools/upgrade.sh"
+    # .oh-my-zsh/tools/upgrade.sh
 
     ## Reload .zshrc
     echo -e "\n\$ source ~/.zshrc"
