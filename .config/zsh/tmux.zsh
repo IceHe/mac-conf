@@ -36,6 +36,10 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:init' 'cd ~' Enter
 
+    # Java
+    tmux new-window -a -t icehe -n java -c ~/Projects/java
+    tmux send -t 'icehe:java' 'git pull' Enter
+
     # Lib
     tmux new-window -a -t icehe -n lib -c ~/Projects/lib
     tmux send -t 'icehe:lib' 'git add --all && git stash && echo && git pull && git stash pop' Enter
@@ -50,7 +54,7 @@ function tw {
 
     # Clean up
     tmux send -t 'icehe:init' 'exit' Enter
-    tmux select-window -t 'icehe:js'
+    tmux select-window -t 'icehe:java'
 
     tmux
 }
