@@ -123,8 +123,7 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 # JDK
 #export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
-export JAVA_HOME=`/usr/libexec/java_home -v 11`
-#export JAVA_HOME=`/usr/libexec/java_home -v 17`
+export JAVA_HOME=`/usr/libexec/java_home -v 21`
 # NOTE : Run `/usr/libexec/java_home -V` to list all installed JREs & JVMs
 
 # Locale
