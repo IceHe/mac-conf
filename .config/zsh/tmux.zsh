@@ -52,6 +52,10 @@ function tw {
     tmux send -t 'icehe:home' 'brew update && brew upgrade' Enter
     tmux split-window -t 'icehe:home' -c ~
 
+    # Java
+    tmux new-window -a -t icehe -n python -c ~/Projects/python
+    tmux send -t 'icehe:python' 'git pull' Enter
+
     # Clean up
     tmux send -t 'icehe:init' 'exit' Enter
     tmux select-window -t 'icehe:java'
