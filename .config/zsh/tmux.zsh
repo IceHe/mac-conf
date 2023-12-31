@@ -38,23 +38,32 @@ function tw {
 
     # Java
     tmux new-window -a -t icehe -n java -c ~/Projects/java
-    tmux send -t 'icehe:java' 'git pull' Enter
+    #tmux send -t 'icehe:java' 'git add --all && git stash && echo && git pull && git stash pop' Enter
+
+    # Private
+    tmux new-window -a -t icehe -n priv -c ~/Projects/lib/_private
+    #tmux send -t 'icehe:priv' 'git add --all && git stash && echo && git pull && git stash pop' Enter
 
     # Lib
     tmux new-window -a -t icehe -n lib -c ~/Projects/lib
-    tmux send -t 'icehe:lib' 'git add --all && git stash && echo && git pull && git stash pop' Enter
+    #tmux send -t 'icehe:lib' 'git add --all && git stash && echo && git pull && git stash pop' Enter
     tmux send -t 'icehe:lib' 'nohup npx docsify serve -p 3100 . &' Enter
-    tmux split-window -t 'icehe:lib' -c ~/Projects/lib/_private
-    tmux send -t 'icehe:lib' 'git pull' Enter
+
+    # # Lib & Private
+    # tmux new-window -a -t icehe -n lib -c ~/Projects/lib
+    # tmux send -t 'icehe:lib' 'git add --all && git stash && echo && git pull && git stash pop' Enter
+    # tmux send -t 'icehe:lib' 'nohup npx docsify serve -p 3100 . &' Enter
+    # tmux split-window -t 'icehe:lib' -c ~/Projects/lib/_private
+    # tmux send -t 'icehe:lib' 'git pull' Enter
+
+    # Python
+    tmux new-window -a -t icehe -n python -c ~/Projects/python
+    #tmux send -t 'icehe:python' 'git add --all && git stash && echo && git pull && git stash pop' Enter
 
     # Home
     tmux neww -a -t icehe -n home -c ~
     tmux send -t 'icehe:home' 'brew update && brew upgrade' Enter
     tmux split-window -t 'icehe:home' -c ~
-
-    # Java
-    tmux new-window -a -t icehe -n python -c ~/Projects/python
-    tmux send -t 'icehe:python' 'git pull' Enter
 
     # Clean up
     tmux send -t 'icehe:init' 'exit' Enter
