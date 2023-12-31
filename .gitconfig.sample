@@ -18,6 +18,8 @@
     # https://git-scm.com/docs/git-config#Documentation/git-config.txt-httpsslVerify
     # https://stackoverflow.com/questions/9008309/how-do-i-set-git-ssl-no-verify-for-specific-repos-only
 	sslVerify = false
+[init]
+	defaultBranch = main
 [pager]
     # https://stackoverflow.com/questions/48341920/git-branch-command-behaves-like-less/48342309
 	branch = false
