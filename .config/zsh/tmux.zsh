@@ -65,10 +65,10 @@ function tw {
     # #tmux send -t 'icehe:python' 'git add --all && git stash && echo && git pull && git stash pop' Enter
 
     # Go & Python
-    tmux new-window -a -t icehe -n go -c ~/Projects/go
-    #tmux send -t 'icehe:go' 'git add --all && git stash && echo && git pull && git stash pop' Enter
-    tmux split-window -t 'icehe:go' -c ~/Projects/python
-    #tmux send -t 'icehe:go' 'git pull' Enter
+    tmux new-window -a -t icehe -n go_py -c ~/Projects/go
+    #tmux send -t 'icehe:go_py' 'git add --all && git stash && echo && git pull && git stash pop' Enter
+    tmux split-window -t 'icehe:go_py' -c ~/Projects/python
+    #tmux send -t 'icehe:go_py' 'git pull' Enter
 
     # Home
     tmux neww -a -t icehe -n home -c ~

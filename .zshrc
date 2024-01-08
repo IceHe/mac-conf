@@ -126,6 +126,12 @@ export PATH="/opt/homebrew/bin:$PATH"
 export JAVA_HOME=`/usr/libexec/java_home -v 21`
 # NOTE : Run `/usr/libexec/java_home -V` to list all installed JREs & JVMs
 
+# Golang
+export GOPATH=`go env | grep GOPATH | cut -d'=' -f2 | cut -d"'" -f2`
+export GOROOT=`go env | grep GOROOT | cut -d'=' -f2 | cut -d"'" -f2`
+export GO111MODULE=on
+export GOPROXY="https://proxy.golang.org,direct"
+
 # Locale
 #export LANG=zh_CN.UTF-8
 # NOTE : macOS 下命令行终端无法输入中文或中文显示 : https://blog.csdn.net/j754379117/article/details/53897115
