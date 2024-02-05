@@ -70,6 +70,12 @@ function tw {
     tmux split-window -t 'icehe:go_py' -c ~/Projects/python
     #tmux send -t 'icehe:go_py' 'git pull' Enter
 
+    # Aiuni
+    tmux new-window -a -t icehe -n aiuni -c ~/Projects/aiuni_go
+    tmux send -t 'icehe:aiuni' 'git add --all && git stash && echo && git pull && git stash pop' Enter
+    tmux split-window -t 'icehe:aiuni' -c ~/Projects/aiuni_fe
+    tmux send -t 'icehe:aiuni' 'git pull' Enter
+
     # Home
     tmux neww -a -t icehe -n home -c ~
     tmux send -t 'icehe:home' 'brew update && brew upgrade' Enter
