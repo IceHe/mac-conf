@@ -119,7 +119,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Homebrew
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
-export PATH="/opt/homebrew/bin:$PATH"
+# +Docker
+#export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/Users/icehe/.docker/bin:$PATH"
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$HOME/.docker/bin:$PATH"
 
 # JDK
 #export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
@@ -231,3 +233,11 @@ TERM=xterm
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
+
+# pnpm
+export PNPM_HOME="/Users/icehe/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
