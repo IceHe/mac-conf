@@ -129,8 +129,8 @@ export JAVA_HOME=`/usr/libexec/java_home -v 21`
 # NOTE : Run `/usr/libexec/java_home -V` to list all installed JREs & JVMs
 
 # Golang
-export GOPATH=`go env | grep GOPATH | cut -d'=' -f2 | cut -d"'" -f2`
 export GOROOT=`go env | grep GOROOT | cut -d'=' -f2 | cut -d"'" -f2`
+export GOPATH=`go env | grep GOPATH | cut -d'=' -f2 | cut -d"'" -f2`
 export GO111MODULE=on
 export GOPROXY="https://proxy.golang.org,direct"
 
@@ -241,3 +241,30 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+#########
+# MySQL #
+#########
+export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"
+#export PATH="/opt/homebrew/opt/mysql@8.4/bin:$PATH"
+#export LDFLAGS="-L/opt/homebrew/opt/mysql@8.4/lib"
+#export CPPFLAGS="-I/opt/homebrew/opt/mysql@8.4/include"
+#export PKG_CONFIG_PATH="/opt/homebrew/opt/mysql@8.4/lib/pkgconfig"
+
+#To start mysql@8.4 now and restart at login:
+#  brew services start mysql@8.4
+
+
+################
+# MySQL client #
+################
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+export LDFLAGS="-L/opt/homebrew/opt/mysql-client/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/mysql-client/include"
+
+export PKG_CONFIG_PATH="/opt/homebrew/opt/mysql-client/lib/pkgconfig"
+
+export MYSQLCLIENT_CFLAGS=$(pkg-config --cflags mysqlclient)
+export MYSQLCLIENT_LDFLAGS=$(pkg-config --libs mysqlclient)
+
