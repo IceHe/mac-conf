@@ -171,8 +171,8 @@ alias zi='cd ~/Projects/lib'
 alias zh='cd ~/.config/zsh'
 
 # Vim
-alias v='nvim'
-alias sv='sudo nvim'
+#alias v='nvim'
+#alias sv='sudo nvim'
 
 alias vgi='v ./.gitignore'
 alias vh='sv /etc/hosts'
@@ -268,3 +268,12 @@ export PKG_CONFIG_PATH="/opt/homebrew/opt/mysql-client/lib/pkgconfig"
 export MYSQLCLIENT_CFLAGS=$(pkg-config --cflags mysqlclient)
 export MYSQLCLIENT_LDFLAGS=$(pkg-config --libs mysqlclient)
 
+
+# Created by `pipx` on 2025-09-03 09:51:21
+export PATH="$PATH:/Users/icehe/.local/bin"
+
+
+##########
+# Claude #
+##########
+source /Users/icehe/.claude_conf
