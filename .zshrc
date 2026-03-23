@@ -143,6 +143,7 @@ export GOPROXY="https://proxy.golang.org,direct"
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+nvm use node # FIXME: 没辙了,先将就用着吧
 
 #########
 # ALIAS #
@@ -171,8 +172,8 @@ alias zi='cd ~/Projects/lib'
 alias zh='cd ~/.config/zsh'
 
 # Vim
-#alias v='nvim'
-#alias sv='sudo nvim'
+alias v='nvim'
+alias sv='sudo nvim'
 
 alias vgi='v ./.gitignore'
 alias vh='sv /etc/hosts'

@@ -2,7 +2,8 @@
 # Tmux #
 ########
 
-alias t='tmux' alias tn='tmux new-session -s'
+alias t='tmux' 
+alias tn='tmux new-session -s'
 
 alias tch="tmux split-window -h -c '#{pane_current_path}'"
 alias tcv="tmux split-window -v -c '#{pane_current_path}'"
@@ -36,18 +37,14 @@ function tw {
     tmux rename-window -t 'icehe:1' init
     tmux send -t 'icehe:init' 'cd ~' Enter
 
-    # Java
-    tmux new-window -a -t icehe -n java -c ~/Projects/java
-    #tmux send -t 'icehe:java' 'git add --all && git stash && echo && git pull && git stash pop' Enter
-
-    # # Private
-    # tmux new-window -a -t icehe -n priv -c ~/Projects/lib/_private
-    # #tmux send -t 'icehe:priv' 'git add --all && git stash && echo && git pull && git stash pop' Enter
-
     # # Lib
     # tmux new-window -a -t icehe -n lib -c ~/Projects/lib
     # #tmux send -t 'icehe:lib' 'git add --all && git stash && echo && git pull && git stash pop' Enter
     # tmux send -t 'icehe:lib' 'nohup npx docsify serve -p 3100 . &' Enter
+
+    # # Private
+    # tmux new-window -a -t icehe -n priv -c ~/Projects/lib/_private
+    # #tmux send -t 'icehe:priv' 'git add --all && git stash && echo && git pull && git stash pop' Enter
 
     # Lib & Private
     tmux new-window -a -t icehe -n lib -c ~/Projects/lib
@@ -55,6 +52,10 @@ function tw {
     tmux send -t 'icehe:lib' 'nohup npx docsify serve -p 3100 . &' Enter
     tmux split-window -t 'icehe:lib' -c ~/Projects/lib/_private
     #tmux send -t 'icehe:lib' 'git pull' Enter
+
+    # # Java
+    # tmux new-window -a -t icehe -n java -c ~/Projects/java
+    # #tmux send -t 'icehe:java' 'git add --all && git stash && echo && git pull && git stash pop' Enter
 
     # # Go
     # tmux new-window -a -t icehe -n go -c ~/Projects/go
@@ -64,17 +65,28 @@ function tw {
     # tmux new-window -a -t icehe -n python -c ~/Projects/python
     # #tmux send -t 'icehe:python' 'git add --all && git stash && echo && git pull && git stash pop' Enter
 
-    # Go & Python
-    tmux new-window -a -t icehe -n go_py -c ~/Projects/go
-    #tmux send -t 'icehe:go_py' 'git add --all && git stash && echo && git pull && git stash pop' Enter
-    tmux split-window -t 'icehe:go_py' -c ~/Projects/python
-    #tmux send -t 'icehe:go_py' 'git pull' Enter
+    # # Go & Python
+    # tmux new-window -a -t icehe -n go_py -c ~/Projects/go
+    # #tmux send -t 'icehe:go_py' 'git add --all && git stash && echo && git pull && git stash pop' Enter
+    # tmux split-window -t 'icehe:go_py' -c ~/Projects/python
+    # #tmux send -t 'icehe:go_py' 'git pull' Enter
 
-    # Aiuni
-    tmux new-window -a -t icehe -n aiuni -c ~/Projects/aiuni_go
-    tmux send -t 'icehe:aiuni' 'git add --all && git stash && echo && git pull && git stash pop' Enter
-    tmux split-window -t 'icehe:aiuni' -c ~/Projects/aiuni_fe
-    tmux send -t 'icehe:aiuni' 'git pull' Enter
+    # # Aiuni
+    # tmux new-window -a -t icehe -n aiuni -c ~/Projects/aiuni_go
+    # tmux send -t 'icehe:aiuni' 'git add --all && git stash && echo && git pull && git stash pop' Enter
+    # tmux split-window -t 'icehe:aiuni' -c ~/Projects/aiuni_fe
+    # tmux send -t 'icehe:aiuni' 'git pull' Enter
+
+    # # Aiuni
+    # tmux new-window -a -t icehe -n aiuni -c ~/Projects/aiuni_go
+    # tmux send -t 'icehe:aiuni' 'git add --all && git stash && echo && git pull && git stash pop' Enter
+    # tmux split-window -t 'icehe:aiuni' -c ~/Projects/aiuni_fe
+    # tmux send -t 'icehe:aiuni' 'git pull' Enter
+
+    # Viz
+    tmux new-window -a -t icehe -n viz -c ~/Projects/viz
+    tmux send -t 'icehe:viz' 'git add --all && git stash && echo && git pull && git stash pop' Enter
+    tmux split-window -t 'icehe:viz' -c ~/Projects/viz
 
     # Home
     tmux neww -a -t icehe -n home -c ~
