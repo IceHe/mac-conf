@@ -143,7 +143,7 @@ export GOPROXY="https://proxy.golang.org,direct"
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-nvm use node # FIXME: 没辙了,先将就用着吧
+#nvm use node # FIXME: 没辙了,先将就用着吧
 
 #########
 # ALIAS #
@@ -195,6 +195,7 @@ source ~/.config/zsh/js.zsh
 source ~/.config/zsh/ls.zsh
 source ~/.config/zsh/proxy.zsh
 source ~/.config/zsh/tmux.zsh
+source ~/.config/zsh/ai_code.zsh
 
 ############
 # BIND-KEY #
