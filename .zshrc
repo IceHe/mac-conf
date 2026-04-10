@@ -196,6 +196,8 @@ source ~/.config/zsh/ls.zsh
 source ~/.config/zsh/proxy.zsh
 source ~/.config/zsh/tmux.zsh
 source ~/.config/zsh/ai_code.zsh
+source ~/.config/zsh/ssh.zsh
+
 
 ############
 # BIND-KEY #
@@ -279,3 +281,4 @@ export PATH="$PATH:/Users/icehe/.local/bin"
 # Claude #
 ##########
 source /Users/icehe/.claude_conf
+
